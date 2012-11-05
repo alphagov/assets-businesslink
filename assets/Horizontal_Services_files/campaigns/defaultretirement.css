@@ -1,0 +1,54 @@
+/* General styles */
+
+.clearboth { clear:both; display:block;}
+
+#campaigns-body {padding:0; width:960px; margin:20px 0 0 10px; border:0px solid #000; float:left; font:Arial, Helvetica, sans-serif;}
+
+#dpa_header { width:960px;  background:url(../../Horizontal_Services_images/campaigns/defretage_bg.gif) repeat-x 0 0; float:left;}
+#dpa_header img{ float:left;}
+#dpa_header h1{ color:#ffffff; font-size:36px; margin:45px 0 0 30px; float:left; }
+
+#dpa_contentleft { width:560px; float:left; margin:45px 0 20px 30px; }
+#dpa_contentleft h2{ color:#4c4c4c; font-weight:bold; font-size:18px;}
+#dpa_contentleft p{ color:#4c4c4c; font-size:12px;}
+.dpa_contentleftGB{ width:556px; border:2px solid #d2d5d7;}
+.dpa_contentleftGB h3{ background-color:#e1e2e5; border:2px solid #fff; border-bottom:none; padding:8px 10px 5px 10px; font-size:14px; font-family:Arial, sans-serif}
+.dpa_contentleftGBc { background-color:#f6f7fa; border:2px solid #fff; padding:15px 10px 10px 15px;}
+.dpa_contentleftGBc p{ font-size:12px;} 
+.dpa_contentleftGBc strong {font-size:12px;display:block; margin-bottom:5px; font-weight:bold; color:#4c4c4c;}
+.dpa_contentleftGB ul { display:block; padding:0; margin:0 0 0 20px;}
+.dpa_contentleftGB li { list-style:block; padding:0; margin:0 0 5px 0; font-size:12px; color:#4c4c4c;}
+.dpa_contentleftGBc a{ color:#006680; text-decoration:underline;} 
+.dpa_contentleftGBc a:hover{text-decoration:none;} 
+
+
+#dpa_contentright { width:304px; float:right; margin:45px 5px 20px 0; }
+.dpa_contentrightGB { border:2px solid #d2d5d7; width:300px; margin-bottom:35px;
+-moz-box-shadow: 3px 3px 4px #9a9a9a; -webkit-box-shadow: 3px 3px 4px #9a9a9a; box-shadow: 3px 3px 4px #9a9a9a;
+/* For IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#9a9a9a')";
+/* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#9a9a9a');
+background-color:#ffffff;}
+
+.dpa_contentrightGB h4{ background:url(../../Horizontal_Services_images/campaigns/DefaultRAgedown.gif) no-repeat 0 0; border:2px solid #fff; width:290px; height:21px; padding:5px 0 0 6px; margin:0; font-size:14px; font-family:Arial, sans-serif;}
+.dpa_contentrightGB ul { display:block; padding:0; margin:10px 0 10px 5px;}
+.dpa_contentrightGB li { list-style:none; background:url(../../Horizontal_Services_images/campaigns/DefaultRetirementAgeArrow.gif) no-repeat 0 0; padding:0 0 0 20px; margin:0 0 10px 0; font-size:12px;}
+.dpa_contentrightGB li a{ color:#006680; text-decoration:underline; font-weight:bold;} 
+.dpa_contentrightGB li a:hover{text-decoration:none;}
+.dpa_contentrightGB p{ padding:0 10px 0 10px; color:#4c4c4c; font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

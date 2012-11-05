@@ -1,0 +1,302 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+/* Start of Exisiting Basic Styles */
+/*
+main #666699
+bg   #E5E5FF
+text #333333
+prefix global
+
+additional header bg colour #ccccff
+*/
+
+h1 {
+	color: #666699;
+}
+
+h2 {
+	color:#333333;
+}
+
+#title {
+	background-color:#666699;
+	/*layer-background-color:#666699;*/
+}
+#content #content1 #additionalcontent {
+	background-color:#E5E5FF;
+}
+#left #opencategory td.spine {
+	background-color:#666699;
+}
+#left #opencategory tr.highlight, 
+#left #opencategory tr.highlightfirst, 
+#left #opencategory tr.highlightlast {
+	background-color:#E7EBFF;
+}
+
+#content #additionalcontent form.quicklinks h3 {
+	color:#333333;
+}
+#content #additionalcontent form.quicklinks p label {
+	color:#333333;
+}
+#content #additionalcontent form.quicklinks span {
+	color:#333333;
+}
+
+div.boxtop td.heading {
+	background-color:#66669a;
+	background-image:url("/syntegra/images/boxtop_top2.gif");
+}
+div.boxtop td.footer {
+	background-color:#666699;
+	background-image:url("/syntegra/images/boxtop_footer2.gif");
+}
+div.boxtop td.corner {
+	background-image:url("/syntegra/images/boxtop_corner.gif");
+}
+div.boxtop td.text {
+	background-color:#E7EBFF;
+}
+
+
+#contentflushtop #layer23 #maincontent {
+	background-color:#E7EBFF;
+	/*layer-background-color:#E7EBFF;*/
+}
+#contentflushtop img.footerline {
+	background-color:#666699;
+}
+
+div.dottedbox td.title {
+	background-color:#ccccff;
+}
+input.go {
+	background-color:#ccccff;
+}
+
+
+#search1 #additionalcontent {
+	background-color:#E5E5FF;
+}
+
+div.a-z table td {
+	background-color:#ccccff;
+}
+
+div.feed {
+	border:1px solid #ccccff;
+}
+
+
+/* BASICBOX */
+div.basicbox td.title {
+	background-color:#666699;
+}
+div.basicbox td.title h3,
+div.basicbox td.title h4 {
+	color:white;
+}
+div.basicbox td.highlighttext {
+	background-color:#E5E5FF;
+}
+/* END BASICBOX */
+
+
+
+
+
+#additionalcontent div.mainpanel,
+#additionalcontent div.extrapanel {
+	background-color:#E5E5FF;
+}
+
+p.setvalue {
+	background-color:#E9EBF4;
+}
+
+div.trainingoptions td {
+	background-color:#CBCBFF;
+}
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: 27/02/04 - commented out find bg colour styles */
+/* VERSION 2: 10/03/04 - commented out contact3 h2 bg colour style */
+/* VERSION 3: 17/03/04 - added rgf and tsd */
+/* VERSION 3.1: 17/03/04 - added white bg colour to contact2 & 3 h2 & h3s. Bg colour on contact3 h4 */
+/* VERSION 3.2: 17/03/04 - Removed find, poll1, poll2 h2 background colours */
+/* VERSION 3.3: 22/03/04 - Removed email h2 background colours */
+/* VERSION 3.4: 25/03/04 - Added Bg colour on smartreg h3 */
+
+
+#left #opencategory tr.highlight, 
+#left #opencategory tr.highlightfirst, 
+#left #opencategory tr.highlightlast {
+	background-color:transparent;
+}
+#left #opencategory tr.highlight *, 
+#left #opencategory tr.highlightfirst *, 
+#left #opencategory tr.highlightlast * {
+	background-color:#E5E5FF;
+}
+
+#content #additionalcontent form.quicklinks select {
+	border-color:#666699; /* turns select into text in N4.7 */
+}
+#content #additionalcontent form.quicklinks input.go {
+	border-color:#666699;
+}
+
+
+input.submit {
+	background-color:#ccccff;
+}
+
+input.booknow {
+	background-color:#ccccff;
+	width:90px;
+}
+input.getaddress {
+	background-color:#ccccff;
+	width:85px;
+	height:17px;
+}
+
+input.confirm {
+	background-color:#ccccff;
+	width:65px;
+}
+
+#contact1 h3 {
+	background-color:#ccccff;
+}
+
+#contact2 h2 {
+	background-color:#ffffff;
+}
+#contact2 h3 {
+	background-color:#ffffff;
+}
+#contact3 h2 {
+	background-color:#ffffff;
+}
+#contact3 h3 {
+	background-color:#ffffff;
+}
+#contact3 h4 {
+	background-color:#ccccff;
+}
+
+#contact3 form.callback input.submit { /* needs to be fully specified to override */
+	background-color:#ccccff;
+}
+
+#findcontact h2 {
+	background-color:#ffffff;
+}
+#findcontact h3 {
+	background-color:#ffffff;
+}
+#findcontact h2.h3alias {
+	background-color:#ffffff;
+}
+#findcontact h4 {
+	background-color:#ccccff;
+}
+#findcontact h2.h4alias {
+	background-color:#ccccff;
+}
+
+/* ARE THESE ALL GLOBAL-ONLY? */
+#search1 h2 {
+	background-color:#ccccff;
+}
+#search2 h2 {
+	background-color:#ccccff;
+}
+#search3 h2 {
+	background-color:#ccccff;
+}
+
+#audience1 h3 {
+	background-color:#ccccff;
+}
+
+#poll1 h2 {
+	background-color:#ccccff;
+}
+#poll2 h3 {
+	background-color:#ccccff;
+}
+
+#content h3.error {
+	background-color: #ff9999;
+}
+
+#license h2 {
+	background-color:#ccccff;
+}
+#license-supplement h2 {
+	background-color:#ccccff;
+}
+
+
+div.by-topic h2 {
+	background-color:#ccccff;
+}
+
+
+/* regulatory guidance filter */
+	#rgf-about h3,
+	#rgf h3 {
+		background-color:#ccccff;
+	}
+/* end rgf */
+
+/* training support directory */
+#tsd-db h3 {
+	background-color:#ccccff;
+}
+/* end tsd */
+
+/* Polls */
+#poll1 h3, #poll2 h3 {
+	background-color: #ccccff;
+}
+/* end Polls */
+
+/* smart registration */
+#reg h3 {
+	background-color:#ccccff;
+}
+#reg h2.h3alias {
+	background-color:#ccccff;
+}
+
+#reg h3.error {
+	background-color:#FF9999;
+}
+
+
+/* key dates */
+#keydates h3 {
+	background-color:#ccccff;
+}
+#keydates #category h3,
+#keydates #date h3,
+#keydates div.dl h3 {
+	background-color:white;
+}
+#keydates h2.h3alias {
+	background-color:#ccccff;
+}
+
+#keydates h3.error {
+	background-color:#FF9999;
+}
+
+/*SUPPORT*/
+
+#supportquestions h3 {
+	background-color:#ccccff;
+}

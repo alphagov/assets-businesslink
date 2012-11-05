@@ -1,0 +1,105 @@
+/* 
+	Campaign Specific Stylesheet 
+	Any custom CSS rules in this stylesheet should begin 
+	'#campaigns-body ' to ensure they only apply to the custom source code area of the page template.
+	
+	If used, Campaign CMS Banner header styles must begin '#campaigns-header '
+	If used, Campaing CMS 'Developed with' footer styles must begin '#campaigns-footer '
+	
+	The creation of any styles without leading '#campaigns-[header/body/footer]' must have prior approval from BusinessLink
+*/
+
+/* 	Campaigns Body Styles - All must start '#campaigns-body '  */
+
+#campaigns-body { width:66em; margin-left:15px; } /* Global Default: 'width:66em' limits to BusinessLink 730px width standard */
+
+#campaigns-body #flash-header { width:740px; height:167px; background:url(../Horizontal_Services_images/re_placeholder.jpg) no-repeat; margin-bottom:5px; margin-top:19px; }
+
+
+#campaigns-body .content-nav { margin-bottom:25px; }
+#campaigns-body .content-nav ul { margin:0; padding:0; }
+#campaigns-body .content-nav ul li { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; list-style-type:none; float:left; width:181px; height:28px; }
+
+#campaigns-body .content-nav ul li#general { background-color:#3D70A3; margin-right:5px; }
+#campaigns-body .content-nav ul li#hospitality { background-color:#CE8139; margin-right:5px; }
+#campaigns-body .content-nav ul li#retail { background-color:#748B1E; margin-right:5px; }
+#campaigns-body .content-nav ul li#manufacturing { background-color:#666699; }
+
+#campaigns-body .content-nav ul li a { color:white; margin-left:10px; line-height:30px; padding-left:15px; position:relative; top:-1px; }
+#campaigns-body .content-nav ul li#general a { background:url(../Horizontal_Services_images/re_blue_arrow.jpg) no-repeat 0 2px; }
+#campaigns-body .content-nav ul li#hospitality a { background:url(../Horizontal_Services_images/re_orange_arrow.jpg) no-repeat 0 2px; }
+#campaigns-body .content-nav ul li#retail a { background:url(../Horizontal_Services_images/re_green_arrow.jpg) no-repeat 0 2px; }
+#campaigns-body .content-nav ul li#manufacturing a { background:url(../Horizontal_Services_images/re_purple_arrow.jpg) no-repeat 0 2px; }
+
+
+#campaigns-body .content-nav ul li#general.active { border-top:4px solid #3D70A3; position:relative; top:-4px; }
+#campaigns-body .content-nav ul li#hospitality.active { border-top:4px solid #CE8139; position:relative; top:-4px; }
+#campaigns-body .content-nav ul li#retail.active { border-top:4px solid #748B1E; position:relative; top:-4px; }
+#campaigns-body .content-nav ul li#manufacturing.active { border-top:4px solid #666699; position:relative; top:-4px; }
+
+
+#campaigns-body h1 {} 										/* Global Default: 'font-size:1.5em;' */
+#campaigns-body h2 { font-family:Arial, Helvetica, sans-serif; font-size:21px; color:#575757; } 											/* Global Default: 'font-weight:bold;' */
+
+#campaigns-body p { margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; }
+
+#campaigns-body p.sub-heading { font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#575757; }
+
+#campaigns-body .colour-box, #campaigns-body .light-box { width:704px; padding:15px 18px; background-color:#E3E9FF; overflow:auto; clear:both; }
+#campaigns-body .light-box { background:#FFF; }
+#campaigns-body .colour-box.first { margin-top:20px; }
+
+#campaigns-body .colour-box h3, #campaigns-body .light-box h3 { color:#3D70A3; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin-bottom:8px; }
+
+
+#campaigns-body .colour-box h3.hosp-orange, #campaigns-body .light-box h3.hosp-orange, #campaigns-body .useful-links h3.hosp-orange { color:#FD9965; }
+#campaigns-body .colour-box h3.manu-purple, #campaigns-body .light-box h3.manu-purple, #campaigns-body .useful-links h3.manu-purple { color:#7272B0; }
+#campaigns-body .colour-box h3.ret-green, #campaigns-body .light-box h3.ret-green, #campaigns-body .useful-links h3.ret-green { color:#748B1F; }
+
+
+#campaigns-body .colour-box img, #campaigns-body .light-box img { float:left; margin:0 13px 0 20px; }
+
+
+#campaigns-body .colour-box ul, #campaigns-body .light-box ul { list-style-type:none; margin:0; padding:0; display:block; }
+#campaigns-body .colour-box ul.space, #campaigns-body .light-box ul.space { margin-bottom:15px; }
+#campaigns-body .colour-box ul li, #campaigns-body .light-box ul li { list-style-type:none; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#686868; margin-bottom:4px; }
+
+#campaigns-body .colour-box ul li.orange, #campaigns-body .light-box ul li.orange { background:url(../Horizontal_Services_images/re_orange_bullet.jpg) no-repeat 284px 6px; padding-left:300px;}
+#campaigns-body .colour-box ul li.green, #campaigns-body .light-box ul li.green { background:url(../Horizontal_Services_images/re_green_bullet.jpg) no-repeat 284px 6px; padding-left:300px;}
+#campaigns-body .colour-box ul li.purple, #campaigns-body .light-box ul li.purple { background:url(../Horizontal_Services_images/re_purple_bullet.jpg) no-repeat 284px 6px;padding-left:300px; }
+
+#campaigns-body .colour-box p, #campaigns-body .light-box p { font-size:12px; font-family:Arial, Helvetica, sans-serif; margin-bottom:5px; margin-left:22px; padding:0; color:#686868; font-weight:normal; }
+#campaigns-body .colour-box p.space, #campaigns-body .light-box p.space { margin-bottom:15px; }
+#campaigns-body .colour-box p.link, #campaigns-body .light-box p.link { margin-bottom:0;}
+
+#campaigns-body .colour-box .linkcontainer, #campaigns-body .light-box .linkcontainer { float:left; padding-left:260px;}
+
+#campaigns-body .colour-box p a { background:url(../Horizontal_Services_images/re_light_blue_arrow.jpg) no-repeat center left; color:#686868; padding-left:20px; text-decoration:underline; }
+
+#campaigns-body .light-box p a { background:url(../Horizontal_Services_images/re_white_arrow.jpg) no-repeat center left;color:#686868; padding-left:20px; text-decoration:underline; }
+
+
+#campaigns-body .colour-box p a.hosp, #campaigns-body .light-box p a.hosp { background:url(../Horizontal_Services_images/re_hospitality_arrow.jpg) no-repeat center left; }
+#campaigns-body .light-box p a.hosp.light { background:url(../Horizontal_Services_images/re_hospitality_arrow_light.jpg) no-repeat center left; }
+
+#campaigns-body .colour-box p a.manu, #campaigns-body .light-box p a.manu { background:url(../Horizontal_Services_images/re_manufacturing_arrow.jpg) no-repeat center left; }
+#campaigns-body .light-box p a.manu.light { background:url(../Horizontal_Services_images/re_manufacturing_arrow_light.jpg) no-repeat center left; }
+
+#campaigns-body .colour-box p a.ret, #campaigns-body .light-box p a.ret { background:url(../Horizontal_Services_images/re_retail_arrow.jpg) no-repeat center left; }
+#campaigns-body .colour-box p a.ret.dark { background:url(../Horizontal_Services_images/re_retail_arrow_dark.jpg) no-repeat center left; }
+
+
+
+#campaigns-body .useful-links { margin-top:30px; margin-bottom:50px; clear:both; }
+
+#campaigns-body .useful-links h3 { color:#3D70A3; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin-left:40px; margin-bottom:8px; }
+
+#campaigns-body .useful-links ul li { list-style-type:none; margin-bottom:5px; margin-left:32px; width:100%; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;  }
+
+#campaigns-body .useful-links ul li a { color:#686868; background:url(../Horizontal_Services_images/re_white_arrow.jpg) no-repeat center left; padding-left:20px; text-decoration:underline; }
+
+#campaigns-body .useful-links ul li a.hosp { background:url(../Horizontal_Services_images/re_hospitality_arrow_light.jpg) no-repeat center left; }
+#campaigns-body .useful-links ul li a.manu { background:url(../Horizontal_Services_images/re_manufacturing_arrow_light.jpg) no-repeat center left; }
+#campaigns-body .useful-links ul li a.ret { background:url(../Horizontal_Services_images/re_retail_arrow.jpg) no-repeat center left; }
+
+.clear { clear:both; font-size:1px; height:1px; }

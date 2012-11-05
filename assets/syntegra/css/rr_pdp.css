@@ -1,0 +1,592 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* This stylesheet was last edited by RLA  7 Dec 2005 at 13:40 */
+/* Last edited by AB 6 Oct 2006 at 14:46:  line 292 edited to hide width from IE6.*/
+
+/* Personal Development Plan styles */
+	
+	.persDevPlan {
+		float:left; 
+		background: #CCCCFF; 
+		width: 540px; 
+		clear:both;
+		padding: 10px;
+	}
+	.persDevLft {
+		float:left; 
+		width: 280px; 
+		padding: 10px;
+	}
+	.persDevRt {
+		float:right; 
+		width: 215px; 
+		padding:10px;
+	}
+	
+	.persDevRt a {font-weight:bold !important;}
+	
+	.persDevRt img {
+		float:left; 
+		margin: 0 5px 5px 0;
+	}
+	
+	
+	/* Illustrated stages */
+	
+	.persPlanStages {
+		float:left; 
+		width: 535px; 
+		margin-right: 20px;
+		background: url(/syntegra/images/bg_pdpstages2.gif) no-repeat bottom center; 
+		padding:0px 0 15px 15px; 
+	}
+	
+	.persPlanStagesLast {
+		float:left; 
+		width: 535px; 
+		margin-right: 20px; 
+		padding:0px 0 15px 15px; 
+	}
+		
+	.persPlanNumbers, .persPlanNumbersfirst {
+		background: url(/syntegra/images/bg_pdpstage_bot.gif) no-repeat left bottom #666699;
+		/*padding-top: 8px;*/
+		width: 257px;
+		float:left;
+		padding-bottom: 7px;
+	}
+
+	.persPlanNumbers p {
+		margin:0;
+		background: url(/syntegra/images/bg_pdpstage_top2.gif) no-repeat top right;
+	}
+	.persPlanNumbersfirst p {
+		margin:0;
+		background: url(/syntegra/images/bg_pdpstage_top2_t.gif) no-repeat top right;
+	}
+	
+	.persPlanNumbers p span, .persPlanNumbersfirst p span{
+		color: #666699; 
+		font-weight:bold; 
+		display:block; 
+		padding-top: 20px; 
+		padding-right: 10px; 
+	}
+	
+	html>body .persPlanStages #mozFix {margin-top: -1px;}
+	
+	.persPlanNumbers p span.completed, .persPlanNumbersfirst p span.completed {background: url(/syntegra/images/pdp_completed.gif) no-repeat 235px 18px }
+	.persPlanNumbers p span.inprogress, .persPlanNumbersfirst p span.inprogress {background: url(/syntegra/images/pdp_inprogress.gif) no-repeat 235px 18px }
+	
+	p.processNumber { 
+		background-image: none; 
+		float:right; 
+		padding:0; 
+		margin:0; 
+		width: 10px; 
+		background-color: #666699; 
+		border:1px solid #fff; 
+	}
+	
+	.persPlanNumbers img, .persPlanNumbersfirst img {
+		float:left; 
+		margin-right: 8px;
+	}
+	
+	.pdesc {
+		float:right;  
+		width: 225px  !important; 
+		margin-right:10px; 
+		margin-top: 10px;
+	}
+	
+	a.returnUser {
+		color: #333399 !important; 
+		background: url(/syntegra/images/arrow_salesandmarketing.gif) no-repeat ;
+		padding-left: 15px;
+	}
+	
+	
+	/* Personal Development Profile process steps */
+	
+	#pdpSteps {
+		margin:0 0 15px 0; 
+		padding:0;
+		width: 100%;
+		float:left;
+		background: url(/syntegra/images/pdp_arrows.gif) no-repeat top left;
+	}
+	
+	#pdpSteps li {
+		margin:0 7px;
+		padding:50px 0 0 0;
+		float:left;
+		width: 119px;
+		display:inline;	
+		text-align:center;
+	}
+	
+	.pdpOne {background: url(/syntegra/images/pdp_step1.gif) no-repeat top center; }
+	.pdpOneOn {
+		background: url(/syntegra/images/pdp_step1_on.gif) no-repeat top center; 
+		font-weight:bold; 
+		color: #666699
+	}
+
+	.pdpTwo {background: url(/syntegra/images/pdp_step2.gif) no-repeat top center; }
+	.pdpTwoOn {
+		background: url(/syntegra/images/pdp_step2_on.gif) no-repeat top center; 
+		font-weight:bold; 
+		color: #666699
+	}
+
+	.pdpThree {background: url(/syntegra/images/pdp_step3.gif) no-repeat top center;}
+	.pdpThreeOn {
+		background: url(/syntegra/images/pdp_step3_on.gif) no-repeat top center; 
+		font-weight:bold; 
+		color: #666699
+	}
+
+	.pdpFour {background: url(/syntegra/images/pdp_step4.gif) no-repeat top center;} 
+	.pdpFourOn {
+		background: url(/syntegra/images/pdp_step4_on.gif) no-repeat top center; 
+		font-weight:bold; 
+		color: #666699
+	}
+	
+	.rrDotDivider {
+		clear:both; 
+		margin: 10px 0; 
+		width: 100%; 
+		background: url(/syntegra/images/dottedline_horiz.gif) repeat-x bottom;
+	}
+	
+	
+	
+	/* Personal Development Profile form styles */
+	
+	#pdpForm .rrReportList fieldset{
+		width:293px;
+	}
+	#pdpForm {width: 94%; float:left}
+	
+	#pdpForm .pdpOdd, 
+	#pdpForm .pdpEven {
+		float:left; 
+		width: 100%;
+		clear:both; 
+		margin: 10px 0; 
+		padding: 15px;
+		border:1px solid #666699;
+		border-width: 4px 1px 1px 1px;
+	}
+	
+	#pdpForm .pdpOdd {background-color: #dadafc; }
+	#pdpForm .pdpEven {background-color: #efefff}
+	
+	#pdpForm label {float:left;width: 55%;}
+	#pdpForm div.rrReportList label {float:left;width: 30%;}
+	
+	#pdpForm input, 
+	#pdpForm select, 
+	#pdpForm fieldset {float:right; width: auto;}
+	
+	#pdpForm fieldset, 
+	#pdpForm fieldset input {margin:0; border:0; }
+	
+	#pdpForm fieldset input, 
+	#pdpForm fieldset label,#pdpForm .rrReportList fieldset label {
+		float:left; 
+		display:inline; 
+		width: auto;
+		margin: 0 4px;
+		background:transparent;
+	} 
+	
+		
+	/* Personal Plan final display */
+	#personalPlan a {font-weight:normal}
+	#personalPlan table {
+		margin:5px 0; 
+		padding:0; 
+		border:0; 
+		border-collapse:collapse;
+	}
+	
+	#personalPlan table th {
+		text-align:left; 
+		padding: 5px;
+	}
+	
+	#personalPlan table td {
+		vertical-align:top; 
+		padding:5px;
+	}
+	#personalPlan h3 {
+		background-color: #ccccff; 
+		color: #333333; 
+		padding: 3px; 
+		margin:10px 0; 
+	}
+	
+	#personalPlan .returntotop p {text-align:right}
+	
+	#personalPlan ol li ul li {list-style-type: disc;}
+	
+	#personalPlan .sectionList {margin:0; padding:0}
+	#personalPlan .sectionList li {
+		list-style-type:none; 
+		margin:0; 
+		padding-left:10px;
+	}
+	
+	#planOutline th {color: #666699;}
+	#planOutline td {background: url(/syntegra/images/dottedline_horiz.gif) repeat-x top}
+	#planOutline td.actionArea {font-weight:bold}	
+	
+	
+	
+	#skillsChart td {border:1px solid #666699; height:10em}
+	#skillsChart .strengths td {background-color: #B9EEB9}
+	#skillsChart .development td {background-color: #F9E16F}
+	
+	.excelSkills {width: 100%; background-color: #B9EEB9; margin-bottom: 15px;}
+	.developSkills {width: 100%; background-color: #F9E16F;}
+	
+	.excelSkills ul, .developSkills ul {
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 15px;
+		width: 26%;
+	}
+	.excelSkills h4, .developSkills h4 {
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+	.incomplete li a {
+		font-weight:bold !important;
+		}
+
+  /* login links at the bottom of the page. can be positioned either left or right */
+  .pdpLoginRt {float:right; padding: 10px 0}
+  .pdpLoginRt li a, 
+  .pdpLoginLt li a {font-weight:bold !important; }
+  
+  
+  
+  .actionList {
+  		background: url(/syntegra/images/pdp_actionlist_top.gif) no-repeat top left; 
+		padding-top:17px; 
+		margin-bottom: 15px;
+	}
+	
+ .actionList h2, 
+ .actionList p {padding-left:10px; }	
+
+ .actionList form {
+ 		margin:0;
+		padding:0;
+		border:0;
+  }	
+ 
+ .actionList div.formWrapper {
+ 		border:1px solid #666699; 
+		border-width: 0 10px 0 10px;
+	}
+	
+* html .actionList div.formWrapper {width /**/: 550px;}
+
+   .actionList table {
+   		margin:0; 
+		padding:0; 
+	}
+	
+	.actionList table th {
+  		padding: 10px; 
+		color: #666666; 
+		background: url(/syntegra/images/dottedline_horiz.gif) repeat-x bottom;
+	}
+	
+  .actionList table td {
+  		vertical-align:top; 
+		padding: 10px;
+	}
+	
+   .actionList table td p {padding-left:0}	
+	
+	.actionList .actionListFoot {
+		background: url(/syntegra/images/pdp_actionlist_bot.gif) no-repeat top left;
+		padding-top: 17px; 
+		font-size: 1px;
+		line-height:1px;
+	}
+	
+	dl.keyContacts {margin-left:15px;}
+	dl.keyContacts dt {
+		font-weight:bold;
+		clear:left;
+		float:left;
+		width: 70px;
+	}
+	
+	.confirm-bottom ul.actions li a {
+		font-weight:bold !important;
+		zoom:1;
+	}
+	
+	#personalPlan .confirm-bottom ul.actions {
+		zoom:1;
+	}
+	
+
+/* Start of Exisiting Advanced Styles */
+/* This stylesheet was last edited by RLA 15 Nov 2005 at 16:08.21 */
+
+
+	
+	/* Personal Plan final display */
+	#personalPlan table {
+		border-collapse:collapse;
+	}
+
+	
+	  .actionList table {
+		border-collapse:collapse;
+	}
+	
+  
+   .actionList label {
+   		display:block; 
+		font-weight:bold
+	}
+	
+	dl.keyContacts dt {
+		width: 6em
+	}
+	
+	dl.keyContacts dt, dl.keyContacts dd {padding: .1em 0}
+	
+	
+	.pdpProgress {
+		height: 75px;
+		text-align:center;
+		float: left;
+		width: 380px;
+		background-image: url("/syntegra/images/pdp_progress.gif");
+		background-position: bottom 10.8em;
+		background-repeat: no-repeat;
+		margin-left: 105px;
+		font-size: 95%;
+		margin-bottom: -13px;
+	}
+	html>body .pdpProgress {
+		height: 75px;
+		float: right;
+		width: 380px;
+		background-image: url("/syntegra/images/pdp_progress.gif");
+		background-position: 10.8em;
+		background-repeat: no-repeat;
+		margin-right: -20px;
+		margin-bottom: 0px;
+		font-size: 95%;
+	}
+	
+	.pdpProgress #no1 {
+		padding: 0px 0px 0px 0px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	html>body .pdpProgress #no1 {
+		padding: 0px 0px 0px 0px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	.pdpProgress #no2 {
+		padding: 0px 0px 10px 75px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	html>body .pdpProgress #no2 {
+		padding: 0px 0px 10px 85px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	.pdpProgress #no3 {
+		padding: 0px 30px 20px 0px;
+		width: auto;
+	}
+	html>body .pdpProgress #no3 {
+		padding: 0px 30px 20px 15px;
+		width: auto;
+	}
+	.pdpProgress #no4 {
+		padding: 0px 90px 1px 0px;
+		text-align:left;
+		float: right;
+		width: auto;
+	}
+	html>body .pdpProgress #no4 {
+		padding: 0px 90px 1px 0px;
+		text-align:left;
+		float: right;
+		width: auto;
+	}
+	.pdpProgress #no5 {
+		padding: 0px 15px 0px 0px;
+		float: right;
+		text-align:left;
+		width: auto;
+	}
+	html>body .pdpProgress #no5 {
+		padding: 0px 0px 0px 20px;
+		float: right;
+		text-align:left;
+		width: auto;
+	}
+	
+	
+	
+	
+		.pdpProgressRev {
+		height: 75px;
+		text-align:center;
+		float: left;
+		width: 380px;
+		background-image: url("/syntegra/images/pdp_progress_rev.gif");
+		background-position: top 10.8em;
+		background-repeat: no-repeat;
+		margin-left: 105px;
+		font-size: 95%;
+		margin-bottom: -13px;
+	}
+	html>body .pdpProgressRev {
+		height: 75px;
+		float: left;
+		width: 380px;
+		background-image: url("/syntegra/images/pdp_progress_rev.gif");
+		background-position: 10.8em;
+		background-repeat: no-repeat;
+		margin-left: 190px;
+		margin-bottom: 0px;
+		font-size: 95%;
+	}
+	
+	.pdpProgressRev #no1 {
+		padding: 10px 0px 0px 0px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	html>body .pdpProgressRev #no1 {
+		padding: 10px 0px 0px 0px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	.pdpProgressRev #no2 {
+		padding: 5px 0px 10px 75px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	html>body .pdpProgressRev #no2 {
+		padding: 5px 0px 10px 85px;
+		float: left;
+		width: auto;
+		text-align:right;
+	}
+	.pdpProgressRev #no3 {
+		padding: 10px 20px 20px 0px;
+		width: auto;
+	}
+	html>body .pdpProgressRev #no3 {
+		padding: 10px 15px 20px 0px;
+		width: auto;
+	}
+	.pdpProgressRev #no4 {
+		padding: 5px 90px 1px 0px;
+		text-align:left;
+		float: right;
+		width: auto;
+	}
+	html>body .pdpProgressRev #no4 {
+		padding: 5px 90px 1px 0px;
+		text-align:left;
+		float: right;
+		width: auto;
+	}
+	.pdpProgressRev #no5 {
+		padding: 10px 15px 0px 0px;
+		float: right;
+		text-align:left;
+		width: auto;
+	}
+	html>body .pdpProgressRev #no5 {
+		padding: 10px 0px 0px 10px;
+		float: right;
+		text-align:left;
+		width: auto;
+	}
+	
+	
+	
+	
+	.pdpRadiobox {
+		float: left;
+		width: 160px;
+		height: 30px;
+		background-image: url("/syntegra/images/pdp_radiobox.gif");
+		background-position: center right;
+		background-repeat: no-repeat;
+		padding-top: 20px;
+	}
+	html>body .pdpRadiobox {
+		width: 150px;
+		height: 35px;
+		background-image: url("/syntegra/images/pdp_radiobox.gif");
+		background-position: center right;
+		background-repeat: no-repeat;
+		padding-top: 15px;
+	}
+	.pdpRadiobox input {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 9px;
+	}
+	.pdpRadiobox input.first {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 18px;
+		margin-right: 0px;
+	}
+	html>body .pdpRadiobox input {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 13px;
+	}
+	html>body .pdpRadiobox input.first {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 10px;
+		margin-right: 3px;
+	}
+	
+	.pdpProgressTitle {
+		width: 255px;
+		margin-left: 7px;
+	}
+	html>body .pdpProgressTitle {
+		width: 255px;
+		margin-left: 14px;
+	}

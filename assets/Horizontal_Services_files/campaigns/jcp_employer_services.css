@@ -1,0 +1,128 @@
+#campaigns-body {}												/* Global Default: 'width:66em' limits to BusinessLink 730px width standard */
+#campaigns-body h1 {} 											/* Global Default: 'font-size:1.5em;' */
+#campaigns-body h2 {} 											/* Global Default: 'font-weight:bold;' */
+#campaigns-body p {}								 			/* Global Default: 'margin:1em 0; line-height:1.5em;' */
+#campaigns-body a {text-decoration:underline;}					/* Global Default: 'color:#333399;' Note: Visited colour is browser default purple */
+#campaigns-body td {}											/* Global Default: 'vertical-align:top;' */
+
+#campaigns-body-menu { width:690px; margin:10px 0 0 30px; _margin:10px 0 0 0; }
+#campaigns-body-menu img { float:left; display:block; }
+#campaigns-body-menu ul { float:right; list-style:none; width:555px; }
+#campaigns-body-menu ul li { margin:0 0 0 5px; display:block; }
+#campaigns-body-menu-home { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_home.gif); }
+#campaigns-body-menu-home:hover { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_home_over.gif); }
+#campaigns-body-menu-home a { display:block; width:106px; height:26px; }
+#campaigns-body-menu-home a span { display:none; }
+#campaigns-body-menu-home-on { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_home_over.gif); }
+#campaigns-body-menu-home-on span { display:none; }
+#campaigns-body-menu-recruitment { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_recruitment.gif); }
+#campaigns-body-menu-recruitment:hover { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_recruitment_over.gif); }
+#campaigns-body-menu-recruitment a { display:block; width:106px; height:26px; }
+#campaigns-body-menu-recruitment a span { display:none; }
+#campaigns-body-menu-recruitment-on { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_recruitment_over.gif); }
+#campaigns-body-menu-recruitment-on span { display:none; }
+#campaigns-body-menu-training { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_training.gif); }
+#campaigns-body-menu-training:hover { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_training_over.gif); }
+#campaigns-body-menu-training a { display:block; width:106px; height:26px; }
+#campaigns-body-menu-training a span { display:none; }
+#campaigns-body-menu-training-on { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_training_over.gif); }
+#campaigns-body-menu-training-on span { display:none; }
+#campaigns-body-menu-redundancies { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_redundancies.gif); }
+#campaigns-body-menu-redundancies:hover { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_redundancies_over.gif); }
+#campaigns-body-menu-redundancies a { display:block; width:106px; height:26px; }
+#campaigns-body-menu-redundancies a span { display:none; }
+#campaigns-body-menu-redundancies-on { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_redundancies_over.gif); }
+#campaigns-body-menu-redundancies-on span { display:none; }
+#campaigns-body-menu-signupnow { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_sign_up_now.gif); }
+#campaigns-body-menu-signupnow:hover { float:left; width:106px; height:26px; background:url(../../Horizontal_Services_images/campaigns/jcp_menu_sign_up_now_over.gif); }
+#campaigns-body-menu-signupnow a { display:block; width:106px; height:26px; }
+#campaigns-body-menu-signupnow a span { display:none; }
+
+#campaigns-body-content { float:left; clear:right; width:710px; background:url(../../Horizontal_Services_images/campaigns/jcp_background.jpg) #5C0C67 no-repeat; min-height:385px; padding:30px 0 0 0; }
+#campaigns-body-content p { margin:10px 0 0 0; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#FFFFFF; }
+#campaigns-body-content p a { color:#fff311; text-decoration:none; }
+#campaigns-body-content p a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content h4 { color:#fff311; font-size:1.1em; margin:5px 0 0 0; }
+#campaigns-body-content-left { width:450px; margin:10px 0 0 30px; float:left; font-size:1.5em; }
+#campaigns-body-content-left h1 { width:440px; height:120px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_h1_it_pays_to_work_with_us.png) no-repeat; }
+#campaigns-body-content-left h1 span { display:none; }
+#campaigns-body-content-right { width:162px; float:right; margin:140px 1em 0 0; }
+#campaigns-body-content-right ul { list-style:none; width:162px; }
+#campaigns-body-content-right ul li { display:block; width:162px; height:41px; padding:0 0 10px 0; }
+.campaigns-body-clear { clear:both; height:10px; }
+#campaigns-body-home-menu-home { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_home_over.png) no-repeat right; }
+#campaigns-body-home-menu-home:hover { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_home.png) no-repeat right; }
+#campaigns-body-home-menu-home a { display:block; width:162px; height:41px; }
+#campaigns-body-home-menu-home a span { display:none; }
+#campaigns-body-home-menu-recruitment { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_recruitment_over.png) no-repeat right; }
+#campaigns-body-home-menu-recruitment:hover { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_recruitment.png) no-repeat right; }
+#campaigns-body-home-menu-recruitment a { display:block; width:162px; height:41px; }
+#campaigns-body-home-menu-recruitment a span { display:none; }
+#campaigns-body-home-menu-training { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_training_over.png) no-repeat right; }
+#campaigns-body-home-menu-training:hover { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_training.png) no-repeat right; }
+#campaigns-body-home-menu-training a { display:block; width:162px; height:41px; }
+#campaigns-body-home-menu-training a span { display:none; }
+#campaigns-body-home-menu-redundancies { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_redundancies_over.png) no-repeat right; }
+#campaigns-body-home-menu-redundancies:hover { background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_redundancies.png) no-repeat right; }
+#campaigns-body-home-menu-redundancies a { display:block; width:162px; height:41px; }
+#campaigns-body-home-menu-redundancies a span { display:none; }
+#campaigns-body-content-footer { clear:both; width:680px; min-height:40px; background:url(../../Horizontal_Services_images/campaigns/jcp_lower_bg.jpg) bottom; padding:0 0 0 30px; }
+#campaigns-body-content-footer a { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now_over.png); }
+#campaigns-body-content-footer a:hover { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now.png); }
+#campaigns-body-content-footer a span { display:none; }
+#campaigns-body-footer { width:710px; margin:15px 0 0 0; }
+#campaigns-body-footer-menu { width:710px; }
+#campaigns-body-footer-menu p { float:left; display:block; font-family:Arial, Helvetica, sans-serif; font-size:1em; color:#000000; }
+#campaigns-body-footer-menu p a { text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:1em; color:#000000; }
+#campaigns-body-footer-menu p a:hover { text-decoration:none; color:#72bf44; font-family:Arial, Helvetica, sans-serif; font-size:1em; }
+#campaigns-body-footer-left { float:left; width:355px; }
+#campaigns-body-footer-left h2 { font-family:Arial, Helvetica, sans-serif; font-size:1.2em; font-weight:bold; color:#000000; }
+#campaigns-body-footer-left p { margin:-0em 0 0 0; width:200px; }
+#campaigns-body-footer-left p a { text-decoration:none; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:1em; }
+#campaigns-body-footer-left p a:hover { font-family:Arial, Helvetica, sans-serif; font-size:1em; text-decoration:none; color:#72bf44; }
+#campaigns-body-footer-right img { float:left; display:block; margin:0 0 0 13px; }
+#campaigns-body-content-recruitment-left { width:475px; margin:0 0 0 30px; float:left; }
+#campaigns-body-content-recruitment-left h1 { width:455px; height:188px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_h1_credit.png) no-repeat; }
+#campaigns-body-content-recruitment-left h1 span { display:none; }
+#campaigns-body-content-recruitment-right { width:141px; float:left; margin:80px 0 0 0; }
+#campaigns-body-content-recruitment-right a { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now_over.png); }
+#campaigns-body-content-recruitment-right a:hover { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now.png); }
+#campaigns-body-content-recruitment-right a span { display:none; }
+#campaigns-body-content-recruitment-content { width:625px; clear:both; padding:10px 0 0 30px; font-size:1.2em; }
+#campaigns-body-content-recruitment-content h3 { width:500px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#FFFFFF; }
+#campaigns-body-content-recruitment-content-left { width:300px; float:left; margin:10px 0 0 0; }
+#campaigns-body-content-recruitment-content-left a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-recruitment-content-left a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content-recruitment-content-right { width:300px; float:left; margin:10px 0 0 25px; }
+#campaigns-body-content-recruitment-content-right a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-recruitment-content-right a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content-training-left { width:500px; margin:0 0 0 30px; float:left; }
+#campaigns-body-content-training-left h1 { width:435px; height:121px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_h1_training.png) no-repeat; }
+#campaigns-body-content-training-left h1 span { display:none; }
+#campaigns-body-content-training-right { width:141px; float:left; margin:50px 0 0 0; }
+#campaigns-body-content-training-right a { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now_over.png); }
+#campaigns-body-content-training-right a:hover { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now.png); }
+#campaigns-body-content-training-right a span { display:none; }
+#campaigns-body-content-training-content { width:625px; clear:both; padding:10px 0 0 30px; font-size:1.2em; }
+#campaigns-body-content-training-content h3 { width:500px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#FFFFFF; }
+#campaigns-body-content-training-content-left { width:300px; float:left; margin:10px 0 0 0; }
+#campaigns-body-content-training-content-left a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-training-content-left a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content-training-content-right { width:300px; float:left; margin:10px 0 0 25px; }
+#campaigns-body-content-training-content-right a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-training-content-right a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content-redundancies-left { width:500px; margin:0 0 0 30px; float:left; }
+#campaigns-body-content-redundancies-left h1 { width:464px; height:200px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_h1_redundancies.png) no-repeat; }
+#campaigns-body-content-redundancies-left h1 span { display:none; }
+#campaigns-body-content-redundancies-right { width:141px; float:left; margin:90px 0 0 0; }
+#campaigns-body-content-redundancies-right a { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now_over.png); }
+#campaigns-body-content-redundancies-right a:hover { width:141px; height:34px; display:block; background:transparent url(../../Horizontal_Services_images/campaigns/jcp_home_menu_sign_up_now.png); }
+#campaigns-body-content-redundancies-right a span { display:none; }
+#campaigns-body-content-redundancies-content { width:625px; clear:both; padding:10px 0 0 30px; font-size:1.2em; }
+#campaigns-body-content-redundancies-content h3 { width:500px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#FFFFFF; }
+#campaigns-body-content-redundancies-content-left { width:300px; float:left; margin:10px 0 0 0; }
+#campaigns-body-content-redundancies-content-left a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-redundancies-content-left a:hover { color:#fff311; text-decoration:underline; }
+#campaigns-body-content-redundancies-content-right { width:300px; float:left; margin:10px 0 0 25px; }
+#campaigns-body-content-redundancies-content-right a { color:#fff311; text-decoration:none; }
+#campaigns-body-content-redundancies-content-right a:hover { color:#fff311; text-decoration:underline; }

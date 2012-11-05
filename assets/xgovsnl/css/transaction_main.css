@@ -1,0 +1,344 @@
+/*
+ * Project businesslink.gov.uk
+ *  
+ * File transaction_main.css
+ * 
+ * Created 15 Dec 2008
+ * 
+ * Description Skin & Link CSS
+ * 
+ * 
+ * Revision $Rev: 356 $ $Date: 2009-01-15 12:35:03 +0000 (Thu, 15 Jan 2009) $
+ */
+
+/* [transaction_main.css] version.1.0	Date:22.07.08*/
+
+/*[start] Global Resets */
+html,body,fieldset,select,input,ul,li,p{margin:0;padding:0;}
+
+
+body{
+	font: 62.5%/1.4em Verdana,Geneva,Arial,Helvetica,sans-serif;
+	color:#333;
+}
+input,select,textarea{
+	width:auto;
+	font-size:1em;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	padding:2px 2px 3px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin-bottom:1em;
+}
+th,td{
+	text-align:left;
+}
+fieldset{
+	position:relative;
+	border:none;
+	}
+fieldset legend span{
+	position:absolute;
+	left:-9999px;
+}
+
+ul {
+	list-style-type:none
+}
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:1em;}
+
+img{
+	border:0;
+}
+/*[end] Global Resets */
+
+/*[start] Common Classes */
+
+.clearfix:after{ 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	font-size:0; 
+	clear: both; 
+	visibility:hidden; 
+}
+
+.error{
+	color:#f00;
+	font-weight:bold;
+}
+.requiredField{
+	padding-left:11px;
+	background:url(../images/required.gif) no-repeat 0 4px;
+}
+.error ul li{
+	list-style-type:disc;
+	margin-left:25px;
+}
+.inlineError ul li{
+	margin-left:15px;
+}
+.trnsWidth480{
+	width:480px;
+}
+/*[end] Common Classes */
+
+/*[start] Layout */
+
+div#trnsMainWrapper{
+	min-width:740px;
+	max-width:960px;
+	
+}
+
+div.trnsModuleWrapper{
+	margin-bottom:70px;
+	margin-left:20px;
+	padding-right:20px;
+}
+
+div.trnsModuleWrapper p.ref{
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+
+
+div#trnsWrapper{
+	font-size:1.1em;
+}
+
+div#trnsWrapper h1{
+	font-size:1.45em;
+	font-weight:bold;
+	color:#669;
+	margin-bottom:1.5em;
+}
+div#trnsWrapper h2{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:1.5em;
+}
+
+div.formWrapper h3{
+	padding:4px 0 4px 7px;
+	font-weight:bold;
+	color:#000;
+	background-color:#DCDCF8;
+	
+}
+div.formWrapper form{
+	margin-left:12px;
+}
+div.formWrapper form fieldset div{
+	margin-bottom:1em;
+}
+
+a.pop{
+	position:relative;
+	top:2px;
+	margin-left:25px;
+}
+
+div.formWrapper label,
+div.pseudolabel p{
+	width:350px;
+	display:block;
+	float:left;
+}
+div.formWrapper div.optional label{
+	width:376px;
+}	
+div.formWrapper div.pseudolabel label{
+	width:auto;
+	float:none;	
+	display:inline;
+}
+div.formWrapper input,
+div.formWrapper textarea{
+	width:199px;
+}
+
+div.formWrapper input.radio,
+div.formWrapper input.checkbox{
+	width:auto;
+}
+
+
+em.reqFld {
+	position:relative;
+	top:3px;
+	float:left;
+	background:url(../images/required.gif) no-repeat top left;
+	width:5px;
+	height:5px;
+	margin-right:21px;
+}
+em.reqFld span {
+	position:absolute;
+	left:-9999px;
+}
+
+div.pseudolabel{
+	clear:both;
+}
+
+div.pseudolabel ul.boolean,
+div.pseudolabel ul.multiple1{
+	float:left;
+	margin-left:23px;
+	}
+div.pseudolabel ul.boolean li {
+	float:left;
+	margin-right:0.6em;
+}
+
+div.pseudolabel ul.multiple1{
+	margin-right:60px;
+}
+div.pseudolabel ul.multiple1 li,
+div.pseudolabel ul.multiple2 li{
+	margin-bottom:0.25em;
+}
+
+div.formWrapper div.dob input{
+	width:30px;
+}
+div.formWrapper div.dob label{
+	position:absolute;
+	left:-9999px;
+}
+div.dob .explan{
+	margin-top:3px;
+	margin-left:388px;
+	float:none;
+}
+div.dob .explan .dd{
+	padding-right:15px;
+	
+}
+div.dob .explan .mm{
+	padding-right:13px;
+	padding-left:13px;
+}
+div.dob .explan .yyyy{
+	padding-left:10px;
+}
+
+div.contactPhone input{
+	width:84px;
+}
+
+table.trnsReview{
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:0.5em;
+}
+
+table.trnsReview thead{
+	background-color:#DCDCF8;
+}
+table.trnsReview thead th,
+table.trnsReview tbody th,
+table.trnsReview tbody td
+{
+	font-weight:bold;
+	padding:4px 0 4px;
+}
+table.trnsReview thead th.title{
+	width:320px;
+}
+table.trnsReview thead th.title,
+table.trnsReview tbody th{
+	padding-left:4px;
+}
+table.trnsReview thead th.status{
+	width:149px;
+}
+table.trnsReview td.edit{
+	background:url(../images/right_arrow.gif) no-repeat 0 8px;
+}
+table.trnsReview td.edit a{
+	padding-left:13px;
+	color:#353299;
+}
+
+div.trnsFooter{
+	position:relative;
+	border-top:1px solid #A5A5FD;
+	padding-top:10px;
+}
+form div.trnsFooter{
+	margin-top:2em;
+}
+div.trnsFooter a,
+div.trnsFooter button{
+	position:absolute;
+}
+div.trnsFooter button{
+	display:block;
+	color:#333;
+	padding:1px 3px 2px;
+	text-decoration:none;
+	border:1px solid #000;
+	background-color:#DCDCF8;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:1em;	
+}
+div.getAddress{
+	clear:both;
+}
+div.getAddress a{
+	margin-left:376px;
+}
+div.getAddress a,
+div.trnsFooter a
+{
+	float:left;
+	display:block;
+	color:#333;
+	padding:2px 3px;
+	text-decoration:none;
+	border:1px solid #000;
+	background-color:#DCDCF8;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:1em;
+}
+
+
+div.footerLayout1 .one{
+	left:0px;
+}
+div.footerLayout1 .two{
+	left:47%;
+}
+div.footerLayout1 .three{
+	right:0;
+}
+div.footerLayout1 .four{
+	padding-left:6px;
+	padding-right:6px;
+	top:40px;
+	left:45%;
+}
+
+div.footerLayout2 .one{
+	padding-left:6px;
+	padding-right:6px;
+	left:46%;
+}
+div.footerLayout2 .two{
+	right:0px;
+}
+div.footerLayout3 .one{
+	right:0px;
+}
+/*[end] Layout */
+/*[start] Help Specific */
+div.help{margin:8px 0 0 8px;}
+/*[end] Help Specific */

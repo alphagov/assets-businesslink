@@ -1,0 +1,371 @@
+.clear-both{
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+
+#campaigns-body-content{
+	width:770px;
+}
+
+#close{
+	display:none;
+}
+
+#player{
+	width:540px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+#links{
+	width:210px;
+	float:right;
+	margin:0px 0px 0px 10px;
+}
+
+#links #thumbnail{
+	margin:0px 0px 15px 0px;
+}
+
+#links ul{
+	margin:0px;
+	padding:0px;
+}
+
+#links li{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_line.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:210px;
+}
+
+#links li a{
+	padding:7px 0px 4px 20px;
+	display:block;
+	background-image:url(../Horizontal_Services_images/hmrc_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left 8px;
+}
+
+#links li a:link,
+#links li a:visited{
+	color:#333333;
+	font-weight:normal;
+	font-size:110%;
+}
+
+#access{
+	float:left;
+	margin:20px 0px 0px 0px;
+}
+
+#close-window{
+	float:right;
+	margin:20px 0px 0px 0px;
+}
+
+.logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_line.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	margin:15px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+}
+
+.logo-bottom p{
+	margin:0px 0px 0px 0px;
+}
+
+#maincontent h1,
+#maincontent h2{
+	display:none;
+}
+
+/** h1 styles **/
+
+#campaigns-body h1.welcome {
+	color:#429fdc;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.incometax {
+	color:#379847;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.corporation {
+	color:#0041a7;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.records {
+	color:#d45294;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.vat {
+	color:#2c8ad4;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.insurance {
+	color:#d48214;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.employing {
+	color:#ac1a34;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.import {
+	color:#942ea4;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.allowances {
+	color:#74ae34;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.cis {
+	color:#146abc;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+	
+	#campaigns-body h1.sud {
+	color:#155088;
+	font-weight:normal;
+	font-family:Arial;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+	}
+
+	/** h1 styles **/
+
+/**************** COLOUR CHANGES ****************/
+
+/* Employing */
+.employing-other-people #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_employing.gif);
+}
+
+.employing-other-people #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_employing.gif);
+}
+
+.employing-other-people .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_employing.gif);
+}
+/* Employing */
+
+
+
+/* Importing */
+.importing-and-exporting #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_importing.gif);
+}
+
+.importing-and-exporting #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_importing.gif);
+}
+
+.importing-and-exporting .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_importing.gif);
+}
+/* Importing */
+
+
+
+/* Income Tax */
+.income-tax #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_income.gif);
+}
+
+.income-tax #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_income.gif);
+}
+
+.income-tax .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_income.gif);
+}
+/* Income Tax */
+
+
+/* Keeping Records */
+.keeping-records #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_keeping.gif);
+}
+
+.keeping-records #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_keeping.gif);
+}
+
+.keeping-records .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_keeping.gif);
+}
+/* Keeping Records */
+
+
+/* Employing */
+.national-insurance #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_national.gif);
+}
+
+.national-insurance #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_national.gif);
+}
+
+.national-insurance .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_national.gif);
+}
+/* Employing */
+
+
+/* VAT */
+.vat #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_vat.gif);
+}
+
+.vat #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_vat.gif);
+}
+
+.vat .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_vat.gif);
+}
+/* VAT */
+
+
+/* Business Allowances */
+.business-allowances #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_business.gif);
+}
+
+.business-allowances #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_business.gif);
+}
+
+.business-allowances .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_business.gif);
+}
+/* Business Allowances */
+
+
+/* Corporation Tax */
+.corporation-tax #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_corporation.gif);
+}
+
+.corporation-tax #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_corporation.gif);
+}
+
+.corporation-tax .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_corporation.gif);
+}
+/* Corporation Tax */
+
+
+/* Construction Industry */
+.construction-industry #links li{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_construction.gif);
+}
+
+.construction-industry #links li a{
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_construction.gif);
+}
+
+.construction-industry .logo-bottom{
+	background-image:url(../Horizontal_Services_images/hmrc_dotted_construction.gif);
+}
+/* Construction Industry */
+
+/**************** COLOUR CHANGES ****************/
+
+/* Header Styles */
+
+
+#help {
+	color:#9999CC;
+	font-size:93%;
+	left:16.5em;
+	position:absolute;
+	top:0.9em;
+	width:26em;
+	z-index:3;
+}
+
+#sitesearch {
+	left:40.7em;
+	position:absolute;
+	top:0.8em;
+	width:17.2em;
+	z-index:3;
+}
+
+#sitesearch label {
+	font-size:85%;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#sitesearch input {
+	border:1px solid #000000;
+	height:1.1em;
+	margin-top:0.06em;
+	vertical-align:middle;
+	width:11.2em;
+}
+
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}

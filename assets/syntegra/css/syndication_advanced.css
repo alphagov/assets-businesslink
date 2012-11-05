@@ -1,0 +1,32 @@
+/* VERSION 1: 19/03/04 - Modified to fit new design/layout */
+
+/* LAYOUT */
+	#content {
+		border:0px solid white;
+	}
+/* END LAYOUT */
+
+/* FEED */
+	div.feed {
+		border:1px solid black;
+		margin-bottom:15px;
+		width:100%;
+	}
+	div.feed h3 {
+		margin-top:0.5em;
+		margin-bottom:0.5em;
+	}
+	div.feed h2.h3alias {
+		margin-top:0.5em;
+		margin-bottom:0.5em;
+	}
+	div.feed p {
+		margin-top:0px;
+		margin-bottom:1em;
+	}
+	div.feed ul.links {
+		margin-top:0px;
+		margin-left:15px;
+	}
+/* END FEED */
+	

@@ -1,0 +1,59 @@
+/* General styles */
+
+.clearboth { clear:both; display:block;}
+
+#campaigns-body {padding:0; font-size:1.0em; width:862px; margin-left:6px;}
+	
+	
+#startupCwrapper {background:url(../../Horizontal_Services_images/campaigns/startupcampaign_bg.gif) no-repeat 0 0; width:815px; padding:0 0 0 47px; float:left; min-height:550px; display:block;}
+
+#startupCheader {background:#005c9b url(../../Horizontal_Services_images/campaigns/startupcampaign_titleleft2.gif) no-repeat 0 0; padding:0; margin:12px 0 0 0; width:815px; float:left; }
+
+.startupCheaderLHS { background-color:none; border-top:1px dotted #50c0df; border-bottom:1px dotted #50c0df; padding:14px 0 14px 0; margin:35px 0 0 17px; float:left; width:395px;}
+.startupCheaderLHS h1{padding:0 0 0 5px; margin:0; font-size:1.1em !important; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;}
+.startupCheaderRHS { width:203px; height:149px; float:right;}
+
+#startupCheaderT {background-color:none; padding:0; margin:0; width:815px; height:59px; float:left; position:relative; }
+#startupCheaderT h2{padding:0 10px 10px 5px; margin:12px 0 0 17px; font-size:1.1em !important; font-family: 'Nunito', sans-serif; color:#006e34; border-bottom:1px dotted #006e34; float:left; font-weight:normal;}
+.startupCheaderSoc { float:right; padding:0; margin:35px 0 0 0;}
+.startupCheaderSoc li{ float:left; border:0px solid #fff; list-style:none; display:block; width:16px; height:16px; margin-left:5px;}
+
+#startupCheaderCont {padding:0; margin:81px 0 0 0; width:815px; float:left; margin-bottom:50px;}
+#startupCheaderCont h3{padding:10px 0 10px 5px; margin:0 0 20px 0; font-size:1.2em !important; font-family: 'Nunito', sans-serif; color:#006e34; color:#005598; border-bottom:1px dotted #49bfde; font-weight:normal;}
+
+
+.startupCheaderCL { width:368px; height:231px; display:block; float:left; padding:0; margin:0 0 0 17px;}
+.startupCheaderCLp{ background:url(../../Horizontal_Services_images/campaigns/startupcampaign_starting.jpg) no-repeat 0 0; padding:0 0 0 5px; margin:0 !important; position:relative; float:left; width:100%; height:175px; display:block; color:#16444e;}
+
+.startupCheaderCL strong{ font-size:0.9em !important; line-height:1.3em; margin:0; padding:0; width:240px; display:block; float:left; }
+
+.startupCheaderCLa { float:left; position:absolute; bottom:0; left:0; display:block;}
+.startupCheaderCLa a.startBusBtn {background: url("../../Horizontal_Services_images/campaigns/startupcampaign_btnRight.gif") no-repeat scroll right top transparent; display: block;  height: 35px; margin-right: 2px; padding-right: 28px; position: relative; text-decoration: none; }
+.startupCheaderCLa a.startBusBtn span { background: url("../../Horizontal_Services_images/campaigns/startupcampaign_btnLeft.gif") no-repeat scroll 0 0 transparent; color: #15434d; font-weight:bold; display: block; line-height: 32px; padding: 0 0 5px 10px; font-size:0.80em;font-family: 'Nunito', sans-serif;}
+
+
+.startupCheaderCR { width:368px; height:231px; display:block; float:right; padding:0; margin:0 0 0 17px;}
+.startupCheaderCRp{ background:url(../../Horizontal_Services_images/campaigns/startupcampaign_growing.jpg) no-repeat 0 0; padding:0 0 0 5px; margin:0 !important; position:relative; float:left; width:100%; height:175px; display:block; color:#16444e;}
+
+.startupCheaderCR strong{ font-size:0.9em !important; line-height:1.3em; margin:0; padding:0; width:240px; display:block; float:left; }
+
+.startupCheaderCRa { float:left; position:absolute; bottom:0; left:0; display:block;}
+.startupCheaderCRa a.startBusBtn {background: url("../../Horizontal_Services_images/campaigns/startupcampaign_btnRight.gif") no-repeat scroll right top transparent; display: block;  height: 35px; margin-right: 2px; padding-right: 28px; position: relative; text-decoration: none; }
+.startupCheaderCRa a.startBusBtn span { background: url("../../Horizontal_Services_images/campaigns/startupcampaign_btnLeft.gif") no-repeat scroll 0 0 transparent; color: #15434d; font-weight:bold; display: block; line-height: 32px; padding: 0 0 5px 10px; font-size:0.80em;font-family: 'Nunito', sans-serif;}
+
+
+#startupCbottom {width:862px; padding:0; margin:0 0 20px 0; border-top:1px solid #e6e8eb; position:relative; display:block; float:left; min-height: 135px; height:auto; }
+
+.startupCb1 {position:absolute; top:0; left:75px; width:190px; margin-top:15px; float:left;display:block;}
+.startupCb1 h4{ font-family: 'Nunito', sans-serif; font-size:0.8em; color:#4377b3; padding:0; margin:0;}
+.startupCb1 p { padding:0; margin:0; color:#4d4b4b; font-size:0.75em;}
+.startupCb1 a {color:#005698; background:url(../../Horizontal_Services_images/campaigns/startupcampaign_aarrow.gif) no-repeat; background-position:right; padding:0 15px 0 0; font-size: 0.7em; margin:2px 0 2px 0; float:left; text-decoration:underline; }
+
+.startupCb2 {position:absolute; top:0; left:360px; width:190px; margin-top:15px; float:left;display:block;}
+.startupCb2 p { padding:0; margin:0 0 6px 0 !important; color:#4d4b4b; font-size:0.75em;font-family: 'Nunito', sans-serif;}
+.startupCb2 a {color:#005698; background:url(../../Horizontal_Services_images/campaigns/startupcampaign_aarrow.gif) no-repeat; background-position:right; padding:0 15px 0 0; font-size: 0.7em; margin:2px 0 2px 0; float:left; text-decoration:underline; }
+
+.startupCb3 { bottom: 11px; display: block; float: left; height: 45px; margin-top: 15px; position: absolute; right: 0; width: 502px;}
+.startupCb3 h5{ font-family: 'Nunito', sans-serif;font-size:0.8em; color:#486872; padding:0 0 0 0; margin:0 0 10px 0;}
+.startupCb3 ul { padding:0; margin:13px 0 0 0; float:left;}
+.startupCb3 ul li{ padding:0; margin:0 5px 0 5px; float:left; list-style:none; display:block; overflow: hidden;}

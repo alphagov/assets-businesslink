@@ -1,0 +1,193 @@
+/* age positive start specific CSS */
+
+#campaigns-body{
+	width:930px;
+	padding:0 15px;
+}
+
+#campaigns-body div{
+	overflow: hidden
+}
+
+#campaigns-body #cb-wrap{
+	font-size:1.1em;
+	width:932px;
+	background: url(../../Horizontal_Services_images/campaigns/background.gif) no-repeat bottom left;
+	min-height:672px;
+}
+* html #campaigns-body #cb-wrap{height:672px;}
+
+#campaigns-body #cb-wrap *{
+	font-family:arial,helvetica,clean,sans-serif;
+	color:#333;
+}
+
+#campaigns-body #cb-wrap #cb-menu{
+	background: url(../../Horizontal_Services_images/campaigns/main_menu_bg.gif) no-repeat top left;
+	height:28px;
+	margin-bottom:34px;
+}
+
+#campaigns-body #cb-wrap #cb-menu p{
+	padding:4px 5px 5px 25px;
+	margin:0;
+}
+
+#campaigns-body #cb-wrap #cb-menu p a{
+	font-weight:bold;
+	color:#323265;
+	}
+
+#campaigns-body #cb-header{
+	margin-bottom:25px;
+}
+
+#campaigns-body #cb-header .wrapper{
+	float:left;
+	width:736px;
+	padding-bottom:5px;	
+	background: url(../../Horizontal_Services_images/campaigns/cb_header_btm.gif) no-repeat bottom left;
+}
+
+#campaigns-body #cb-header h1{
+	color:#fff;
+	font-size:2.3em;
+	padding-top:5px;
+	padding-left:15px;
+	background: url(../../Horizontal_Services_images/campaigns/cb_header_top.gif) no-repeat top left;
+	
+}
+
+#campaigns-body #cb-header img{
+	float:left;
+	margin-right:25px;
+}
+
+#campaigns-body #cb-content-main ul{
+	padding-left:0;
+	margin-left:0;
+}
+	
+#campaigns-body #cb-content-main ul li{
+	list-style-type:none;
+	padding-left:0;
+	margin-left:0;
+}
+
+#campaigns-body #cb-content-main #cb-cm-hero-list {
+	margin-left:33px;
+	margin-bottom:5px;}
+
+#campaigns-body #cb-content-main #cb-cm-hero-list li{
+	width:250px;
+	padding:0 13px;
+	min-height:214px;
+	margin-right:20px;
+	float:left;
+	display:inline;
+	background:url("../../Horizontal_Services_images/campaigns/hero_list_grad.gif") no-repeat bottom left;
+}
+* html #campaigns-body #cb-content-main #cb-cm-hero-list li{height:214px;}
+
+#campaigns-body #cb-content-main #cb-cm-hero-list li.last{margin-right:0;}
+#campaigns-body #cb-content-main #cb-cm-hero-list li a,
+#campaigns-body #cb-content-main #cb-cm-hero-list li img,
+#campaigns-body #cb-content-main #cb-cm-hero-list li span{display:block;}
+
+#campaigns-body #cb-content-main #cb-cm-hero-list li a{color:#fff;}
+#campaigns-body #cb-content-main #cb-cm-hero-list li img{margin-top:10px;margin-bottom:7px;}
+#campaigns-body #cb-content-main #cb-cm-hero-list li span{color:#fff;font-size:1.4em;}
+
+
+#campaigns-body #cb-content p{margin: 0 0 1em 0;}
+
+#campaigns-body #cb-content-main #cb-cm-register{
+	margin:0 40px 20px 40px;
+	width:273px;
+	}
+#campaigns-body #cb-content-main #cb-cm-register a{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#3c7e66;
+	text-decoration:underline;
+	padding-left:15px;
+	float:left;
+	background:url("../../Horizontal_Services_images/campaigns/rgt_arrow.gif") no-repeat 0 5px;
+}
+
+#campaigns-body #cb-content-main #cb-cm-intro{margin-bottom:30px;}
+
+#campaigns-body #cb-content-main #cb-cm-intro p{
+	float:left;
+	font-size:1.25em;
+	margin-top:5px;
+	margin-bottom:0;
+	margin-left:10px;
+	}
+
+#campaigns-body #cb-content-main #cb-cm-intro .wrapper{
+	float:left;
+	width:108px;
+	padding-bottom:5px;	
+	background: url(../../Horizontal_Services_images/campaigns/h2_bg_btm.gif) no-repeat bottom left;
+}
+
+#campaigns-body #cb-content-main #cb-cm-intro h2{
+	color:#fff;
+	font-size:1.6em;
+	font-weight:normal;
+	padding-top:3px;
+	padding-left:10px;
+	background: url(../../Horizontal_Services_images/campaigns/h2_bg_top.gif) no-repeat top left;
+	
+}
+
+#campaigns-body #cb-content-main #cb-cm-inner{margin:0 40px;}
+
+#campaigns-body #cb-content-main #cb-cm-panel-wrap .panel{width:405px;}
+
+#campaigns-body #cb-content-main #cb-cm-panel-wrap .panel h3{
+	width:386px;
+	background:url("../../Horizontal_Services_images/campaigns/h3_bg_grad.gif") no-repeat bottom left;
+	padding:4px 8px;
+	color:#fff;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+#campaigns-body #cb-content-main #cb-cm-panel-wrap .panel ul{
+	margin-left:8px;
+	margin-top:5px;
+}
+
+#campaigns-body #cb-content-main #cb-cm-panel-wrap .panel li{
+	margin-bottom:7px;
+	clear:left;
+}
+
+#campaigns-body #cb-content-main #cb-cm-panel-wrap .panel li a{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#3c7e66;
+	text-decoration:underline;
+	padding-left:15px;
+	float:left;
+	background:url("../../Horizontal_Services_images/campaigns/rgt_arrow.gif") no-repeat 0 5px;
+}
+
+#campaigns-body .right {float:right;}
+#campaigns-body .left {float:left;}
+#campaigns-body .clearleft{clear:left;}
+#campaigns-body .clearboth{clear:both;}
+.screenreadertext{position : absolute;left : -1000em;}
+
+
+#campaigns-body #cb-header .inner:after,
+#campaigns-body #cb-content:after,
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+* html .clearfix{height:1%;}

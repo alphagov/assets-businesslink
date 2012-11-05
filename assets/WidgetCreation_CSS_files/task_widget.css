@@ -1,0 +1,72 @@
+.itw_bodyContent {
+	padding-bottom: 0;
+}
+
+.itw_hiddenBodyContent {
+	padding-bottom: 15px;
+	display: none;
+	padding-left: 7px;
+}
+
+.itw_hiddenContent {
+	display: none;
+	height: 47px;
+}
+
+.itw_textLink {
+	float: right;
+	color: #1E3C70;
+    float: right;
+    height: 34px;
+    margin-right: 10px;
+    padding:10px 10px 0 0; 
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.itw_imageLower {
+	background: url("/presentation-suh/portal-startuphub/images/arrow_down.jpg") no-repeat scroll right top #EFEFEF;
+}
+
+.itw_imageHigher {
+	background: url("/presentation-suh/portal-startuphub/images/arrow_up.jpg") no-repeat scroll right top #EFEFEF;
+	color: #1E3C70;
+}
+
+.itw_imageLower div {
+	color: #1E3C70;
+	float:right;
+	height:36px;
+	
+}
+
+.itw_imageHigher div {
+	color: #1E3C70;
+	float:right;
+	height:23px;
+	
+}
+
+#startUpHub .itw_noPad {
+	padding: 0;
+}
+
+.itw_bodySection {
+	font-size: 110%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 1px;
+	background-color:#efefef;
+}
+
+.itw_hiddenBodyContent {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+.itw_bodyContent p {
+	padding-bottom: 15px;
+	margin: 0;
+}

@@ -1,0 +1,1277 @@
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 18/02/04 - footer fix */
+/* VERSION 2.1 19/02/04 - h4 added to footer */
+/* VERSION 2.2: 27/02/04 - added font-family defs for buttons (.add, .go, .remove etc). Resolved some MacIE 5 Classic issues. */
+/* VERSION 2.3: 02/03/04 - modified dottedbox */
+/* VERSION 2.4: 03/03/04 - updated ul.links and added ul.actions */
+/* VERSION 3: 04/03/04 - added my account link to globalnav and changed link colours */
+/* VERSION 3.1: 08/03/04 - standardised dl and dl2 */
+/* VERSION 3.2: 08/03/04 - added input.button to button font def list */
+/* VERSION 3.3: 11/03/04 - inserted #help into #topnav #help span.navitem a.current def so works in IE. Removed bold from .current state  */
+/* VERSION 3.4: 12/03/04 - added some error defs (ol and dl) */
+/* VERSION 3.5: 02/04/04 - added new error style for in forms */
+/* VERSION 3.6: 05/05/04 - added width to h3 and h4's */
+/* VERSION 3.7: 16/06/04 - corrected error div styles */
+/* VERSION 5: 02/08/04 - new tabbed version */
+/* VERSION 5.1: 29/09/06 - new tabbed version, changes to strapline and layout for 'Your account/welcome' items */
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 05-Nov-07 by PB: Changed strapline width fit inside page width - it had orginally been wider than the page */
+/* LAYOUT */
+#logo {
+    z-index: 4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 191px;
+    height: 111px;
+    background-color: #669;
+}
+
+#header {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 745px;
+    height: 111px !important;
+    background-color: #669;
+    layer-background-color: #669;
+}
+
+#strapline {
+    z-index: 3;
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    width: 514px;
+    padding: 0 0 0 200px;
+    margin: 0;
+    /*width:745px;*/
+    border: 0.1px solid white;
+    background-color: #669;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#strapline span {
+    font-size: 17px;
+    color: white;
+    display: block;
+    padding-top: 6px;
+}
+
+#topnav {
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 744px;
+    border: 0.1px solid white;
+    color: #ccf;
+    background-color: #669;
+}
+
+#topnavinner {
+    padding-top: 2px;
+}
+
+#topnav #help {
+    z-index: 5;
+    float: left;
+    width: 266px;
+    text-align: left;
+}
+
+#topnav #find {
+    text-align: right;
+    border: 0.1px solid white;
+}
+
+#topnav #sitesearch {
+    z-index: 2;
+    text-align: right;
+    border: 0.1px solid white;
+}
+
+#topnav #account {
+    text-align: right;
+    margin-top: 5px;
+    border: 0.1px solid white;
+}
+
+#topnav #tabs {
+    z-index: 0;
+    position: absolute;
+    top: 87px;
+    left: 191px;
+    font-weight: bold;
+}
+
+#topnav #tabs div {
+    background-color: #DCDCF7;
+    background-image: url("../../syntegra/images/tabend.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    height: 20px;
+    font-size: 11px;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px;
+}
+
+#topnav #tabs div.tab1 {
+    width: 134px;
+}
+
+#topnav #tabs div.tab2 {
+    width: 104px;
+}
+
+#topnav #tabs div.tab3 {
+    /*width:170px;*/
+    width: 92px;
+}
+
+#topnav #tabs div.tab4 {
+    /*width:170px;*/
+    width: 151px;
+}
+
+#topnav #tabs table {
+    /* width:486px; */
+    width: 403px;
+}
+
+#topnav #tabs div a:link, #topnav #tabs div a:visited, #topnav #tabs div a:hover, #topnav #tabs div a:active {
+    display: block;
+    padding: 3px 0px 1px 0px;
+    margin: 0px;
+    color: #306;
+}
+
+#topnav #tabs td {
+    background-color: #DCDCF7;
+    background-image: url("../../syntegra/images/tabend_new.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    height: 20px;
+    font-size: 11px;
+    font-weight: bold !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#topnav #tabs td.tabstart {
+    width: 6px;
+    height: 20px;
+    background-image: url("../../syntegra/images/tabstart.gif");
+}
+
+#topnav #tabs td.tabtop {
+    /* width:480px; */
+    width: 408px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+    display: block;
+}
+
+#topnav #tabs td.startshadow {
+    width: 4px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.endshadow {
+    width: 11px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.tabshadow {
+    /* width:465px; */
+    width: 392px;
+    height: 4px;
+    background-image: url("../../syntegra/images/tabtop.gif");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.tab1 {
+    /* width:134px; */
+    width: 109px;
+}
+
+#topnav #tabs td.tab2 {
+    width: 103px;
+}
+
+#topnav #tabs td.tab3 {
+    /*width:170px;*/
+    /* width:92px; */
+    width: 96px;
+}
+
+#topnav #tabs td.tab4 {
+    /*width:170px;*/
+    /* width:151px; */
+    width: 94px;
+    background-image: url("/syntegra/images/tabend_new_end.gif");
+}
+
+#topnav #tabs td.selected {
+    background-color: white;
+    background-image: url("../../syntegra/images/tabend_white.gif");
+}
+
+#topnav #tabs td.beforeselected {
+    background-image: url("../../syntegra/images/tabend_white_before.gif");
+}
+
+#topnav #tabs td.endselected {
+    background-color: white;
+    background-image: url("../../syntegra/images/tabend_white_end.gif");
+}
+
+#topnav #tabs td a:link, #topnav #tabs td a:visited, #topnav #tabs td a:hover, #topnav #tabs td a:active, #topnav #tabs td span {
+    display: block;
+    padding: 3px 0px 1px 1px;
+    margin: 0px;
+    color: #306;
+}
+
+#topnav #tabs td.tab1 a:link, #topnav #tabs td.tab1 a:visited, #topnav #tabs td.tab1 a:hover, #topnav #tabs td.tab1 a:active, #topnav #tabs td.tab1 span {
+    padding: 3px 0px 1px 9px;
+}
+
+#footer {
+    clear: both;
+    padding-top: 27px; /* if possible, last item on page should have 20px margin-bottom to make the total footer spacing 47px */
+    padding-bottom: 20px;
+}
+
+html > body div#footer {
+    padding-top: 27px;
+}
+
+#breadcrumb {
+    /*z-index:6;
+     position:absolute;
+     top:107px;
+     left:202px;
+     width:540px;
+     height:30px;
+     line-height:1em;*/
+}
+
+#breadcrumbnarrow {
+    z-index: 6;
+    position: absolute;
+    top: 107px;
+    left: 202px;
+    width: 250px;
+    height: 30px;
+}
+/* LSDPLUS static pages */
+#contentlsd {
+    z-index: 5;
+    position: absolute;
+    top: 122px;
+    left: 200px;
+    width: 544px;
+    background-color: white;
+    /*layer-background-color:white;*/
+    border: 0.1px solid white;
+}
+
+html > body #maincontentlsd {
+    min-height: 300px;
+}
+
+#maincontentlsd {
+    float: left;
+    width: 450px;
+    border: 0.1px solid white;
+}
+/* END LAYOUT */
+/* SHARED STYLES */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Helvetica, sans-serif;
+    color: black; /* over-ride with theme colour */
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.h2alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.h3alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.h4alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h6 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, span, td, th {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /*margin:0px;
+     padding:0px;*/
+}
+
+div {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+
+ul, ol, dl {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    /*redef*/
+}
+
+#maincontent ol {
+    margin-left: 4px;
+}
+
+table {
+    font-size: 12px;
+}
+
+label {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /*display:block;*/
+}
+
+span.label {
+    font-size: 12px;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /* redef */
+}
+
+input.add, input.go, input.remove, input.submit, input.button {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+input.submit_button {
+    width: auto;
+    height: auto;
+    border-width: 3px;
+    border: solid;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("/syntegra/images/blue.gif");
+}
+
+input.remove_button {
+    width: auto;
+    height: auto;
+    border-width: 3px;
+    border: solid;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("/syntegra/images/red.gif");
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+a:link:hover {
+    color: #339;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #939;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: #939;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #339;
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    padding: 0px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+abbr {
+    font-style: normal;
+    text-decoration: none;
+}
+/* hides elements only required for accessibility */
+.accessibility {
+    display: none;
+}
+/* width set for Netscape 4.7. Overridden in advanced.css */
+.imgright {
+    float: right;
+    width: 94px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 0.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+.tighttop {
+    margin-top: 0px;
+}
+
+.tightbottom {
+    margin-bottom: 0px;
+}
+
+p.propositionstatement {
+    margin-top: -1em;
+}
+
+div.navlinks p {
+    padding-left: 16px;
+    margin-left: 9px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+    /*redef*/
+}
+
+div.stretchdiv, span.stretchdiv {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+p.link {
+    padding-left: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+/* END SHARED STYLES */
+/* GLOBAL NAV */
+span.navitem {
+    font-size: 12px;
+    color: #99C;
+}
+
+#topnav span.navitem a, #topnav span.navitem a:link, #topnav span.navitem a:visited {
+    font-size: 12px;
+    color: white;
+    background-color: #669;
+    font-weight: normal;
+}
+
+#topnav span.navitem a:hover {
+    color: #cf0;
+}
+
+#topnav #help span.navitem a.current, #topnav #find span.navitem a.current {
+    color: #cf0;
+}
+
+#topnav #account a, #topnav #account a:link, #topnav #account a:visited {
+    color: white;
+}
+
+#topnav #account a:hover {
+    color: #cf0;
+}
+
+#topnav #account a.current {
+    color: #cf0;
+    font-weight: bold;
+}
+
+#footer p {
+    color: #666;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#footer h4 {
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#footer img {
+    display: block;
+}
+
+#footer span.navitem {
+    color: #669;
+}
+
+#footer span.navitem a {
+    color: #333;
+    background-color: white;
+    font-weight: normal;
+}
+
+#footer span.navitem a:link:hover {
+    color: #690;
+}
+
+#footer span.navitem a:visited {
+    color: #339;
+}
+
+#footer span.navitem a:visited:hover {
+    color: #690;
+}
+
+#footer span.navitem a:link {
+    color: #669;
+}
+
+#footer span.navitem a.current {
+    color: #690;
+}
+
+#topnav #find strong {
+    color: #ccf;
+}
+
+#topnav #sitesearch form {
+    padding: 0px;
+    margin: 0px;
+}
+
+#topnav #sitesearch input {
+    margin: 0px;
+    padding: 0px;
+    height: 17px;
+    color: black;
+    font-size: 11px;
+    background-color: white;
+    /*redef*/
+}
+
+#topnav #sitesearch input.go {
+    padding: 0px;
+    margin: 0px;
+    /* height:17px; */
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    /*redef*/
+}
+
+#topnav #sitesearch label {
+    color: white;
+    display: inline;
+    text-align: left; /*otherwise nn6 won't display text*/
+}
+
+#topnav #sitesearch span.label {
+    color: white;
+    font-weight: bold;
+}
+/* END GLOBAL NAV */
+/* BREADCRUMB */
+#breadcrumb p, #breadcrumbnarrow p {
+    font-size: 11px;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+#breadcrumb a, #breadcrumb a:link, #breadcrumb a:active, #breadcrumb a:visited, #breadcrumb a:hover {
+    font-weight: normal;
+}
+/* END BREADCRUMB */
+/* CONTENT */
+#content a {
+    font-weight: bold;
+}
+
+#content p.hr {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    /*redef*/
+}
+/* END CONTENT */
+/* LIST WITH ARROWS FOR MARKERS */
+/*
+ ul.links {
+ margin-top:-5px;
+ margin-bottom:0;
+ margin-left:-24px;
+ padding-right:10px;
+ }
+ ul.links li {
+ margin-bottom:1px;
+ }
+ ul.links li.current {
+ list-style: disc none;
+ }
+ #content ul.links a {
+ font-weight:normal;
+ }
+ #left ul.links a {
+ font-weight:normal;
+ }
+ */
+/*
+ div.printemail ul {
+ margin-top:4em;
+ list-style-image:url("../../syntegra/images/list_arrow2.gif");
+ }
+ #content div.printemail a {
+ font-weight:normal ;
+ }
+ */
+#content ul.links a {
+    font-weight: normal;
+}
+
+#left ul.links a {
+    font-weight: normal;
+}
+
+ul.links {
+    margin-left: -25px;
+}
+
+div.pageoptions ul {
+    margin-left: -35px;
+}
+
+div.pageoptions ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+div.dl h2.h3alias, div.dl h3, div.dl h4 {
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+div.dl p {
+    margin-top: -12px; /*-12*/
+    margin-bottom: 12px; /*12*/
+    margin-left: 14px;
+}
+
+div.dl small {
+    font-size: 12px;
+    color: #999;
+}
+
+div.dl2 h2.h3alias, div.dl2 h3, div.dl2 h4 {
+    margin-left: 14px;
+    margin-top: 0em;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+div.dl2 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    padding-left: 0px;
+}
+
+div.dl2 p.links {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+/* END LISTS */
+/* ERROR MESSAGE */
+div.error p, div.error ul, div.error ol, div.error dl {
+    color: #cc0000;
+    width: 400px;
+}
+
+div.error ul, div.error ol, div.error dl {
+    margin-top: 0px !important;
+}
+
+div.error ul li, div.error ol li {
+    margin-bottom: 4px;
+}
+/* END ERROR MESSAGE */
+/* RESULTSNAV */
+div.resultnav span.spacer {
+    letter-spacing: 1px;
+}
+
+div.resultnav em {
+    font-style: normal;
+}
+/* END RESULTSNAV */
+/* FORM ELEMENTS */
+fieldset {
+    border: 0px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+input.radio {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+input.check {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+select {
+    font-size: 11px;
+    /*font-weight:bold;*/
+}
+
+input.go {
+    padding: 0px;
+    margin: 0px;
+    /* height:17px; */
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eee;
+    /*redef*/
+}
+/* END FORM ELEMENTS */
+/* DATA TABLE */
+div.datatable {
+    /*margin-left:10px;*/
+}
+
+div.datatable table {
+    /*width:100%;*/
+    width: auto; /*stops table from overflowing in IE5 but could cause problems with narrow content*/
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    /*redef*/
+}
+
+div.datatable table.widen {
+    width: 345px;
+}
+
+div.datatable th {
+    text-align: left;
+    font-weight: normal;
+    /*redef*/
+}
+
+div.datatable td {
+    text-align: left;
+    font-weight: normal;
+    /*redef*/
+}
+
+div.datatable th.cornerhead {
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+    /*redef*/
+}
+
+div.datatable th.colhead {
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    /*redef*/
+}
+
+div.datatable th.rowhead {
+    padding: 0px 5px 0px 0px;
+    /*redef*/
+}
+
+div.datatable td.data {
+    padding: 0px 5px 0px 5px;
+    /*redef*/
+}
+
+div.datatable div.caption {
+    text-align: left;
+    padding-top: 0em;
+    /*redef*/
+}
+
+div.datatable div.caption p {
+    /*width:327px;*/
+    background-color: #ccf;
+    border: 0.1px solid white;
+    margin: 0px;
+    padding: 3px 0px 1px 0px;
+    /*redef*/
+}
+
+#content div.datatable div.caption p {
+    margin: 0px;
+}
+/* END DATA TABLE */
+/* DOTTED BOX */
+div.dottedbox {
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+div.dottedbox td.horiz {
+    height: 1px;
+    background-image: url("../../syntegra/images/dottedline_horiz.gif");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: white;
+}
+
+div.dottedbox td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedbox td.text {
+    padding: 10px;
+    width: 448px;
+}
+
+div.dottedbox td.title {
+    background-color: #ccc;
+}
+
+div.dottedbox td.title h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedbox td.title h2.h3alias {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedbox td.text div.searchform {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+/* END DOTTED BOX */
+/* DOTTED AD BOX */
+div.dottedad {
+    width: 259px;
+    margin-bottom: 20px;
+}
+
+div.dottedad h4 {
+    color: #339;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.dottedad p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedad ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+html > body div.dottedad ul {
+    margin-left: 29px;
+}
+
+div.dottedad li {
+    margin-bottom: 0px;
+}
+
+div.dottedad p.dottedadhr {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    margin-top: -1em;
+    /*redef*/
+}
+
+div.dottedad td.header {
+    height: 5px;
+    font-size: 1px;
+}
+
+div.dottedad td.eventbar {
+    background-color: #eee;
+}
+
+div.dottedad td.eventbar h4 {
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 15px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+
+div.dottedad td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedad td.footer {
+    width: 259px;
+    height: 11px;
+    background-image: url("../../syntegra/images/dottedbox_bottom_shallow.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+div.dottedad td.image {
+    vertical-align: top;
+    width: 74px;
+}
+
+div.dottedad td.text {
+    width: 184px;
+    vertical-align: top;
+}
+
+div.dottedad td.image img {
+    margin-top: 1px;
+}
+
+div.dottedad tr.event td.image img {
+    margin-top: 8px;
+}
+
+div.dottedad tr.event td.text p {
+    margin-top: 4px;
+}
+
+div.dottedad td.text ul, div.dottedad td.text ol, div.dottedad td.text dl {
+    margin-left: 35px;
+}
+/* END DOTTED AD BOX */
+/* LARGE PIC AD */
+div.dottedpic {
+    width: 259px;
+    margin-bottom: 20px;
+}
+
+div.dottedpic h4 {
+    color: #339;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.dottedpic p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedpic td.horiz {
+    height: 1px;
+    background-image: url("../../syntegra/images/dottedline_horiz.gif");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: white;
+    font-size: 1px;
+}
+
+div.dottedpic td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedpic td.header {
+    width: 257px;
+}
+/* END LARGE PIC AD */
+/* TABLE EMULATION */
+div.tabular {
+    /*margin-top:-24px;*/
+}
+
+div.tabular p {
+    /*margin:0px 0px 0px 25px;*/
+    margin-left: 25px;
+    margin-bottom: 0px;
+    /*margin-top: 0px; SCREWING UP COLUMNS in POLL_RESULT*/
+    padding: 0px;
+}
+
+div.tabular span.label {
+    float: left;
+    width: 140px;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+div.tabular span.label p {
+    margin: 0px;
+}
+
+div.tabular div.column {
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+div.tabular div.columntight {
+    margin-bottom: 0.25em;
+    font-size: 12px;
+    /*redef*/
+}
+
+div.tabular div.column span.label, div.tabular div.columntight span.label {
+    float: none;
+    clear: none;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+div.tabular div.column label, div.tabular div.columntight label {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+div.tabular div.column p, div.tabular div.columntight p {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.tabular p.hr {
+    padding-left: 25px;
+}
+/* END TABLE EMULATION */
+/* BASICBOX */
+div.basicbox {
+    margin-bottom: 20px;
+}
+
+div.basicbox td {
+    margin: 0;
+    padding: 0;
+}
+
+div.basicbox td.title {
+    background-color: #ccc;
+}
+
+div.basicbox td.text {
+    background-color: white;
+}
+
+div.basicbox td.highlighttext {
+    background-color: #eee;
+}
+
+div.basicbox h4 {
+    /*margin-top:0;
+     margin-bottom:0;
+     padding:1px 10px 0px 15px;*/
+}
+
+div.basicbox span.link {
+    display: block;
+    padding-left: 11px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+
+div.basicbox span.image {
+    border: 0px solid white;
+}
+
+div.basicbox p {
+    margin: 0 5px 0 15px;
+    padding: 0;
+}
+
+div.basicbox div.smallimage span.image {
+    float: left;
+}
+
+div.basicbox div.smallimage span.link {
+    padding-left: 9px;
+    margin-top: 4px;
+}
+
+div.basicbox div.smallimage p {
+    clear: left;
+    margin: 0;
+}
+/* END BASICBOX */
+/* BODYIMAGE */
+#content div.bodyimage { /* #content needed to add weight to the rule and over ride margin-left from #maincontent img */
+    margin-bottom: 15px;
+}
+
+#content div.bodyimage img { /* #content needed to add weight to the rule and over ride margin-left from #maincontent img */
+    margin: 0px;
+    padding: 0 0 0 0;
+}
+
+#content div.bodyimage img.tophr {
+    margin-bottom: 5px;
+}
+
+#content div.bodyimage img.image {
+    margin-bottom: 5px;
+}
+/* END BODYIMAGE */

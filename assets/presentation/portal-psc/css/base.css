@@ -1,0 +1,103 @@
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.clearRight{clear:right;}
+.clearLeft{clear:left;}
+.strong, strong{font-weight:bold;}
+em {font-style:italic;}
+.normal{font-weight:normal;}
+.postit, .screenreadertext{margin: 0 !important;width: 1px;height: 1px;overflow: hidden;position: absolute;left: -10000px;}
+
+/* -------------------- CLEAR FIX */
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+/* -------------------- BODY */
+body{background:#F1F1F1;margin:0 auto;}
+/* -------------------- PAGE */
+#pageWrapper{background:#FFFFFF;color:#333333;margin:0 auto;position:relative;width:960px;}
+/* -------------------- HEADER */
+#header{margin: 0;padding: 0 0 8px 0;position:relative;width:960px;}
+/* -------------------- HEADER > TOP NAVIGATION */
+#topNav{background:#F1F1F1;padding:7px 21px 7px 24px;position:relative;text-align:right;width:917px;}
+#topNav .right{float:none;}
+#topNav ul.right {height:1.4em;display:block;float:right;}
+#topNav li{background:transparent url('../images/divider/navDivider.gif') 3px 0.65em no-repeat;display:block;float:left;padding:3px 0 3px 5px;}
+#topNav li a{font-size:77%;}
+#topNav li.lang{background:none;}
+#topNav form{display:inline;padding:0 0 0 5px;}
+#topNav form p{display:inline;}
+#topNav form label{font-size:77%;float:left;padding: 3px 5px 4px 7px;}
+#topNav #expandingFrom{float:right;margin-right:-14px !important;margin-right:-7px;padding:0 0 0 10px;width:19em;}
+#topNav form select,
+#topNav form input{font-size:85%;height:20px;}
+#topNav li.first{background:none;}
+#topNav a{padding:2px 0 0 5px;text-decoration:none;float:left;display:block;}
+#topNav a.help {display:block;float:left;margin-left:5px;padding-left:0;background: url(../images/icon/icons.gif) no-repeat 0 -400px;width:14px;height:14px;}
+#topNav a.help span {visibility:hidden;font-size:0;}
+
+#header #logo {float: left;margin:16px 0 0 24px;width: 67px;}
+
+#header #siteBrand {float: left;font-family:arial;padding: 72px 6px 5px 14px;height: 30px;width:427px;}
+#header #siteBrand span {position:absolute;background:transparent url(../images/background/uk_welcomes_business.gif) no-repeat 0 0;padding:0 0 0 14px;width:350px;height:30px;cursor:hand;}
+
+	
+
+#header #login {float:right;font-size:77%;margin-top: 20px;padding:0 24px 0 0;position:relative;text-align: right;width: 265px;z-index:101;}
+#header #siteSearch{float:right;margin: 19px 0px 0 0;padding:0 24px 0 0;}
+#header #siteSearch .input{font-size:85%;padding:2px 2px 3px;width:148px;}
+/* -------------------- BREADCRUMBS */
+#breadcrumbs {border-top: 1px solid #CCCCCC;font-size: 77%;margin: 0 24px;padding: 9px 0 19px 0px ;}
+#breadcrumbs ul li{display:inline;}
+#breadcrumbs ul li a{color: #666666;text-decoration:underline;}
+/* -------------------- NAVIGATION */
+#mainNav{float:left;padding:0 0 0 24px;width:145px;font-size:85%;}
+#mainNav li{border:1px solid #FFFFFF;border-top:1px solid #CCCCCC;}
+#mainNav .last{border-bottom:1px solid #CCCCCC;}
+#mainNav .active .active li a,
+#mainNav .active li a,
+#mainNav a{background:none;color:#333333;display:block;padding:5px 0;text-decoration:none;}
+#mainNav .active li a {padding:2px 2px 2px;}
+#mainNav .active .active li a{font-size:93%;padding:1px 2px 1px 12px;}
+
+#mainNav ul li a span {background:none;display:block;padding:0 3px 0 0;}
+#mainNav ul .active a span {background:transparent url(../images/sprite/marker_blue_arrow_down.gif) no-repeat scroll 3px 0.35em;color:#000;display:block;padding:0 3px 0 15px;}
+#mainNav ul .active ul li a span {background:none;}
+#mainNav ul .active ul .active a span {background:transparent url(../images/sprite/marker_blue_arrow_down.gif) no-repeat scroll 3px 0.35em;color:#000;}
+#mainNav ul .active ul .active ul li a span {background:none;color:#053399;}
+#mainNav ul .active ul .active ul .active a span {background:transparent url(../images/sprite/marker_blue_arrow_right.gif) no-repeat scroll 3px 0.4em;color:#000;}
+#mainNav ul .active ul .active ul .active ul li a span {background:none;color:#053399;}
+#mainNav ul .active ul .active ul .active ul .active a span {font-weight:bold; color:#000;}
+#mainNav ul .active ul .active ul .active ul .active span {font-weight:bold;font-size:93%;color:#000;display:block;padding:1px 2px 1px 27px;}
+
+
+/*#mainNav .active .active li a span {background:transparent url('../images/sprite/marker_horizontal.gif') 4px 0.5em no-repeat;}*/
+
+#mainNav .active .active .active a,
+#mainNav .active .active a {color:#053399;}
+#mainNav .active .active li a:hover,
+#mainNav .active li a:hover,
+#mainNav .active a,
+#mainNav ul li a:hover{background:transparent url('../images/background/navigation_bg.gif') 0 0 repeat-x;color:#053399;}
+
+#mainNav #panelHelp li a:hover{background:none;}
+
+#mainNav .active li a:hover,
+#mainNav .active .active li a:hover{background:none;}
+#mainNav .active .active li,
+#mainNav .active li{border:1px solid #FFFFFF;}
+#mainNav .active .active li a,
+#mainNav .active li a{background:none;}
+#mainNav #eugo {margin-top:15px;}
+/* -------------------- CONTENT */
+#mainContentWrap{float:right;font-size: 100%;padding:0 24px 0 0;position:relative;width:752px;}
+/* -------------------- FOOTER */
+#footer{border-top:1px solid #CCCCCC;color:#666666;font-size:77%;margin: 0px 24px 0 184px;padding:10px 0 0px;position:relative;width:752px;}
+#footer .copyright{float:left;}
+#footer ul{float:right;}
+#footer li{background:transparent url('../images/divider/navDivider.gif') 2px 60% no-repeat;display:inline;padding:0 0 0 5px;}
+#footer li.first{background:none;}
+#footer a{padding:0 0 0 5px;text-decoration:none;}
+#eugoLogoHolder {clear:both;margin:0;overflow: hidden;width:938px;}
+#eugo2 {float:right;margin:10px 0;}

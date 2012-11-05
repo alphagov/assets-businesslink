@@ -1,0 +1,50 @@
+.clear-both{
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+
+#maincontent h1{
+	color:#000000;
+	font-size:130%;
+	font-weight:bold;
+	margin:10px 0px 7px 0px;
+}
+
+#maincontent hr{
+	border:0px solid #000000;
+	border-top:1px solid #adadad;
+	background-color:#FFFFFF;
+	margin:0px 0px 10px 0px;
+}
+
+#maincontent .item-thumbnail{
+	float:left;
+	width:130px;
+	margin:0px 0px 10px 0px;
+}
+
+#maincontent .item-content{
+	float:right;
+	width:205px;
+}
+
+#maincontent .item-content h2{
+	color:#646794;
+	margin:0px 0px 8px 0px;
+}
+
+#maincontent .item-content p{
+	margin:0px 0px 8px 0px;
+}
+
+#maincontent .item-link{
+	color:#656565;
+	padding:0px 0px 0px 20px;
+	margin:0px 0px 10px 0px;
+	display:block;
+	background-image:url(../Horizontal_Services_images/hmrc_arrow_landing.gif);
+	background-position:left 0px;
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,102 @@
+#campaigns-body {
+	padding:0px;
+	width:750px;
+}
+
+#campaigns-body .right{
+	float:right !important;
+}
+
+#campaigns-body table{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body td{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body tr{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body h1 {
+margin-left: 15px;
+margin-bottom: 10px;
+}
+
+#campaigns-body p {
+color: #000000;
+font-family: arial;
+font-size: 1.1em;
+}
+
+#campaigns-body-jpatextright {
+display:block;
+width: 340px;
+float:right;
+font-size: 1em;
+}
+
+#campaigns-body-tipingtextright img {
+margin: 5px 10px 5px 0px;
+}
+
+
+#campaigns-body-jpatextleft {
+color: #003366;
+float:left;
+display:block;
+margin: 0 10px 65px 10px;
+padding: 5px;
+width: 370px;
+}
+
+#campaigns-body-jpatextleft h2 {
+font-size: 1.2em;
+}
+
+#campaigns-body-jpatextleft .intro p {
+color:#003366;
+font-size: 1.2em;
+font-family: arial;
+font-weight: bold;
+}
+
+#campaigns-body-jpatextleft ul {
+list-style-type: none;
+margin: 20px 20px 0 10px;
+padding: 0 10px 0 0;
+font-family: arial;
+font-size: 1.1em;
+color: #003366;
+}
+
+#campaigns-body-jpatextleft li {
+margin: 0 0 10px 0px;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url('../../Horizontal_Services_images/campaigns/purple_arrow.gif') 0 0 no-repeat;
+}
+
+
+
+#campaigns-body-footer {
+width:740px;
+margin: 0px 0 0 10px;
+display: inline-block;
+
+}
+
+#campaigns-body-footer .dottedline {
+background:url(http://www.businesslink.gov.uk/presentation/images/dotted-line.gif) repeat-x left top; 
+margin-top:1em; 
+padding:0.1em 0 0.9em;
+}
+
+#campaigns-body-footer img {
+margin: 5px 0 0 0;
+}
+

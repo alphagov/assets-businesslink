@@ -1,0 +1,476 @@
+/* VERSION 1.0: 26.11.08 */
+
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:560px;
+		background-color:white;
+		border:0px solid white;
+	}
+	#maincontent {
+		border:0px solid black !important;
+	}
+	html>body #maincontent {
+		height:inherit;
+	}
+/* END LAYOUT */
+
+/* SHARED STYLES */
+	h2 {
+	    font-size: 1.3em;
+		margin-bottom: 1em;
+	}		
+/* END SHARED STYLES */
+
+
+	
+/* DOTTED BOX */
+	div.dottedbox {
+		margin-top:20px;
+		margin-left:25px;
+	}
+
+	div.dottedbox, div.searchbox {
+		margin-left:0px;
+	}
+	
+/* END DOTTED BOX */
+
+/* DL EMULATION */
+	
+	#dio3 div.dl {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	#dio3 div.dl p.links
+	{
+		padding-bottom:10px;
+	}
+	#dio2 div.dl p,
+	#dio3 div.dl p {
+		margin-left:0px;
+		padding-left: 0px;
+	}
+	#dio3 div.dl h2.h3alias,
+	#dio2 div.dl h3,
+	#dio3 div.dl h3 {
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+		font-weight: bold;
+		background-image: none;
+		background-repeat: no-repeat;
+    }
+	#dio3 div.dl h3.h4alias,
+	#dio3 div.dl h4 {
+		margin-left: 0px;
+		padding-left: 15px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+	#dio3 h2.h3alias{
+		margin-bottom:1em;
+	}
+	div.dl p.links {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.dl2 p.links2 {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:14px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+		font-weight: normal !important;
+	}
+	div.dl2 p.links2 a {
+		font-weight: normal !important;
+	}
+/* END DL EMULATION */
+	
+/* ERROR MESSAGE */
+	div.error ul {
+		margin-left:0em;
+	}
+/* END ERROR MESSAGE */
+	
+	
+/* NAVLINKS */
+	div.navlinks {
+		margin-top:12px;
+	}
+/* END NAVLINKS */
+
+
+/* CUSTOMER TITLE (MR, MRS...) */
+	div.title label {
+		display:inline;
+	}
+	div.title {
+		margin-top:0em;
+		margin-left:29px;
+		margin-bottom:10px;
+	}
+/* END CUSTOMER TITLE */
+	
+
+/* A-Z */
+	div.a-z {
+		margin-left:0px;
+		margin-top:-6px;
+		margin-bottom:12px;
+		zoom:1;
+	}
+	div.a-z ul{
+		margin-bottom:0;
+		margin-left:0;
+		}
+	div.a-z ul li {
+		margin-left:0;
+		margin-right:2px;
+		width:1.30em;
+		height:1.30em;
+		list-style-type:none;
+		float:left;
+		font-size:1.2em;
+		text-align:center;
+		background-color:#eee;
+	}
+	div.a-z ul li a{
+		display:block;
+		height:1.30em;
+		width:1.30em;
+		line-height:1.35em;
+	}
+	div.a-z ul li.on {
+		margin-left:2px;
+		color:#D0D0FF;
+		background-color:#32339D;
+		line-height:1.35em;
+	}
+	div.a-z ul li.on a {
+		color:#D0D0FF;
+	}
+/* END A-Z */	
+
+/* DIO1 */
+	#dio1 #maincontent div.navlinks p, #dio2 #maincontent div.navlinks p {
+		margin-left:0px;
+		padding-left:14px;
+	}
+/* END DIO1 */
+
+
+/* DIO2 */
+	#dio2 #maincontent div.dl p {
+		margin-bottom: 0px;
+		margin-left:14px;
+	}
+	#dio2 ul.links {
+		margin-bottom:1em;
+		margin-top:0px;
+	}
+	#dio2 div.dottedbox {
+		margin-top:1em;
+	}
+	#dio2 div.navlinks {
+		margin-top:12px;
+	}
+/* END DIO2 */
+
+
+/* DIO4 */
+	#dio4 p {
+		padding-left:0px;
+	}
+	#dio4 div.navlinks {
+		margin-top:12px;
+	}
+/* END DIO4 */	
+
+
+/* LAYOUT */
+
+	#content #contentheader {
+		border:0px solid white;
+		margin-top: 2em;
+	}
+	#dio2 #contentheader{
+		width:525px;
+	}
+/* END LAYOUT */
+
+/* DOTTEDBOX */	
+	#dio1 div.dottedbox {
+		margin-top:30px;
+		width:320px;
+	}
+	#dio2 div.dottedbox{
+		margin-top:30px;
+		width:450px;
+	}
+	div.dottedbox {
+		margin-bottom:1.5em;
+	}
+/* END DOTTEDBOX */	
+
+
+/* RESULTSNAV */	
+	div.resultnav {
+		margin-top:2em;
+		margin-bottom:1em;
+	}
+/* END RESULTSNAV */
+
+
+/* SEARCHBOX */
+	div.searchbox input.button {
+		width:54px;
+	}
+
+	div.within {
+		background-color: #fff;
+	}
+
+/* END SEARCHBOX */
+
+
+/* NAVLINKS */
+	div.navlinks {
+		margin-top:2em;
+	}
+/* END NAVLINKS */
+
+
+/* CUSTOMER TITLE (MR, MRS...) */
+	div.title {
+		margin-top:2em;
+		margin-left:25px;
+	}
+/* END CUSTOMER TITLE*/
+
+
+/* A-Z */
+	div.a-z {
+		margin-top:8px;
+		margin-bottom:1.4em;
+	}
+	div.a-z table td {
+		font-size:1.2em;
+	}
+	
+/* END A-Z */
+	
+/* DIO1 */
+	#dio1 ul.links {
+		margin-top:2em;
+	}
+	#dio1 div.dottedbox {
+		margin-top:2em;
+	}
+/* END DIO1 */	
+	
+
+/* DIO2 */
+	#dio2 ul.links {
+		margin-bottom:1em;
+	}
+	#dio2 div.dottedbox {
+		margin-top:2em;
+	}
+	#dio2 div.navlinks {
+		margin-top:2em;
+	}
+/* END DIO2 */
+	
+	
+/* DIO4 */		
+	#dio4 div.navlinks {
+		margin-top:2em;
+	}
+	#dio4 p.propositionstatement {
+		margin-bottom:1em;
+	}
+/* END DIO4 */
+
+/* dio1 LAYOUT */
+div#dio1 {
+	width:100%;
+	zoom:1;
+}
+div#dio1 div#maincontent{
+	width:320px;
+	float:left;
+	}
+div#dio1 div#additionalcontent{
+	margin-top:27px;
+	width:220px;
+	float:right;
+	display:inline;
+	}
+	
+	
+div#dio1 div#additionalcontent div.panel1 ul,
+div#dio1 div#additionalcontent div.panel2 ul,
+div#dio2 div.navlinks ul,
+div#dio3 div.navlinks ul{
+	zoom:1 !important;
+}
+
+div#dio1:after,
+div#dio1 div#additionalcontent div.panel1:after,
+div#dio1 div#additionalcontent div.panel2:after,
+div.a-z ul:after
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+		
+/* END dio1 LAYOUT */
+
+/* dio2/dio3 LAYOUT */
+div#dio2 div#maincontent,
+div#dio3 div#maincontent{
+	width:450px;
+	}
+/* END dio2/dio3 LAYOUT */
+
+/* DOTTED BOX */
+
+div.dottedbox div.dbinner1 label,
+div.dottedbox div.dbinner1 h2.h3alias{
+	font-weight:bold;
+	display:block;
+	padding-left:15px;
+	padding-top:2px;
+	padding-bottom:4px;
+	background: #CCF;
+}
+div#dio2 div.dottedbox div.dbinner1 span.label label{
+	font-weight:normal;
+	display:inline;
+	background:transparent;
+	padding-left:0;
+}
+div.dottedbox div.dbinner1 input.extra,
+div.dottedbox div.linkswrapper ul.links,
+div#dio2 div.dottedbox div.dbinner1 div.within
+{
+	margin-top:11px;
+	margin-left:15px;
+}
+div#dio2 div.dottedbox div.dbinner1 div.within{
+	margin-right:15px;
+}
+div.dottedbox div.dbinner1 input.go{
+	margin-top:11px;
+	margin-left:6px;
+}
+
+div.dottedbox div.dbinner1 input.inputSearch {
+	width: 56px !important; height: 15px !important;
+	position:relative;
+	top:4px;
+	}
+	
+div.dottedbox div.dbinner1{
+	background: url(/syntegra/images/dottedline_horiz.gif) repeat-x bottom left;
+}
+div.dottedbox div.dbinner2{
+	background: url(/syntegra/images/dottedline_vert.gif) repeat-y top left;
+}
+div.dottedbox form#searchform,
+div.dottedbox form#searchDIOL{
+	background: url(/syntegra/images/dottedline_vert.gif) repeat-y top right;
+}
+div.dottedbox div.linkswrapper {
+	background: url(/syntegra/images/dottedline_vert.gif) repeat-y top right;
+}
+div.dottedbox div.linkswrapper ul.links{
+	margin-bottom:0;
+}
+
+div.dottedbox div.dbinner1 div.dbinner2 {
+	padding-bottom:11px;
+}
+
+
+/* END DOTTED BOX */
+
+/* ADDITIONAL CONTENT PANELS */
+div#dio1 div#additionalcontent div.panel1 ul li ,	
+div#dio1 div#additionalcontent div.panel2 ul li
+	{
+	list-style: none;
+	padding-left:0;
+	margin-left:0;
+	padding-left:15px;
+	margin-bottom:3px;
+	background-image:url("/syntegra/images/list_arrow.gif");
+	background-repeat:no-repeat;
+	}
+
+div#dio1 div#additionalcontent div li a {
+	font-weight:normal;
+}
+
+div#dio1 div#additionalcontent div.panel1{
+	zoom:1;
+	background:#CCF;
+	margin-bottom:10px;
+}
+div#dio1 div#additionalcontent div.panel1 h3{
+	background:#669;
+	color:#fff;
+	padding:2px 2px 3px 10px;
+	margin-bottom:0;
+}
+
+div#dio1 div#additionalcontent div.panel2{
+	zoom:1;
+	background:#fff;
+	border:1px solid #ccf;
+	margin-bottom:10px;
+}
+div#dio1 div#additionalcontent div.panel2 h3{
+	background:#ccf;
+	padding:2px 2px 3px 10px;
+	margin-bottom:0;
+}
+div#dio1 div#additionalcontent div div.inner h3{
+	background:none;
+	padding:0;
+	color:#333;
+}
+
+div#dio1 div#additionalcontent div div.inner{
+	padding-top:10px;
+	margin-left:10px;
+}
+div#dio1 div#additionalcontent div div.inner ul{
+	margin-bottom:15px;
+}
+
+/* END ADDITIONAL CONTENT PANELS */
+
+
+#dio1 div.error p, #dio1 div.error ul, #dio1 div.error ol, #dio1 div.error dl {
+width:320px;
+}
+

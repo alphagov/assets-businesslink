@@ -1,0 +1,211 @@
+/* VERSION 1.0: 26.11.08 */
+
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:650px;
+		background-color:white;
+		border:0px solid white;
+	}
+	#maincontent {
+		border:0px solid black !important;
+	}
+	html>body #maincontent {
+		height:inherit;
+	}
+	#additionalcontent{
+	clear:left;
+	}
+/* END LAYOUT */
+
+
+
+
+table#xsMod{
+	border:none;
+	border-collapse:collapse;
+	}
+div.xsModBody{
+	width:194px;
+}
+
+table#xsMod th,table#xsMod td {
+	width:194px;
+	border-right:33px solid #fff;
+	text-align:left;
+	vertical-align:top;
+}
+table#xsMod th div{
+	border-top:3px solid;
+	margin-bottom:0.5em;
+}
+
+table#xsMod tfoot td{
+	padding-top:0.5em;
+	text-align:right;
+}
+
+table#xsMod tfoot td a{
+	background:url(/syntegra/images/list_arrow.gif) no-repeat;
+	padding-left:15px;
+	}
+
+table#xsMod td div.xsModImgWrapper,
+table#xsMod td div.xSModBodyText
+	{
+		padding:14px;
+	}
+table#xsMod td div.xSModBodyText{
+	padding-bottom:0;
+}
+
+div.xSModBodyText ul li{
+		background-image:url(/syntegra/images/list_arrow.gif);
+		background-repeat:no-repeat;
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin-bottom:3px;
+		margin-left:0pt;
+		padding-left:15px;
+}
+
+div#xsell div#additionalcontent ul{
+	float:right;
+}
+div#xsell div#additionalcontent a{
+	font-weight:bold;
+}
+	
+
+/* themes */
+
+table#xsMod th.startingup div{
+	border-top-color:#c99;
+}
+table#xsMod td.startingup{
+	background:#e5cccc;
+}
+table#xsMod td.startingup div.xsModImgWrapper{
+	background:#c99;
+}
+table#xsMod th.financegrants div{
+	border-top-color:#69c;
+}
+table#xsMod td.financegrants{
+	background:#b2cce5;
+}
+table#xsMod td.financegrants div.xsModImgWrapper{
+	background:#69c;
+}
+table#xsMod th.taxes div{
+	border-top-color:#9c9;
+}
+table#xsMod td.taxes{
+	background:#c8e6ca;
+}
+table#xsMod td.taxes div.xsModImgWrapper{
+	background:#9c9;
+}
+
+table#xsMod th.emppeople div{
+	border-top-color:#9acccd;
+}
+table#xsMod td.emppeople{
+	background:#cce5e5;
+}
+table#xsMod td.emppeople div.xsModImgWrapper{
+	background:#9acccd;
+}
+
+table#xsMod th.healthsafety div{
+	border-top-color:#c9c;
+}
+table#xsMod td.healthsafety{
+	background:#e5cce5;
+}
+table#xsMod td.healthsafety div.xsModImgWrapper{
+	background:#c9c;
+}
+
+table#xsMod th.enviro div{
+	border-top-color:#96cc4a;
+}
+table#xsMod td.enviro{
+	background:#cae5a4;
+}
+table#xsMod td.enviro div.xsModImgWrapper{
+	background:#96cc4a;
+}
+
+table#xsMod th.exploit div{
+	border-top-color:#cc6;
+}
+table#xsMod td.exploit{
+	background:#e5e5b2;
+}
+table#xsMod td.exploit div.xsModImgWrapper{
+	background:#cc6;
+}
+
+table#xsMod th.ecom div{
+	border-top-color:#c66;
+}
+table#xsMod td.ecom{
+	background:#e5b2b2;
+}
+table#xsMod td.ecom div.xsModImgWrapper{
+	background:#c66;
+}
+
+table#xsMod th.sales div{
+	border-top-color:#66c;
+}
+table#xsMod td.sales{
+	background:#b2b2e5;
+}
+table#xsMod td.sales div.xsModImgWrapper{
+	background:#66c;
+}
+
+table#xsMod th.trade div{
+	border-top-color:#6cc;
+}
+table#xsMod td.trade{
+	background:#b2e5e5;
+}
+table#xsMod td.trade div.xsModImgWrapper{
+	background:#6cc;
+}
+
+table#xsMod th.grow div{
+	border-top-color:#cc9;
+}
+table#xsMod td.grow{
+	background:#e5e5cc;
+}
+table#xsMod td.grow div.xsModImgWrapper{
+	background:#cc9;
+}
+table#xsMod th.buysell div{
+	border-top-color:#c96;
+}
+table#xsMod td.buysell{
+	background:#e5ccb2;
+}
+table#xsMod td.buysell div.xsModImgWrapper{
+	background:#c96;
+}
+table#xsMod th.yourtype div{
+	border-top-color:#f93;
+}
+table#xsMod td.yourtype{
+	background:#fc9;
+}
+table#xsMod td.yourtype div.xsModImgWrapper{
+	background:#f93;
+}

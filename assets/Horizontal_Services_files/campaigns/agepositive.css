@@ -1,0 +1,149 @@
+/* age positive start specific CSS */
+
+#campaigns-body #cb-wrap{
+	width:780px;
+	font-size:1.1em;
+}
+
+#campaigns-body #cb-wrap *{
+	font-family:arial,helvetica,clean,sans-serif;
+	color:#333;
+}
+
+#campaigns-body #cb-header{
+	padding-top:13px;
+	margin-bottom:20px;
+	background: #3dbaf0 url("../../Horizontal_Services_images/campaigns/age_positive_hdr_top.gif") no-repeat top left;
+}
+#campaigns-body #cb-header .inner{
+	padding-right:60px;
+	padding-bottom:13px;
+	padding-left:20px;
+	background: #3dbaf0 url("../../Horizontal_Services_images/campaigns/age_positive_hdr_btm.gif") no-repeat bottom left;
+}
+
+#campaigns-body #cb-header .inner h1{
+	font-size:3.5em;
+	width:410px;
+	color:#102c54;
+	line-height:0.95em;
+	float:right;
+}
+* html #campaigns-body #cb-header .inner h1{line-height:1.1em;}
+
+#campaigns-body #cb-header .inner img{
+	margin-top:5px;
+	display:inline;
+	float:left;
+}
+* html #campaigns-body #cb-header .inner img{margin-top:15px;}
+
+#campaigns-body #cb-content{
+	width:780px;
+	}
+
+#campaigns-body #cb-content-main{
+	width:385px;
+	padding-right:10px;
+	float:left;
+}
+
+#campaigns-body #cb-content-main div.left{
+	margin-bottom:20px;
+	margin-right:33px;
+}
+
+#campaigns-body #cb-content-main .lead{
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+#campaigns-body #cb-content-main-top{
+	margin-top:16px;
+	margin-bottom:12px;
+	}
+	
+#campaigns-body #cb-content-main-bottom{clear:left;}
+
+
+#campaigns-body #cb-content-side{
+	width:373px;
+	padding-top:10px;
+	margin-bottom:20px;
+	float:right;
+	background:url("../../Horizontal_Services_images/campaigns/age_positive_pnl_top.gif") repeat-x top left;
+}
+
+#campaigns-body #cb-content-side h2{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:0.75em;
+}
+
+#campaigns-body #cb-content div.right{
+	margin-right:33px;
+	display:inline;
+}
+
+#campaigns-body #cb-content-side a{color:#039;text-decoration:underline;font-weight:bold;}
+
+#campaigns-body #cb-content-side .inner{
+	padding:6px 20px 10px 20px;
+	background:#d0f5f3 url("../../Horizontal_Services_images/campaigns/age_positive_pnl_btm.gif") repeat-x bottom left;
+}
+
+#campaigns-body #cb-content-side .inner .last{margin-bottom:0.25em;}
+
+#campaigns-body #cb-content-main ul li{margin-bottom:0.5em;}
+
+#campaigns-body #cb-content-main ul li a{
+	color:#039;
+	float:left;
+	padding-left:12px;
+	font-size:1.1em;
+	font-weight:bold;
+	margin-bottom:0.5em;
+	background:url("../../Horizontal_Services_images/campaigns/age_positive_rgt_arrow_whitebg.gif") no-repeat 0px 2px;
+}
+
+#campaigns-body #cb-content-side ul li{
+	padding-left:12px;
+	font-weight:bold;
+	margin-bottom:0.5em;
+	background:url("../../Horizontal_Services_images/campaigns/age_positive_rgt_arrow_cyanbg.gif") no-repeat 0px 2px;
+}
+
+#campaigns-body #cb-content-side ul,
+#campaigns-body #cb-content-main ul{
+	margin-bottom:0;
+	margin-left:0;
+	padding-left:0;
+}
+
+#campaigns-body #cb-content-side ul li,
+#campaigns-body #cb-content-main ul li{
+	list-style-type:none;
+	margin-left:0;
+}
+
+#campaigns-body #cb-content p{margin: 0 0 1em 0;}
+
+#campaigns-body .right {float:right;}
+#campaigns-body .left {float:left;}
+#campaigns-body .clearleft{clear:left;}
+#campaigns-body .clearboth{clear:both;}
+.screenreadertext{position : absolute;left : -1000em;}
+
+
+#campaigns-body #cb-header .inner:after,
+#campaigns-body #cb-content:after,
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+* html #campaigns-body #cb-header .inner,
+* html #campaigns-body #cb-content,
+* html .clearfix{height:1%;}

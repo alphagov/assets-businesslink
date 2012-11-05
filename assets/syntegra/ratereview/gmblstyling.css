@@ -1,0 +1,20 @@
+#govmetric_container {
+	width: 345px !important;
+	text-align: left;
+	border: 0;
+	margin: 5px 0 5px 0;
+	padding: 5px !important;
+	background-color: #EFEEF8;
+	border:2px solid #9996A5;
+}
+#govmetric_container DIV.gm_smiley, #govmetric_container LABEL {
+	width: 50px;
+	display: inline-block;
+	border: 0;
+	float: left;
+	text-align: center;
+}
+#govmetric_container #gm_snippet_title { height: 30px; padding:5px; text-align:left; }
+#govmetric_container #govmetric_smileys { float:right; }
+#govmetric_container #govmetric_smileys INPUT { width:34px; height:31px; border:0 !important; background-color:transparent; }
+#gm_input_labels { clear:both; }

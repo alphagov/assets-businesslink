@@ -1,0 +1,1133 @@
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 18/02/04 - footer fix */
+/* VERSION 2.1: 19/02/04 - h4 added to footer */
+/* VERSION 2.2: 23/02/04 - fixed IE 5 Mac width for #topnav */
+/* VERSION 2.3: 02/03/04 - modified dottedbox */
+/* VERSION 2.4: 03/03/04 - updated ul.links and added ul.actions */
+/* VERSION 3: 04/03/04 - added my account link to globalnav */
+/* VERSION 3.1: 05/03/04 - standardised form element display */
+/* VERSION 4: 08/03/04 - added border CSS to basicbox. Netscape 6 fix */
+/* VERSION 4.1: 08/03/04 - standardised dl and dl2 */
+/* VERSION 4.2: 08/03/04 - added "ul.restart li" to "ul.links li" defs so it too has bullets as background images */
+/* VERSION 4.3: 09/03/04 - added searchbox definitions */
+/* VERSION 4.4: 11/03/04 - added new button styles for width and height. Syntax: btnSubmit */
+/* VERSION 4.5: 12/03/04 - added ol, dl to error def section */
+/* VERSION 4.6: 17/03/04 - added more btn classes */
+/* VERSION 4.7: 19/03/04 - added button class btnVote */
+/* VERSION 4.8: 31/03/04 - added button classes btnPrevious and btnLogin */
+/* VERSION 4.9: 02/04/04 - added new error style for in forms */
+/* VERSION 4.10: 16/04/04 - added button class btnRegister and btnTryagain */
+/* VERSION 4.11: 10/08/04 - added button class btnGetAddress */
+/* VERSION 4.12: 03/09/04 - added button class btnSaveStatement and btnViewStatement */
+/* VERSION 4.13: 01/11/04 - changed button class btnSaveStatement and btnViewStatement */
+/* VERSION 4.14: 05/06/06 - added style for glossary item underline */
+/* VERSION 4.15: 04/09/06 - added style .brokenLink for creating red links (for broken links reports) */
+/* VERSION 4.16: 29/09/06 - new tabbed version, changes to strapline and layout for 'Your account/welcome' items */
+/* VERSION 4.17: 10/10/06 - changes to layout for 'Contact us' and 'Your account/welcome' items and tab2 arrow colour - */
+/* VERSION 4.18: 13/10/06 - removed bg colour on login links and added hover colours for lsd and ni (search key v4.18)- */
+/* VERSION 4.19: 16/10/06 - added sizing style for new subscribe button */
+/* VERSION 4.20: 16/01/07 - changed the appearance of the glossary link */
+/* VERSION 4.21: 03/04/07 - Added: buttonInstr, pounds, pence, dd-mm-yyyy, redundancyHelp */
+/* VERSION 4.22: 13/04/07 - Amends: changed redundancyHelp width from 120px to 190px */
+/* VERSION 4.23: 01/04/08 - Added: screenreadertext */
+
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Feb-08 by PB: #topnav - changes to positioning to accomodate About us */
+
+/* REDEFINE FONT SIZES */
+	body {
+		font-size:70%;
+	}
+	
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	* html body {
+		font-size:66%;
+	}
+	/* end hack */
+	h1 {
+		font-size:1.55em;
+		margin: 17px 0 12px 0;
+		padding:0;
+	}
+	html>body h1 {
+		font-weight:400;
+	}
+	h2 {
+		font-size:1em;
+		margin: 0 0 12px 0;
+		padding:0;
+	}
+	h1.h2alias {
+		font-size:1em;
+		margin: 0 0 12px 0;
+		padding:0;
+	}
+	h3 {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h2.h3alias {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h4 {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h2.h4alias {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h5 {
+		font-size:1em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	h6 {
+		font-size:0.9em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	p {
+		font-size:1em;
+		margin: 0 0 15px 0;
+		padding:0;
+		
+	}
+	span, td, th { /* added span */
+		font-size:1em;
+	}
+	div {
+		font-size:1em;
+	}
+	ul, ol, dl {
+		font-size:1em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	li {
+		margin-left:25px;
+	}
+	table {
+		font-size:1em;
+	}
+	label {
+		font-size:1em;
+	}
+	textarea {
+		font-size:1em;
+	}
+	span.label {
+		font-size:1em;
+	}
+	#topnav input {
+		font-size:1em;
+	}
+	#topnav input.go {
+		font-size:10px;
+	}
+	#topnav label {
+		font-size:1em;
+	}
+	/*ul.printemail {
+		font-size:1em;
+	}*/
+	
+/* END FONT SIZES */
+
+
+/* START LINE HEIGHTS */
+	p, td, th {
+		line-height:1.3em;
+	}
+	html>body p, html>body td, html>body th {
+		line-height:1.27em;
+	}
+	ul, ol, dl {
+		line-height:1.3em; 
+	}
+	ul.links li {
+		line-height:1.2em;/*1.181818*/
+	}
+	
+/* END LINE HEIGHTS */
+
+
+/* SHARED STYLES */
+
+	.imgright {
+		float:right;
+		width: auto;
+		padding-left:10px;
+		margin-bottom:10px;
+		padding-top:0.5em;
+	}
+
+	p.propositionstatement {
+		margin-top:0px;
+	}
+	/*div.navlinks p {
+		margin-left:9px;
+	}*/
+	#content p.hr {
+	/*
+		margin-top:1.25em;
+		margin-bottom:1.25em;
+		*/
+		margin: 15px 0 13px 0;
+		font-size:1px;
+		height:1px;
+	}
+	span.forcewidth {
+		display:none;
+	}
+/* END SHARED STYLES */
+
+
+/* HEADER */
+	#header {
+		border:0px solid white;
+		margin-right:-30px; /* hack to prevent horiz scrollers in ie/mac but shd only require -15 why -30? */
+	}
+/* END HEADER */
+
+
+/* GLOBAL NAV */
+	span.navitem {
+		font-size:1em;
+	}
+
+	#topnav {
+		width: 542px;
+		
+		padding-left:200px; /* should total 742 */
+		margin:0;
+		padding-top:11px;
+		border:0px solid black;
+	}
+
+	/* hide from ie5/mac \*/
+	#topnav {
+		width:70.3em ;
+		w\idth:51.3em;
+		min-width: 540px;
+	}
+
+	html>body #topnav {
+		width: 48.5em;
+	}
+	/* end hide from ie5/mac */
+	
+	#strapline {
+	 	width:auto;	 
+		padding-left:200px;
+		border:0px solid white;
+		margin-bottom:0;
+		width:550px;
+		/*width:745px;*/		
+		font-size:1.6em !important;
+		letter-spacing:1px;
+	}
+	* html #strapline { 
+		font-size: 1.7em !important;
+	}
+	
+	#strapline span {
+		font-size:.8em;
+		color:white;
+		display:block;
+		padding-top:4px;
+		letter-spacing:0px;
+	}
+		
+		
+	#topnav #account {
+		border:0px solid white;
+	}
+
+
+	#topnav #help {
+		border:0px solid white;
+		width:auto;
+		margin-left:-1px; /* in IE6 this moves div -2px so added padding */
+		padding-left:1px;
+		
+	}
+	/* hide from ie5/mac \*/
+	html>body #topnav #help {
+		width:auto; 
+		min-width:120px; 
+		padding-left:0;
+	}
+	/* end hide from ie5/mac */
+	
+	
+	#topnav #find {
+		padding-bottom:6px;
+		border:0px solid white;
+	}
+	
+	#topnav #sitesearch {
+		position:absolute;
+		left: 510px;
+		width:240px;
+		border:0px solid white;
+	}
+	#topnav #sitesearch input {
+		border:1px solid black;
+		width:140px;
+		height:17px;
+		vertical-align:middle;
+	}
+	html>body #topnav #sitesearch input {
+		width:146px; /* Moz only */
+		height: 15px;
+	}
+	* html #topnav #sitesearch input {
+	  height: 17px; /*IE 5+ Win and Mac only*/
+	  he\ight: 15px; /*IE6 Win*/ 
+	}
+	#topnav #sitesearch input.go {
+		font-size:0.9em;
+		color:#669;
+		border:0px solid red;
+	}
+	* html>body #topnav #sitesearch input.go {
+		margin-bottom:1px;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	#topnav #sitesearch input.go {
+		font-size:0.76em;
+	}
+	/* end hack */
+	
+	
+	#topnav #account {
+		margin-top:34px; /* IE5.0 only */
+		margin-top/**/:35px;
+		border:0;
+	}
+	html>body #topnav #account {
+		margin-top:36px;
+		/* \*/
+		margin-top: 37px; 
+		/* Moz and O */
+	}
+	
+	#footer p {
+		margin:0 0 15px 0;
+	}
+	#footer h4 {
+		margin:0 0 1px 0;
+		padding:0;
+	}
+	#footer span.navitem {
+		display:block;
+		padding-top:3px;
+	}
+	* html>body #footer span.navitem {
+		padding-top:5px; /* IE Mac only */
+	}
+	
+#login {
+	z-index: 5;
+	position: absolute;
+	top: 38px;
+	left: 530px;
+	padding: 0px;
+	margin: 0px;
+	/* background-color: #669; -rm 09/10/2006 */
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	width: 240px;
+}
+#login span {
+	font-weight: normal;
+	color: white;
+}
+* html #login {
+	left: 535px;
+}
+#login ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 2px; /* added 09/10/2006 */
+	margin-left: 2px;
+	padding-left: 12px;
+	background: url("/syntegra/images/list_arrow.gif") no-repeat 0px 1px;
+}
+#login ul li a,
+#login ul li a:link,
+#login ul li a:visited {
+	color: white;
+	/* background-color: #669; rm 13Oct06 (search key v4.18) */
+	font-weight: normal;
+} 
+#login ul li a:hover {
+	color: #cf0;
+}
+/* Start added 13Oct06 (search key v4.18) */ 
+#login ul li.whitearrow a:hover {
+	color: #ffffff;
+}
+#login ul li.NIarrow a:hover {
+	color: #ffffff;
+}
+/* End added 13Oct06 (search key v4.18) */ 
+#strapline {
+	font-size: 20px;
+}
+/* END TOPNAV */
+
+
+/* TITLE */
+	#title {
+		border:0px solid white;
+	}
+	#title {
+		top:59px;
+		left:187px;
+		width:280px;
+		height:43px;
+	}
+/* END TITLE */
+
+
+/* BREADCRUMB */
+	#breadcrumb p, #breadcrumbnarrow p {
+		font-size:1em;
+		margin:0;
+		padding:0;
+	}
+/* END BREADCRUMB */
+
+
+/* LISTS */
+	
+	ul.links {
+		margin-top:0; 
+		margin-right:0; 
+		margin-bottom:14px;
+		margin-left:0;
+	}
+	
+	ul.links li, ul.restart li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+		padding-left: 15px;
+		margin-bottom: 3px;
+		background-image: url("/syntegra/images/list_arrow.gif");
+		background-repeat: no-repeat;
+	}
+	#content ul.links li a {
+		font-weight:normal;
+	}
+	ul.links li.current {
+		background-image: url("/syntegra/images/list_arrow_current.gif") !important;
+	}
+	ul.links li.back {
+		background-image: url("/syntegra/images/list_backarrow.gif");
+	}
+	ul.links li.blank {
+		background-image: none;
+	}
+	
+	ul.actions {
+		margin-top:0; 
+		margin-right:0; 
+		margin-bottom:14px;
+		margin-left:0;
+	}
+
+	ul.actions li	
+	{
+		font-weight: bold;
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+		padding-left: 15px;
+		margin-bottom: 3px;
+		background-image: url("/syntegra/images/list_arrow.gif");
+		background-repeat: no-repeat;
+	}
+	ul.actions li.disabled	
+	{
+		font-weight: normal;
+		color:#666;
+		background-image: url("/syntegra/images/list_arrow_disabled.gif");
+	}
+	ul.actions li a {
+		font-weight:bold;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	div.pageoptions {
+		margin-top:10px;
+	}
+	div.pageoptions ul {
+		/*margin-left:25px;*/
+		margin-left:0;
+		padding-left:0;
+		list-style:none;
+	}
+	div.pageoptions ul li {
+		margin-bottom:0px;
+		padding:0;
+		margin:0;
+	}
+	
+	
+	div.dl {
+		margin-bottom:11px;
+	}
+	div.dl h2.h3alias,
+	div.dl h3,
+	div.dl h4 {
+		/*padding-left:16px;
+		margin-left:9px;*/
+		padding-left:14px;
+	}
+	div.dl p {
+		margin-top:0px;
+		margin-bottom:0; /*CHECK*/
+	}
+	div.dl small {
+		font-size:1em;
+	}
+	
+	
+	div.dl2 {
+		margin-bottom:11px;
+	}
+	div.dl2 p {
+		margin-top:0;
+		margin-bottom:0;
+	}
+	div.dl2 p.links {
+		margin-top:0;
+		margin-bottom:0;
+		padding-left:14px;
+		/*padding-left:16px;
+		margin-left:9px;*/
+	}
+	
+	div.dl3 {margin-bottom:11px;}
+	div.dl3 p {
+		margin-top:0;
+		margin-bottom:0;
+	}
+	
+	div.dl3 p.links {font-weight:bold}
+	
+/* END LISTS */
+
+
+/* ERROR MESSAGES */
+	div.error p {
+		margin-bottom:4px;
+	}
+	div.error ul,
+	div.error ol,
+	div.error dl {
+		margin-top:0em; 
+		margin-right:0px; 
+		margin-bottom:12px;
+	}
+	div.error ul li,
+	div.error ol li {
+		padding-left:0px;
+	}
+/* END ERROR MESSAGES */
+
+
+/* FORM ELEMENTS */
+
+	input, select {
+		font-size:1em;
+		border:1px solid #333;
+		background-color:white;
+		color:#333;
+	}
+	
+	/*
+		INPUT
+		required 189x17
+		ie5.x    189x17
+		ie6      187x13
+		ff       187x13
+		n6       187x17
+		
+		SELECT
+		required 189x17
+		ie5.x    189x17
+		ie6      187x12
+		ff       187x15
+		n6       187x16
+	*/
+	
+	input {
+		width:189px;
+		height:17px;
+		w\idth:185px;
+		he\ight:13px;
+	}
+	select {
+		width:191px;
+		height:17px;
+		w\idth:189px;
+		he\ight:12px;
+	}
+	
+	html>body input {
+		width:187px;
+		height:auto;
+	}
+	html>body select {
+		width:189px;
+		height:auto;
+	}
+	
+	* html>body input {
+		width:189px;
+		height: 15px;
+	}
+
+	input.button {
+		/*height:15px;*/
+		height:auto;
+		width:56px;
+		font-weight:bold;
+		padding-bottom:1px;
+		padding-top:0px;
+		font-size:1em;
+	}
+
+	html>body input.button {
+		padding-top:1px;
+		padding-bottom:0px;
+	}
+	/* * html>body input.button {
+		font-weight:400;
+	}*/
+
+	input.image {
+		height:auto;
+		width:auto;
+		border:0;
+	}
+	input.btnCancel,
+	input.btnSubmit {
+		width: 58px;
+		height: 17px;
+	}
+	input.btnSearch {
+		width: 58px;
+		height: 17px;
+	}
+	
+	input.btnReset {
+		width: 47px;
+		height: 17px;
+	}
+	input.btnGo {
+		width: 20px;
+		height: 17px;
+	}
+	input.btnNext,
+	input.btnBack {
+		width: 41px;
+		height: 17px;
+	}
+	input.btnCreate {
+		width: 82px;
+		height: 17px;
+	}
+	input.btnBacktoResults {
+		width: 109px;
+		height: 17px;
+	}
+	input.btnDelete {
+		width: 56px;
+		height: 17px;
+	}
+	
+	input.btnPrevious {
+		width: 69px;
+		height: 17px;
+	}
+	input.btnBackToProfile {
+		width: 148px;
+		height: 17px;
+	}
+	input.btnBookNow {
+		width: 72px;
+		height: 17px;
+	}
+	input.btnVote {
+		width: 39px;
+		height: 17px;
+	}
+	input.btnLogin {
+		width: 45px;
+		height: 17px;
+	}
+	
+	input.btnLogin3 {
+		width: 50px;
+		height: 17px;
+	}
+	
+	input.btnRegister {
+		width: 67px;
+		height: 17px;
+	}
+	input.btnTryagain {
+		width: 75px;
+		height: 17px;
+	}
+	input.btnRemove {
+		width: 63px;
+		height: 17px;
+	}
+	input.btnEdit {
+		width: 35px;
+		height: 17px;
+	}
+	input.btnSelectAll {
+		width: 73px;
+		height: 17px;
+	}
+	input.btnGetAddress {
+		width: 89px;
+		height: 17px;
+	}
+	input.btnSaveStatement {
+		width: 101px;
+		height: 17px;
+	}
+	input.btnViewStatement {
+		width: 101px;
+		height: 17px;
+	}
+	
+	input.btnSubscribe {
+		width: 76px;
+		height: 17px;
+	}
+	
+	input.btnGetmyaddress {
+		width: 113px;
+		height: 17px;
+	}
+
+
+	form.callback input.submit {
+		background-color:#ccc;
+	}
+
+	textarea {
+		font-size:1em;
+		border:1px solid #333;
+		background-color:white;
+		color:#333;
+		height:109px;
+		
+		width:189px;
+	 	w\idth:185px;
+	}
+	html>body textarea {
+		width:187px; /* Moz */
+	}
+	* html>body textarea {
+		width:189px; /* IE5/Mac only */
+	}
+	
+	
+	
+	input.check, input.radio {
+		width:1.5em;
+		height:1.5em;
+		border:0px solid black;
+	}
+	html>body input.check, html>body input.radio {
+		width:1em;
+		height:1em;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	html>body input.check {
+		background-color:white;
+		border:1px solid black;
+	}
+	html>body input.radio {
+		background-color:white;
+		border:1px solid black;
+	}
+	/* end hack */
+	
+	input.go {
+		font-size:0.9em;
+		border:1px solid black;
+		/* width:21px;
+		height:15px; */   /* need to set height to 2px less for IE5/Mac */
+		
+		width:20px !important;
+		height:17px !important;
+		border:0px solid white !important;
+		/*width:20px;
+		height:17px;
+		border:0px solid white;*/
+		vertical-align: bottom;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	* html input.go {
+		vertical-align: top;
+		height:17px;
+	}
+	/* end hack */
+	
+	input.go {
+		vertical-align: top;
+	}
+	/* .extra for wider content */
+	html>body input.extra, html>body select.extra {
+		width:232px; /* Moz & IE5Mac */
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	html>body input.extra, html>body select.extra {
+		width:234px; /* Moz only */
+	}
+	/* end hack */
+	* html input.extra, * html select.extra {
+	  width:234px;/*IE 5+ Win only*/
+	  w\idth:230px;/*IE6 Win*/ 
+	}
+
+/* END FORM OBJECTS */
+
+
+/* DATA TABLE */
+	div.datatable {
+		
+	}
+	div.datatable table {
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	div.datatable th {
+		border-bottom:1px solid #ccf;
+	}
+	div.datatable td {
+		border-left:1px solid #ccf;
+		border-bottom:1px solid #ccf;
+	}
+	div.datatable th.cornerhead {
+		padding:0px 5px 3px 0px;
+	}
+	div.datatable th.colhead {
+		padding:0px 5px 3px 5px;
+	}
+	div.datatable th.rowhead {
+		padding:1px 5px 2px 0px;
+	}
+	div.datatable td.data {
+		padding:1px 5px 2px 5px;
+	}
+	/*
+	div.datatable div.caption {
+		padding-top:1em;
+	}
+	div.datatable div.caption p {
+		width:327px;*/ /*need box model hack*/
+		/*border:0px solid white;
+		padding:0px 5px 2px 5px;
+	}
+	* html div.datatable div.caption p {
+	  width: 337px;*/ /*IE 5+ Win and Mac only*/
+	  /*w\idth: 327px;*/ /*IE6 Win*/ 
+	/*}*/
+	
+	#content div.datatable div.caption {
+		margin-top:2em;
+		/*width:100%;*/
+	}
+	#content div.datatable div.caption p {
+		width:auto;
+		padding:0px 5px 2px 5px;
+		margin:0 !important;
+		border:0px solid white;
+	}
+	
+/* END DATA TABLE */
+
+
+
+
+
+/* DOTTED BOX */
+	div.dottedbox td.horiz {
+		font-size:1px;
+		line-height:0;
+	}
+	div.dottedbox td.title h3 {
+		padding:2px 10px 3px 10px;
+		/*border-right:257px solid white;*/
+		border:0;
+	}
+	/*div.dottedbox td.title h3.full {
+		border:0px;
+	}*/
+	div.dottedbox td.text {
+		padding:0px;
+	}
+	div.dottedbox td.text p {
+		padding:10px;
+	}
+	
+	#add_maincontent div.dottedbox td.text div.label {
+		padding:10px 5px 10px 15px;
+	}
+	div.dottedbox td.text p.findinstructions {
+		margin-top:0px;
+		margin-bottom:0em;
+		padding-top:0px;
+	}
+	div.dottedbox td.text div.searchbox {
+		margin:10px 10px 10px 10px;
+	}
+	div.dottedbox td.text h4 {
+		padding-left:10px;
+	}
+/* END DOTTED BOX */
+
+/* SEARCHBOX */
+	div.dottedbox div.searchbox {
+		margin:5px 15px 5px 15px;
+		border:0px solid white;
+		padding-left:0px;
+	}
+	div.dottedbox div.searchbox label {
+		padding: 0px 0px 2px 0px;
+		
+	}
+	div.dottedbox div.searchbox div.keyword {
+		margin-bottom:3px;
+	}
+	div.dottedbox div.searchbox {
+		margin-top:11px;
+		margin-bottom:11px;
+	}
+	div.dottedbox div.searchbox ul.actions {
+		margin-top:9px;
+	}	
+	div.dottedbox div.searchbox input.image {
+		vertical-align:bottom;
+		margin-bottom:1px;
+		
+	}
+	html>body div.dottedbox div.searchbox input.image {
+		margin-bottom:0px;
+	}
+/* END SEARCHBOX */
+
+
+/* DOTTED AD BOX */
+	div.dottedad p {
+		margin:0px;
+		padding:0px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:3px;
+	}
+	div.dottedad p.dottedadhr {
+		margin-top:0em;
+		font-size:1px;
+	}
+	div.dottedad td.eventbar h4 {
+		margin:2px 0px 3px 5px;
+		padding:0px 0px 0px 15px;
+	}
+/* END DOTTED AD BOX */
+
+
+/* CUTCORNER AD */
+/*
+	div.cutcornerad td.text p {
+		margin-top:0em;
+	}
+	div.cutcornerad td.text p.solidadhr {
+		margin-top:0em;
+		margin-left:10px;
+	}
+	div.cutcornerad td.text {
+		padding-top:0px;
+	}
+	*/
+/* END CUTCORNER AD */
+
+
+/* TABLE EMULATION */
+	div.tabular {
+		margin-top:0em;
+	}
+	div.tabular span.label {
+		clear:left;
+	}
+	div.tabular div.columntight {
+		margin:0px 0px 5px 0px;
+		padding:0px;
+	}
+	div.tabular div.column, 
+	div.tabular div.columntight {
+		margin-left:140px;
+		font-size:1em;
+	}
+	div.tabular p {
+		margin-top: 0px; 
+	}
+/* TABLE EMULATION */
+
+
+/* RESULTSNAV */
+	div.resultnav p {
+		line-height:1.4em;
+	}
+	div.resultnav span.current {
+		font-weight:bold;
+		border:1px solid black;
+	}
+	div.resultnav em { /* for ie5.0/win only */
+		font-style: normal;
+	}
+	html*div.resultnav em { /* for all except ie5.0/win and opera */
+		font-weight:bold;
+		font-style: normal;
+		border:1px solid black;
+	}
+	html>body div.resultnav em { /* to fix things for opera */
+		font-weight:bold;
+		font-style: normal;
+		border:1px solid black;
+	}
+/* END RESULTSNAV */
+
+
+/* BASICBOX */
+	div.basicbox {
+		margin-bottom:20px;
+		border: 0.1px solid white;
+	}
+	div.basicbox td {
+		margin:0;
+		padding:0;
+	}
+	div.basicbox td.title {
+		background-color:#ccc;
+	}
+	div.basicbox img {
+		display:block;
+	}
+	div.basicbox h4 {
+		/*margin-top:0;
+		margin-bottom:0;
+		padding:1px 10px 3px 15px;*/
+	}
+	div.basicbox span.link {
+		display:block;
+		padding-left:15px;
+		margin:2px 0px 2px 0px;
+		font-weight:bold;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.basicbox span.image {
+		border:0px solid white;
+	}
+	div.basicbox p {
+		margin:0 5px 0 15px;
+		padding:0;
+	}
+	div.basicbox p.hr {
+		margin:0.5em 0px 0.5em 15px;
+	}
+	div.basicbox div.smallimage span.image {
+		float:left;
+	}
+	div.basicbox div.smallimage span.link {
+		display:block;
+		margin-left:63px;
+		padding-left:9px;
+		margin-top:4px;
+	}
+	div.basicbox div.smallimage p {
+		clear:left;
+		margin:0;
+	}
+/* END BASICBOX */
+
+
+/* Glossary Help Links */
+
+#content .glossaryTerm:hover {
+	background-color:#dcdcf7;
+} 
+#content .glossaryTerm {
+	font-weight:normal;
+	text-decoration:none; 
+	background-color: #FFFFFF;
+	border-bottom: 2px dotted #333399;
+	color: #000000;
+}	
+	
+/* Red links for Broken Links reports */
+.brokenLink {color: red }
+
+
+
+
+/* TEXT TO FLOAT LEFT OF BUTTON 
+-------------------- */ 
+.buttonInstr {width: 360px;}
+	
+
+/* RESIZE INPUT BOX FOR MONEY AND DATES 
+-------------------- */	
+input.pounds {width: 52px;}
+html>body input.pounds {width: 50px;}
+
+input.pence, input.dd-mm-yy {width: 32px;}
+html>body input.pence, html>body input.dd-mm-yy  {width: 30px;}
+
+
+/* HELP LINKS 
+-------------------- */
+.redundancyHelp {
+	width: 190px; 
+	margin-left: 5px;
+}
+.redundancyHelp span.whatisthis a {
+	font-weight: normal !important;
+	color:#666;
+}
+
+/* Screen Reader Text for External Links
+---------------------- */
+.screenreadertext
+ {
+  position : absolute;
+  left : -1000em;
+ }

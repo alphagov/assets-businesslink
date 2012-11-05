@@ -1,0 +1,589 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1 */
+/* VERSION 2: 03/03/04 - Tweaked CSS to fit new design */
+/* VERSION 2.1: 08/03/04 - Added "SMALL IMAGE IN ADDITIONALCONTENT" CSS. This might appear to be a duplicate of CSS defs in basic.css but they are not. div instead of span */
+/* VERSION 3: 11/03/04 - Added IE5.5/6 Win padding-top override for footer. Styles on th */
+/* VERSION 4: 28/07/04 - Added support for two column list of links
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:543px;
+		background-color:white;
+		border:0.1px solid black;
+	}
+
+	#contact2 #maincontent {
+		float:left;
+		width:345px;
+		padding-top:0px;
+		border:0.1px solid black;
+	}
+	#contact3 #maincontent {
+		float:left;
+		width:450px;
+		padding-top:0px;
+		border:0.1px solid white;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	#additionalcontent {
+		float:right;
+		width:181px;
+		background-color:white;
+		border:0.1px solid black;
+		padding-top:28px;
+	}
+	#footer {
+		padding-top/**/:17px;
+		/* Above line fixes a IE 5.5/6 Win padding-top bug */
+	}
+/* END LAYOUT */
+
+
+/* SHARED STYLES */
+	h1 {
+		color: #333399;
+	}
+	h2 {
+		font-size:12px;
+	}
+	h3 {
+		font-size:12px;
+		margin-bottom:0px;
+		padding-left:0px;
+	}
+	#additionalcontent div.basicbox table td.highlighttext h4 {
+		margin-top: 12px;
+	}
+	ul, ol, dl {
+		margin-left:-1em;
+		padding-left:0px;
+		margin-top:0em;
+	}
+	#content p {
+		line-height:1.4em;
+	}
+	#content ul, #content ol, #content dl {
+		line-height:1.4em;
+	}
+	ul.links li {
+		margin-bottom: 3px;
+	}
+	span.stretchdiv {
+		clear:both;
+		display:block;
+		width:100%;
+	}
+	label {
+		display:block;
+	}
+	hr.stretchdiv {
+		clear:left;
+	}
+	#additionalcontent div.basicbox h4 {
+		margin-left:15px;
+		padding:0;
+	}
+	#additionalcontent div.basicbox p {
+		margin-right: 15px;
+	}
+/* END SHARED STYLES */
+
+/* SMALL IMAGE IN ADDITIONALCONTENT */
+	div.basicbox div.link {
+		display:block;
+		padding-left:11px;
+		font-weight:bold;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.basicbox div.image {
+		border:0px solid white;
+	}
+	div.basicbox div.smallimage {
+		width: 181px;
+	}
+	div.basicbox div.smallimage div.image {
+		width: 60px;
+		float:left;
+	}
+	div.basicbox div.smallimage div.link {
+		width: 115px;
+		padding-left:9px;
+		margin-top:4px;
+	}
+/* END SMALL IMAGE IN ADDITIONALCONTENT */
+	
+/* CONTACT */
+	div.contact {
+		width:385px;
+		border:0.1px solid black;
+		margin:0px;
+		padding:0px;
+	}
+	div.contact table {
+		margin-top:18px;
+	}
+	div.contact table td, div.whendiv table td {
+		vertical-align: top;
+	}
+
+	label {
+		display: inline;
+	}
+
+	div.contact input, div.contact label, div.whendiv input, div.whendiv label, div.whendiv select {
+		margin-bottom:5px;
+	}
+/* END CONTACT */
+
+
+/* REASON */
+	div.reason {
+		margin-left:0px;
+		width:170px;
+		border:0.1px solid blue;
+	}	
+	div.reason span.label {
+		font-weight:bold;
+	}
+/* END REASON */
+
+
+/* ACTIONSDIV */
+	div.actionsdiv {
+		padding-top:2.5em;
+	}
+/* END ACTIONSDIV */
+
+
+/* FIELDSETS */
+	fieldset.details {
+		border:0.1px solid white;
+		margin:0px;
+		padding:0px;
+	}
+	
+	fieldset.time label {
+		display:inline;
+		padding-left:0.5em;
+		padding-right:0.5em;
+	}
+/* END FIELDSETS */
+	
+
+/* WHENDIV */
+	div.whendiv {
+		width: 400px;
+		padding-top:2.5em;
+		margin-left: -15px;
+	}
+	div.whendiv input.check {
+		display:inline;
+	}
+/* END WHENDIV */
+
+/* FORMBTN */
+	div.formBtns {
+		margin-top: 15px;
+	}
+/* FORMBTN */
+	
+/* CALLBACK FORM */
+	form.callback {
+		margin-top:0px;
+	}
+	form.callback h4 {
+		margin:0px;
+		padding-left:0px !important;
+		margin-top:-1.5em;
+	}
+/* CALLBACK FORM */
+	
+	
+/* DOTTEDBOX */
+	div.dottedbox {
+		width:250px;
+	}
+	div.dottedbox td.text {
+		width:250px;
+		padding:0px;
+	}
+	div.dottedbox td.text form {
+		margin:13px 0px 2px 12px;
+	}
+/* DOTTEDBOX */
+
+	
+/* TABLE EMULATION WITH ROWS AND COLUMNS */
+	div.col1 {
+		float:left;
+		width:266px;
+	}
+	div.col2 {
+	}
+	div.row {
+		border:1px solid white;
+		/*clear:both;*/
+	}
+	div.dl h4 {
+		margin-top:0px;
+	}
+	div.dl p {
+		margin-bottom:0em;
+	}
+/* END TABLE EMULATION */
+	
+
+/* CONTACT2 */
+	#contact2 #content p {
+		margin-left:10px;
+	}
+	#contact2 #additionalcontent {
+		/*padding-top:39px;*/
+		padding-top:3px;
+	}
+	#contact2 ul.links {
+		line-height:1.3em;
+		
+	}
+	#contact2 div.dottedbox {
+		width:337px;
+		margin-left:0px;
+		margin-bottom:12px;
+	}
+	#contact2 div.dottedbox td.text {
+		width:337px;
+		padding:0px;
+	}
+	#contact2 div.dottedbox h3 {
+		padding-left:10px;
+		margin:0px;
+		background-color: transparent;
+	}
+	#contact2 p.propositionstatement {
+		margin-top:-12px;
+		margin-left:10px;
+	}
+	#contact2 div.error ul {
+		margin-left:0px;
+	}
+	#contact2 p.link {
+		margin-top:0;
+		margin-bottom:0;
+		margin-left: 0px;
+	}
+	#contact2 #additionalcontent div.basicbox td.highlighttext {
+		padding-bottom:10px;
+	}
+	#contact2 #additionalcontent div.basicbox td.text ul.links {
+		margin-top: 5px;
+	}
+/* END CONTACT2 */
+	
+	
+/* CONTACT3 */
+/* contact_result.html */
+	#contact3 form.callback {
+		margin-left:15px;
+	}
+	#contact3 div.error ul {
+		margin-left:-10px;
+	}
+	#contact3 h4 {
+		padding: 2px 0px 3px 13px;
+	}
+	#contact3 div.stretchdiv
+	{
+		padding-bottom:20px;
+	}
+	#contact3 select {
+		margin-top:3px;
+	}
+	#contact3 div.whendiv {
+		padding-left:15px;
+	}
+/* END CONTACT3 */
+
+/* CONTACT4 */
+	#contact4 p {
+		width:400px;
+	}
+	#contact4 ul.links {
+		line-height:1.3em;
+	}
+	#contact4 ul.region {
+		padding-left:0px;
+		margin-bottom:3px;
+	}
+	#contact4 ul.region li a {
+		font-weight:bold;
+	}
+	#contact4 ul.local {
+		padding-left:15px;
+	}
+	#contact4 div.dottedbox {
+		width:450px;
+		margin-left:0px;
+		margin-bottom:12px;
+	}
+	#contact4 div.dottedbox td.text {
+		width:450px;
+		padding:0px;
+	}
+	#contact4 h3 {
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#contact4 div.dottedbox h3 {
+		padding-left:10px;
+		margin:0px;
+		background-color: transparent;
+	}
+	#contact4 input#searchpostcode {
+		width:230px;
+	}
+	#contact4 p.propositionstatement {
+		margin-top:-12px;
+		margin-left:10px;
+	}
+	#contact4 div.error ul {
+		margin-left:0px;
+	}
+	#contact4 p.link {
+		margin-top:0;
+		margin-bottom:0;
+		margin-left: 0px;
+	}
+	#contact4 ul
+	{
+		padding-right:15px;
+	}
+	#contact4 div.column
+	{
+		width:225px;
+		float:left;
+		margin-bottom:0px;	
+	}
+	#contact4 div.clear
+	{
+		clear:both;
+		font-size:1px;
+		height:1px;
+	}
+/* END CONTACT4 */
+
+
+
+table.contactInfo {
+	margin-bottom: 15px;
+}
+table.contactInfo p {
+	line-height: 1.3em !important;
+}
+
+table.contactInfo th {
+	text-align: left;
+	font-weight: normal;
+}
+
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1 */
+/* VERSION 2: 03/03/04 - Tweaked CSS to fit new design */
+/* VERSION 2.1: 08/03/04 - Added "SMALL IMAGE IN ADDITIONALCONTENT" CSS. This might appear to be a duplicate of CSS defs in basic.css but they are not. div instead of span */
+
+/* LAYOUT */
+	#content {
+		border:0px solid black;
+	}
+	/* two equal columns */
+	#contact2 #maincontent {
+		border:0px solid white;
+	}
+	#contact2 #additionalcontent {
+		border:0px solid white;
+	}
+/* END LAYOUT */
+
+
+/* SHARED STYLES */	
+	h2 {
+		font-size:1.3em;
+	}
+	h3 {
+		font-size:1em;
+	}
+	h4 {
+		font-size:1em;
+	}
+	ul, ol, dl {
+		margin-left: 0px;
+	}
+	.imgright {
+		margin-top:0px;
+		padding-top:2px;
+	}
+	#content #maincontent p {
+		line-height:1.5em;
+	}
+	#additionalcontent div.basicbox h4 {
+		margin-top:1px;
+		margin-bottom:0px;
+		padding-bottom:2px;
+	}
+/* END SHARED STYLES */
+
+/* SMALL IMAGE IN ADDITIONALCONTENT */
+	div.basicbox div.link {
+		display:block;
+		padding-left:15px;
+		margin:2px 0px 2px 0px;
+		font-weight:bold;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.basicbox div.image {
+		border:0px solid white;
+	}
+	div.basicbox div.smallimage div.image {
+		float:left;
+		border: 0.1px solid white;
+	}
+	div.basicbox div.smallimage div.link {
+		background-position: 0px 4px;
+		padding-top: 4px;
+		margin-top: 0px;
+		margin-left:63px;
+		padding-left:9px;
+	}
+/* END SMALL IMAGE IN ADDITIONALCONTENT */
+
+/* DOTTED AD */
+	#additionalcontent div.dottedad p {
+		margin:0px;
+		padding:0px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	#additionalcontent div.dottedad p.dottedadhr {
+		margin-top:0em;
+	}
+/* END DOTTED AD */
+	
+
+/* REASON */
+	div.reason {
+		margin-left:291px;
+		border:0px solid white;
+	}
+	div.reason label {
+		margin-bottom:3px;
+	}
+/* REASON */
+
+
+/* CONTACT */
+	div.contact {
+		border: 0px solid white;
+	}
+	div.contact table {
+		margin-top:16px;
+	}
+	html>body div.contact table {
+		margin-top:17px;
+	}
+	html>body div.contact input, html>body div.contact label, div.whendiv input, div.whendiv label, div.whendiv select {
+		margin-bottom:6px;
+	}
+/* CONTACT */
+
+
+/* CALLBACK FORM */
+	form.callback h4 {
+		margin:0px;
+		padding-bottom:1em;
+		padding-left: 0px;
+	}
+/* CALLBACK FORM */
+
+
+/* TABLE EMULATION WITH ROWS AND COLUMNS */
+	div.col2 {
+		margin-left:266px;
+		width:266px;
+	}
+	html>body div.row {
+		margin-bottom:1em;
+	}
+/* END TABLE EMULATION */
+
+/* DOTTEDBOX */	
+	div.dottedbox {
+		margin-bottom:2em;
+	}
+	div.dottedbox td.title h3 {
+		border-right:0px solid white;
+	}
+	div.dottedbox td.text form {
+		margin:0px;
+		padding:0px;
+	}
+	div.dottedbox td.text div.searchbox {
+		margin-top:0.5em;
+	}
+	div.dottedbox td.text div.searchbox label {
+		padding: 0px 0px 2px 0px;
+	}
+	div.dottedbox td.text div.searchbox div.keyword {
+		margin-bottom:3px;
+	}
+	div.dottedbox td.text div.searchbox {
+		margin-bottom:1em;
+	}
+/* END DOTTEDBOX */
+	
+/* CONTACT2 */
+	#contact2 h3 {
+		background-color:#ccc;
+		padding-top:2px;
+		padding-bottom:3px;
+	}
+	#contact2 div.dottedbox {
+		margin-top:1.5em;
+		margin-bottom:1em;
+	}
+	#contact2 p.propositionstatement {
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+	#contact2 ul.links {
+		margin-top:1em;
+	}
+	#contact2 p.link {
+		margin-top:0;
+		margin-bottom:1em;
+	}
+	#contact2 #additionalcontent {
+		padding-top:20px;
+	}
+/* END CONTACT2 */
+	
+
+/* CONTACT3 */
+	#contact3 h3 {
+		padding-bottom:3px;
+		margin-bottom:1em;
+	}
+	#contact3 div.error ul {
+		margin-left:30px;
+	}
+/* END CONTACT3 */

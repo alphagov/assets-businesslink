@@ -1,0 +1,13 @@
+.tskhdr_form_holder {
+	padding-top: 35px;
+}
+
+.btn_add {
+	padding-right: 20px;
+}
+
+.ui-dialog {
+	position: absolute !important;
+	top: -79px !important;
+	left: 585px !important;
+}

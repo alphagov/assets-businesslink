@@ -1,0 +1,56 @@
+/*
+	Business Link - National Branding
+	IE Portal Specific css
+	
+	Current Version: 1.10
+	----------------------------------------
+	v1.00 - Initial version for ETM
+	v1.10 - Added styles for .sml #header version if called
+*/
+
+#header #sitesearch{float:none;left:51.5em;}
+#header #sitesearch fieldset{float:left;}
+#header{height:8.25em;}
+* html #header{height:8.6em;}
+*+html #header{height:8.7em;}
+*+html #header li.tabend{padding-bottom:0.1em;}
+
+#tabs UL LI.selected {background:url(/presentation/images/global-nat-tab-selected-right.png) no-repeat top right;}
+/*#login {left:68.5em;top:4.4em;}*/
+#login {left:64em;top:4.4em;}
+
+#strapline{left:11.3em;top:2.5em;}
+#help{left:17em;}
+#tabs{top:6.85em;left:15.5em;}
+*+html #tabs{top:6.75em;}
+#tabs ul li{padding:0;}
+#tabs ul li a{margin:0;}
+
+
+
+/* Override Styles for Small version of header by adding 'class="sml"' to Header DIV */
+
+#header.sml {height:4.6em;}
+
+#header.sml #help {top:0.5em;}
+
+#header.sml #login {top:0.6em;}
+
+#header.sml #sitesearch {top:0.3em;}
+
+#sitesearch input {width:168px;}
+
+#sitesearch #headersearchsubmit{height:20px;}
+
+* html #topnav #sitesearch #headersearchinput{width:191px;height:14px !important;}
+*+html #topnav #sitesearch #headersearchinput{width:191px;height:14px !important;}
+
+* html #topnav #sitesearch #headersearchsubmit{padding:1px 0;height:26px !important;}
+*+html #topnav #sitesearch #headersearchsubmit{padding:1px 0;height:26px !important;}
+
+* html #header.sml #sitesearch #headersearchinput{width:191px;height:14px !important;}
+*+html #header.sml #sitesearch #headersearchinput{width:191px;height:14px !important;}
+
+* html #header.sml #sitesearch #headersearchsubmit{padding:1px 0;height:26px !important;}
+*+html #header.sml #sitesearch #headersearchsubmit{padding:1px 0;height:26px !important;}
+

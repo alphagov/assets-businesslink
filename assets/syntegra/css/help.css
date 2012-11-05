@@ -1,0 +1,160 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 12/03/04 - initial page */
+/* VERSION 1.1: 18/03/04 - Added IE5.5/6 Win double padding-top override for footer. Tidied up CSS */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:540px;
+		background-color:white;
+		/*layer-background-color:white;*/
+		border:0.1px solid white;
+	}
+	#help1 #maincontent {
+		float:left;
+		width:258px;
+		padding-top:0px;
+		border:0.1px solid white;
+	}
+	#help2 #maincontent {
+		float:left;
+		width:400px;
+		padding-top:0px;
+		border:0.1px solid white;
+	}
+	* html #help2 #maincontent {
+		padding-bottom/**/: 13px;
+		/* Above line for IE 5.5/6 Win */
+	}
+	html>body #maincontent {
+		min-height: 300px;
+	}
+	#help1 #additionalcontent {
+		float:right;
+		width:259px;
+		background-color:white;
+		border:0.1px solid white;
+		margin-bottom: 17px;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	* html #help1 #additionalcontent {
+		margin-bottom: 5px;
+	}
+	/* end hack */
+	#footer {
+		padding-top/**/: 13px;
+		/* Above line fixes a IE 5.5/6 Win padding-top bug */
+	}
+/* END LAYOUT */
+
+/* SHARED STYLES */
+	h2 {
+		font-size:12px;
+	}
+	#maincontent ul, #maincontent ol, #maincontent dl {
+		margin-top: -6px;
+	}
+/* END SHARED STYLES */
+	
+/* RHS TOOLS - LIVE INSIDE BASICBOX */
+	#additionalcontent div.basicbox {
+		margin-top:40px;
+		margin-bottom: 0px;
+	}
+	#additionalcontent div.moreinfo {
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+	#additionalcontent div.moreinfo h4 {
+		margin-left: 14px;
+		margin-bottom: 3px;
+	}
+	#additionalcontent div.moreinfo h2.h4alias {
+		margin-left: 14px;
+		margin-bottom: 3px;
+	}
+/* END RHS TOOLS */
+
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: 12/03/04 - initial page */
+
+/* SHARED STYLES */
+	div.faq ul.links li {
+		margin-bottom:12px;
+	}
+/* END SHARED STYLES */
+
+/* RHS TOOLS - LIVE INSIDE BASICBOX */
+	#additionalcontent div.guidelist {
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
+	#additionalcontent div.guidelist p.hr {
+		margin:0px ;
+		padding: 6px 0px 0px 15px;
+		border:0px solid black;
+	}
+	#additionalcontent div.guidelist p {
+		margin-top:0.5em;
+	}
+
+/* MOREINFO */	
+	#additionalcontent div.moreinfo p.hr {
+		margin:0px ;
+		padding: 6px 0px 0px 15px;
+		border:0px solid black;
+	}
+	#additionalcontent div.moreinfo span.link {
+		margin-top: 6px;
+		margin-bottom:10px;
+		margin-left:15px;
+	}
+/* END MOREINFO */
+/* END RHS TOOLS */
+
+/* PROMOSPOT 1 */
+	div.promospot1 {
+		margin-bottom: 12px;
+	}
+	div.promospot1 div.text {
+		width:175px;
+		margin-left:80px;
+	}
+/* END PROMOSPOT 1 */
+
+/* QUICKLINKS */
+	div.selecttools form.quicklinks {
+		margin:0;
+	}
+	div.selecttools form.quicklinks h3,
+	div.selecttools form.quicklinks h4 {
+		margin:0;
+	}
+	div.selecttools form.quicklinks p {
+		margin:2px 0px 6px 0px;
+	}
+	div.selecttools form.quicklinks span {
+		width:100%;
+		margin:0;
+	}
+	div.selecttools form.quicklinks select {
+		border:1px solid black;
+		width:151px;
+		font-size:1em;
+	}
+	html>body div.selecttools form.quicklinks select {
+		width:157px; /* Moz only */
+	}
+	* html div.selecttools form.quicklinks select {
+	  height: 17px; /*IE 5+ Win and Mac only*/
+	  he\ight: 15px; /*IE6 Win*/ 
+	}
+/* END QUICKLINKS */
+

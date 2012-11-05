@@ -1,0 +1,1013 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* version 1.0 13/02/04 */
+/* version 2.0 16/02/04 - small promos put in table */
+/* CR 13/06/07 - used bt css as base for changes */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Feb-08 by PB: #tabdrops styled for #additionalCol, #mainContent styles added, removed surplus styles */
+
+/* CONTENT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:132px;
+		left:191px;
+		width:548px;
+		background-color:white;
+		border:0.1px solid white;
+	}
+/* END CONTENT */
+
+/* TITLE */	
+	#title {
+		z-index:2;
+		position:absolute;
+		top:64px;
+		left:184px;
+		width:561px;
+		height:63px;
+		overflow:hidden;
+		
+		background-color:#8989b7;
+		background-image:url("/syntegra/images/home_title_top2.gif");
+		background-repeat:repeat-x;
+		/* redef */
+	}
+	#title img {
+		text-align:right;
+	}
+	#title div.statement {
+		z-index:3;
+		position:absolute;
+		top:14px;
+		left:14px;
+		width:350px;
+		height:77px;
+		/* redef */
+	}
+	
+	#title h1 {
+		display:block;
+		color:white;
+		font-size:20px;
+		margin: -1em 0 0em 0;
+		padding-left:0;
+		background-color:#8989b7;
+		/*redef*/
+	}
+	#title p {
+		margin-top:-16px;
+		color:white;
+		font-size:11px;
+		background-color:#8989b7;
+		/*redef*/
+	}
+/* END TITLE */
+
+
+
+/* tabdrops */
+
+	#tabdrops
+	{
+		width:180px;
+		float:right;
+	}
+
+	#tabdrops td.tab
+	{
+		width:180px;
+		vertical-align:top;
+		margin:0px;
+	}
+
+	#tabdrops ul
+	{
+		margin:0px 10px 0px 10px;
+	}
+
+	#tabdrops ul.actions
+	{
+		margin:0px 10px 10px 10px;
+	}
+	
+	#tabdrops li a:link
+	{
+		color:#306 !important;
+	}
+	
+	#mainContentDrops h4, #content #tabdrops h4 {
+		padding:8px 10px 3px 10px;
+		margin:0;
+	}
+	#mainContentDrops p, #content #tabdrops p {
+		padding:0 10px 8px 10px;
+		margin:0;
+	}
+	
+	#content #tabdrops p {
+		padding:8px 10px 5px 10px;
+		margin:0;
+	}
+	
+	#content #tabdrops p.hr {
+		margin:-14px 0 0px 0px;
+		padding:0;
+		text-align:center;
+	}
+	#tabdrops table td {
+		vertical-align:top;
+	}
+	#tabdrops td.corner	
+	{
+		background-image: url("/syntegra/images/home_boxbottom_corner.gif");
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+	
+	div.tabdrops2
+	{
+		padding-top:12px;
+	}
+	
+	#tabdrops td.tab2
+	{
+		background-image: url("/syntegra/images/tab2_background_180.gif");
+		background-repeat: repeat-y;
+		border-top:10px solid white;
+		border-bottom:4px solid #669;
+		background-color: #ccc;
+	}
+	#tabdrops td.tab2 {	margin:0 !important;  padding:0 !important;border-collapse:collapse }
+	#tabdrops td.tab2 p {padding: 5px 0}
+	#tabdrops td.tab2 h4
+	{
+		background: url("/syntegra/images/tabend2.gif") no-repeat right top #DCDCF7;
+		height:20px;
+		font-size:11px;
+		padding:0px !important;
+		margin:0px !important;
+		border:0px;
+		border-left:1px solid #669;
+		line-height: 1em !important;
+	}
+	#tabdrops td.tab2 h4 a:link,
+	#tabdrops td.tab2 h4 a:visited,
+	#tabdrops td.tab2 h4 a:hover,
+	#tabdrops td.tab2 h4 a:active
+	{
+		display:block;
+		padding:3px 0px 0px 8px;
+		margin:0px;
+		color:#306;
+	}
+	#tabdrops td.tab2 ul.links
+	{
+		margin:6px 8px 0px 8px;
+	}
+	#tabdrops td.tab2 ul.spaced li
+	{
+		margin:0px 0px 7px 0px;
+	}
+	#tabdrops td.tab2 ul.actions
+	{
+		margin:0px 8px 10px 8px;
+	}
+	
+	#mainContentDrops {
+		border-left:1px solid #669;
+		border-right:1px solid #669;
+	}
+	
+	#mainContentDrops td {
+		border: none!important;
+		vertical-align: top;
+	}
+	
+	#mainContentDrops td.moreWhatsNew {
+		background: #666699;
+		padding: 3px 0;
+	}
+	
+	html* #mainContentDrops td.moreWhatsNew {
+		padding: 2px 0 5px 0;
+	}
+	
+	#mainContentDrops td.moreWhatsNew p {
+		padding: 0 8px;
+		color:#fff;
+		font-weight:bold;
+}
+	#mainContentDrops td.moreWhatsNew p a {
+		color: #fff;
+		background: url(/syntegra/images/arrow_white.gif) no-repeat 0 .1em;
+		padding-left: 15px;
+	}
+	
+	
+/* ADVERTS */
+	#adverts {
+		width:340px;
+		float:right;
+		border:0.1px solid black;
+	}
+	#adverts table td {
+		vertical-align:top;
+	}
+	
+	#adverts div.smallpromo1 {
+		width:168px;
+		/*float:left;*/
+	}
+	#adverts div.smallpromo2 {
+		width:168px;
+		/*float:left;*/
+	}
+	
+	
+	/*#adverts div.bigpromo {
+		clear:left;
+	}*/
+	#adverts div.bigpromo {
+		margin:4px 0 0 0px;
+	}
+	#adverts div.smallpromo1 img,
+	#adverts div.smallpromo2 img,
+	#adverts div.bigpromo img {
+		margin:1px;
+	}
+	
+	
+	#content #adverts h4 {
+		padding:0 8px 0px 8px;
+		margin:0;
+	}
+	#content #adverts p {
+		padding:0 8px 8px 8px;
+		margin:0;
+	}
+	
+	#content #adverts p.hr {
+		margin:-14px 0 0px 0px;
+		padding:0;
+		text-align:center;
+	}
+	
+	/*h1
+	{
+		font-size:12px !important;
+		font-weight:bold !important;
+		margin-bottom:0px !important;
+		padding-bottom:0px !important;
+	}*/
+	
+	p.localevents
+	{
+		margin-top:6px !important;
+		margin-bottom:6px !important;
+	}
+	
+	#localevents	
+	{
+		background-image: url("/syntegra/images/genhome_localeventsback.gif");
+		background-repeat: repeat-y;
+	}
+	
+	#localevents1
+	{
+		float:left;
+		margin-top:0px;
+		width:240px;
+		margin-right:20px;
+		xbackground-color:red;
+	}
+	
+	#localevents2	
+	{
+		float: left;
+		margin-top:0px;
+		xwidth: 206px;
+		width: 240px;
+		padding-left:20px;
+		xbackground-color:yellow;
+	}
+
+	#localevents1 ul,
+	#localevents2 ul,
+	#localevents1 li,
+	#localevents2 li
+	{
+		margin-top:0px;
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+
+	#localevents1 p,
+	#localevents2 p
+	{
+		margin-top:0px;
+		margin-bottom:15px;
+		padding-left:15px;
+	}
+	
+	#localevents1 strong,
+	#localevents2 strong
+	{
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	
+	
+	
+	/* advert colours */
+	.tab {
+		background-color:#DCDCF7;
+	}
+	.global {
+		background-color:#CBCBFF;
+	}
+	.finance{
+		background-color:#70B7DB;
+	}	
+	.startingabusiness {
+		background-color:#DBB7B7;
+	}
+	.grantsandadvice {
+		background-color:#94DB4C;
+	}
+	.growthandinnovation {
+		background-color:#DBDB94;
+	}
+	.salesandmarketing {
+		background-color:#9494DB;
+	}	
+	.buyingandselling {
+		background-color:#DBDBB7;
+	}
+	.itandecommerce {
+		background-color:#DB9494;
+	}
+	.internationaltrade {
+		background-color:#B7DBDB;
+	}	
+	.taxandreporting {
+		background-color:#B7DBB7;
+	}
+	.employingpeople {
+		background-color:#94DBDB;
+	}
+	.healthandenvironment {
+		background-color:#DBB7DB;
+	}
+	.environmentandefficiency {
+		background-color:#afe069;
+	}
+	.sellingabusiness {
+		background-color:#DBB794;
+	}
+	.inyoursector {
+		background-color:#FFCC99;
+	}
+	.local1 {
+		background-color:#94B770;
+	}
+	.local2 {
+		background-color:#85ADFF;
+	}
+	.local3 {
+		background-color:#DB7070;
+	}
+	.local4 {
+		background-color:#DBB770;
+	}
+	.regional1 {
+		background-color:#D6ADFF;
+	}
+	.regional2 {
+		background-color:#85E0A3;
+	}
+	.regional3 {
+		background-color:#FFD65C;
+	}
+	.regional4 {
+		background-color:#FF8585;
+	}
+/* END ADVERTS */
+
+
+
+
+
+/* START OF TAB HACKS */
+
+
+#content {
+	z-index:5;
+	position:absolute;
+	top:112px;
+	left:191px;
+	width:553px;
+	background-color:white;
+	border:0.1px solid white;
+}
+
+#left {
+	padding-top:12px;
+}
+
+
+
+
+
+/* Start of Exisiting Advanced Styles */
+/* version 1.0 13/02/04 */
+/* version 2.0 16/02/04 - small promos put in table */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Feb-08 by PB: Added #Left col style, removed surplus styles */
+/* 19-May-08 by PB: Amended width on Line 150 to 540px */
+
+/* CONTENT */
+	#content {
+		top:132px;
+		left:200px;
+		width:541px;
+		border:0px solid white;
+	}
+/* END CONTENT */
+
+
+/* TITLE */	
+	#title {
+		top:64px;
+		left:187px;
+		width:555px;
+		height:63px;
+		overflow:hidden;
+		text-align:right;
+	}
+	#title div.statement {
+		top:12px;
+		text-align:left;
+	}
+	#title h1 {
+		margin:0;
+	}
+	#title p {
+		margin-top:0;
+		font-size:11px; /* absolute positioning will not allow resizable text here */
+	}
+/* END TITLE */	
+
+
+/* MAIN CONTENT */
+	
+	#maincontent #heropromopanel{
+		min-height:239px;
+		position:relative;
+		background-color:#F5F5FE;
+		}
+		
+	* html #maincontent #heropromopanel{
+		height:239px;
+		}
+		
+		
+	#maincontent #heropromopanel .promoheader {
+		position:absolute;
+		z-index:100;
+		right:0px;
+		width:264px;
+		margin-bottom:0;
+		background: #e2e4ef url(/syntegra/images/heropromo_promocontent_grad.gif) repeat-x top left;
+		border-bottom:1px solid #d3d5d8;
+	}
+	
+	#maincontent #heropromopanel.hasJS .homepromo1 .promoheader{top:0px;}
+	#maincontent #heropromopanel.hasJS .homepromo2 .promoheader{top:52px;}
+	#maincontent #heropromopanel.hasJS .homepromo3 .promoheader{top:104px;}
+	#maincontent #heropromopanel.hasJS .homepromo4 .promoheader{top:156px;}
+	
+	#maincontent #heropromopanel .promoheader p {margin-bottom:0;}
+	
+	#maincontent #heropromopanel .promoheader a {
+		text-decoration:none;
+		background: url(/syntegra/images/heropromopanel-list-icon.gif) no-repeat 14px 12px;
+		color:#000;
+		font-size:1.1em;
+		display:block;
+		min-height:31px;
+		padding:10px 14px 10px 24px;	
+	}
+	
+	* html #maincontent #heropromopanel .promoheader a{height:31px;}
+	
+	#maincontent #heropromopanel .promoheader.selected a {
+		text-decoration:none;
+		background: url(/syntegra/images/heropromo_promocontent_grad_selected.png) no-repeat top left;
+		margin-left:-13px;
+		padding-left:37px;
+		border-right:1px solid #1B396E;
+		color:#fff;
+	}
+	
+	#lsdplusni #maincontent #heropromopanel .promoheader.selected a{
+		background: url(/syntegra/images/ini-heropromo_promocontent_grad_selected.png) no-repeat top left;
+		border-right:1px solid #8D1822;
+		}
+	#lsdplusfs #maincontent #heropromopanel .promoheader.selected a{
+		background: url(/syntegra/images/fs-heropromo_promocontent_grad_selected.png) no-repeat top left;
+		border-right:1px solid #003f7e;
+		}
+	#lsdplusbg #maincontent #heropromopanel .promoheader.selected a{
+		background: url(/syntegra/images/bg-heropromo_promocontent_grad_selected.png) no-repeat top left;
+		border-right:1px solid #1B396E;
+		}
+	
+	* html #maincontent #heropromopanel .promoheader a{position:relative;}
+	
+	* html #maincontent #heropromopanel .promoheader.selected a{ background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src="/syntegra/images/heropromo_promocontent_grad_selected.png", sizingMethod="image");background-repeat:no-repeat;cursor:pointer;}
+	* html #lsdplusni #maincontent #heropromopanel .promoheader.selected a{ background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src="/syntegra/images/ini-heropromo_promocontent_grad_selected.png", sizingMethod="image");background-repeat:no-repeat;cursor:pointer;}
+	* html #lsdplusfs #maincontent #heropromopanel .promoheader.selected a{ background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src="/syntegra/images/fs-heropromo_promocontent_grad_selected.png", sizingMethod="image");background-repeat:no-repeat;cursor:pointer;}
+	* html #lsdplusbg #maincontent #heropromopanel .promoheader.selected a{ background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src="/syntegra/images/bg-heropromo_promocontent_grad_selected.png", sizingMethod="image");background-repeat:no-repeat;cursor:pointer;}
+	
+	
+	
+	#maincontent #heropromopanel .promobody{
+		position:relative;
+		top:0px;
+		left:0px;
+		width:302px;
+		height:239px;
+	}
+	
+	#maincontent #heropromopanel #promoheaderpermlink {
+		width:264px;
+		position:absolute;
+		right:0px;
+		bottom:0px;
+		}
+		
+	#maincontent #heropromopanel #promoheaderpermlink p {
+		margin-bottom:0;
+		background: #e2e4ef url(/syntegra/images/heropromo_promocontent_grad.gif) repeat-x top left;
+		}
+		
+	#maincontent #heropromopanel #promoheaderpermlink p a {
+		color:#039;
+		font-size:1.1em;
+		display:block;
+		padding:7px 14px 9px 27px;
+		background: url(/syntegra/images/heropromopanel-whatsnew-icon.gif) no-repeat 14px 10px;
+		}
+	
+	#maincontent #heropromopanel .hp .promobody p{
+		opacity:0.9;
+		margin:0;
+		padding:10px;
+		color:#fff;
+		font-size:1.1em;
+		background-color:#1E3C70;
+		width:282px;
+		position:absolute;
+		bottom:0;
+		}
+		
+	#lsdplusni #maincontent #heropromopanel .hp .promobody p{background-color:#9e020b;}
+	#lsdplusfs #maincontent #heropromopanel .hp .promobody p{background-color:#003f7e;}
+	#lsdplusbg #maincontent #heropromopanel .hp .promobody p{background-color:#1E3C70;}
+	
+	/*RAYMOND BROOKS 20110320 START EDIT ISSUE #512*/
+	
+	html #maincontent #heropromopanel .promobody img{display:block;}
+	
+	/*RAYMOND BROOKS 20110320 END EDIT */
+	
+	#maincontent #heropromopanel .hp .promobody p a{color:#fff;}
+	
+	#maincontent #intro{clear:both;}
+	
+	#maincontent #intro p{font-size:1.2em;}
+
+	#maincontent #intro h1{
+		font-size:1.9em;
+		font-weight:normal;
+		padding:5px;
+		color:#fff;
+		background: #8FA131 url(/syntegra/images/home-intro-grad.png) repeat-x top left;
+		border-bottom:1px solid #7A7A7A;
+	}
+	
+	#lsdplusni #maincontent #intro h1{background: #82050d url(/syntegra/images/ini-home-intro-grad.png) repeat-x top left;}
+	#lsdplusfs #maincontent #intro h1{background: #003f7e url(/syntegra/images/fs-home-intro-grad.png) repeat-x top left;}
+	#lsdplusbg #maincontent #intro h1{background: #2D882D url(/syntegra/images/bg-home-intro-grad.png) repeat-x top left;}
+	
+	#maincontent #homepanelwrapper{
+		position:relative;
+		width:566px;
+		padding-bottom:25px;
+		background:#EDEDED url(/syntegra/images/homepanelwrapper3_footer.png) no-repeat bottom left;
+	}
+	
+	#maincontent .hpw1{
+		background:#fff url(/syntegra/images/homepanelwrapper1_footer.png) no-repeat bottom left !important;
+	}
+	
+	#maincontent .hpw2{
+		background:#fff url(/syntegra/images/homepanelwrapper2_footer.png) no-repeat bottom left !important;
+		
+	}
+	
+	#maincontent .homepanel{
+		width:182px;
+		float:left;
+		margin-right:10px;
+		background: #EDEDED;
+		
+	}
+	#maincontent .homepanel.last{margin-right:0;}
+	
+	#maincontent .homepanel .panelheader{
+		background: #fff;
+		border-bottom:1px solid #fff;
+	}
+	
+	#maincontent .homepanel .panelheader h2{
+		font-size:1.1em;
+		border-top:1px solid #dcdcdc;
+		min-height:16px;
+		margin-bottom:0;
+		padding:12px 5px 6px 0;
+	}
+	
+	* html #maincontent .homepanel .panelheader h2 {height:16px;}
+	
+	#maincontent .homepanel .panelbody{
+		border-top:3px solid #656798;
+		min-height:196px;
+	}
+	
+	* html #maincontent .homepanel .panelbody{height:196px;}
+	
+	#lsdplusni #maincontent .homepanel .panelbody{border-top:3px solid #ee7c14;}
+	#lsdplusfs #maincontent .homepanel .panelbody{border-top:3px solid #003f7e;}
+	#lsdplusbg #maincontent .homepanel .panelbody{border-top:3px solid #0054a4;}
+	
+	#maincontent .homepanel .panelbody img{
+		display:block;
+		margin:0 0 10px 0;
+	}
+	
+	#maincontent .homepanel .panelbody p{
+		display:block;
+		margin-bottom:5px;
+	}
+	
+	#content .homepanel .panelbody .inner{
+		border-top:1px solid #fff;
+		padding:6px 8px 30px 8px;
+		}
+	
+	#content .homepanel .panelbody .cta{
+		width:166px;
+		margin-right:8px;
+		margin-left:8px;
+		position:absolute;
+		bottom:25px;
+		
+	}	
+	
+	/* START events */
+	
+	#events {width:566px;margin-top:22px;}
+	#events .eventsheader {border-bottom:3px solid;}
+	
+	#events .eventsheader h2 {
+		font-size:1.1em;
+		margin-bottom:0.5em;
+		padding-left:5px;	
+	}
+	
+	#events .eventsbody{border-bottom:1px solid #D5D5D5;}
+	#events .eventsbody li{
+		list-style-type:none;
+		margin-left:0;
+		padding:5px 7px;
+		}
+	#events .eventsbody li.odd{
+		background-color:#EDEDED;
+		}
+	#events .eventsbody li p{
+		margin-bottom:0.15em;
+		color:#339;
+		}
+		
+	#events .allevents p{
+		background:url(/syntegra/images/list_arrow.gif) no-repeat  0 1px;
+    	margin-bottom: 0;
+   		padding-left: 15px;
+	}
+		
+	#lsdplusni #events .eventsheader {border-bottom-color:#EE7C14;}
+	#lsdplusfs #events .eventsheader {border-bottom-color:#003f7e;}
+	#lsdplusbg #events .eventsheader {border-bottom-color:#3b5889;}
+	
+		
+		
+	/* END events */
+		
+	
+		
+		
+		
+
+/* END MAIN CONTENT */
+
+
+
+/* ADDITIONAL CONTENT */
+#additionalcontent {
+	float:right;
+	padding-top:0px;
+	width:194px;
+	margin-bottom:20px;
+} 
+
+
+/* ADVERTS */
+	
+	#adverts {
+		border:0px solid black;
+		margin-top:7px;
+	}
+	#adverts img {
+		display:block;
+	}
+	#content #adverts h4 {
+		padding:2px 8px 0px 8px;
+		margin:0;
+	}
+	#content #adverts p.hr {
+		margin:5px 0 2px 9px;
+		padding:0;
+		text-align:left;
+	}
+	
+	/*#adverts div.smallpromo2 {
+		border-left:4px solid white;
+	}*/
+	
+	#adverts div.bigpromo {
+		padding-top:4px;
+	}
+	#adverts div.bigpromo {
+		margin:0;
+	}
+	#adverts div.bigpromo table td.text {
+		background-image:url("/syntegra/images/home_ad_corner.gif");
+		background-position: bottom right;
+		background-repeat:no-repeat;
+	}
+	#content #adverts div.bigpromo h4 {
+		padding:4px 8px 0px 11px;
+		margin:0;
+	}
+	#content #adverts div.bigpromo p {
+		padding:0 8px 0px 11px;
+		margin:0;
+	}
+	#content #adverts div.bigpromo p.hr {
+		margin:5px 0 2px 11px;
+		padding:0;
+		text-align:left;
+	}
+
+/* END ADVERTS */
+
+
+/* TABBED HOMEPAGE HACKS */
+	#contentwrap{
+		width:980px;
+		margin-top:25px;
+	}
+
+
+	#allcontent{
+		width:772px;
+	}
+	
+	#maincontent {
+		float:left;
+		width:566px;
+		margin-right:10px;
+	}
+	
+/* ADDITIONAL CONTENT */
+	#additionalcontent {
+		width:194px;
+		float:left;
+	} 
+	
+	
+	
+	#left {padding-top: 19px; width:180px !important;}
+	#left p { font-weight: 800;}
+	#left p.nolistsquare { font-weight: normal; }
+	#left #serviceprovider .sp{margin-bottom:13px;}
+	#left #serviceprovider {margin-top:20px;}
+	#left #serviceprovider p {margin-left:0;padding-left:0;font-weight:normal;font-size:0.9em;}
+	#left #serviceprovider .imgwrap{margin-top:10px;}
+	
+	
+
+
+/*[start] Panel */
+
+#content .panel{
+	border-bottom:1px solid #CAC9CF;
+	margin-bottom:10px;
+	}
+
+#content .panel .panelheader{
+	border-bottom:1px solid #6C6B70;
+	background: #949494 url(/syntegra/images/panel-header-grad.png) repeat-x top left;
+	padding:0 0 0 32px;
+	}
+	
+
+#content .panel .panelheader h2{
+	font-size:1.1em;
+	background: #949494 url(/syntegra/images/panel-header-grad.png) repeat-x top left;
+	padding:7px;
+	margin-bottom:0;
+	color:#fff;
+	}
+	
+#lsdplusni #content .panel .panelheader h2{
+	background: #82050D url(/syntegra/images/ini-panel-header-grad.png) repeat-x top left;
+}
+#lsdplusfs #content .panel .panelheader h2{
+	background: #003f7e url(/syntegra/images/fs-panel-header-grad.png) repeat-x top left;
+}
+#lsdplusbg #content .panel .panelheader h2{
+	background: #2D882D url(/syntegra/images/bg-panel-header-grad.png) repeat-x top left;
+}
+
+
+#content .panelheader a:link,.panelheader a:visited {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+#content .panelheader a:hover{
+	text-decoration:underline;
+	}
+	
+#content .panel .panelbody{
+	background: #e7e7f5 url(/syntegra/images/panel-grad.png) repeat-x top left;
+	padding:10px;
+	}
+	
+#content .mappanel .panelbody{
+	background: #e7e7f5 url(/syntegra/images/mappanel-grad.png) repeat-x top left;
+}
+
+#content .mappanel #panelsitejump select{
+		width:126px;
+		padding:1px 0;
+		border:1px solid #aeaeae;
+	}
+	
+#content .mappanel #panelsitejump .submit{
+		border:1px solid #fff;
+		width:auto;
+		height:auto;
+		font-weight:bold;
+		color:#fff;
+		padding:1px 6px;
+		background:url(/syntegra/images/global-header-search-grad.gif) repeat-x top left;
+		cursor:pointer;
+	}
+	
+#lsdplusni #content .mappanel #panelsitejump .submit{
+		background:url(/syntegra/images/ini-global-header-search-grad.gif) repeat-x top left;
+}
+#lsdplusfs #content .mappanel #panelsitejump .submit{
+		background:url(/syntegra/images/fs-global-header-search-grad.gif) repeat-x top left;
+}
+#lsdplusbg #content .mappanel #panelsitejump .submit{
+		background:url(/syntegra/images/bg-global-header-search-grad.gif) repeat-x top left;
+}
+
+
+#content .panel .doit{
+	background: #949494 url(/syntegra/images/panel-header-doit.png) no-repeat top left;
+	}
+#lsdplusni #content .panel .doit{
+	background: #82050D url(/syntegra/images/ini-panel-header-doit.png) no-repeat top left;
+	}
+#lsdplusfs #content .panel .doit{
+	background: #003f7e url(/syntegra/images/fs-panel-header-doit.png) no-repeat top left;
+	}
+#lsdplusbg #content .panel .doit{
+	background: #2D882D url(/syntegra/images/bg-panel-header-doit.png) no-repeat top left;
+	}
+#content .panel .mybusiness{
+	background: #949494 url(/syntegra/images/panel-header-mybusiness.png) no-repeat top left;
+	}
+#lsdplusni #content .panel .mybusiness{
+	background: #82050D url(/syntegra/images/ini-panel-header-mybusiness.png) no-repeat top left;
+	}
+#lsdplusfs #content .panel .mybusiness{
+	background: #003f7e url(/syntegra/images/fs-panel-header-mybusiness.png) no-repeat top left;
+	}
+#lsdplusbg #content .panel .mybusiness{
+	background: #2D882D url(/syntegra/images/bg-panel-header-mybusiness.png) no-repeat top left;
+	}
+#content .panel .regionalsupport{
+	background: #949494 url(/syntegra/images/panel-header-regionalsupport.png) no-repeat top left;
+	}
+
+#lsdplusni #content .panel .regionalsupport{
+	background: #82050D url(/syntegra/images/ini-panel-header-regionalsupport.png) no-repeat top left;
+	}
+#lsdplusfs #content .panel .regionalsupport{
+	background: #003f7e url(/syntegra/images/fs-panel-header-regionalsupport.png) no-repeat top left;
+	}
+#lsdplusbg #content .panel .regionalsupport{
+	background: #2D882D url(/syntegra/images/bg-panel-header-regionalsupport.png) no-repeat top left;
+	}
+
+#content .panel .contact{
+	background: #949494 url(/syntegra/images/panel-header-contact.png) no-repeat top left;
+	}
+	
+#content .panel ul,
+#content .homepanel ul{
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+}
+
+#content .panel ul li,
+#content .homepanel ul li{
+	background: url(/syntegra/images/panel-list-icon.gif) no-repeat 0 2px;
+	list-style-type:none;
+	margin:0 0 7px 0;
+	padding-left:14px
+}
+
+#content .panel .panelbody a,
+#content .homepanel .panelbody .cta a,
+#content .homepanel ul li a{
+	font-weight:normal;
+}
+
+
+
+
+#content .panel .panelbody .cta,
+#content .homepanel .panelbody .cta{
+	border-top:1px solid #C8C9CE;
+	padding-top:7px;
+}
+
+#content .panel .panelbody .cta p,
+#content .homepanel .panelbody .cta p{
+	margin-bottom:0;
+	background:url(/syntegra/images/panel-arrow-right.gif) no-repeat 0 3px;
+	padding-left:15px;
+}
+
+
+#content .panel .panelbody .cta p a{
+	font-weight:bold;
+}
+
+#content .mappanel .panelbody  .left{
+	width:90px;
+}
+#content .mappanel .panelbody  .right,
+#content .mappanel .panelbody  .left p{
+	margin-bottom:10px;
+}
+
+
+/*[end] Panel */
+
+.left{float:left;}
+.right{float:right;}
+
+
+/* LSD+ general homepage overrides - not in individual override files as they are homepage specific */
+#lsdplusni h1,#lsdplusfs h1,#lsdplusbg h1 {margin: 17px 0 12px;}
+#lsdplusni h2,#lsdplusfs h2,#lsdplusbg h2{margin-top:0;}
+#lsdplusni #breadcrumb, #lsdplusfs #breadcrumb, #lsdplusbg #breadcrumb {margin:0;}
+#lsdplusni #content,#lsdplusfs #content, #lsdplusbg #content {top:132px !important;left:200px !important;}
+#lsdplusni #content #allcontent #maincontent,#lsdplusfs #content #allcontent #maincontent, #lsdplusbg #content #allcontent #maincontent{margin-right:10px !important;padding-left:0 !important;}
+

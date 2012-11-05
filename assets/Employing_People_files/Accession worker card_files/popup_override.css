@@ -1,0 +1,57 @@
+body{background-image:none;}
+
+#logo
+{
+	background-color:white;
+	position:relative;
+	padding:0px;
+	margin: 2em 4em 1em 4em;
+	height:auto;
+	
+}
+div#content {
+	margin: 4px;
+	padding: 0em;
+}
+#close {
+	float:right;
+	top:4px;
+	margin-right:4em;
+	left: auto;
+}
+#close a {
+	color:#339;
+	font-weight:bold;
+}
+
+div.maincontent
+{
+	margin: 1em 4em 1em 4em;
+	padding: 0em;
+	width:400px;
+}
+
+hr {
+	margin-bottom:15px;
+}
+
+h2.subhead
+{
+	font-size:1.2em;
+}
+
+td.leftcontent
+{
+	width:95%;
+	vertical-align:top;
+}
+
+td.rightcontent
+{
+	width:5%
+}
+
+td.leftcontent ul
+{
+	padding-right:10px;
+}

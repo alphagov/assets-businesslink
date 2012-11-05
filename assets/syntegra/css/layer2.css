@@ -1,0 +1,379 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 05/03/04 - fixed margins for additionalcontent content. Removed commented out old code */
+/* VERSION 2.1: 05/03/04 - Added margin-bottom to H3s in additionalcontent content. Netscape 4.7 Mac bullet ? bug fix */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:196px;
+		width:543px;
+		background-color:white;
+		border:0px solid black;
+	}
+	#maincontent {
+		float:left;
+		width:345px;
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	#maincontent #wideguide{
+		width:760px;
+	}
+	#additionalcontent {
+		float:right;
+		width:181px;
+		background-color:white;
+		border:0px solid black;
+		padding-top:6px;
+	}
+	#breadcrumb {
+		margin-left:4px;
+		margin-bottom:12px;
+	}
+/* END LAYOUT */
+
+	div.dl h2.h3alias,
+	div.dl h3,
+	div.dl h4 {
+		width:330px;
+	}
+
+
+/* SHARED STYLES */
+	
+	#additionalcontent div#businesslinknumber h1
+	{
+		margin-top:10px;
+		margin-left:23px;
+		padding:0;
+		color:Black;
+	}
+	
+	#additionalcontent h3 {
+		margin-bottom: 9px;
+	}
+	#additionalcontent div.basicbox h3,
+	#additionalcontent div.basicbox h4 {
+		margin-top:10px;
+		margin-left:20px;
+		padding:0;
+	}
+	#additionalcontent div.basicbox ul,
+	#additionalcontent div.basicbox ol {
+		margin-left:-5px;
+		margin-bottom:10px;
+	}
+	#additionalcontent div.basicbox p {
+		margin-left:15px;
+	}
+	#additionalcontent div.basicbox p.hr {
+		margin: -10px 0 0px 20px;
+	}
+	#additionalcontent div.mainpanel p.hr {
+		margin-left: 25px;
+	}
+	#additionalcontent div.mainpanel p.hr2 {
+		margin: -5px 0px 6px 25px;
+	}
+	#additionalcontent div.mainpanel ul li {
+		margin-right: 15px;
+	}
+
+	#additionalcontent div.helplines p {
+		margin:-4px 15px 14px 25px;
+	}
+
+	#additionalcontent div.helplines p.hr {
+		margin-top:-10px;
+	}
+
+	div.pageoptions ul li {
+		color: white;
+	}
+	
+	#maincontent p.sitemap {
+		padding:0 0 0 12px;
+		margin:0 0 0 0px;
+		background-repeat:no-repeat;
+		background-color:white;
+		line-height:normal;
+	}
+	
+	div.faq ul.links li {
+		margin-bottom:12px;
+	}
+	
+/* END SHARED STYLES */
+
+/* QUICKLINKS - LIVE INSIDE BASICBOX */
+	#additionalcontent div.selecttools {
+		border:0px solid black;
+		margin:0px 15px 12px 20px;
+	}
+	#additionalcontent div.selecttools form.quicklinks h3,
+	#additionalcontent div.selecttools form.quicklinks h4 {
+		margin-left:0px;
+		padding:0;
+	}
+	#additionalcontent div.selecttools form.quicklinks p label {
+		margin-right:0px;
+		margin-bottom:0;
+	}
+	#additionalcontent div.selecttools form.quicklinks p {
+		margin-left:0px;
+		margin-top:-12px;
+	}
+	#additionalcontent div.selecttools form.quicklinks span {
+		margin-top:0em;
+		margin-right:0px;
+		margin-bottom:0;
+		margin-left:0px;
+	}
+	#additionalcontent div.selecttools form.quicklinks select {
+		margin:0px;
+		padding:0px;
+		height:17px;
+		width:215px;
+		color:black;
+		font-size:11px;
+		background-color:white;
+	}
+	#additionalcontent div.selecttools form.quicklinks input,
+	#additionalcontent div.selecttools form.quicklinks select {
+		vertical-align:middle;
+	}
+	
+/* END QUICKLINKS */
+
+
+/*LINK IN PAGE OPTIONS*/
+
+div.pageoptions ul.links
+{
+	padding-top:5px;
+}
+
+div.pageoptions ul.links li
+{
+	padding-left:15px;
+}
+
+div.pageoptions span.whatisthis a {
+	color:#666;
+	font-weight:normal !important;
+}
+
+div.pageoptions span.whatisthis img {
+	margin-bottom:-1px;
+}
+
+/* Start of Exisiting Advanced Styles */
+
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 05/03/04 - removed commented out old code. */
+/* VERSION 2.1: 11/03/04 - removed dl margin-left def that was overriding global def */
+/* VERSION 2.2: 24/03/04 - added black text for pageoptions li */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* EDIT 24-09-07 by PB: .toolspanel appended to existing ul.link style ----- */
+
+/* SHARED STYLES */
+
+	#content {
+		left:200px;
+	}
+	#additionalcontent {
+		padding-top:20px;
+	}
+	#breadcrumb {
+		margin:0px;
+	}
+
+	#additionalcontent div.basicbox h3,
+	#additionalcontent div.basicbox h4 {
+		margin-top:1px;
+		margin-left:20px;
+		margin-bottom:0px;
+		padding:0;
+	}
+	#additionalcontent div.basicbox ul li,
+	#additionalcontent div.basicbox ol li {
+		margin-left:20px;
+		margin-right:20px;
+	}
+	#additionalcontent div.basicbox ul,
+	#additionalcontent div.basicbox ol {
+		margin-bottom:10px;
+		margin-left:20px;
+	}
+	#additionalcontent div.basicbox p.hr {
+		margin: 0 0 7px 20px ;
+	}
+	#additionalcontent div.basicbox {
+		float: right;
+	}
+	#additionalcontent div img {
+		border: 0px solid white;
+	}
+	
+	#maincontent p.sitemap {
+		margin:2px 0 20px 0px;
+		padding:0 0 0 15px;
+	}
+	
+	div.faq ul.links li {
+		margin-bottom:10px;
+	}
+
+	
+	div.mainpanel ul.links, div.extrapanel ul.links, div.toolspanel ul.links {
+		margin-left: 10px;
+	}
+
+	div.dl h3 {
+		margin-left:0;
+	}
+
+	div.dl p {
+		margin-top:0px;
+		margin-bottom:0;
+	}
+	div.pageoptions ul li {
+		color: black;
+	}
+
+/* END SHARED STYLES */
+
+
+/* QUICKLINKS */
+	#additionalcontent div.selecttools form.quicklinks {
+		margin:0;
+	}
+	#additionalcontent div.selecttools form.quicklinks h3,
+	#additionalcontent div.selecttools form.quicklinks h4 {
+		margin:0 0 4px 0;
+	}
+	#additionalcontent div.selecttools form.quicklinks p {
+		margin:2px 0px 8px 0px;
+	}
+	#additionalcontent div.selecttools form.quicklinks span {
+		width:100%;
+		margin:0;
+	}
+	#additionalcontent div.selecttools form.quicklinks select {
+		border:1px solid black;
+		width:195px;
+		font-size:1em;
+	}
+	html>body #additionalcontent div.selecttools form.quicklinks select {
+		width:190px; /* Opera only */
+	}
+	
+	* html #additionalcontent div.selecttools form.quicklinks select {
+	  height: 17px; /*IE 5+ Win and Mac only*/
+	  he\ight: 15px; /*IE6 Win*/ 
+	}
+/* END QUICKLINKS */
+
+	/*LINK IN PAGE OPTIONS*/
+
+div.pageoptions ul.links
+{
+	padding-top:5px;
+}
+
+div.pageoptions ul.links li
+{
+	padding-left:15px;
+}
+
+div.pageoptions span.whatisthis a {
+	color:#666;
+	font-weight:normal !important;
+}
+
+div.pageoptions span.whatisthis img {
+	margin-bottom:-1px;
+}
+
+div.pagecontrols{
+	margin-bottom:2em;
+}
+
+div.pagecontrols ul li{
+	list-style-type:none;
+	padding-left:0;
+	margin-left:0;
+}
+div.pagecontrols ul li.back{float:left;}
+
+div.pagecontrols ul li.next{float:right;}
+
+div.pagecontrols ul li.back a{
+	background:no-repeat 10% 0;
+	padding-left:15px;
+	}
+	
+div.pagecontrols ul li.next a{
+	background:no-repeat 90% 0;
+	padding-right:15px;
+	}
+
+
+/* PR1692 A-Z */
+	#content #contentheader {
+		margin-top:2em;
+		width:525px;
+	}
+/* A-Z */
+
+	div.a-z {
+		margin-top:8px;
+		margin-bottom:1.4em;
+		margin-left:0;
+	}
+	div.a-z ul{
+		margin-bottom:0;
+		margin-left:0;
+		}
+	div.a-z ul li {
+		margin-left:0;
+		margin-right:2px;
+		width:1.30em;
+		height:1.30em;
+		line-height:1.35em;
+		list-style-type:none;
+		float:left;
+		font-size:1.2em;
+		text-align:center;
+		background-color:#eee;
+	}
+	div.a-z ul li a{
+		display:block;
+	}
+	div.a-z ul li.on {
+		margin-left:2px;
+		color:#D0D0FF;
+		background-color:#32339D;
+		line-height:1.35em;
+	}
+	div.a-z ul li.on a {
+		color:#D0D0FF;
+	}
+	
+	
+	div.a-z table td {
+		font-size:1.2em;
+	}
+
+

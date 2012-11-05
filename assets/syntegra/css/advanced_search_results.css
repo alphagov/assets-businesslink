@@ -1,0 +1,147 @@
+
+	body #content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px !important;
+		background-color:white;
+		border:0px solid black;
+	}
+	#maincontent {
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	
+	
+	#breadcrumb {
+		margin-left:4px;
+		margin-bottom:12px;
+	}
+
+
+
+	#breadcrumb {
+		margin:0px;
+	}
+
+	
+
+
+.left{float:left;}	
+.right{float:right;}
+.clear{clear:both;}
+
+abbr{border:none;}
+
+
+
+div#advancedsearchresults{
+	width:550px;
+	margin-top:10px;
+	}
+	
+div#advancedsearchresults h1{
+	margin-top:12px;
+}
+div#advancedsearchresults div#maincontent{
+	float:left;
+	width:377px;
+	}
+	
+div#advancedsearchresults div#additionalcontent {
+	float:right;
+	padding-top:15px;
+	width:160px;
+	}
+	
+/* main content */
+
+div#advancedsearchresults div#maincontent div.searchresults div.result {margin-bottom:15px;}
+
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult h3,
+div#advancedsearchresults div#maincontent div.searchresults div.result h3{
+	background:url(/syntegra/images/list_arrow.gif) no-repeat top left;
+	padding-left:13px;
+	}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.result p{
+	padding-left:13px;
+	margin-bottom:0;
+	word-wrap:break-word;
+}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult{
+	margin-bottom:12px;
+	}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.spellcheck{font-size:1.2em;}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresulthead{
+	background:#e6faa4;
+	padding:5px 10px;
+	}
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresultbody{
+	background:#f4ffd1;
+	padding:5px 10px;
+	}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresultbody p{
+	padding-left:13px;
+	}
+	
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresulthead h2{font-weight:normal;margin-bottom:0;}
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresultbody p{margin-bottom:0;}
+div#advancedsearchresults div#maincontent div.searchresults div.recommendedresult div.rresultbody p{ word-wrap:break-word;}
+
+div#advancedsearchresults div#maincontent div.mcadvsearch{
+	padding:18px 18px 18px 20px;
+	background:#E9EBF8;
+}
+
+div#advancedsearchresults div#maincontent div.mcadvsearch #mcadvsearchtop,
+div#advancedsearchresults div#maincontent div.mcadvsearch #mcadvsearchbtm{
+	width:247px;
+	height:auto !important;
+	border:2px solid #7A7B7F;
+	font-size:1.2em;
+	padding:3px;
+}
+
+div#advancedsearchresults div#maincontent div.mcadvsearch .mcadvsearchsub{
+	margin-left:6px;
+	border:2px solid #57556D;
+	background-color:#CBCEF7;
+	font-weight:bold;
+	font-size:1.2em;
+	padding:2px;
+	width: 5.1em !important;
+	height:auto !important;
+}
+
+* html div#advancedsearchresults div#maincontent div.mcadvsearch .mcadvsearchsub{padding-top:1px;height:25px !important;}
+*+html div#advancedsearchresults div#maincontent div.mcadvsearch .mcadvsearchsub{padding-top:1px;height:25px !important;}
+
+div#advancedsearchresults div#maincontent div.resultnav{margin-left:45px;}
+
+
+/* additional content */
+ 
+div#advancedsearchresults div#additionalcontent div.paneltop{padding:0 12px;margin-bottom:30px;}
+div#advancedsearchresults div#additionalcontent div.panel div.panelhead{padding:10px 12px;background-color:#CFCFF3;}
+div#advancedsearchresults div#additionalcontent div.panel div.panelhead h3{margin-bottom:0;}
+div#advancedsearchresults div#additionalcontent div.panel div.panelbody{padding:10px 12px;background-color:#EAE9F7;}
+div#advancedsearchresults div#additionalcontent div.panel div.panelbody div.hr{background:url(/syntegra/images/ust-sep.gif) repeat-x top left;width:136px;height:1px;margin-bottom:15px;}
+div#advancedsearchresults div#additionalcontent div.panel div.panelbody div.pbbottom h3{
+	margin-bottom:6px;	
+}
+div#advancedsearchresults div#additionalcontent div.panel div.panelbody ul.links li {margin-bottom:20px;}
+
+	
+
+	
+	
+	
+

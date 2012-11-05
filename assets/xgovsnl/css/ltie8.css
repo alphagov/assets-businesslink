@@ -1,0 +1,30 @@
+/*
+ * Project businesslink.gov.uk
+ *  
+ * File ltie8.css
+ * 
+ * Created 12 Nov 2008
+ * 
+ * Description Skin & Link CSS for IE8
+ * 
+ * 
+ * Revision $Rev: 352 $ $Date: 2009-01-15 10:15:48 +0000 (Thu, 15 Jan 2009) $
+ */
+
+/* 
+[ltie8.css]
+Version:1.0 16/07/08  
+*/
+
+.clearfix{zoom:1;}
+
+input.radio,
+input.checkbox{
+	padding:0 !important;
+	margin:0 !important;
+}
+div.getAddress a{
+	display:inline;
+	margin-left:379px;
+}
+

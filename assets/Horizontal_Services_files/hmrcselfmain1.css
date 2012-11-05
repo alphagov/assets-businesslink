@@ -1,0 +1,247 @@
+/* 
+	Campaign Specific Stylesheet 
+	Any custom CSS rules in this stylesheet should begin 
+	'#campaigns-body ' to ensure they only apply to the custom source code area of the page template.
+	
+	If used, Campaign CMS Banner header styles must begin '#campaigns-header '
+	If used, Campaing CMS 'Developed with' footer styles must begin '#campaigns-footer '
+	
+	The creation of any styles without leading '#campaigns-[header/body/footer]' must have prior approval from BusinessLink
+*/
+
+/* 	Campaigns Body Styles - All must start '#campaigns-body '  */
+
+#campaigns-body {}												/* Global Default: 'width:66em' limits to BusinessLink 730px width standard */
+#campaigns-body h1 {} 											/* Global Default: 'font-size:1.5em;' */
+#campaigns-body h2 {} 											/* Global Default: 'font-weight:bold;' */
+#campaigns-body p {}								 			/* Global Default: 'margin:1em 0; line-height:1.5em;' */
+#campaigns-body a {text-decoration:underline;}					/* Global Default: 'color:#333399;' Note: Visited colour is browser default purple */
+#campaigns-body td {}											/* Global Default: 'vertical-align:top;' */
+
+
+	
+#campaigns-body h1	{
+	font-size:18px;
+	font-weight:normal;
+	color:#66c28b;
+	margin-bottom:20px;
+	}
+	
+#campaigns-body p	{
+	font-size:11px;
+	margin-bottom:20px;
+	}
+
+#campaigns-body img {
+	border: 0;
+	}
+
+#campaigns-body #container	{
+	width:859px;
+	}
+
+#campaigns-body #hmrcLogo	{
+	padding:0;
+	margin:10px 0 10px 0;
+	}
+		
+#campaigns-body #top	{
+	margin:0;
+	padding:0;
+	clear: both;
+	width:644px;
+	height:151px;
+	background: #009a3d;
+	float:left;
+	}
+	
+#campaigns-body #top img {
+	margin: 90px 0 0 0;
+	}
+
+#campaigns-body #topRight	{
+	width:84px;
+	height:151px;
+	padding: 0 0 0 22px;
+	background:#66c28b;
+	border-left:#ffffff 1px dashed;	
+	float:left;
+	}
+
+#campaigns-body #topRight a	{
+	color: #fff;
+	font-size:14px;
+	text-decoration: none;
+	}
+
+
+
+/*----------------------------Navigation -----------------------------*/
+
+#campaigns-body #nav	{
+	height:30px;
+	}
+	
+#campaigns-body #nav ul	{
+	margin-left:0;
+	list-style-type:none;
+	}
+
+#campaigns-body #nav li	{
+	width:215px;
+	height:30px;
+	text-align: center;
+	background:transparent url('http://www.businesslink.gov.uk/Horizontal_Services_images/navbglight.gif') 0 0 no-repeat;
+	float:left;
+	list-style-type:none;
+	}
+
+#campaigns-body #nav a {
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 30px;
+	}
+
+#campaigns-body #nav #current	{
+	background:transparent url('http://www.businesslink.gov.uk/Horizontal_Services_images/navbg.gif') 0 0 no-repeat;
+	}
+
+/* -------------------------------------first page ---------------------------*/
+
+#campaigns-body #quote1 {
+	width:415px;
+	margin-top: 20px;
+	float:left;
+	background:#66C28B url('http://www.businesslink.gov.uk/Horizontal_Services_images/quotetop.gif') 0 0 no-repeat;
+	}
+
+#campaigns-body #quote1 p {
+	width:350px;
+	margin: 60px 0 0 25px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #66C28B;
+	}
+
+#campaigns-body #quote-bottom {
+	padding: 0 0 0 0;
+	height: 19px;
+	background:#66C28B url('http://www.businesslink.gov.uk/Horizontal_Services_images/quotebottom.gif') 0 0 no-repeat;
+}
+
+* html #campaigns-body #quote-bottom{
+	position:relative;
+}
+
+#campaigns-body #list	{
+	width:183px;
+	float:left;
+	margin:60px 0 20px 30px;
+	}
+	
+#campaigns-body #list ul	{
+	list-style: none;
+	padding:0;
+	margin:0;
+	}
+
+#campaigns-body #list li	{
+	border-bottom:1px #009a3d dashed;
+	margin:5px 0 0 0;
+	padding:0 0 5px 15px;;
+	float:left;
+	background: transparent url('http://www.businesslink.gov.uk/Horizontal_Services_images/listimg.gif') 0 3px no-repeat;
+	list-style-type:none;
+	}
+	
+#campaigns-body #list a	{
+	width:183px;
+	font-size: 13px; 
+	color: #000000;
+	text-decoration: none;
+	float:left;
+	}
+
+/*---------------------------------------page2 & page 3 content --------------------------------*/
+
+#campaigns-body #quote2 {
+	width:214px;
+	margin: 20px 0 0 0;
+	float:left;
+	background:#66C28B url('http://www.businesslink.gov.uk/Horizontal_Services_images/quotetop.gif') 0 0 no-repeat;
+	}
+
+#campaigns-body #quote2 p {
+	width:150px;
+	margin: 60px 0 0 25px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #66C28B;
+	}
+
+#campaigns-body #quoteLink {
+	background:#66C28B url('http://www.businesslink.gov.uk/Horizontal_Services_images/fileonline.gif') 0 0 no-repeat;
+	margin-top: 20px;
+	margin-left:20px;
+	padding: 20px 20px 0 100px;
+	border-top:#fff 1px dashed;
+	font-size:16px;
+}
+
+#campaigns-body #quoteLink a {
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+#campaigns-body #quote2-bottom {
+	padding: 0 0 0 0;
+	margin:0;
+	height: 19px;
+	background:#66C28B url('http://www.businesslink.gov.uk/Horizontal_Services_images/quotebottom.gif') 0 0 no-repeat;
+}
+
+#campaigns-body #copy	{
+	width:410px;
+	float:left;
+	margin:55px 0 0 20px;
+	font-size:11px;
+	}
+
+#campaigns-body ol	{
+	padding-left:10px;
+	margin-left:20px;
+	margin-bottom:20px;
+	
+	}
+	
+#campaigns-body #copy a	{
+	width:260px;
+	font-size: 13px; 
+	color: #000000;
+	text-decoration: none;
+	float:left;
+	}
+
+#campaigns-body #copy ul	{
+	width:300px;
+	float:left;
+	margin:0px 0 10px 0px;
+	}
+
+#campaigns-body #copy li	{
+	border-bottom:1px #009a3d dashed;
+	margin:5px 0 0 0;
+	padding:0 0 5px 15px;;
+	float:left;
+	background: transparent url('http://www.businesslink.gov.uk/Horizontal_Services_images/listimg.gif') 0 3px no-repeat;
+	list-style-type:none;
+	}
+
+#campaigns-body .reminders	{
+	margin: 0 0 15px 10px;
+	padding: 5px;
+	border:#009a3d solid 1px;
+	background:#66c28b;
+	width: 400px;
+	}	

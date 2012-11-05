@@ -1,0 +1,77 @@
+
+
+#campaigns-body {
+width:1000px;
+padding:15px;
+}
+
+#campaigns-body table{
+width:730px;			
+margin-top: 10px;
+}
+
+#campaigns-body td{
+padding:5px;
+margin:0px !important;
+}
+
+#campaigns-body tr{
+padding:0px !important;
+margin:0px !important;
+}
+
+#campaigns-body th{
+font-weight:bold;
+}
+
+#campaigns-body h1 {
+font-size:1.8em;
+} 											
+
+#campaigns-body h2 {
+margin: 20px 0 0 0;
+font-size:1em;
+}		 			
+
+#campaigns-body a {
+text-decoration:none;
+}
+
+#campaigns-body a:hover {
+text-decoration:underline;
+}					
+
+
+#campaigns-body ul {
+list-style-type: none;
+margin: 20px 20px 0 10px;
+padding: 0 10px 0 0;
+font-family: arial;
+font-size: 1.1em;
+color: #003366;
+}							
+#campaigns-body li {
+margin: 0 0 10px 0px;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url('../../Horizontal_Services_images/campaigns/purple_arrow.gif') 0 0 no-repeat;
+}	
+
+#campaigns-body img {
+float:right;
+}
+
+#campaigns-body .awardsimage {
+width: 250px;
+float:right;
+
+}
+
+#campaigns-body .awardsimage img {
+padding-top: 20px;
+}
+
+#campaigns-body .awardswinners img {
+padding-top: 20px;
+padding-bottom: 20px;
+}

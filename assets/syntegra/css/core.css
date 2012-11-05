@@ -1,0 +1,2680 @@
+/* core.css */
+
+#logo {
+    z-index: 4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 210px;
+    height: 116px;
+}
+
+#logo img{margin:0 87px 0 32px;}
+
+
+
+#strapline span {
+    font-size: 17px;
+    color: white;
+    display: block;
+    padding-top: 6px;
+}
+
+
+
+#topnavinner {
+    padding-top: 2px;
+}
+
+#topnav #help {
+    z-index: 5;
+    float: left;
+    width: 266px;
+    text-align: left;
+}
+
+#topnav #find {
+    text-align: right;
+    border: 0.1px solid white;
+}
+
+#topnav #account {
+    text-align: right;
+    margin-top: 5px;
+    border: 0.1px solid white;
+}
+
+#topnav #tabs {
+    z-index: 0;
+    position: absolute;
+    top: 90px;
+    left: 210px;
+    font-weight: bold;
+}
+
+#topnav #tabs div {
+    background-color: #DCDCF7;
+    background-image: url("../../syntegra/images/tabend.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    height: 20px;
+    font-size: 11px;
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 0px;
+}
+
+#topnav #tabs div.tab1 {
+    width: 134px;
+}
+
+#topnav #tabs div.tab2 {
+    width: 104px;
+}
+
+#topnav #tabs div.tab3 {
+    /*width:170px;*/
+    width: 92px;
+}
+
+#topnav #tabs div.tab4 {
+    /*width:170px;*/
+    width: 151px;
+}
+
+#topnav #tabs table {
+    width: 403px;
+}
+
+#topnav #tabs div a:link, #topnav #tabs div a:visited, #topnav #tabs div 
+
+a:hover, #topnav #tabs div a:active {
+    display: block;
+    padding: 3px 0px 1px 0px;
+    margin: 0px;
+    color: #306;
+}
+
+#topnav #tabs td {
+    background-color: #DCDCF7;
+    background-image: url("../../syntegra/images/tabend_new.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    height: 20px;
+    font-size: 11px;
+    font-weight: bold !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#topnav #tabs td.tabstart {
+    width: 6px;
+    height: 20px;
+    background-image: url("../../syntegra/images/tabstart.gif");
+}
+
+#topnav #tabs td.tabtop {
+    /* width:480px; */
+    width: 408px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+    display: block;
+}
+
+#topnav #tabs td.startshadow {
+    width: 4px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.endshadow {
+    width: 11px;
+    height: 4px;
+    background-image: none;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.tabshadow {
+    /* width:465px; */
+    width: 392px;
+    height: 4px;
+    background-image: url("../../syntegra/images/tabtop.gif");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #669;
+    font-size: xx-small;
+}
+
+#topnav #tabs td.tab1 {
+    /* width:134px; */
+    width: 109px;
+}
+
+#topnav #tabs td.tab2 {
+    width: 103px;
+}
+
+#topnav #tabs td.tab3 {
+    /*width:170px;*/
+    /* width:92px; */
+    width: 96px;
+}
+
+#topnav #tabs td.tab4 {
+    /*width:170px;*/
+    /* width:151px; */
+    width: 94px;
+    background-image: url("/syntegra/images/tabend_new_end.gif");
+}
+
+#topnav #tabs td.selected {
+    background-color: white;
+    background-image: url("../../syntegra/images/tabend_white.gif");
+}
+
+#topnav #tabs td.beforeselected {
+    background-image: url("../../syntegra/images/tabend_white_before.gif");
+}
+
+#topnav #tabs td.endselected {
+    background-color: white;
+    background-image: url("../../syntegra/images/tabend_white_end.gif");
+}
+
+#topnav #tabs td a:link, #topnav #tabs td a:visited, #topnav #tabs td a:hover, 
+
+#topnav #tabs td a:active, #topnav #tabs td span {
+    display: block;
+    padding: 3px 0px 1px 1px;
+    margin: 0px;
+    color: #306;
+}
+
+#topnav #tabs td.tab1 a:link, #topnav #tabs td.tab1 a:visited, #topnav #tabs 
+
+td.tab1 a:hover, #topnav #tabs td.tab1 a:active, #topnav #tabs td.tab1 span {
+    padding: 3px 0px 1px 9px;
+}
+
+#footer {
+    clear: both;
+    padding-top: 27px; /* if possible, last item on page should have 20px 
+
+margin-bottom to make the total footer spacing 47px */
+    padding-bottom: 20px;
+}
+
+html > body div#footer {
+    padding-top: 27px;
+}
+
+#breadcrumb {
+    /*z-index:6;
+     position:absolute;
+     top:107px;
+     left:202px;
+     width:540px;
+     height:30px;
+     line-height:1em;*/
+}
+
+#breadcrumbnarrow {
+    z-index: 6;
+    position: absolute;
+    top: 107px;
+    left: 202px;
+    width: 250px;
+    height: 30px;
+}
+/* LSDPLUS static pages */
+#contentlsd {
+    z-index: 5;
+    position: absolute;
+    top: 122px;
+    left: 200px;
+    width: 544px;
+    background-color: white;
+    /*layer-background-color:white;*/
+    border: 0.1px solid white;
+}
+
+html > body #maincontentlsd {
+    min-height: 300px;
+}
+
+#maincontentlsd {
+    float: left;
+    width: 450px;
+    border: 0.1px solid white;
+}
+/* END LAYOUT */
+/* SHARED STYLES */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fff url(/syntegra/images/global-header-grad.png) repeat-x top 
+
+left;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Helvetica, sans-serif;
+    color: black; /* over-ride with theme colour */
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.h2alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.h3alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.h4alias {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+h6 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, span, td, th {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /*margin:0px;
+     padding:0px;*/
+}
+
+div {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+
+ul, ol, dl {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    /*redef*/
+}
+
+#maincontent ol {
+    margin-left: 4px;
+}
+
+table {
+    font-size: 12px;
+}
+
+label {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /*display:block;*/
+}
+
+span.label {
+    font-size: 12px;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+    /* redef */
+}
+
+input.add, input.go, input.remove, input.submit, input.button {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+input.submit_button {
+    width: auto;
+    height: auto;
+    border-width: 3px;
+    border: solid;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("/syntegra/images/blue.gif");
+}
+
+input.remove_button {
+    width: auto;
+    height: auto;
+    border-width: 3px;
+    border: solid;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("/syntegra/images/red.gif");
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+a:link:hover {
+    color: #339;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #939;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: #939;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #339;
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    padding: 0px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+abbr {
+    font-style: normal;
+    text-decoration: none;
+}
+/* hides elements only required for accessibility */
+.accessibility {
+    display: none;
+}
+/* width set for Netscape 4.7. Overridden in advanced.css */
+.imgright {
+    float: right;
+    width: 94px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 0.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+.tighttop {
+    margin-top: 0px;
+}
+
+.tightbottom {
+    margin-bottom: 0px;
+}
+
+p.propositionstatement {
+    margin-top: -1em;
+}
+
+div.navlinks p {
+    padding-left: 16px;
+    margin-left: 9px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+    /*redef*/
+}
+
+div.stretchdiv, span.stretchdiv {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+p.link {
+    padding-left: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+/* END SHARED STYLES */
+/* GLOBAL NAV */
+span.navitem {
+    font-size: 12px;
+    color: #99C;
+}
+
+#topnav span.navitem a, #topnav span.navitem a:link, #topnav span.navitem 
+
+a:visited {
+    font-size: 12px;
+    color: white;
+    background-color: #669;
+    font-weight: normal;
+}
+
+#topnav span.navitem a:hover {
+    color: #cf0;
+}
+
+#topnav #help span.navitem a.current, #topnav #find span.navitem a.current {
+    color: #cf0;
+}
+
+#topnav #account a, #topnav #account a:link, #topnav #account a:visited {
+    color: white;
+}
+
+#topnav #account a:hover {
+    color: #cf0;
+}
+
+#topnav #account a.current {
+    color: #cf0;
+    font-weight: bold;
+}
+
+#footer p {
+    color: #666;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#footer h4 {
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#footer img {
+    display: block;
+}
+
+#footer span.navitem {
+    color: #669;
+}
+
+#footer span.navitem a {
+    color: #333;
+    background-color: white;
+    font-weight: normal;
+}
+
+#footer span.navitem a:link:hover {
+    color: #690;
+}
+
+#footer span.navitem a:visited {
+    color: #339;
+}
+
+#footer span.navitem a:visited:hover {
+    color: #690;
+}
+
+#footer span.navitem a:link {
+    color: #669;
+}
+
+#footer span.navitem a.current {
+    color: #690;
+}
+
+#topnav #find strong {
+    color: #ccf;
+}
+
+#topnav #sitesearch form {
+	padding: 0px;
+    margin: 0px;
+}
+
+/* END GLOBAL NAV */
+/* BREADCRUMB */
+#breadcrumb p, #breadcrumbnarrow p {
+    font-size: 11px;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+
+#breadcrumb a, #breadcrumb a:link, #breadcrumb a:active, #breadcrumb 
+
+a:visited, #breadcrumb a:hover {
+    font-weight: normal;
+}
+/* END BREADCRUMB */
+/* CONTENT */
+#content a {
+    font-weight: bold;
+}
+
+#content p.hr {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    /*redef*/
+}
+/* END CONTENT */
+/* LIST WITH ARROWS FOR MARKERS */
+/*
+ ul.links {
+ margin-top:-5px;
+ margin-bottom:0;
+ margin-left:-24px;
+ padding-right:10px;
+ }
+ ul.links li {
+ margin-bottom:1px;
+ }
+ ul.links li.current {
+ list-style: disc none;
+ }
+ #content ul.links a {
+ font-weight:normal;
+ }
+ #left ul.links a {
+ font-weight:normal;
+ }
+ */
+/*
+ div.printemail ul {
+ margin-top:4em;
+ list-style-image:url("../../syntegra/images/list_arrow2.gif");
+ }
+ #content div.printemail a {
+ font-weight:normal ;
+ }
+ */
+#content ul.links a {
+    font-weight: normal;
+}
+
+#left ul.links a {
+    font-weight: normal;
+}
+
+ul.links {
+    margin-left: -25px;
+}
+
+div.pageoptions ul {
+    margin-left: -35px;
+}
+
+div.pageoptions ul li {
+    list-style: none;
+    margin-left: 0;
+}
+
+div.dl h2.h3alias, div.dl h3, div.dl h4 {
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+div.dl p {
+    margin-top: -12px; /*-12*/
+    margin-bottom: 12px; /*12*/
+    margin-left: 14px;
+}
+
+div.dl small {
+    font-size: 12px;
+    color: #999;
+}
+
+div.dl2 h2.h3alias, div.dl2 h3, div.dl2 h4 {
+    margin-left: 14px;
+    margin-top: 0em;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+div.dl2 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    padding-left: 0px;
+}
+
+div.dl2 p.links {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+/* END LISTS */
+/* ERROR MESSAGE */
+div.error p, div.error ul, div.error ol, div.error dl {
+    color: #cc0000;
+    width: 400px;
+}
+
+div.error ul, div.error ol, div.error dl {
+    margin-top: 0px !important;
+}
+
+div.error ul li, div.error ol li {
+    margin-bottom: 4px;
+}
+/* END ERROR MESSAGE */
+/* RESULTSNAV */
+div.resultnav span.spacer {
+    letter-spacing: 1px;
+}
+
+div.resultnav em {
+    font-style: normal;
+}
+/* END RESULTSNAV */
+/* FORM ELEMENTS */
+fieldset {
+    border: 0px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+input.radio {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+input.check {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+select {
+    font-size: 11px;
+    /*font-weight:bold;*/
+}
+
+input.go {
+    padding: 0px;
+    margin: 0px;
+    /* height:17px; */
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eee;
+    /*redef*/
+}
+/* END FORM ELEMENTS */
+/* DATA TABLE */
+div.datatable {
+    /*margin-left:10px;*/
+}
+
+div.datatable table {
+    /*width:100%;*/
+    width: auto; /*stops table from overflowing in IE5 but could cause 
+
+problems with narrow content*/
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    /*redef*/
+}
+
+div.datatable table.widen {
+    width: 345px;
+}
+
+div.datatable th {
+    text-align: left;
+    font-weight: normal;
+    /*redef*/
+}
+
+div.datatable td {
+    text-align: left;
+    font-weight: normal;
+    /*redef*/
+}
+
+div.datatable th.cornerhead {
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+    /*redef*/
+}
+
+div.datatable th.colhead {
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    /*redef*/
+}
+
+div.datatable th.rowhead {
+    padding: 0px 5px 0px 0px;
+    /*redef*/
+}
+
+div.datatable td.data {
+    padding: 0px 5px 0px 5px;
+    /*redef*/
+}
+
+div.datatable div.caption {
+    text-align: left;
+    padding-top: 0em;
+    /*redef*/
+}
+
+div.datatable div.caption p {
+    /*width:327px;*/
+    background-color: #ccf;
+    border: 0.1px solid white;
+    margin: 0px;
+    padding: 3px 0px 1px 0px;
+    /*redef*/
+}
+
+#content div.datatable div.caption p {
+    margin: 0px;
+}
+/* END DATA TABLE */
+/* DOTTED BOX */
+div.dottedbox {
+    width: 450px;
+    margin-bottom: 5px;
+}
+
+div.dottedbox td.horiz {
+    height: 1px;
+    background-image: url("../../syntegra/images/dottedline_horiz.gif");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: white;
+}
+
+div.dottedbox td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedbox td.text {
+    padding: 10px;
+    width: 448px;
+}
+
+div.dottedbox td.title {
+    background-color: #ccc;
+}
+
+div.dottedbox td.title h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedbox td.title h2.h3alias {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedbox td.text div.searchform {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+/* END DOTTED BOX */
+/* DOTTED AD BOX */
+div.dottedad {
+    width: 259px;
+    margin-bottom: 20px;
+}
+
+div.dottedad h4 {
+    color: #339;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.dottedad p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedad ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+html > body div.dottedad ul {
+    margin-left: 29px;
+}
+
+div.dottedad li {
+    margin-bottom: 0px;
+}
+
+div.dottedad p.dottedadhr {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    margin-top: -1em;
+    /*redef*/
+}
+
+div.dottedad td.header {
+    height: 5px;
+    font-size: 1px;
+}
+
+div.dottedad td.eventbar {
+    background-color: #eee;
+}
+
+div.dottedad td.eventbar h4 {
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 15px;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+
+div.dottedad td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedad td.footer {
+    width: 259px;
+    height: 11px;
+    background-image: 
+
+url("../../syntegra/images/dottedbox_bottom_shallow.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+div.dottedad td.image {
+    vertical-align: top;
+    width: 74px;
+}
+
+div.dottedad td.text {
+    width: 184px;
+    vertical-align: top;
+}
+
+div.dottedad td.image img {
+    margin-top: 1px;
+}
+
+div.dottedad tr.event td.image img {
+    margin-top: 8px;
+}
+
+div.dottedad tr.event td.text p {
+    margin-top: 4px;
+}
+
+div.dottedad td.text ul, div.dottedad td.text ol, div.dottedad td.text dl {
+    margin-left: 35px;
+}
+/* END DOTTED AD BOX */
+/* LARGE PIC AD */
+div.dottedpic {
+    width: 259px;
+    margin-bottom: 20px;
+}
+
+div.dottedpic h4 {
+    color: #339;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.dottedpic p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*redef*/
+}
+
+div.dottedpic td.horiz {
+    height: 1px;
+    background-image: url("../../syntegra/images/dottedline_horiz.gif");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: white;
+    font-size: 1px;
+}
+
+div.dottedpic td.vert {
+    width: 1px;
+    background-image: url("../../syntegra/images/dottedline_vert.gif");
+    background-repeat: repeat-y;
+    background-position: bottom right;
+    background-color: white;
+}
+
+div.dottedpic td.header {
+    width: 257px;
+}
+/* END LARGE PIC AD */
+/* TABLE EMULATION */
+div.tabular {
+    /*margin-top:-24px;*/
+}
+
+div.tabular p {
+    /*margin:0px 0px 0px 25px;*/
+    margin-left: 25px;
+    margin-bottom: 0px;
+    /*margin-top: 0px; SCREWING UP COLUMNS in POLL_RESULT*/
+    padding: 0px;
+}
+
+div.tabular span.label {
+    float: left;
+    width: 140px;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+div.tabular span.label p {
+    margin: 0px;
+}
+
+div.tabular div.column {
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+div.tabular div.columntight {
+    margin-bottom: 0.25em;
+    font-size: 12px;
+    /*redef*/
+}
+
+div.tabular div.column span.label, div.tabular div.columntight span.label {
+    float: none;
+    clear: none;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+div.tabular div.column label, div.tabular div.columntight label {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+div.tabular div.column p, div.tabular div.columntight p {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.tabular p.hr {
+    padding-left: 25px;
+}
+/* END TABLE EMULATION */
+/* BASICBOX */
+div.basicbox {
+    margin-bottom: 20px;
+}
+
+div.basicbox td {
+    margin: 0;
+    padding: 0;
+}
+
+div.basicbox td.title {
+    background-color: #ccc;
+}
+
+div.basicbox td.text {
+    background-color: white;
+}
+
+div.basicbox td.highlighttext {
+    background-color: #eee;
+}
+
+div.basicbox h4 {
+    /*margin-top:0;
+     margin-bottom:0;
+     padding:1px 10px 0px 15px;*/
+}
+
+div.basicbox span.link {
+    display: block;
+    padding-left: 11px;
+    font-weight: bold;
+    background-image: url("../../syntegra/images/list_arrow.gif");
+    background-repeat: no-repeat;
+}
+
+div.basicbox span.image {
+    border: 0px solid white;
+}
+
+div.basicbox p {
+    margin: 0 5px 0 15px;
+    padding: 0;
+}
+
+div.basicbox div.smallimage span.image {
+    float: left;
+}
+
+div.basicbox div.smallimage span.link {
+    padding-left: 9px;
+    margin-top: 4px;
+}
+
+div.basicbox div.smallimage p {
+    clear: left;
+    margin: 0;
+}
+/* END BASICBOX */
+/* BODYIMAGE */
+#content div.bodyimage { /* #content needed to add weight to the rule and over 
+
+ride margin-left from #maincontent img */
+    margin-bottom: 15px;
+}
+
+#content div.bodyimage img { /* #content needed to add weight to the rule and 
+
+over ride margin-left from #maincontent img */
+    margin: 0px;
+    padding: 0 0 0 0;
+}
+
+#content div.bodyimage img.tophr {
+    margin-bottom: 5px;
+}
+
+#content div.bodyimage img.image {
+    margin-bottom: 5px;
+}
+/* END BODYIMAGE */
+
+ 
+
+ 
+ /* Start of Exisiting Advanced Styles */
+
+
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 18/02/04 - footer fix */
+/* VERSION 2.1: 19/02/04 - h4 added to footer */
+/* VERSION 2.2: 23/02/04 - fixed IE 5 Mac width for #topnav */
+/* VERSION 2.3: 02/03/04 - modified dottedbox */
+/* VERSION 2.4: 03/03/04 - updated ul.links and added ul.actions */
+/* VERSION 3: 04/03/04 - added my account link to globalnav */
+/* VERSION 3.1: 05/03/04 - standardised form element display */
+/* VERSION 4: 08/03/04 - added border CSS to basicbox. Netscape 6 fix */
+/* VERSION 4.1: 08/03/04 - standardised dl and dl2 */
+/* VERSION 4.2: 08/03/04 - added "ul.restart li" to "ul.links li" defs so it 
+
+too has bullets as background images */
+/* VERSION 4.3: 09/03/04 - added searchbox definitions */
+/* VERSION 4.4: 11/03/04 - added new button styles for width and height. 
+
+Syntax: btnSubmit */
+/* VERSION 4.5: 12/03/04 - added ol, dl to error def section */
+/* VERSION 4.6: 17/03/04 - added more btn classes */
+/* VERSION 4.7: 19/03/04 - added button class btnVote */
+/* VERSION 4.8: 31/03/04 - added button classes btnPrevious and btnLogin */
+/* VERSION 4.9: 02/04/04 - added new error style for in forms */
+/* VERSION 4.10: 16/04/04 - added button class btnRegister and btnTryagain */
+/* VERSION 4.11: 10/08/04 - added button class btnGetAddress */
+/* VERSION 4.12: 03/09/04 - added button class btnSaveStatement and 
+
+btnViewStatement */
+/* VERSION 4.13: 01/11/04 - changed button class btnSaveStatement and 
+
+btnViewStatement */
+/* VERSION 4.14: 05/06/06 - added style for glossary item underline */
+/* VERSION 4.15: 04/09/06 - added style .brokenLink for creating red links 
+
+(for broken links reports) */
+/* VERSION 4.16: 29/09/06 - new tabbed version, changes to strapline and 
+
+layout for 'Your account/welcome' items */
+/* VERSION 4.17: 10/10/06 - changes to layout for 'Contact us' and 'Your 
+
+account/welcome' items and tab2 arrow colour - */
+/* VERSION 4.18: 13/10/06 - removed bg colour on login links and added hover 
+
+colours for lsd and ni (search key v4.18)- */
+/* VERSION 4.19: 16/10/06 - added sizing style for new subscribe button */
+/* VERSION 4.20: 16/01/07 - changed the appearance of the glossary link */
+/* VERSION 4.21: 03/04/07 - Added: buttonInstr, pounds, pence, dd-mm-yyyy, 
+
+redundancyHelp */
+/* VERSION 4.22: 13/04/07 - Amends: changed redundancyHelp width from 120px to 
+
+190px */
+/* VERSION 4.23: 01/04/08 - Added: screenreadertext */
+
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Feb-08 by PB: #topnav - changes to positioning to accomodate About us */
+
+/* REDEFINE FONT SIZES */
+	body {
+		font-size:70%;
+	}
+	
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	* html body {
+		font-size:66%;
+	}
+	/* end hack */
+	h1 {
+		font-size:1.55em;
+		margin: 17px 0 12px 0;
+		padding:0;
+	}
+	html>body h1 {
+		font-weight:400;
+	}
+	h2 {
+		font-size:1em;
+		margin: 0 0 12px 0;
+		padding:0;
+	}
+	h1.h2alias {
+		font-size:1em;
+		margin: 0 0 12px 0;
+		padding:0;
+	}
+	h3 {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h2.h3alias {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h4 {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h2.h4alias {
+		font-size:1em;
+		margin: 0 0 2px 0;
+		padding:0;
+	}
+	h5 {
+		font-size:1em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	h6 {
+		font-size:0.9em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	p {
+		font-size:1em;
+		margin: 0 0 15px 0;
+		padding:0;
+		
+	}
+	span, td, th { /* added span */
+		font-size:1em;
+	}
+	div {
+		font-size:1em;
+	}
+	ul, ol, dl {
+		font-size:1em;
+		margin: 0 0 10px 0;
+		padding:0;
+	}
+	li {
+		margin-left:25px;
+	}
+	table {
+		font-size:1em;
+	}
+	label {
+		font-size:1em;
+	}
+	textarea {
+		font-size:1em;
+	}
+	span.label {
+		font-size:1em;
+	}
+	#topnav input {
+		font-size:1em;
+	}
+	#topnav input.go {
+		font-size:10px;
+	}
+	#topnav label {
+		font-size:1em;
+	}
+	
+/* END FONT SIZES */
+
+
+/* START LINE HEIGHTS */
+	p, td, th {
+		line-height:1.3em;
+	}
+	html>body p, html>body td, html>body th {
+		line-height:1.27em;
+	}
+	ul, ol, dl {
+		line-height:1.3em; 
+	}
+	ul.links li {
+		line-height:1.2em;/*1.181818*/
+	}
+	
+/* END LINE HEIGHTS */
+
+
+/* SHARED STYLES */
+
+	.imgright {
+		float:right;
+		width: auto;
+		padding-left:10px;
+		margin-bottom:10px;
+		padding-top:0.5em;
+	}
+
+	p.propositionstatement {
+		margin-top:0px;
+	}
+	/*div.navlinks p {
+		margin-left:9px;
+	}*/
+	#content p.hr {
+	/*
+		margin-top:1.25em;
+		margin-bottom:1.25em;
+		*/
+		margin: 15px 0 13px 0;
+		font-size:1px;
+		height:1px;
+	}
+	span.forcewidth {
+		display:none;
+	}
+/* END SHARED STYLES */
+
+
+/* HEADER */
+	#header {
+	    z-index: 1;
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    width: 100%;
+	    min-width: 745px;
+		height: 116px !important;
+	    background: #686698 url(/syntegra/images/global-header-grad.png) 
+
+repeat-x top left;
+		border:0px solid white;
+	}
+/* END HEADER */
+
+
+/* GLOBAL NAV */
+	span.navitem {
+		font-size:1em;
+	}
+	
+	#topnav {
+	    z-index: 2;
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+		width: 750px;
+		padding-left:210px;
+		margin:0;
+		padding-top:5px;
+	}
+	
+	#topnav .submit{cursor:pointer;}
+	
+
+
+	#strapline {
+		z-index: 3;
+	    position: absolute;
+	    top: 45px;
+	    left: 0px;
+	 	padding: 0 0 0 210px;
+		margin:0;
+		width:550px;		
+		font-size:1.7em !important;
+		color:#fff;
+	}
+	* html #strapline { 
+		font-size: 1.7em !important;
+	}
+	
+	#strapline span {
+		font-size:.8em;
+		color:white;
+		display:block;
+		padding-top:4px;
+		letter-spacing:0px;
+	}
+	
+	#topnav #localForm select {
+		border:1px solid #fff;
+		border-right:none;
+		width:135px;
+	}	
+		
+	#topnav #account {
+		border:0px solid white;
+	}
+
+
+	#topnav #help {
+		border:0px solid white;
+		width:auto;
+		margin-left:-1px; /* in IE6 this moves div -2px so added 
+
+padding */
+		padding-left:1px;
+		
+	}
+	/* hide from ie5/mac \*/
+	html>body #topnav #help {
+		width:auto; 
+		min-width:120px; 
+		padding-left:0;
+	}
+	/* end hide from ie5/mac */
+	
+	
+	#topnav #find {
+		padding-bottom:6px;
+		border:0px solid white;
+	}
+	
+	
+	/* Start: new 8.12.10 */
+	#topnav #topgroup{
+		float:left;
+	}
+	
+	#topnav #topgroup #sitejump{
+		float:left;
+		margin-right:20px;
+		
+	}
+	
+	#topnav #topgroup #sitejump fieldset{
+		float:left;
+	}
+	
+	#topnav #topgroup #sitejump select{
+		width:134px;
+		padding:1px 0;
+		border:none;
+	}
+	
+	#topnav #topgroup #sitejump .submit{
+		border:1px solid #fff;
+		width:auto;
+		font-weight:bold;
+		color:#fff;
+		padding:1px 6px;
+		background:#9a99c3 
+
+url(/syntegra/images/global-header-search-grad.gif) repeat-x top left;
+	}
+
+* html #topnav #topgroup #sitejump .submit{height:18px !important;}
+*+html #topnav #topgroup #sitejump .submit{height:18px !important;}
+	
+	#topnav #topgroup #quicklinks{
+		float:left;
+		margin-right:15px;
+		padding-top:2px;
+	}
+	
+	#topnav #topgroup #quicklinks ul{
+		float:left;
+		margin-bottom:0;
+	}
+	
+	#topnav #topgroup #quicklinks ul li a{
+		color:#fff;
+		font-size:1.2em;
+		padding:0 5px;
+		border-right:1px solid #fff;
+		display:block;
+		height:1em;
+		float:left;
+		}
+	#topnav #topgroup #quicklinks ul li a.current,
+	#topnav #topgroup #quicklinks ul li a:hover{
+		color:#ffffff;
+		}
+	
+	#topnav #topgroup #quicklinks ul li.first a{
+		padding-left:0;
+	}	
+	#topnav #topgroup #quicklinks ul li.last a{
+		padding-right:0;
+		border-right:none;
+	}
+	
+	/* End: new 8.12.10 */
+ 
+	
+	#topnav #sitesearch{float:right;}
+	
+	#topnav #sitesearch fieldset{
+		border:1px solid #565567;
+		float:right;
+		}
+	
+	#topnav #sitesearch input {
+	   	margin:0;
+		font-size:1.2em;
+		border:1px solid #fff;
+		padding:5px 0 5px 2px;
+		/* width:191px; */
+	}
+	
+
+* html #topnav #sitesearch #headersearchinput{height:14px !important;}
+*+html #topnav #sitesearch #headersearchinput{height:14px !important;}
+	
+	#topnav #sitesearch #headersearchsubmit{
+		width:auto;
+		font-weight:bold;
+		color:#fff;
+		padding:4px 10px;
+		background:#9a99c3 
+
+url(/syntegra/images/global-header-search-grad.gif) repeat-x top left;
+		cursor: pointer;
+	}
+	
+* html #topnav #sitesearch #headersearchsubmit{padding:1px 0;height:26px 
+
+!important;}
+*+html #topnav #sitesearch #headersearchsubmit{padding:1px 0;height:26px 
+
+!important;}
+	
+	
+	#topnav #account {
+		margin-top:34px; /* IE5.0 only */
+		margin-top/**/:35px;
+		border:0;
+	}
+	html>body #topnav #account {
+		margin-top:36px;
+		/* \*/
+		margin-top: 37px; 
+		/* Moz and O */
+	}
+	
+	#footer p {
+		margin:0 0 15px 0;
+	}
+	#footer h4 {
+		margin:0 0 1px 0;
+		padding:0;
+	}
+	#footer span.navitem {
+		display:block;
+		padding-top:3px;
+	}
+	* html>body #footer span.navitem {
+		padding-top:5px; /* IE Mac only */
+	}
+	
+
+
+	#topnav ul{
+		list-style-type:none;
+		margin-left:0;
+		padding-left:0;
+	}
+		
+	#topnav ul li{
+		float:left;
+		margin-left:0;
+		padding-left:0;
+	}
+	
+	#topnav #tabs{float:left;}
+	
+	#topnav #tabs ul{
+		float:left;
+		margin-bottom:0;
+	}
+	
+	#topnav #tabs ul li{
+		float:left;
+		background:#E6E7F9 
+
+url(/syntegra/images/global-nat-tab-right.png) no-repeat top right;
+		margin-right:3px;
+	}
+	#topnav #tabs ul li a{
+		float:left;
+		background:url(/syntegra/images/global-nat-tab-left.png) 
+
+no-repeat top left;
+		display:block;
+		padding:5px 10px 5px 12px;
+		height:16px;
+		color:#1a1c1b;
+		font-weight:bold;
+	}
+	
+	#topnav #tabs ul li.selected{
+		float:left;
+		background:#E6E7F9 
+
+url(/syntegra/images/global-nat-tab-selected-right.png) no-repeat top right;
+		margin-right:3px;
+	}
+	#topnav #tabs ul li.selected span{
+		float:left;
+		
+
+background:url(/syntegra/images/global-nat-tab-selected-left.png) no-repeat 
+
+top left;
+		display:block;
+		padding:5px 10px 5px 12px;
+		height:16px;
+		color:#1a1c1b;
+		font-weight:bold;
+	}
+	
+	
+/* Start: New 8.12.10 */
+	
+	#login{
+		background:url(/syntegra/images/global-header-login.png) 
+
+no-repeat top left;
+		min-width:206px;
+		width:auto;
+		z-index: 5;
+		position: absolute;
+		top: 50px;
+		left: 740px;
+		padding:5px 12px 0 12px;
+		white-space:nowrap;
+		/* RAYMOND BROOKS 20110320 START EDIT ISSUE #138.1 */
+		min-height:45px;
+		height:45px;
+		/* RAYMOND BROOKS 20110320 END EDIT */
+	}
+	
+	
+	
+			
+	#login p {width:auto;color:#fff;margin:0;font-weight:bold;}
+	#login ul {margin:0;}
+	
+	* html #login{width:206px;}
+	
+/* End: New 8.12.10 */	
+	
+
+#login span {
+	font-weight: normal;
+	color: white;
+}
+
+#login ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 2px; /* added 09/10/2006 */
+	margin-left: 2px;
+	padding-left: 15px;
+	background: url("/syntegra/images/login-arrow-right.gif") no-repeat 
+
+0px 3px;
+}
+#login ul li a,
+#login ul li a:link,
+#login ul li a:visited {
+	color: white;
+	/* background-color: #669; rm 13Oct06 (search key v4.18) */
+	font-weight: normal;
+} 
+#login ul li a:hover {
+	color: #cf0;
+}
+/* Start added 13Oct06 (search key v4.18) */ 
+#login ul li.whitearrow a:hover {
+	color: #ffffff;
+}
+#login ul li.NIarrow a:hover {
+	color: #ffffff;
+}
+/* End added 13Oct06 (search key v4.18) */ 
+#strapline {
+	font-size: 20px;
+}
+/* END TOPNAV */
+
+
+/* TITLE */
+	#title {
+		border:0px solid white;
+	}
+	#title {
+		top:59px;
+		left:187px;
+		width:280px;
+		height:43px;
+	}
+/* END TITLE */
+
+
+/* BREADCRUMB */
+	#breadcrumb p, #breadcrumbnarrow p {
+		font-size:1em;
+		margin:0;
+		padding:0;
+	}
+/* END BREADCRUMB */
+
+
+/* LISTS */
+	
+	ul.links {
+		margin-top:0; 
+		margin-right:0; 
+		margin-bottom:14px;
+		margin-left:0;
+	}
+	
+	ul.links li, ul.restart li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+		padding-left: 15px;
+		margin-bottom: 3px;
+		background-image: url("/syntegra/images/list_arrow.gif");
+		background-repeat: no-repeat;
+	}
+	#content ul.links li a {
+		font-weight:normal;
+	}
+	ul.links li.current {
+		background-image: 
+
+url("/syntegra/images/list_arrow_current.gif") !important;
+	}
+	ul.links li.back {
+		background-image: url("/syntegra/images/list_backarrow.gif");
+	}
+	ul.links li.blank {
+		background-image: none;
+	}
+	
+	#layer11 #maincontent ul.links p{
+		margin-bottom:0;
+	}
+	
+	ul.actions {
+		margin-top:0; 
+		margin-right:0; 
+		margin-bottom:14px;
+		margin-left:0;
+	}
+
+	ul.actions li	
+	{
+		font-weight: bold;
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+		padding-left: 15px;
+		margin-bottom: 3px;
+		background-image: url("/syntegra/images/list_arrow.gif");
+		background-repeat: no-repeat;
+	}
+	ul.actions li.disabled	
+	{
+		font-weight: normal;
+		color:#666;
+		background-image: 
+
+url("/syntegra/images/list_arrow_disabled.gif");
+	}
+	ul.actions li a {
+		font-weight:bold;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	div.pageoptions {
+		margin-top:10px;
+	}
+	div.pageoptions ul {
+		/*margin-left:25px;*/
+		margin-left:0;
+		padding-left:0;
+		list-style:none;
+	}
+	div.pageoptions ul li {
+		margin-bottom:0px;
+		padding:0;
+		margin:0;
+	}
+	
+	
+	div.dl {
+		margin-bottom:11px;
+	}
+	div.dl h2.h3alias,
+	div.dl h3,
+	div.dl h4 {
+		/*padding-left:16px;
+		margin-left:9px;*/
+		padding-left:14px;
+	}
+	div.dl p {
+		margin-top:0px;
+		margin-bottom:0; /*CHECK*/
+	}
+	div.dl small {
+		font-size:1em;
+	}
+	
+	
+	div.dl2 {
+		margin-bottom:11px;
+	}
+	div.dl2 p {
+		margin-top:0;
+		margin-bottom:0;
+	}
+	div.dl2 p.links {
+		margin-top:0;
+		margin-bottom:0;
+		padding-left:14px;
+		/*padding-left:16px;
+		margin-left:9px;*/
+	}
+	
+	div.dl3 {margin-bottom:11px;}
+	div.dl3 p {
+		margin-top:0;
+		margin-bottom:0;
+	}
+	
+	div.dl3 p.links {font-weight:bold}
+	
+/* END LISTS */
+
+
+/* ERROR MESSAGES */
+	div.error p {
+		margin-bottom:4px;
+	}
+	div.error ul,
+	div.error ol,
+	div.error dl {
+		margin-top:0em; 
+		margin-right:0px; 
+		margin-bottom:12px;
+	}
+	div.error ul li,
+	div.error ol li {
+		padding-left:0px;
+	}
+/* END ERROR MESSAGES */
+
+
+/* FORM ELEMENTS */
+
+	input, select {
+		font-size:1em;
+		border:1px solid #333;
+		background-color:white;
+		color:#333;
+	}
+	
+	/*
+		INPUT
+		required 189x17
+		ie5.x    189x17
+		ie6      187x13
+		ff       187x13
+		n6       187x17
+		
+		SELECT
+		required 189x17
+		ie5.x    189x17
+		ie6      187x12
+		ff       187x15
+		n6       187x16
+	*/
+	
+	input {
+		width:189px;
+		height:17px;
+		w\idth:185px;
+		he\ight:13px;
+	}
+	select {
+		width:191px;
+		height:17px;
+		w\idth:189px;
+		he\ight:12px;
+	}
+	
+	html>body input {
+		width:187px;
+		height:auto;
+	}
+	html>body select {
+		width:189px;
+		height:auto;
+	}
+	
+	* html>body input {
+		width:189px;
+		height: 15px;
+	}
+
+	input.button {
+		/*height:15px;*/
+		height:auto;
+		width:56px;
+		font-weight:bold;
+		padding-bottom:1px;
+		padding-top:0px;
+		font-size:1em;
+	}
+
+	html>body input.button {
+		padding-top:1px;
+		padding-bottom:0px;
+	}
+	/* * html>body input.button {
+		font-weight:400;
+	}*/
+
+	input.image {
+		height:auto;
+		width:auto;
+		border:0;
+	}
+	input.btnCancel,
+	input.btnSubmit {
+		width: 58px;
+		height: 17px;
+	}
+	input.btnSearch {
+		width: 58px;
+		height: 17px;
+	}
+	
+	input.btnReset {
+		width: 47px;
+		height: 17px;
+	}
+	input.btnGo {
+		width: 20px;
+		height: 17px;
+	}
+	input.btnNext,
+	input.btnBack {
+		width: 41px;
+		height: 17px;
+	}
+	input.btnCreate {
+		width: 82px;
+		height: 17px;
+	}
+	input.btnBacktoResults {
+		width: 109px;
+		height: 17px;
+	}
+	input.btnDelete {
+		width: 56px;
+		height: 17px;
+	}
+	
+	input.btnPrevious {
+		width: 69px;
+		height: 17px;
+	}
+	input.btnBackToProfile {
+		width: 148px;
+		height: 17px;
+	}
+	input.btnBookNow {
+		width: 72px;
+		height: 17px;
+	}
+	input.btnVote {
+		width: 39px;
+		height: 17px;
+	}
+	input.btnLogin {
+		width: 45px;
+		height: 17px;
+	}
+	
+	input.btnLogin3 {
+		width: 50px;
+		height: 17px;
+	}
+	
+	input.btnRegister {
+		width: 67px;
+		height: 17px;
+	}
+	input.btnTryagain {
+		width: 75px;
+		height: 17px;
+	}
+	input.btnRemove {
+		width: 63px;
+		height: 17px;
+	}
+	input.btnEdit {
+		width: 35px;
+		height: 17px;
+	}
+	input.btnSelectAll {
+		width: 73px;
+		height: 17px;
+	}
+	input.btnGetAddress {
+		width: 89px;
+		height: 17px;
+	}
+	input.btnSaveStatement {
+		width: 101px;
+		height: 17px;
+	}
+	input.btnViewStatement {
+		width: 101px;
+		height: 17px;
+	}
+	
+	input.btnSubscribe {
+		width: 76px;
+		height: 17px;
+	}
+	
+	input.btnGetmyaddress {
+		width: 113px;
+		height: 17px;
+	}
+
+
+	form.callback input.submit {
+		background-color:#ccc;
+	}
+
+	textarea {
+		font-size:1em;
+		border:1px solid #333;
+		background-color:white;
+		color:#333;
+		height:109px;
+		
+		width:189px;
+	 	w\idth:185px;
+	}
+	html>body textarea {
+		width:187px; /* Moz */
+	}
+	* html>body textarea {
+		width:189px; /* IE5/Mac only */
+	}
+	
+	
+	
+	input.check, input.radio {
+		width:1.5em;
+		height:1.5em;
+		border:0px solid black;
+	}
+	html>body input.check, html>body input.radio {
+		width:1em;
+		height:1em;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	html>body input.check {
+		background-color:white;
+		border:1px solid black;
+	}
+	html>body input.radio {
+		background-color:white;
+		border:1px solid black;
+	}
+	/* end hack */
+	
+	input.go {
+		font-size:0.9em;
+		border:1px solid black;
+		/* width:21px;
+		height:15px; */   /* need to set height to 2px less for 
+
+IE5/Mac */
+		
+		width:20px !important;
+		height:17px !important;
+		border:0px solid white !important;
+		/*width:20px;
+		height:17px;
+		border:0px solid white;*/
+		vertical-align: bottom;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	* html input.go {
+		vertical-align: top;
+		height:17px;
+	}
+	/* end hack */
+	
+	input.go {
+		vertical-align: top;
+	}
+	/* .extra for wider content */
+	html>body input.extra, html>body select.extra {
+		width:232px; /* Moz & IE5Mac */
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	html>body input.extra, html>body select.extra {
+		width:234px; /* Moz only */
+	}
+	/* end hack */
+	* html input.extra, * html select.extra {
+	  width:234px;/*IE 5+ Win only*/
+	  w\idth:230px;/*IE6 Win*/ 
+	}
+
+/* END FORM OBJECTS */
+
+
+/* DATA TABLE */
+	div.datatable {
+		
+	}
+	div.datatable table {
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	div.datatable th {
+		border-bottom:1px solid #ccf;
+	}
+	div.datatable td {
+		border-left:1px solid #ccf;
+		border-bottom:1px solid #ccf;
+	}
+	div.datatable th.cornerhead {
+		padding:0px 5px 3px 0px;
+	}
+	div.datatable th.colhead {
+		padding:0px 5px 3px 5px;
+	}
+	div.datatable th.rowhead {
+		padding:1px 5px 2px 0px;
+	}
+	div.datatable td.data {
+		padding:1px 5px 2px 5px;
+	}
+	/*
+	div.datatable div.caption {
+		padding-top:1em;
+	}
+	div.datatable div.caption p {
+		width:327px;*/ /*need box model hack*/
+		/*border:0px solid white;
+		padding:0px 5px 2px 5px;
+	}
+	* html div.datatable div.caption p {
+	  width: 337px;*/ /*IE 5+ Win and Mac only*/
+	  /*w\idth: 327px;*/ /*IE6 Win*/ 
+	/*}*/
+	
+	#content div.datatable div.caption {
+		margin-top:2em;
+		/*width:100%;*/
+	}
+	#content div.datatable div.caption p {
+		width:auto;
+		padding:0px 5px 2px 5px;
+		margin:0 !important;
+		border:0px solid white;
+	}
+	
+/* END DATA TABLE */
+
+
+
+
+
+/* DOTTED BOX */
+	div.dottedbox td.horiz {
+		font-size:1px;
+		line-height:0;
+	}
+	div.dottedbox td.title h3 {
+		padding:2px 10px 3px 10px;
+		/*border-right:257px solid white;*/
+		border:0;
+	}
+	/*div.dottedbox td.title h3.full {
+		border:0px;
+	}*/
+	div.dottedbox td.text {
+		padding:0px;
+	}
+	div.dottedbox td.text p {
+		padding:10px;
+	}
+	
+	#add_maincontent div.dottedbox td.text div.label {
+		padding:10px 5px 10px 15px;
+	}
+	div.dottedbox td.text p.findinstructions {
+		margin-top:0px;
+		margin-bottom:0em;
+		padding-top:0px;
+	}
+	div.dottedbox td.text div.searchbox {
+		margin:10px 10px 10px 10px;
+	}
+	div.dottedbox td.text h4 {
+		padding-left:10px;
+	}
+/* END DOTTED BOX */
+
+/* SEARCHBOX */
+	div.dottedbox div.searchbox {
+		margin:5px 15px 5px 15px;
+		border:0px solid white;
+		padding-left:0px;
+	}
+	div.dottedbox div.searchbox label {
+		padding: 0px 0px 2px 0px;
+		
+	}
+	div.dottedbox div.searchbox div.keyword {
+		margin-bottom:3px;
+	}
+	div.dottedbox div.searchbox {
+		margin-top:11px;
+		margin-bottom:11px;
+	}
+	div.dottedbox div.searchbox ul.actions {
+		margin-top:9px;
+	}	
+	div.dottedbox div.searchbox input.image {
+		vertical-align:bottom;
+		margin-bottom:1px;
+		
+	}
+	html>body div.dottedbox div.searchbox input.image {
+		margin-bottom:0px;
+	}
+/* END SEARCHBOX */
+
+
+/* DOTTED AD BOX */
+	div.dottedad p {
+		margin:0px;
+		padding:0px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:3px;
+	}
+	div.dottedad p.dottedadhr {
+		margin-top:0em;
+		font-size:1px;
+	}
+	div.dottedad td.eventbar h4 {
+		margin:2px 0px 3px 5px;
+		padding:0px 0px 0px 15px;
+	}
+/* END DOTTED AD BOX */
+
+
+/* CUTCORNER AD */
+/*
+	div.cutcornerad td.text p {
+		margin-top:0em;
+	}
+	div.cutcornerad td.text p.solidadhr {
+		margin-top:0em;
+		margin-left:10px;
+	}
+	div.cutcornerad td.text {
+		padding-top:0px;
+	}
+	*/
+/* END CUTCORNER AD */
+
+
+/* TABLE EMULATION */
+	div.tabular {
+		margin-top:0em;
+	}
+	div.tabular span.label {
+		clear:left;
+	}
+	div.tabular div.columntight {
+		margin:0px 0px 5px 0px;
+		padding:0px;
+	}
+	div.tabular div.column, 
+	div.tabular div.columntight {
+		margin-left:140px;
+		font-size:1em;
+	}
+	div.tabular p {
+		margin-top: 0px; 
+	}
+/* TABLE EMULATION */
+
+
+/* RESULTSNAV */
+	div.resultnav p {
+		line-height:1.4em;
+	}
+	div.resultnav span.current {
+		font-weight:bold;
+		border:1px solid black;
+	}
+	div.resultnav em { /* for ie5.0/win only */
+		font-style: normal;
+	}
+	html*div.resultnav em { /* for all except ie5.0/win and opera */
+		font-weight:bold;
+		font-style: normal;
+		border:1px solid black;
+	}
+	html>body div.resultnav em { /* to fix things for opera */
+		font-weight:bold;
+		font-style: normal;
+		border:1px solid black;
+	}
+/* END RESULTSNAV */
+
+
+/* BASICBOX */
+	div.basicbox {
+		margin-bottom:20px;
+		border: 0.1px solid white;
+	}
+	div.basicbox td {
+		margin:0;
+		padding:0;
+	}
+	div.basicbox td.title {
+		background-color:#ccc;
+	}
+	div.basicbox img {
+		display:block;
+	}
+	div.basicbox h4 {
+		/*margin-top:0;
+		margin-bottom:0;
+		padding:1px 10px 3px 15px;*/
+	}
+	div.basicbox span.link {
+		display:block;
+		padding-left:15px;
+		margin:2px 0px 2px 0px;
+		font-weight:bold;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.basicbox span.image {
+		border:0px solid white;
+	}
+	div.basicbox p {
+		margin:0 5px 0 15px;
+		padding:0;
+	}
+	div.basicbox p.hr {
+		margin:0.5em 0px 0.5em 15px;
+	}
+	div.basicbox div.smallimage span.image {
+		float:left;
+	}
+	div.basicbox div.smallimage span.link {
+		display:block;
+		margin-left:63px;
+		padding-left:9px;
+		margin-top:4px;
+	}
+	div.basicbox div.smallimage p {
+		clear:left;
+		margin:0;
+	}
+/* END BASICBOX */
+
+
+/* Glossary Help Links */
+
+#content .glossaryTerm:hover {
+	background-color:#dcdcf7;
+} 
+#content .glossaryTerm {
+	font-weight:normal;
+	text-decoration:none; 
+	background-color: #FFFFFF;
+	border-bottom: 2px dotted #333399;
+	color: #000000;
+}	
+	
+/* Red links for Broken Links reports */
+.brokenLink {color: red }
+
+
+
+
+/* TEXT TO FLOAT LEFT OF BUTTON 
+-------------------- */ 
+.buttonInstr {width: 360px;}
+	
+
+/* RESIZE INPUT BOX FOR MONEY AND DATES 
+-------------------- */	
+input.pounds {width: 52px;}
+html>body input.pounds {width: 50px;}
+
+input.pence, input.dd-mm-yy {width: 32px;}
+html>body input.pence, html>body input.dd-mm-yy  {width: 30px;}
+
+
+/* HELP LINKS 
+-------------------- */
+.redundancyHelp {
+	width: 190px; 
+	margin-left: 5px;
+}
+.redundancyHelp span.whatisthis a {
+	font-weight: normal !important;
+	color:#666;
+}
+
+/* Screen Reader Text for External Links
+---------------------- */
+.screenreadertext
+ {
+  position : absolute;
+  left : -1000em;
+ }
+
+/* Link to Welsh Site Map
+------------------------ */
+
+#welshLangSwitch{
+		padding-top:12px;
+	}
+#welshLangSwitch p {
+		background-image:url(/syntegra/images/arrow_local3.gif);
+	}
+#welshLangSwitch p a:hover {
+		color:#c33 !important;
+	}
+ 
+/* SECTORS PRACTITIONERS 
+ ------------------------- */ 
+div.autowidth {width:auto !important;}
+
+div#secPracLanding div.browseCategories{margin-left:2em;}
+
+div#secPracLanding div.flexibleDotBox {
+	margin-bottom:0;
+}
+
+
+div#secPracLanding{
+	width:543px;
+}
+
+div#secPracLanding ul.browse{
+	margin-left:2em;
+}
+div#secPracLanding ul.browse li a{
+	font-weight:bold;
+}
+
+div#secPracLanding div#secPracSub1{
+	margin-bottom:3em;
+}
+div#secPracLanding div#secPracSub2{
+	margin-bottom:2.5em;
+}
+
+div#secPracLanding #secPracGrid, #sectorsGrid ul {
+	clear:both;
+}
+
+div#secPracLanding #secPracGrid ul li {
+	display:inline;
+	list-style:none;
+	float:left;
+	margin-right:5px;
+	width:31%;
+	margin-left:0;
+	min-height:3em;
+	}
+
+div#secPracLanding div#secPracSub1 div.flexibleDotBox div.body div form{
+	border:1px solid #fff;
+}
+	
+* html div#secPracLanding div#secPracSub1 div.flexibleDotBox div.body,
+* html div#secPracLanding #secPracGrid,
+* html div#secPracLanding #secPracGrid ul{
+	height:1%;
+}
+div#secPracLanding div#secPracSub1 div.flexibleDotBox div.body,
+div#secPracLanding #secPracGrid,
+div#secPracLanding #secPracGrid ul{
+	zoom:1;
+}
+
+* html div#secPracLanding #secPracGrid ul li {
+	height:3em;
+	}
+	
+div#secPracLanding #secPracGrid ul li a{
+	background-repeat:no-repeat;
+	background-position:1em 0.7em;
+	padding:0.7em 0.5em 0.5em 2em;
+	display:block;
+	min-height:1.5em;
+	}
+* htmldiv#secPracLanding #secPracGrid ul li a{
+	height:1.5em;
+	}
+
+div#secPracLanding #secPracGrid ul.minHeightXXL li{min-height:10em;}
+div#secPracLanding #secPracGrid ul.minHeightXXL li a{min-height:10em;}
+
+* html div#secPracLanding #secPracGrid ul.minHeightXXL li{height:10em;}
+* html div#secPracLanding #secPracGrid ul.minHeightXXL li a{height:10em;}
+
+div#secPracLanding #secPracGrid ul.minHeightXL li{min-height:7em;}
+div#secPracLanding #secPracGrid ul.minHeightXL li a{min-height:7em;}
+
+* html div#secPracLanding #secPracGrid ul.minHeightXL li{height:7em;}
+* html div#secPracLanding #secPracGrid ul.minHeightXL li a{height:7em;}
+
+div#secPracLanding #secPracGrid ul.minHeightLarge li{min-height:5.2em;}
+
+* html div#secPracLanding #secPracGrid ul.minHeightLarge li{height:5.2em;}
+
+div#secPracLanding #secPracGrid ul.minHeightLarge li p{padding:0 0 0 2em;}
+
+* html div#secPracLanding #secPracGrid ul.minHeightLarge li p{padding:0 0 0 
+
+2em;}
+
+div#secPracLanding #secPracGrid ul.minHeightSmall li{min-height:3em;}
+div#secPracLanding #secPracGrid ul.minHeightSmall li a{min-height:3em;}
+
+* html div#secPracLanding #secPracGrid ul.minHeightSmall li{height:3em;}
+* html div#secPracLanding #secPracGrid ul.minHeightSmall li a{height:3em;}
+
+	
+/* Clear floats */
+div#secPracLanding div#secPracSub1 div.flexibleDotBox div.body:after,
+div#secPracLanding #secPracGrid ul:after,
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+* html .clearfix{height:1%;}
+
+
+/* PR1050 H2 Headings */
+h2.businesslink_PR1050{
+	font-size:1.1em !important;
+}
+
+/* HPQC - 490 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #topnav #sitesearch #headersearchsubmit{height:28px;}
+}

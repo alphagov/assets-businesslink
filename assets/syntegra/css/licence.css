@@ -1,0 +1,261 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1.0: 08/03/04  */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:196px;
+		width:544px;
+		background-color:white;
+		border:0px solid black;
+	}
+	#maincontent {
+		float:left;
+		width:345px;
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	#additionalcontent {
+		float:right;
+		width:181px;
+	}
+	#additionalcontent div.mainpanel {
+		background-image:url("/syntegra/images/content_boxtop_corner.gif"); 
+	}
+	#breadcrumb {
+		margin-left:4px;
+		margin-bottom:12px;
+	}
+/* END LAYOUT */
+
+
+/* SHARED STYLES */
+
+
+	div.dl h2.h3alias,
+	div.dl h3,
+	div.dl h4 {
+		width:330px;
+	}
+
+
+	#additionalcontent div.mainpanel,
+	#additionalcontent div.extrapanel {
+		width:181px;
+		background-color:#eee;
+		background-image:url("/syntegra/images/px_trans.gif"); 
+		background-position:top left;
+		background-repeat:no-repeat; /* these 3 lines seem to be necessary for the bg to display in nn4.x */
+	}
+	#additionalcontent div.mainpanel {
+		padding-top:52px;
+		background-image:url("/syntegra/images/content_boxtop_corner.gif"); 
+	}
+	
+	#additionalcontent div.extrapanel {
+		margin-top:20px;
+		padding-top:25px;
+	}
+	
+	
+	#additionalcontent h2.h3alias,
+	#additionalcontent h3,
+	#additionalcontent h4,
+	#additionalcontent h5,
+	#additionalcontent h6 {
+		
+		margin-left:25px;
+		margin-right:15px;
+	}
+	#additionalcontent li {
+		margin-right:15px;
+	}
+	
+	#additionalcontent p {
+		margin:-20px 15px 0 25px;
+	}
+	div.mainpanel ul.links, 
+	div.extrapanel ul.links {
+		margin-left: -15px;
+		margin-top:0px;
+	}
+	#additionalcontent div.mainpanel p.hr {
+		margin-left: 25px;
+	}
+	#additionalcontent img.bar {
+		margin-top:25px;
+		display:block;
+	}
+	
+	
+	
+	
+	
+/* END SHARED STYLES */
+
+
+	div.dottedbox {
+		width:325px;
+		margin-bottom:10px;
+	}
+	
+	div.resultnav {
+		margin-top:20px;
+		margin-bottom:30px;
+	}
+	
+	
+/* SEARCH2 */
+	div.dottedbox div.searchbox div.keyword {
+		margin-top:0em;
+	}
+/* END SEARCH2 */
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1.0: 08/03/04  */
+
+/* LAYOUT */
+	#content {
+		left:200px;
+		width:540px;
+	}
+	#additionalcontent {
+		margin-bottom:20px;
+		padding-top:20px;
+	}
+	#breadcrumb {
+		margin:0;
+	}
+/* LAYOUT */
+
+
+
+/* MAINPANEL */
+	#additionalcontent div.mainpanel {
+		padding-top:42px; /*57*/
+	}
+	html>body #additionalcontent div.mainpanel {
+		padding-top:44px;
+	}
+/* END MAINPANEL */
+	
+	
+/* SHARED STYLES */
+
+	
+	#additionalcontent h2.h3alias,
+	#additionalcontent h3,
+	#additionalcontent h4,
+	#additionalcontent h5,
+	#additionalcontent h6 {
+		margin-bottom: 6px;
+		
+	}
+	#additionalcontent p {
+		margin-top:0;
+		margin-bottom:15px;
+	}
+	
+	#additionalcontent div img {
+		border: 0px solid white;
+	}
+	
+	div.mainpanel ul.links, 
+	div.extrapanel ul.links {
+		margin-left: 10px;
+	}
+
+	div.dl h3 {
+		margin-left:0;
+	}
+	div.dl h2.h3alias {
+		margin-left:0;
+	}
+
+	/*div.dl p {
+		margin-top:0px;
+		margin-bottom:0;
+		margin-left: 17px !important;
+	}*/
+
+/* END SHARED STYLES */
+
+
+
+
+
+	div.dottedbox div.searchbox {
+		margin:5px 15px 5px 15px;
+		border:0px solid white;
+		padding-left:0px;
+	}
+	div.dottedbox div.searchbox label {
+		padding: 0px 0px 2px 0px;
+		
+	}
+	div.dottedbox div.searchbox div.keyword {
+		margin-bottom:3px;
+	}
+	div.dottedbox div.searchbox {
+		margin-top:11px;
+		margin-bottom:11px;
+	}
+	div.dottedbox div.searchbox ul.actions {
+		margin-top:9px;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	div.recommend {
+		padding-bottom:0px;
+	}
+	div.recommend p {
+		margin-bottom:8px;
+	}
+
+
+/* NEW STYLES */
+
+/* -------------------- CLEAR FIX */
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}	
+
+#maincontent .content {
+	padding:10px;
+}
+
+#maincontent .solidBlueEdge {background: #E5E5FF;margin-bottom:20px;}
+
+#maincontent .solidWhiteEdge {
+	background: #fff;
+	padding:10px;
+	margin:10px 0;
+}
+
+#maincontent .marginTop {
+	margin-top:10px;
+}
+
+.content .row .itemWide input.stdRadio{border:none !important;background: none !important;width:auto !important;}
+.content .row input.button{width:auto;}
+.left{margin-bottom:10px;}
+.right{float:right;}
+
+.content .row{margin-bottom:10px;}
+.content a{word-wrap:break-word;}
+
+

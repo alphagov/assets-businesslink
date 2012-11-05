@@ -1,0 +1,76 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 04/08/04 */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Mar-08 by PB: Added h2.tabItemsMainHeader styles */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:544px;
+		background-color:white;
+		/*layer-background-color:white;*/
+		border:0px solid black;
+	}
+	#maincontent {
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	
+/* END LAYOUT */
+	
+h1 {
+	color:#336;
+	margin:10px 0px 0px 0px;
+}
+
+
+#tablanding {
+	padding-top:14px;
+}
+
+#tablanding img {
+	padding:0px;
+	margin:0px;
+}
+
+#tablanding h2 {
+	padding:0px 0px 0px 84px;
+	margin:0px;
+}
+
+#tablanding p {
+	padding:0px 0px 0px 84px;
+	margin:0px;
+}
+
+#tablanding h2.tabItemsMainHeader {
+	margin: 20px 0;
+	padding: 0; 
+}
+
+#tablanding td.tabitem {
+	width:261px;
+	height:94px;
+	vertical-align:top;
+}
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: 04/08/04 */
+
+/* LAYOUT */
+	#content {
+		left:200px;
+		width:540px;
+	}
+/* END LAYOUT */
+

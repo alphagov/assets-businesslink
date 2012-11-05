@@ -1,0 +1,317 @@
+/* 01-Feb-08 Created as additional stylesheet Feb-08 by CR */
+/* 11-Feb-08 by PB: Redefined all styles */
+/* 12-Jun-08 by PB: All styles removed and replaced with design styles */
+/* 11-Jul-08 by NP: Skiplinks override */
+/* 19-Aug-08 by NP: bugzilla 1788 */
+#maincontent {
+	width: 100%;
+}
+
+/* Company name and trade mark checker form */
+#frmNameChecker {
+	float: left;
+	width: 100%;
+}
+
+#frmNameChecker fieldset {
+	float: left;
+	width: 426px;
+	margin-bottom: 1em;
+	padding: 10px 10px 12px 10px;
+	background: #dcdcf7;
+	border-bottom: 1px solid #afafca;
+}
+
+#frmNameChecker legend {
+	display:none;
+}
+
+#frmNameChecker input {
+	float: left;
+	width: 342px;
+	padding: 3px;
+	margin-bottom: 0 !important;
+}
+
+#frmNameChecker label {
+	float: left;
+	display: block;
+	margin-bottom: 1em;
+	font-weight: 800;
+
+}
+
+input#btnSearch {
+	width: 63px;
+	height: 21px;
+	border: 0;
+	padding: 0;
+}
+
+#frmNameChecker #btnSearch { margin-left: 10px;	}
+.revealInner input#btnSearch { clear: both; }
+ 
+#frmNameChecker p.link {
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+
+/* Tabs */
+
+div.tabBox {
+	float: left;
+	width: 100%;
+}
+
+div.tabBox ul.tabs {
+	float: left;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+div.tabBox ul.tabs li {
+	float: left;
+	margin: 0;
+	font-weight: 800;
+}
+
+div.tabBox ul.tabs li span {
+	background: #dcdcf7 url(/syntegra/images/tabBoxTab.gif) right bottom no-repeat;
+	display: block;
+	padding: 6px 20px 5px 10px;
+}
+
+#maincontent div.tabBox ul.tabs li a {
+	margin-top: 4px;
+	display: block;
+	font-weight: normal;
+	background: url(/syntegra/images/tabBoxTabOnBg.gif) right bottom repeat-x;	
+}
+#maincontent div.tabBox ul.tabs li a:hover{
+	color:#333;
+	text-decoration:underline;
+}
+
+div.tabBox ul.tabs li a span {
+	display: block;
+	padding: 3px 20px 4px 10px;
+	background: url(/syntegra/images/tabBoxTabOnRight.gif) right bottom no-repeat;
+}
+
+
+#maincontent div.tabBox ul.tabs li a:focus span,
+#maincontent div.tabBox ul.tabs li a:active span{
+	background:none;
+}
+
+
+div.tabBox ul.linksInline {
+	float: right;
+	width: 180px;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+div.tabBox ul.linksInline li {
+	background:url(/syntegra/images/list_arrow.gif) left center no-repeat;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:15px;
+	padding: 5px 0 0 15px;
+	display: inline;
+}
+
+/* Company name and trade mark checker results */
+
+.resultsNameChecker {
+	clear: both;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #9e9ec6;
+	width: 541px;
+}
+
+.resultsNameCheckerInner {
+	padding: 10px 10px 0px 10px;
+	border-width: 14px 11px 13px 11px;
+	border-color: #dcdcf7;
+	border-style: solid;
+}
+
+
+.resultsNameChecker ul {list-style: none;}
+.resultsNameChecker li { margin:0; }
+
+/* Company name and trade mark checker refine */
+
+.refineNameChecker {
+	margin-bottom: 0px;
+	padding: 5px 10px 5px 10px;
+	border: 5px solid #dcdcf7;
+	float: left;
+	width: 513px;
+}
+
+.refineNameChecker h2 {
+	margin: 0;
+}
+
+.refineNameChecker h2 a  {
+	background: url(/syntegra/images/arrow_reveal.gif) 0 4px no-repeat;
+}
+
+.refineNameChecker h2.on a:hover {
+	background: url(/syntegra/images/arrow_hide.gif) 0 4px no-repeat; 
+}
+
+.refineNameChecker h2 a {
+	padding-left: 15px; 
+}
+
+.refineNameChecker .revealInner {
+	margin-top: 10px;
+	clear: left;	
+}
+
+
+.refineNameChecker .revealInner p.intro {
+	float: left;
+	width: 100%;
+	clear: left;
+	margin-top: 8px;
+}
+
+.refineNameChecker .scrollChkList {
+
+	clear: left;
+	width: 500px;
+	overflow-x:hidden;
+	overflow-y: auto;
+	height:165px;
+	background-color:#fff;
+	margin-bottom: 5px;
+	padding:5px;
+	border:1px solid #7f9db9;	
+}
+
+.refineNameChecker .scrollChkList h3 {
+	background: url(/syntegra/images/horizontaldots_grey.gif) left bottom repeat-x;
+	padding-bottom: 8px;
+	margin-bottom: 5px;
+}
+
+.refineNameChecker .scrollChkList h4 {
+	margin-bottom: 10px;
+}
+
+#maincontent .refineNameChecker .scrollChkList ol {
+	float: left;
+	clear: left;
+	list-style: none;
+	width: 100%;
+}
+
+#maincontent .refineNameChecker .scrollChkList ol li {
+	float: left;
+	clear: left;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+#maincontent .refineNameChecker .scrollChkList input {
+	width: 14px;
+	margin-right: 10px;
+	border: none;
+	float: left;
+}
+
+*html #maincontent .refineNameChecker .scrollChkList input {
+	margin-top: 2px;
+}
+
+#maincontent .refineNameChecker .scrollChkList label {
+	display: block;
+	float: left;
+	width : 400px;
+}
+
+#maincontent .revealInner #btnSearch {float: right; clear: both; }
+
+#maincontent .refineNameTable {
+	padding: 0 1px;
+	float: left;
+	clear: both; 
+}
+
+.refineNameTable table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid #dcdcf7;
+}
+
+html* .refineNameTable table {
+	margin-left: -1px;
+	width: 543px;
+}
+
+.refineNameTable th, .refineNameTable td {
+	padding: 10px 5px;
+	border-left: 1px solid #dcdcf7;
+	border-right: 1px solid #dcdcf7;
+	vertical-align: top;
+}
+
+.refineNameTable th {
+	padding: 8px 5px;
+	background: #adadd2;
+	text-align: left;
+}
+
+.refineNameTable td {
+	border-bottom: 1px solid #dcdcf7;
+
+}
+.refineNameTable td.image {
+	text-align: center;
+}
+
+.refineNameTable th a {
+	text-decoration: underline !important;
+	color: #000;
+}
+
+.refineNameTable th a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.resultnav {
+	float: left;
+	width: 100%;
+	background: #dcdcf7;
+	padding: 10px 0 0 0;
+	text-align: center;
+	border-bottom: 1px solid #afafca;
+	margin-bottom: 15px;
+}
+
+/* Company name and trade mark checker footer content */
+
+div.options h2 { margin-bottom: 5px; }
+
+div.smallPrint {
+	margin: 0;
+	font-size: .85em;
+	clear: left;
+	border:1px solid #fff;
+}
+
+
+div.disclaimers {
+	margin-bottom: 25px;
+}
+div.disclaimers p {
+	margin-bottom: 0;
+}

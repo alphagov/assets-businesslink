@@ -1,0 +1,109 @@
+#campaigns-body h1 {
+color: #007DB1;
+font-size: 3.5em;
+font-family: arial;
+padding: 10px 0px 0px 20px;
+background: #ffffff;
+}
+
+#campaigns-body-ipohealthtext {
+margin: 10px 0px 0 0;
+float: right;
+width: 350px;
+font-size: 1.1em;
+}
+
+#campaigns-body-ipohealthtext img {
+margin: 20px 0 0 85px;
+padding: 0 0 0 0;
+}
+
+#campaigns-body-ipohealthimage {
+margin: 0 20px 0 10px;
+padding: 5px;
+width: 370px;
+}
+
+#campaigns-body-ipohealthimage .title {
+margin: 0px 0 0 20px;
+font-size: 4em;
+color: #19388A;
+}
+
+#campaigns-body-ipohealthimage .subtitle {
+margin-left: 20px;
+font-size: 2.5em;
+color: #007DB1;
+}
+
+#campaigns-body-ipohealthtext ul {
+margin-left:2em;
+}
+
+#campaigns-body-ipohealthtext li {
+margin-top:1em; list-style-type:square;
+}
+
+#campaigns-body-ipotextlinks {
+margin: 20px 20px 0 10px;
+padding: 5px;
+width: 720px;
+border: 2px solid #007db1;
+}
+
+#campaigns-body-ipotextlinks ul {
+list-style-type: none;
+margin: 0px 20px 0 10px;
+padding: 10px 10px 0 0;
+font-size: 1.1em;
+}
+
+#campaigns-body-ipotextlinks li {
+margin: 0 0 5px 0px;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url('../../Horizontal_Services_images/campaigns/blue_arrow.gif') 0 0px no-repeat;
+}
+
+#campaigns-body-twitter {
+width:720px;
+margin: 10px;
+}
+
+#campaigns-body-twitter  img {
+float:left;
+margin: 0 0 0 10px;
+
+}
+
+#campaigns-body-twitter  p {
+font-family:verdana;
+font-size: 1.2em;
+float:left;
+margin: 7px 0 0 10px;
+}
+
+#campaigns-body-footer {
+width:730px;
+margin: 60px 0 0 0;
+}
+
+#campaigns-body-footer img {
+margin: 0px 0 0 0;
+float:right;
+}
+
+#campaigns-body-footer .dottedline {
+background:url(http://www.businesslink.gov.uk/presentation/images/dotted-line.gif) repeat-x left top; 
+margin-top:1em; 
+padding:0.1em 0 0.5em;
+}
+
+#campaigns-body-footer p {
+clear:left;
+width:360px;
+font-family: arial;
+font-size: 0.9em;
+color: #007DB1;
+padding: 60px 0 0 20px;
+}

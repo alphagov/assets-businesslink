@@ -1,0 +1,820 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 13/02/04 */
+/* VERSION 2: 27/02/04 - added form definitions for new site design */
+/* VERSION 2.1: 01/03/04 - gave "#find2 #maincontent p" some defs */
+/* VERSION 2.2: 05/03/04 - removed redundant styles. Set caption width for datatable */
+/* VERSION 2.3: 12/03/04 - moved Table Caption defs to find_advanced. Reason: Broken Net 4.7 */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:544px;
+		background-color:white;
+		/*layer-background-color:white;*/
+		border:0px solid black;
+	}
+	#maincontent {
+		width: 450px;
+		border:0px solid black !important;
+	}
+	html>body #maincontent {
+		height:inherit;
+	}
+/* END LAYOUT */
+
+/* SHARED STYLES */
+	h2 {
+	    font-size: 1.3em;
+		margin-bottom: 1em;
+	}
+	span.requiredmarker {
+		color:#99c;
+	}	
+
+/* END SHARED STYLES */
+
+/* ACTIONSDIV */
+	div.actionsdiv {
+		text-align:center;
+	}
+/* END ACTIONSDIV */
+	
+/* DOTTED BOX */
+	div.dottedbox {
+		width: 450px;
+		margin-top:20px;
+		margin-left:25px;
+	}
+
+	#find1 div.dottedbox td,
+	#find2 div.dottedbox td,
+	#find3 div.dottedbox td,
+	#find4 div.dottedbox td {
+		padding:0px;
+	}
+	
+	div.dottedbox, div.searchbox {
+		width:415px;
+		margin-left:0px;
+
+	}
+	div.dottedbox td.title h3 {
+		padding-left:15px;
+	}
+	div.dottedbox td.title h2.h3alias {
+		padding-top:1px;
+		padding-left:15px;
+	}
+	div.dottedbox td.text div.searchbox {
+		border:1px solid white;
+		padding-left:10px;
+	}
+	div.dottedbox td.text div.searchbox div.keyword {
+		margin-top:1em;
+	}
+	div.dottedbox td.text div.searchbox div.department span.label {
+		border:0.1px solid white;
+		display:block;
+	}
+	div.dottedbox td.text div.searchbox div.within {
+		margin-top:0.5em;
+	}
+	div.dottedbox td.text div.searchbox div.within label {
+		display:inline; /* makes label disappear in NS4.7 */
+	}
+/* END DOTTED BOX */
+
+/* DL EMULATION */
+	#find2 div.dl,
+	#find3 div.dl {
+		width:440px;
+	}
+	#find3 div.dl {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	#find3 div.dl p.links
+	{
+		padding-bottom:10px;
+	}
+	#find2 div.dl p,
+	#find3 div.dl p {
+		margin-left:0px;
+		padding-left: 0px;
+	}
+	#find2 div.dl h2.h3alias,
+	#find3 div.dl h2.h3alias,
+	#find2 div.dl h3,
+	#find3 div.dl h3 {
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+		font-weight: bold;
+		background-image: none;
+		background-repeat: no-repeat;
+    }
+	#find3 div.dl h3.h4alias,
+	#find3 div.dl h4 {
+		margin-left: 0px;
+		padding-left: 15px;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+/*
+	div.xdl2 h3,
+	div.xdl2 h4 {
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+		font-weight: bold;
+		background-image: none;
+		background-repeat: no-repeat;
+	}
+	div.xdl2 p {
+		margin-top:0em;
+		margin-bottom:0em;
+		margin-left:0px;
+		padding-left:0px;
+	}
+	#maincontent div.xdl2 p.links {
+		margin-top:0em;
+		margin-bottom:0em;
+		padding-left:14px;
+		margin-left:-1px;
+	}
+*/
+	div.dl p.links {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+	}
+	div.dl2 p.links2 {
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-left:14px;
+		padding-left: 14px !important;
+		background-image:url("/syntegra/images/list_arrow.gif");
+		background-repeat:no-repeat;
+		font-weight: normal !important;
+	}
+	div.dl2 p.links2 a {
+		font-weight: normal !important;
+	}
+/* END DL EMULATION */
+	
+	#maincontent p {
+		width: 400px;
+	}
+
+/* TABLE EMULATION */
+	div.tabular {
+		margin-top:0px;
+	}
+/* END TABLE EMULATION */
+
+
+/* ERROR MESSAGE */
+	div.error ul {
+		margin-left:0em;
+	}
+/* END ERROR MESSAGE */
+	
+	
+/* NAVLINKS */
+	div.navlinks {
+		margin-top:12px;
+	}
+/* END NAVLINKS */
+
+
+/* CUSTOMER TITLE (MR, MRS...) */
+	div.title label {
+		display:inline;
+	}
+	div.title {
+		margin-top:0em;
+		margin-left:29px;
+		margin-bottom:10px;
+	}
+/* END CUSTOMER TITLE */
+	
+
+/* A-Z */
+	div.a-z {
+		margin-left:0px;
+		margin-top:-6px;
+		margin-bottom:12px;
+	}
+	div.a-z table td {
+		width:18px;
+		height:18px;
+		font-size:14px;
+		text-align:center;
+		background-color:#eee;
+	}
+	
+	div.a-z table td.on {
+		color:#D0D0FF;
+		background-color:#32339D;
+	}
+	div.a-z table td.on a {
+		color:#D0D0FF;
+	}
+/* END A-Z */
+	
+
+/* OKAYCONTACT */
+	div.okaycontact {
+		width:320px;
+		margin: 0px 0px 12px 25px;
+	}
+	div.okaycontact span.label,
+	div.okaycontact label {
+		display:inline;
+	}
+/* END OKAYCONTACT */
+
+/* FIND1 */
+	#find1 #maincontent div.navlinks p, #find2 #maincontent div.navlinks p {
+		margin-left:0px;
+		padding-left:14px;
+		width: 400px;
+	}
+/* END FIND1 */
+
+
+/* FIND2 */
+	#find2 #maincontent div.dl p {
+		margin-bottom: 0px;
+	}
+	#find2 ul.links {
+		margin-bottom:1em;
+		margin-top:0px;
+	}
+	#find2 div.dottedbox {
+		margin-top:1em;
+	}
+	#find2 div.navlinks {
+		margin-top:12px;
+	}
+/* END FIND 2 */
+
+
+/* FIND4 */
+	#find4 p {
+		padding-left:0px;
+	}
+	#find4 div.navlinks {
+		margin-top:12px;
+	}
+/* END FIND4 */	
+
+/* FIND5 */
+	#find5 h2 {
+		margin-bottom:0em;
+		margin-left:25px;
+	}
+	#find5 h3 {
+		margin-left:10px;
+		padding: 2px 10px 3px 15px;
+	}
+	#find5 div.dl p {
+		margin-left:0;
+	}
+	#find5 div.dl {
+		margin-top:0;
+	}
+	#find5 div.dl h4 {
+		margin-top:0px;
+	}
+/* END FIND5 */
+	
+	
+/* SEARCH2 */
+	#search2 h2 {
+		font-size:12px;
+		margin-left:10px;
+		margin-bottom:0.5em;
+		padding:2px 10px 3px 15px;
+	}
+	#search2 #maincontent {
+		padding-top:0px;
+	}
+	#search2 div.dottedbox td.text div.searchbox div.keyword {
+		margin-top:0em;
+	}
+/* END SEARCH2 */
+
+
+#findcontact h2
+{
+	padding-bottom:11px;
+	margin:0px;
+}
+
+#findcontact h3
+{
+	padding:0px;
+	margin:0px;
+}
+#findcontact h2.h3alias
+{
+	padding:0px;
+	margin:0px;
+}
+
+#findcontact div.a-z
+{
+	margin-left:0px;
+	margin-top:14px;
+	margin-bottom:12px;
+}
+
+#findcontact p.noresult
+{
+	padding: 0px 0px 70px 15px;
+}
+
+#findcontact .linksblock
+{
+	float:left;
+	padding-top:10px;
+	padding-bottom:150px;
+}
+
+#findcontact .linksblock2
+{
+	padding-top:10px;
+	padding-bottom:50px;
+}
+
+#findcontact .ukmap
+{
+	float:right;
+}
+
+#findcontact .resultsblock
+{
+	min-height:200px;
+	padding-bottom:20px;
+}
+
+#findcontact .resultsblock2
+{
+	height:150px;
+	padding-bottom:20px;
+}
+
+#findcontact .resultsblock3
+{
+	padding-bottom:0px;
+}
+
+#findcontact td ul.links
+{
+	padding:0px;
+	margin:0px;
+}
+
+#findcontact .resultsblock p, #findcontact .resultsblock3 p
+{
+	margin:0px;
+	padding: 10px 0px 6px 0px;
+}
+
+/* START DIV.RESULT-INFO */	
+	div.result-info {
+		width:400px;
+		margin-top:10px;
+	}
+	div.result-info h3 img {
+		display:block;
+		margin-top:3px;
+		margin-bottom:4px;
+	}
+	div.result-info table {
+		margin-bottom:10px;
+	}
+	div.result-info ul.links {
+		margin-top:4px;
+		margin-bottom:0;
+	}
+	div.result-info th {
+		text-align:left;
+		vertical-align:top;
+		font-weight:normal;
+		width:95px;
+	}
+	div.result-info th span,
+	div.result-info td span {
+		padding-bottom:1px;
+		display:block;
+		
+	}
+	div.result-info td {
+		vertical-align:top;
+		width:305px;
+	}
+	div.result-info p {
+		margin-bottom:11px;
+	}
+	div.result-info p.hrtop
+	{
+	margin-top:0px;
+	}
+	div.result-info p.hrbottom
+	{
+	margin-top:10px;
+	}
+	
+/* END DIV.RESULT-INFO */
+
+#findcontact .resultsblock table
+{
+	width:400px;
+}
+
+#findcontact table.telephonelist
+{
+	width:540px;
+	padding-bottom:40px;
+}
+
+#findcontact table.telephonelist td
+{
+	padding-bottom:4px;
+	vertical-align:top;
+}
+
+#findcontact table.telephonelist td.times
+{
+	color:#666;
+	padding-bottom:4px;
+	vertical-align:top;
+}
+
+#findcontact div.telephoneresults
+{
+	margin-bottom:20px;
+}
+
+/* CONTACT */
+	#findcontact div.contact {
+		width:385px;
+		border:0.1px solid black;
+		margin:0px;
+		padding:0px;
+	}
+	#findcontact div.contact table {
+		margin-top:18px;
+	}
+	#findcontact div.contact table td, #findcontact div.whendiv table td, #findcontact div.refinediv table td {
+		vertical-align: top;
+	}
+
+	#findcontact label {
+		display: inline;
+	}
+
+	#findcontact div.contact input, #findcontact div.contact label, #findcontact div.whendiv input, #findcontact div.whendiv label, #findcontact div.whendiv select {
+		margin-bottom:5px;
+	}
+	#findcontact div.contact label {
+		padding-bottom:3px;
+		display:block;
+	}
+/* END CONTACT */
+
+/* FIELDSETS */
+	#findcontact fieldset.details, #findcontact fieldset.category, #findcontact fieldset.country, #findcontact fieldset.distance {
+		border:0.1px solid white;
+		margin:0px;
+		padding:0px;
+	}
+	
+	#findcontact fieldset.time label, #findcontact fieldset.category label, #findcontact fieldset.country label, #findcontact fieldset.distance label   {
+		display:inline;
+		padding-left:0.5em;
+		padding-right:0.5em;
+	}
+/* END FIELDSETS */
+	
+
+/* WHENDIV */
+	#findcontact div.whendiv {
+		width: 400px;
+		padding-top:2.5em;
+		margin-left: -15px;
+	}
+	#findcontact div.whendiv input.check, #findcontact div.refinediv input.check, #findcontact div.refinediv input.radio {
+		display:inline;
+	}
+/* END WHENDIV */
+
+/* REFINEDIV */
+	#findcontact div.refinediv {
+		padding-top:10px;
+		width: 400px;
+	}
+	#findcontact div.refinediv label {
+		padding-bottom:4px;
+	}
+	#findcontact div.refinediv fieldset {
+		padding-bottom:10px;
+	}
+	#findcontact div.refinediv input.searchbox
+	{
+		width:260px;
+	}
+	#findcontact div.refinediv input.postcodebox
+	{
+		width:140px;
+	}
+/* END REFINEDIV */
+
+/* FORMBTN */
+	#findcontact div.formBtns {
+		margin-top: 15px;
+	}
+/* FORMBTN */
+	
+/* CALLBACK FORM */
+	#findcontact form.callback {
+		margin-top:0px;
+	}
+	#findcontact form.callback h4 {
+		margin:0px;
+		padding-left:0px !important;
+		margin-top:-1.5em;
+	}
+
+	
+	#findcontact form.callback {
+		margin-left:15px;
+	}
+	#findcontact div.error ul {
+		margin-left:-10px;
+	}
+	#findcontact h4 {
+		padding: 2px 0px 3px 13px;
+	}
+	#findcontact h2.h4alias {
+		padding: 2px 0px 3px 13px;
+	}
+
+#findcontact div.dl h3
+{
+	padding-left:15px;
+}
+#findcontact div.dl h2.h3alias
+{
+	padding-left:15px;
+}
+
+
+#findcontact div.error
+{
+	padding: 10px 0px 0px 15px;
+}
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: */
+/* VERSION 2: 25/02/04 - added background colour to surrounding element of checkbox to background colour show through. */
+/* VERSION 2.1: 27/02/04 - added form definitions for new site design */
+/* VERSION 2.2: 05/03/04 - removed redundant styles */
+/* VERSION 2.3: 12/03/04 - removed div.error li indent def. Moved to basic and advanced. Also moved Table Caption styles from find_basic to here */
+
+/* LAYOUT */
+	#content {
+		border:0px solid white;
+	}
+	#content #contentheader {
+		border:0px solid white;
+		margin-top: 2em;
+	}
+/* END LAYOUT */
+
+/* DOTTEDBOX */	
+	div.dottedbox {
+		margin-top:30px;
+		width: 450px;
+	}
+	div.dottedbox td.text div.searchbox {
+		border:0px solid white;
+		padding-left:0px;
+	}
+	div.dottedbox td.text div.searchbox {
+		margin:10px 15px 10px 15px;
+	}
+	div.dottedbox td.text div.searchbox div.keyword {
+		margin-bottom:1em;
+		margin-top:0em;
+	}
+	div.dottedbox td.text div.searchbox div.department span.label {
+		margin-bottom:0.5em;
+	}
+	div.dottedbox {
+		margin-bottom:1.5em;
+	}
+/* END DOTTEDBOX */	
+
+
+/* RESULTSNAV */	
+	div.resultnav {
+		margin-top:2em;
+		margin-bottom:1em;
+	}
+/* END RESULTSNAV */
+
+
+/* SEARCHBOX */
+	div.searchbox input.button {
+		width:54px;
+	}
+
+	div.within {
+		background-color: white; /* used to fix checkbox/radio background colour show through */
+	}
+
+/* END SEARCHBOX */
+
+
+/* NAVLINKS */
+	div.navlinks {
+		margin-top:2em;
+	}
+/* END NAVLINKS */
+
+
+/* CUSTOMER TITLE (MR, MRS...) */
+	div.title {
+		margin-top:2em;
+		margin-left:25px;
+	}
+/* END CUSTOMER TITLE*/
+
+
+/* A-Z */
+	div.a-z {
+		margin-top:8px;
+		margin-bottom:1.4em;
+	}
+	div.a-z table td {
+		font-size:1.2em;
+	}
+/* END A-Z */
+
+	
+/* PUBLICATION */
+	div.publication {
+		margin-bottom:1em;
+	}
+/* PUBLICATION */
+	
+	
+/* OKAYCONTACT */
+	div.okaycontact {
+		margin: 15px 0px 15px 25px;
+	}
+/* END OKAYCONTACT */
+
+	
+/* FIND1 */
+	#find1 ul.links {
+		margin-top:2em;
+	}
+	#find1 div.dottedbox {
+		margin-top:2em;
+	}
+/* END FIND1 */	
+	
+
+/* FIND2 */
+	#find2 ul.links {
+		margin-bottom:1em;
+	}
+	#find2 div.dottedbox {
+		margin-top:2em;
+	}
+	#find2 div.navlinks {
+		margin-top:2em;
+	}
+/* END FIND2 */
+	
+	
+/* FIND4 */		
+	#find4 div.navlinks {
+		margin-top:2em;
+	}
+	#find4 p.propositionstatement {
+		margin-bottom:1em;
+	}
+/* END FIND4 */	
+
+
+/* FIND5 */		
+	#find5 h3 {
+		background-color:#eee;
+		margin-top:2em;
+		margin-bottom:0.5em;
+	}
+	#find5 h2.h3alias {
+		background-color:#eee;
+		margin-top:2em;
+		margin-bottom:0.5em;
+	}
+/* END FIND5 */
+
+
+/* SEARCH2 */
+	#search2 ul.links li {
+		margin-bottom:1em;
+	}
+	#search2 h2 {
+		font-size:1em;
+		background-color:#eee;
+	}
+	#search2 p.propositionstatement {
+		margin-bottom:29px;
+		margin-top:0px;
+	}
+	html>body #search2 p.propositionstatement {
+		margin-bottom:40px;
+	}
+	#search2 div.dottedbox td.text div.searchbox {
+		margin:0.5em 15px 0.5em 15px;
+		border:0px solid white;
+		padding-left:0px;
+	}
+	#search2 div.dottedbox td.text div.searchbox label {
+		padding: 0px 0px 2px 0px;
+		
+	}
+	#search2 div.dottedbox td.text div.searchbox div.keyword {
+		margin-bottom:3px;
+	}
+	#search2 div.dottedbox td.text div.searchbox {
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+/* END SEARCH2 */
+
+
+/* TABLE CAPTION */
+	#maincontent div.datatable div.caption p {
+		width: 440px;
+	}
+	/* commented backslash hack v2 - hide from IE Mac \*/
+	#maincontent div.datatable div.caption p {
+		width: 450px;
+		w\idth: 440px;
+	}
+	/* end hack */
+
+/* END TABLE CAPTION */
+
+/* CONTACT */
+	#findcontact div.contact {
+		border: 0px solid white;
+	}
+	#findcontact div.contact table {
+		margin-top:16px;
+	}
+	html>body #findcontact div.contact table {
+		margin-top:17px;
+	}
+	html>body #findcontact div.contact input, html>body #findcontact div.contact label, #findcontact div.whendiv input, #findcontact div.whendiv label, #findcontact div.whendiv select {
+		margin-bottom:6px;
+	}
+/* CONTACT */
+
+
+/* CALLBACK FORM */
+	#findcontact form.callback h4 {
+		margin:0px;
+		padding-bottom:1em;
+		padding-left: 0px;
+	}
+	#findcontact form.callback h3.h4alias {
+		margin:0px;
+		padding-bottom:1em;
+		padding-left: 0px;
+	}
+/* CALLBACK FORM */
+
+	* html #findcontact div.refinediv td {
+		height:18px;
+	}

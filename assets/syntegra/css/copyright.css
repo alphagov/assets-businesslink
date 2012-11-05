@@ -1,0 +1,83 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 09/03/04 - Creation of CSS file */
+/* VERSION 1.1: 11/03/04 - Added IE5.5/6 Win padding-top override for footer. Changed ul, ol, dl margin-top */
+/* RR - LK commented out #content ul, #content ol, #content dl style because its showing incorrect line height */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:543px;
+		background-color:white;
+		border:0px solid black;
+	}
+
+
+	/* content-style columns */
+	#copyright #maincontent {
+		float:left;
+		width:352px;
+		border:0.1px solid white;
+	}
+	#copyright #additionalcontent {
+		float:right;
+		width:181px;
+		border:0.1px solid white;
+		padding-top:28px;
+	}
+	#footer {
+		padding-top/**/:17px;
+		/* Above line fixes a IE 5.5/6 Win padding-top bug */
+	}
+/* END LAYOUT */
+
+/* SHARED STYLES */
+	h1 {
+		color: #333399;
+	}
+	h2 {
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	ul, ol, dl {
+		margin-left:0px;
+		padding-left:0px;
+		margin-top: 0px;
+	}
+	#content p {
+		line-height:1.4em;
+	}
+	
+/*
+	#content ul, #content ol, #content dl {
+		line-height:1.1em;
+	}
+*/
+	ul.links li {
+		margin-bottom:0px;
+	}
+	span.stretchdiv {
+		clear:both;
+		display:block;
+		width:100%;
+	}
+	label {
+		display:block;
+	}
+	hr.stretchdiv {
+		clear:left;
+	}
+	#additionalcontent div.basicbox h4 {
+		margin-left:15px;
+		padding:0;
+	}
+/* END SHARED STYLES */
+
+
+/* Start of Exisiting Advanced Styles */
+/* This file is intentionally blank. Reserved for future use */

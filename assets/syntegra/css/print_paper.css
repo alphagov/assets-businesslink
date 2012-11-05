@@ -1,0 +1,152 @@
+body {
+	margin: 0 40pt 0 0;
+	padding: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	color: black;
+	background-color: white;
+}
+#content {
+	padding: 2em 6em 2em 4em;
+	margin: 0;
+}
+#logo {
+	margin: 0;
+	padding: 0;
+}
+#close {
+	display:none;
+}
+
+a {
+	text-decoration: none;
+	font-weight: normal !important;
+	color: black !important;
+}
+
+h1 {
+	font-size: 16pt;
+	font-weight: bold;
+	margin: 25pt 0pt 20pt 0pt;
+}
+h2 {
+	font-size: 12pt;
+	margin: 15pt 0pt 10pt 0pt;
+	font-weight: bold;
+}
+h3 {
+	font-size: 11pt;
+	margin: 15pt 0pt 10pt 0pt;
+	font-weight: bold;
+}
+h4 {
+	font-size: 10pt;
+	margin: 15pt 0pt 10pt 0pt;
+	font-weight: bold;
+}
+h5 {
+	font-size: 10pt;
+	margin: 15pt 0pt 10pt 0pt;
+	font-weight: bold;
+}
+h6 {
+	font-size: 10pt;
+	margin: 15pt 0pt 10pt 0pt;
+	font-weight: bold;
+}
+
+img {
+	border: 0;
+	padding: 0;
+}
+ul {
+	font-size: 10pt;
+	line-height: 120%;
+	margin-left:15pt;
+	padding-left:0;
+}
+ol {
+	font-size: 10pt;
+	line-height: 120%;
+	margin-left:20pt;
+	padding-left:0;
+}
+li {
+	font-size: 10pt;
+	margin-top: 2pt;
+	margin-bottom: 1pt; 
+}
+ul.links {
+	margin-left:0;
+	/*margin-bottom:2em;*/
+	list-style:none;
+}
+ul.links li {
+	margin-top: 0em;
+	margin-bottom: 10pt; 
+}
+p {
+	font-size: 10pt;
+	line-height: 140%;
+	margin: 10pt 0pt 10pt 0pt;
+}
+strong, b {
+	font-weight: bold;
+}
+hr {
+	height:0px;
+	width:100%;
+	border-bottom:1px dotted black;
+	padding: 0;
+	margin: 10pt 0pt 0pt 0pt;
+}
+#content hr {
+	margin: 5pt 0pt 0pt 0pt;
+}
+
+div.datatable table {
+	width:100%;
+	margin-top:10pt;
+	margin-bottom:10pt;
+}
+div.datatable th {
+	text-align:left;
+	font-weight:normal;
+	border-bottom:1pt solid black;
+}
+div.datatable td {
+	text-align:left;
+	font-weight:normal;
+	border-left:1pt solid black;
+	border-bottom:1pt solid black;
+}
+div.datatable th.cornerhead {
+	font-weight:bold;
+	padding:0 5pt 3pt 0;
+}
+div.datatable th.colhead {
+	font-weight:bold;
+	padding:0 5pt 3pt 5pt;
+}
+div.datatable td.data {
+	padding:1pt 5pt 2pt 5pt;
+}
+div.datatable div.caption {
+	text-align:left;
+	padding-top:15pt;
+}
+div.datatable div.caption p {
+	margin:0;
+	font-weight:bold;
+}
+/*[start] tariff print overrides */
+ul#commodityTabs li.on a{
+	font-weight:bold !important;
+}
+div.tarifftable{
+	border-top:1px solid #6cc !important;
+}
+div.tarifftable td.intro,
+div.tarifftable td.noTopBar{
+	border-bottom:1px solid #6cc !important;	
+}

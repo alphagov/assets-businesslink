@@ -1,0 +1,92 @@
+.atw_widget_body_link {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 13px;
+  font-weight: normal;
+}
+
+.atw_widget {
+	padding-left: 0;
+}
+
+h2.atw_title {	
+	font-size: 18px;
+	margin-top:20px;
+	margin-bottom:0;
+}
+
+.atw_bodySection {
+    float: left;
+	background-color: #EDEDED;
+	width: 760px;
+}
+
+.atw_bodyContent {	
+    float: left;
+    font-size: 110%;
+    padding: 10px 10px 0 9px;
+    width: 500px;
+}
+
+a.atw_btn:hover{
+	text-decoration: none;
+}
+
+.atw_bodyContent .atw_contentLink {
+	padding-top: 10px;
+}
+
+.atw_linkSection {
+	padding-top: 10px;
+	padding-right: 10px;
+	float: right;
+}
+
+.atw_bodySectionWrapper {
+	padding-bottom: 8px;
+	float: left;
+}
+
+
+.atw_linkSection .atw_link a.coloured_btn {
+	background: url("/presentation-suh/portal-startuphub/images/green_btn_right.gif") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 29px; 
+    text-decoration: none;
+	padding: 0;
+    padding-right: 12px;
+}
+
+.atw_linkSection .atw_link a.coloured_btn span {
+	background: url("/presentation-suh/portal-startuphub/images/green_btn_left.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    line-height: 18px;
+    padding: 0 0 5px 11px;
+}
+
+
+.atw_linkSection .atw_link a:active.coloured_btn {
+    background: none repeat scroll 0 0 #FFFFD2 !important;
+    color: #000000;
+    height: 25px;
+}
+
+.atw_linkSection .atw_link a:focus.coloured_btn {
+    background: none repeat scroll 0 0 #FFFFD2 !important;
+    color: #000000;
+    height: 25px;
+}
+
+.atw_linkSection .atw_link a:active.coloured_btn span {
+    background: none repeat scroll 0 0 #FFFFD2 !important;
+    color: #000000;
+}
+
+.atw_linkSection .atw_link a:focus.coloured_btn span {
+    background: none repeat scroll 0 0 #FFFFD2 !important;
+    color: #000000;
+}

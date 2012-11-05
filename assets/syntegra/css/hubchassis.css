@@ -1,0 +1,22 @@
+﻿/* VERSION 2.0: 21.09.11 - Styles for Hub Chassis */
+#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:760px !important;
+		background-color:white;
+		border:0px solid black;
+	}
+
+#maincontent {
+		width:760px !important;
+}
+
+.suhError {
+	margin-top: 10px;
+}
+
+#startUpHub {
+	margin-top: 10px;
+}

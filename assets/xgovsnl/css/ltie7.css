@@ -1,0 +1,42 @@
+/*
+ * Project businesslink.gov.uk
+ *  
+ * File ltie7.css
+ * 
+ * Created 12 Nov 2008
+ * 
+ * Description Skin & Link CSS for IE7
+ * 
+ * 
+ * Revision $Rev: 352 $ $Date: 2009-01-15 10:15:48 +0000 (Thu, 15 Jan 2009) $
+ */
+
+/* 
+[ltie7.css]
+Version:1.0 16/07/08  
+*/
+div#brandingHeader{
+	width: expression(document.body.clientWidth < 969? "760px" : document.body.clientWidth > 970? "960px" : "auto");	
+}
+
+div#trnsMainWrapper {
+	width: expression(document.body.clientWidth < 969? "760px" : document.body.clientWidth > 970? "960px" : "auto");	
+}
+
+DIV.formWrapper DIV.optional LABEL{
+	width: expression(document.body.clientWidth < 969? "296px" : document.body.clientWidth > 970? "376px" : "auto");	
+}	
+
+DIV.formWrapper LABEL{
+	width: expression(document.body.clientWidth < 969? "270px" : document.body.clientWidth > 970? "350px" : "auto");		
+}
+DIV.pseudolabel P{
+	width: expression(document.body.clientWidth < 969? "270px" : document.body.clientWidth > 970? "350px" : "auto");		
+}
+
+DIV.dob .explan {
+	margin-left: expression(document.body.clientWidth < 969? "308px" : document.body.clientWidth > 970? "388px" : "auto");
+	}
+div.getAddress a {
+	margin-left: expression(document.body.clientWidth < 969? "299px" : document.body.clientWidth > 970? "378px" : "auto");
+}

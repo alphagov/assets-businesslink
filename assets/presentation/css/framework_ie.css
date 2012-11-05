@@ -1,0 +1,41 @@
+/* 
+	IE Specific hacks for Framework.css
+	
+	Current Version v1.10
+	--------------------------------------------
+	25/03/08 v1.00 - Initial version produced - APH
+	16/05/08 v1.10 - Added IE 6 Specific CSS Expression to emulate min-width and then IE 7+ specific > re-set after IE6 rule
+					 Note IE 5.5 proved unstable running CSS Expression so this is protected via voice-family hack - APH
+*/
+
+/* Header Styles */
+
+#header {height:8.3em; 
+	width:58.4em; /* Non-javascript enabled and IE5-5.5 value */
+	voice-family:"\"}\""; voice-family:inherit; width:expression(document.body.clientWidth < 782 ? "58.4em" : "auto" ); /* IE 6 min-width hack */
+}
+body>#header {width:auto; min-width:57em;} /* IE 7+ min-width hack */
+
+#strapline {left:10.85em; top:2.9em; font-size:1.38em}
+
+#login {left:47.2em; top:3.3em;}
+
+#help {left:16.04em; top:0.8em;}
+
+#sitesearch {left:40.1em; top:0.86em;}
+#sitesearch input {width:10.5em;}
+#sitesearch input.go {width:2em;}
+
+#tabs {left:14.8em; top:6.8em;}
+#tabs li {float:left; padding:0.1em 1.6em 0.12em 0;}
+#tabs li a {display:block; float:left; margin-top:0.2em;}
+#tabs ul li.selected {background-image:url(../images/tab-mid-selected.gif);}
+#tabs ul li.tabend {background-position:5.6em 0; padding:0.1em 0.75em 0.15em 0.1em;}
+
+#maincontent {top:10.8em; padding-left:0.6em;}
+
+#footer {width:66em;}
+
+.limit-width {width:56em;}
+#maincontent .limit-width, #maincontent.limit-width {width:48em;} /* If set within or on #maincontent DIV reduce width to compensate for left menu presence */
+

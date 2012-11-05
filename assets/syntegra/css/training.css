@@ -1,0 +1,293 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 15/03/04 */
+
+/* LAYOUT */
+	
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:544px;
+		background-color:white;
+		border:0px solid black;
+	}
+	#maincontent {
+		float:left;
+		width:345px;
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	#additionalcontent {
+		float:right;
+		width:180px;
+		padding-top:70px;
+	}
+	#tsd-home #additionalcontent,
+	#tsd-db #additionalcontent {
+		display:none;
+	}
+	#additionalcontent div.mainpanel {
+		border:0.1px solid white;
+	}
+	#breadcrumb {
+		margin-left:4px;
+		margin-bottom:12px;
+	}
+	
+	
+	#tsd-home #maincontent {
+		width:100%;
+	}
+	#tsd-db #maincontent {
+		width:450px;
+	}
+	
+/* END LAYOUT */
+
+h2 {
+	font-size:14px;
+}
+#tsd p.hr {
+	/* padding-left:15px; */
+}
+#tsd-db p.hr {
+	padding-left:0px;
+}
+#tsd-db p {
+	width:400px;
+}
+
+#tsd div.dl2 {
+	margin-bottom:12px;
+}
+
+
+div.onlineresults {
+	padding-bottom:20px;
+}
+
+#additionalcontent div.mainpanel p {
+	padding: 10px 15px 10px 15px;
+}
+
+div.search {
+	float:right;
+	width:90px;
+	text-align:right;
+	
+}
+
+div.resultnav {
+	padding-top:10px;
+}
+
+
+/* TRAININGOPTIONS */
+	div.trainingoptions {
+		margin-bottom:20px;
+	}
+	div.trainingoptions td {
+		width:170px;
+		background-color:#ccc;
+		vertical-align:top;
+	}
+	div.trainingoptions td.spacer {
+		width:5px;
+		background-color:white;
+	}
+	div.trainingoptions td.last {
+		background-image: url("/syntegra/images/home_ad_corner.gif");
+		background-repeat:no-repeat;
+		background-position:bottom right;
+	}
+	
+	div.trainingitem h2 {
+		font-size:12px;
+		margin: -2px 8px 0 8px;
+	}
+	div.trainingitem p {
+		margin: 0 8px 14px 8px;
+	}
+	#content div.trainingitem p.hr {
+		margin: -10px 0 6px 8px;
+	}
+/* TRAININGOPTIONS */
+
+
+/* SEARCHFORM */
+	div.searchform {
+		margin-left:14px;
+	}
+	div.searchform div.label {
+		margin-bottom:3px;
+	}
+	div.searchform div.input {
+		margin-bottom:8px;
+	}
+	div.searchform div.search {
+		margin-top:0px;
+		padding-top:14px;
+	}
+/* END SEARCHFORM */
+
+
+/* BOOK */
+	div.book div.input {
+		float:right;
+		width:90px;
+		text-align:right;
+	}
+	div.book {
+		margin-top:10px;
+	}
+	div.book h3 img {
+		display:block;
+		margin-top:3px;
+		margin-bottom:4px;
+	}
+	div.book ul.links {
+		margin-top:4px;
+		margin-bottom:0;
+	}
+	div.book td {
+		vertical-align:top;
+		width:225px;
+	}
+	
+	div.book td.details,
+	div.book th {
+		text-align:left;
+		vertical-align:top;
+		font-weight:normal;
+		width:120px;
+	}
+	div.book td.button {
+		text-align:right;
+		vertical-align:baseline;
+	}
+	
+	div.book th span {
+		margin-left:0px;
+	}
+	div.book th span,
+	div.book td span {
+		padding-bottom:1px;
+		display:block;
+	}
+	
+	div.book p {
+		margin-bottom:11px;
+	}
+	
+	div.dl2 h3 {
+		margin-left:0;
+	}
+	div.dl2 p {
+		margin-left:0;
+	}
+	
+	#tsd-course div.book div.input {
+		padding-top:24px;
+	}
+	#tsd-course div.book table {
+		width:245px;
+		margin-bottom:15px;
+	}
+	#tsd-course div.book td {
+		width:125px;
+	}
+/* END BOOK */
+
+
+/* Start of Exisiting Advanced Styles */
+#content {
+	LEFT: 200px; WIDTH: 540px
+}
+#maincontent {
+	MARGIN-BOTTOM: 20px
+}
+#additionalcontent {
+	MARGIN-BOTTOM: 20px; PADDING-TOP: 84px
+}
+#additionalcontent DIV.mainpanel {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#breadcrumb {
+	MARGIN: 0px
+}
+#footer {
+	PADDING-TOP: 17px
+}
+H2 {
+	FONT-SIZE: 1.3em
+}
+#tsd-db H3 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 14px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #ccc
+}
+DIV.resultnav {
+	PADDING-TOP: 10px
+}
+DIV.trainingoptions {
+	MARGIN-BOTTOM: 0px
+}
+DIV.trainingitem H2 {
+	FONT-SIZE: 1em; MARGIN: 4px 8px 0px; HEIGHT: 28px
+}
+DIV.trainingitem P {
+	MARGIN: 0px 8px 14px
+}
+#content DIV.trainingitem P.hr {
+	MARGIN: 6px 0px 4px 8px
+}
+DIV.trainingitem IMG {
+	DISPLAY: block
+}
+#tsd-db H3 {
+	MARGIN-BOTTOM: 11px
+}
+#tsd-db H4 {
+	MARGIN-BOTTOM: 11px; MARGIN-LEFT: 14px
+}
+DIV.searchform DIV.label {
+	MARGIN-BOTTOM: 5px
+}
+DIV.searchform DIV.input {
+	MARGIN-BOTTOM: 14px
+}
+DIV.searchform DIV.search {
+	PADDING-TOP: 0px
+}
+DIV.searchform DIV.search DIV.input {
+	MARGIN: 0px
+}
+DIV.searchform {
+	MARGIN-BOTTOM: 20px
+}
+DIV.searchform DIV.searchitem DIV.input {
+	MARGIN-BOTTOM: 0px
+}
+DIV.searchform DIV.searchitem2 {
+	MARGIN-TOP: 7px; MARGIN-BOTTOM: 7px
+}
+DIV.book H3 {
+	MARGIN: 0px 0px 4px
+}
+DIV.book P.links {
+	MARGIN-TOP: 1px; WIDTH: auto
+}
+DIV.book TH SPAN {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 2px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+DIV.book TD SPAN {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-BOTTOM: 2px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#tsd-course DIV.book DIV.input {
+	PADDING-TOP: 15px
+}

@@ -1,0 +1,44 @@
+/* 
+	Campaign Specific Stylesheet 
+	Any custom CSS rules in this stylesheet should begin 
+	'#campaigns-body ' to ensure they only apply to the custom source code area of the page template.
+	
+	If used, Campaign CMS Banner header styles must begin '#campaigns-header '
+	If used, Campaing CMS 'Developed with' footer styles must begin '#campaigns-footer '
+	
+	The creation of any styles without leading '#campaigns-[header/body/footer]' must have prior approval from BusinessLink
+*/
+
+/* 	Campaigns Body Styles - All must start '#campaigns-body '  */
+
+#campaigns-body {}												/* Global Default: 'width:66em' limits to BusinessLink 730px width standard */
+#campaigns-body h1 {color:#666699} 											/* Global Default: 'font-size:1.5em;' */
+#campaigns-body h2 {} 											/* Global Default: 'font-weight:bold;' */
+#campaigns-body p {}								 			/* Global Default: 'margin:1em 0; line-height:1.5em;' */
+#campaigns-body a {text-decoration:none}					/* Global Default: 'color:#333399;' Note: Visited colour is browser default purple */
+#campaigns-body a:hover{text-decoration:underline}	
+
+#campaigns-body td {}											/* Global Default: 'vertical-align:top;' */
+
+#campaigns-body ul {margin-left:2em;}							/* SAMPLE STYLE EXAMPLE - Remove from final submission */
+#campaigns-body li {margin-top:1em; list-style-type:square;}	/* SAMPLE STYLE EXAMPLE - Remove from final submission */
+#campaigns-body li li {margin-top:0.5em; list-style-type:none;}	/* SAMPLE STYLE EXAMPLE - Remove from final submission */
+
+#breadcrumbbox {padding-left:13px; padding-top:5px;padding-bottom:5px; font-size:11px; background-color:#e8e8e8; margin-bottom:15px}
+#signup_help_container {float:left; padding-top:3px}
+#subscribe_container {float:left; padding-top:2px}
+#podcast_teaser_container {border-top:1px dashed #003399; padding-top:16px; padding-bottom:16px; margin-top:16px}
+#podcast_teaser_container2 {border-top:1px dashed #003399; padding-top:16px; padding-bottom:16px}
+#teaser_headshot {float:left; padding-right:20px; width:76px; height:76px}
+#teaser_title {float:left; font-weight:bold; line-height:12px; padding-left:3px}
+#teaser_date {font-size:9px; float:right; margin-left:15px; margin-right:15px}
+#teaser_time {font-size:9px; float:right}
+#teaser_footer {background-color:#E8E8E8; padding:3px; margin-top:7px; margin-left:96px; font-size:9px; height:17px}
+#teaser_footer_container {float:left; padding-left:22px}
+#download_arrow {padding-top:4px; padding-right:5px; width:12px; height:10px;float:left}
+#teaser_footer_link {padding-top:3px; float:left; font-weight:bold}
+#footer_useful {float:left; padding-left:60px; padding-top:4px}
+#bottom_dashed_line {border-top:1px dashed #003399; padding-top:16px; margin-top:16px;}
+#teaser_footer_inner_container {float:left; padding-left:60px}
+#transcript_footer {background-color:#E8E8E8; padding:3px; margin-top:7px; font-size:9px; height:17px}
+#pagination_number_box {float:left; border:1px solid; width:12px; margin-left:3px; margin-right:8px; font-weight:bold; padding-bottom:1px}

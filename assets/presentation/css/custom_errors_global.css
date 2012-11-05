@@ -1,0 +1,46 @@
+#maincontent {
+border:0.1px solid white;
+float:left;
+width:450px;
+}
+div.feed {
+border:1px solid #CCCCFF;
+margin-bottom:15px;
+padding:15px;
+width:100%;
+}
+div.feed h3 {
+font-weight:bold;
+margin-bottom:0.5em;
+}
+#left {
+color:#666699;
+padding-top:5px;
+position:absolute;
+top:120px;
+width:190px !important;
+}
+#left p {
+color:#333333;
+font-size:1em;
+font-weight:800;
+margin-left:2px !important;
+padding:0 0 0 13px;
+}
+ul.links li, ul.restart li {
+background-image:url(/syntegra/images/list_arrow.gif);
+background-repeat:no-repeat;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:3px;
+margin-left:0;
+padding-left:15px;
+}
+ul.links li {
+line-height:1.2em;
+}
+p, span, td, th {core.css (line 406)
+color:#333333;
+font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+}

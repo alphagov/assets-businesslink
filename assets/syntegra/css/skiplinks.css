@@ -1,0 +1,161 @@
+/* VERSION 1.0: 20/05/08  */
+#skip ul li{list-style-type:none;}
+#skip a{
+	margin-left:-9999em;
+}
+
+#skip a:focus, 
+#skip a:active{
+	margin-left:0;
+	display:block;
+	position:absolute;
+	z-index:1000;
+	left:0;
+	top:0;
+	padding:3px;
+	background-color:#FFFFD2;
+	color:#000;
+	font-weight:bold;
+}
+
+a:active {
+	text-decoration: none !important;
+	background-image: none !important;
+	background: #FFFFD2 !important;
+	color: #000 !important;
+}
+
+a:focus {
+	background-image: none !important;
+	background: #FFFFD2 !important;
+	color: #000 !important;
+}
+
+
+
+div.rrboxad2right p.register a:active,
+div.rrboxad2right p.register a:focus {
+	color:#fff !important;
+	outline:1px dotted #000;
+	background-color:transparent !important;
+	background-image: url(../images/global-header-login.png) !important;
+	
+}
+
+
+/* Prevent default active/focus styling in specific areas*/
+
+div.confirm-bottom a:active,
+div.confirm-bottom a:focus,
+#haspiForm table td a:focus,
+#haspiForm table td a:active{
+	background-color:transparent !important;
+}
+
+#tabdrops table td div.homepromo1 a:focus,
+#tabdrops table td div.homepromo1 a:active{
+	background-color: transparent !important;
+	}
+	
+#tabdrops table td div.homepromo1 h4 a:focus,
+#tabdrops table td div.homepromo1 h4 a:active{
+	color:#000 !important;
+	background-color:#FFFFD2 !important;
+	}
+
+#developedwith a:active,
+#developedwith a:focus,
+#logo a:active,
+#logo a:focus{
+	background-color:transparent !important;
+}
+
+#topnav #help span.navitemTop a:focus,#topnav #help span.navitemTop a:active{
+	color:#000 !important;
+}
+#login ul li a:active,
+#login ul li a:focus{
+	color:#333 !important;
+}
+
+#tabdrops td.tab2 h4 a:active,
+#tabdrops td.tab2 h4 a:focus{
+	background:none !important;
+	color:#000 !important;
+	text-decoration:underline !important;
+}
+
+#tabs ul li a:active,
+#tabs ul li a:focus{background:url("/syntegra/images/global-nat-tab-left.png") no-repeat !important;}
+
+#lsdplusbg #tabs ul li a:active,
+#lsdplusbg #tabs ul li a:focus{background:url("/syntegra/images/bg-global-nat-tab-left.png") no-repeat !important;color:#fff !important;}
+
+#lsdplusni #tabs ul li a:active,
+#lsdplusni #tabs ul li a:focus{background:url("/syntegra/images/ini-global-nat-tab-left.png") no-repeat !important;color:#1A1C1B !important;}
+
+#lsdplusfs #tabs ul li a:active,
+#lsdplusfs #tabs ul li a:focus{background:url("/syntegra/images/fs-global-nat-tab-left.png") no-repeat !important;color:#1A1C1B !important;}
+
+
+#maincontent #heropromopanel .promoheader a:active,
+#maincontent #heropromopanel .promoheader a:focus{
+		background: url(/syntegra/images/heropromopanel-list-icon.gif) no-repeat 14px 12px !important;
+		text-decoration:none !important;
+		outline:none !important;	
+}
+
+#maincontent #heropromopanel .promoheader.selected  a:active,
+#maincontent #heropromopanel .promoheader.selected  a:focus{
+		text-decoration:none;
+		background: url(/syntegra/images/heropromo_promocontent_grad_selected.png) no-repeat top left !important;
+		margin-left:-13px;
+		padding-left:37px;
+		border-right:1px solid #1B396E;
+		color:#fff !important;
+		outline:none !important;
+}
+
+#lsdplusni #maincontent #heropromopanel .promoheader.selected  a:active,
+#lsdplusni #maincontent #heropromopanel .promoheader.selected  a:focus{
+		background: url(/syntegra/images/ini-heropromo_promocontent_grad_selected.png) no-repeat top left !important;
+		
+}
+
+
+
+* html #footer{
+	height:1%;
+	}
+	
+/*** start hasJS RULES **/
+#skip ul.hasJS{
+	width:190px;
+	margin-left:0;
+	list-style-type:none;
+	position:absolute;
+	z-index:1001;
+	background-color:#FFFFD2;
+	}
+#skip ul.hasJS li{
+	margin-left:0;
+	}
+#skip ul.hasJS li a{
+	margin-left:0;
+	display:block;
+	zoom:1;
+	}
+
+#skip ul.hasJS a:focus, 
+#skip ul.hasJS a:active{
+	padding:0;
+	display:block;
+	position:relative;
+	background-color:#FFFFD2;
+	font-weight:bold;
+}
+/*** end hasJS RULES */
+
+#allcontent{zoom:1;}
+#footer,.pageoptions,.options{border:0.1em solid #fff;}
+

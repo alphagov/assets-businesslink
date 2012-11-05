@@ -1,0 +1,51 @@
+/* General styles */
+
+.clearboth { clear:both; display:block;}
+
+#campaigns-body {padding:0; width:990px; margin:20px 0 0 10px; border:0px solid #000;}
+
+#BL_penref_header { width:960px; background:#4c3c69 url(../../Horizontal_Services_images/campaigns/BL_penreformBG.gif) repeat-x left top;float:left;}
+
+#BL_penref_header img { float:left; }
+
+#BL_penref_header h1 { font-size:3em; color:#FFFFFF; padding:0; margin:40px 0 0 30px; display:block; float:left; font:Arial, Helvetica, sans-serif;}
+
+.BL_penCont { width:405px; margin:45px 45px 0 30px; padding:0; float:left; color:#4c4c4c; font-size:1.2em;}
+
+.BL_penCont h2{ font-size:1.3em; padding:0 0 8px 0; margin:0; font-weight:bold;}
+
+.BL_penCont .blpenreft{ margin:0 0 30px 0 !important; line-height:1.2em !important; letter-spacing:inherit; display:block; float:left;width: 100%;}
+
+.BL_penCont .blpenreft a{ color:#006680; text-decoration:underline; background:url(../../Horizontal_Services_images/campaigns/BL_penref_links.gif) no-repeat 0 3px; padding:0 0 0 15px; display:block;}
+
+.BL_penCont .blpenreft a:hover{ color:#006680; text-decoration:none;}
+
+.BL_penCont .blpenreft ul{ list-style:circle; padding:0; margin:0 0 0 15px;}
+
+.BL_penCont .blpenreft ul li{padding:0; margin:0 0 20px 0;}
+
+.BL_penCont .blpenreft ul.blpen2{ list-style:circle; padding:0; margin:0 0 0 45px;}
+
+.BL_penCont .blpenreft ul.blpen2 li{padding:0; margin:0 0 10px 0;}
+
+.BL_penCont .blpenreft li.blpenlast{ display:block; padding:0; margin:0 0 20px 0;}
+
+.BL_penCont .blpenreft a.blpenintext{ color:#006680; text-decoration:underline !important; background:none; padding:0; display:inline;}
+
+.BL_penCont .blpenreft a.blpeninarrow{ color:#006680; text-decoration:underline; background:url(../../Horizontal_Services_images/campaigns/BL_penref_links.gif) no-repeat 0 3px; padding:0 0 0 15px; display:inline !important;}
+
+.BL_penCPB { background:#f0c8ec url(../../Horizontal_Services_images/campaigns/BL_pentoolBG.gif) repeat-y 0 0; width:390px; border:1px solid #fff; float:left; color:#6a1a41;
+-moz-box-shadow: 3px 3px 4px #ccc; -webkit-box-shadow: 3px 3px 4px #ccc; box-shadow: 3px 3px 4px #ccc;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')";
+/* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc');
+
+}
+
+.BL_penCPB img{ float:left;}
+
+.BL_penCPr {  float:right; width:320px; margin-right:10px; }
+.BL_penCPr h3{ font-size:1.3em; margin:15px 0 20px 0; padding:0;}
+.BL_penCPr p{line-height:1.2em !important;} 
+.BL_penCPB .BL_penCPr  a{ color:#6a1a41; text-decoration:underline; background:url(../../Horizontal_Services_images/campaigns/BL_penref_linksP.gif) no-repeat 0 3px; padding:0 0 0 15px; display:block;}  

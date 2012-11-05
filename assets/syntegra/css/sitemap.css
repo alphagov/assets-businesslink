@@ -1,0 +1,639 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: */
+/* VERSION 2: 05/03/04 - changed li list-styles to background-images. Removed commented out old code */
+/* AB 30/06/06 - added lines 135 - 156 to fix a disappearing headline */
+/* CR 13/06/07 - used bt css as base for changes */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top: 122px;
+		left:200px;
+		width:540px;
+		layer-background-color:white;
+		border:0.1px solid black;
+	}
+	
+	#maincontent {
+		margin-top: 32px;
+	}
+	
+/* END LAYOUT */
+
+
+/* SHARED STYLES */
+	h1 {
+		color:#666699;
+	}
+	h2 {
+		margin:0px;
+		margin-bottom:1em;
+	}
+	h3 {
+		font-size:12px;
+		margin-top:0px;
+		margin-bottom:2px;
+		margin-left:15px;	
+	}
+	h2.h3alias {
+		font-size:12px;
+		margin-top:0px;
+		margin-bottom:2px;
+		margin-left:15px;	
+	}
+	div.stretchdiv {
+		display:none;
+	}
+/* END SHARED STYLES */
+	
+	
+	table.map td.title {
+		background-image:url("/syntegra/images/sitemap_title.gif");
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	
+	table.map {
+		width:100%;
+	}
+	table.map td.left {
+		vertical-align:top;
+		width:50%;
+	}
+	
+	table.map td.right {
+		vertical-align:top;
+		width:50%;
+	}
+	
+	div.column1 {
+		width:49%;
+		float:left;
+	}
+	div.column2 {
+		width:50%;
+	}
+	
+	div#layer21 div.column1 {
+		width:49%;
+		float:left;
+	}
+	
+	/* places white cutout in coloured blocks */
+	div.practitioners,
+	div.finance,
+	div.growthandinnovation,
+	div.itandecommerce,
+	div.grantsandadvice,
+	div.startingabusiness,
+	div.salesandmarketing,
+	div.buyingandselling,
+	div.internationaltrade,
+	div.taxandreporting,
+	div.employingpeople,
+	div.healthandenvironment,
+	div.environmentandefficiency,
+	div.sellingabusiness,
+	div.inyoursector,
+	div.local1,
+	div.local2,
+	div.local3,
+	div.local4,
+	div.regional1,
+	div.regional2,
+	div.regional3,
+	div.regional4,
+	div.global {
+		width:540px;
+		background-image:url("/syntegra/images/sitemap_title2.gif");
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-bottom:10px;
+	}
+    
+	div.practitioners,
+	div.finance,
+	div.growthandinnovation,
+	div.itandecommerce,
+	div.grantsandadvice,
+	div.startingabusiness,
+	div.salesandmarketing,
+	div.buyingandselling,
+	div.internationaltrade,
+	div.taxandreporting,
+	div.employingpeople,
+	div.healthandenvironment,
+	div.environmentandefficiency,
+	div.sellingabusiness,
+	div.inyoursector,
+	div.local1,
+	div.local2,
+	div.local3,
+	div.local4,
+	div.regional1,
+	div.regional2,
+	div.regional3,
+	div.regional4,
+	div.global {
+		border:0.1px solid white;
+	}
+
+	div.practitioners h2,
+	div.finance h2,
+	div.growthandinnovation h2,
+	div.itandecommerce h2,
+	div.grantsandadvice h2,
+	div.startingabusiness h2,
+	div.salesandmarketing h2,
+	div.buyingandselling h2,
+	div.internationaltrade h2,
+	div.taxandreporting h2,
+	div.employingpeople h2,
+	div.healthandenvironment h2,
+	div.environmentandefficiency h2,
+	div.sellingabusiness h2,
+	div.inyoursector h2,
+	div.local1 h2,
+	div.local2 h2,
+	div.local3 h2,
+	div.local4 h2,
+	div.regional1 h2,
+	div.regional2 h2,
+	div.regional3 h2,
+	div.regional4 h2,
+	div.global h2 {margin-top: 0}
+	
+	h2 {
+		width:220px;
+		padding:0 0 0 12px;
+		margin:0 0 0 8px;
+		background-repeat:no-repeat;
+		line-height:normal;
+		background-color:white;
+		margin-left: 15px !important;
+	}
+	h2 a:link:hover { 
+		color:#339; /*#66c*/
+		text-decoration: underline; 
+	}
+	h2 a:visited { 
+		color:#333; 
+		text-decoration: none; 
+	} 
+	h2 a:visited:hover { 
+		color:#339; 
+		text-decoration: underline; 
+	}
+	h2 a:link { 
+		color:#333; 
+		text-decoration: none; 
+	}
+	h3 {
+		background-image:url("/syntegra/images/px_trans.gif"); /* ns4.7 inheriting bg image */
+	}
+	
+	h2.h3alias
+	{
+		background-image:url("/syntegra/images/px_trans.gif"); /* ns4.7 inheriting bg image */
+		width:auto;
+		padding:0 0 0 0px;
+		margin:0 0 0 8px;
+		background-repeat:no-repeat;
+		line-height:normal;
+		background-color:white;
+		margin-left: 15px !important;
+	
+	}
+	
+	div.practitioners div,
+	div.finance div,
+	div.growthandinnovation div,
+	div.itandecommerce div,
+	div.grantsandadvice div,
+	div.startingabusiness div,
+	div.salesandmarketing div,
+	div.buyingandselling div,
+	div.internationaltrade div,
+	div.taxandreporting div,
+	div.employingpeople div,
+	div.healthandenvironment div,
+	div.environmentandefficiency div,
+	div.sellingabusiness div,
+	div.inyoursector,
+	div.local1 div,
+	div.local2 div,
+	div.local3 div,
+	div.local4 div,
+	div.regional1 div,
+	div.regional2 div,
+	div.regional3 div,
+	div.regional4 div,
+	div.global div {
+		background-image:url("/syntegra/images/px_trans.gif"); /* ns4.7 inheriting bg image */
+	}
+	
+	
+/* THEME COLOUR FOR SECTION MAPS */
+	div.finance {
+		background-color:#D4E9F4;
+		background-image:url("/syntegra/images/px_finance.gif");
+	}
+	div.growthandinnovation {
+		background-color:#F2F2D9;
+		background-image:url("/syntegra/images/px_growthandinnovation.gif");
+	}
+	div.itandecommerce {
+		background-color:#F5E0E0;
+		background-image:url("/syntegra/images/px_itandecommerce.gif");
+	}
+	div.grantsandadvice {
+		background-color:#E0F1D1;
+		background-image:url("/syntegra/images/px_grantsandadvice.gif");
+	}
+	div.startingabusiness {
+		background-color:#F5EBEA;
+		background-image:url("/syntegra/images/px_startingabusiness.gif");
+	}
+	div.salesandmarketing {
+		background-color:#E0E0F5;
+		background-image:url("/syntegra/images/px_salesandmarketing.gif");
+	}
+	div.buyingandselling {
+		background-color:#EDEDDB;
+		background-image:url("/syntegra/images/px_buyingandselling.gif");
+	}
+	div.internationaltrade {
+		background-color:#D8F2F2;
+		background-image:url("/syntegra/images/px_internationaltrade.gif");
+	}
+	div.taxandreporting {
+		background-color:#DFEFDF;
+		background-image:url("/syntegra/images/px_taxandreporting.gif");
+	}
+	div.employingpeople {
+		background-color:#DFEFEF;
+		background-image:url("/syntegra/images/px_employingpeople.gif");
+	}
+	div.healthandenvironment {
+		background-color:#EFE0F0;
+		background-image:url("/syntegra/images/px_healthandenvironment.gif");
+	}
+	div.environmentandefficiency {
+		background-color:#E8ffc5;
+		background-image:url("/syntegra/images/px_environmentandefficiency.gif");
+	}
+	div.sellingabusiness {
+		background-color:#F0E0D1;
+		background-image:url("/syntegra/images/px_sellingabusiness.gif");
+	}
+	div.inyoursector {
+		background-color:#F0E7DF;
+		background-image:url("/syntegra/images/px_inyoursector.gif");
+	}
+	div.global{
+		background-color:#E7EBFF;
+		background-image:url("/syntegra/images/px_global.gif");
+	}
+	div.practitioners {
+		background-color:#CCF;
+		background-image:url("/syntegra/images/px_global.gif");
+	}
+	
+	
+	div.local1 {
+		background-color:#E8F0E1;
+		background-image:url("/syntegra/images/px_local1.gif");
+	}
+	div.local2 {
+		background-color:#E8F0FF;
+		background-image:url("/syntegra/images/px_local2.gif");
+	}
+	div.local3 {
+		background-color:#F7E1E1;
+		background-image:url("/syntegra/images/px_local3.gif");
+	}
+	div.local4 {
+		background-color:#F7F0E1;
+		background-image:url("/syntegra/images/px_local4.gif");
+	}
+	div.regional1 {
+		background-color:#F5EBFF;
+		background-image:url("/syntegra/images/px_regional1.gif");
+	}
+	div.regional2 {
+		background-color:#E1F7E8;
+		background-image:url("/syntegra/images/px_regional2.gif");
+	}
+	div.regional3 {
+		background-color:#FFF5D6;
+		background-image:url("/syntegra/images/px_regional3.gif");
+	}
+	div.regional4 {
+		background-color:#FFE8E8;
+		background-image:url("/syntegra/images/px_regional4.gif");
+	}
+	
+	
+/* END THEME COLOUR FOR SECTION MAPS */
+	
+	
+/* THEME COLOURED BLOCKS NEXT TO TITLE */
+	div.finance h2 {
+		background-image:url("/syntegra/images/leftnav_finance.gif");
+	}
+	div.growthandinnovation h2 {
+		background-image:url("/syntegra/images/leftnav_growthandinnovation.gif");
+	}
+	div.itandecommerce h2 {
+		background-image:url("/syntegra/images/leftnav_itandecommerce.gif");
+	}
+	div.grantsandadvice h2 {
+		background-image:url("/syntegra/images/leftnav_grantsandadvice.gif");
+	}
+	div.startingabusiness h2 {
+		background-image:url("/syntegra/images/leftnav_startingabusiness.gif");
+	}
+	div.salesandmarketing h2 {
+		background-image:url("/syntegra/images/leftnav_salesandmarketing.gif");
+	}
+	div.buyingandselling h2 {
+		background-image:url("/syntegra/images/leftnav_buyingandselling.gif");
+	}
+	div.internationaltrade h2 {
+		background-image:url("/syntegra/images/leftnav_internationaltrade.gif");
+	}
+	div.taxandreporting h2 {
+		background-image:url("/syntegra/images/leftnav_taxandreporting.gif");
+	}
+	div.employingpeople h2 {
+		background-image:url("/syntegra/images/leftnav_employingpeople.gif");
+	}
+	div.healthandenvironment h2 {
+		background-image:url("/syntegra/images/leftnav_healthandenvironment.gif");
+	}
+	div.environmentandefficiency h2 {
+		background-image:url("/syntegra/images/leftnav_environmentandefficiency.gif");
+	}
+	div.sellingabusiness h2 {
+		background-image:url("/syntegra/images/leftnav_sellingabusiness.gif");
+	}
+	div.inyoursector h2 {
+		background-image:url("/syntegra/images/leftnav_inyoursector.gif");
+	}
+	div.global h2 {
+		background-image:url("/syntegra/images/leftnav_global.gif");
+	}
+	div.practitioners h2 {
+		background-image:url("/syntegra/images/leftnav_global_dark.gif");
+	}
+	
+	
+	
+	div.local1 h2 {
+		background-image:url("/syntegra/images/leftnav_local1.gif");
+	}
+	div.local2 h2 {
+		background-image:url("/syntegra/images/leftnav_local2.gif");
+	}
+	div.local3 h2 {
+		background-image:url("/syntegra/images/leftnav_local3.gif");
+	}
+	div.local4 h2 {
+		background-image:url("/syntegra/images/leftnav_local4.gif");
+	}
+	div.regional1 h2 {
+		background-image:url("/syntegra/images/leftnav_regional1.gif");
+	}
+	div.regional2 h2 {
+		background-image:url("/syntegra/images/leftnav_regional2.gif");
+	}
+	div.regional3 h2 {
+		background-image:url("/syntegra/images/leftnav_regional3.gif");
+	}
+	div.regional4 h2 {
+		background-image:url("/syntegra/images/leftnav_regional4.gif");
+	}
+/* END THEME COLOURED BLOCKS NEXT TO TITLE */
+
+/* THEME COLOURED BLOCKS NEXT TO SITEMAP */
+	div.finance li.sitemap {
+		background-image: url("/syntegra/images/leftnav_finance.gif");
+	}	
+	div.growthandinnovation li.sitemap {
+		background-image: url("/syntegra/images/leftnav_growthandinnovation.gif");
+	}
+	div.itandecommerce li.sitemap {
+		background-image: url("/syntegra/images/leftnav_itandecommerce.gif");
+	}
+	div.grantsandadvice li.sitemap {
+		background-image: url("/syntegra/images/leftnav_grantsandadvice.gif");
+	}
+	div.startingabusiness li.sitemap {
+		background-image: url("/syntegra/images/leftnav_startingabusiness.gif");
+	}
+	div.salesandmarketing li.sitemap {
+		background-image: url("/syntegra/images/leftnav_salesandmarketing.gif");
+	}
+	div.buyingandselling li.sitemap {
+		background-image: url("/syntegra/images/leftnav_buyingandselling.gif");
+	}
+	div.internationaltrade li.sitemap {
+		background-image: url("/syntegra/images/leftnav_internationaltrade.gif");
+	}
+	div.taxandreporting li.sitemap {
+		background-image: url("/syntegra/images/leftnav_taxandreporting.gif");
+	}
+	div.employingpeople li.sitemap {
+		background-image: url("/syntegra/images/leftnav_employingpeople.gif");
+	}
+	div.healthandenvironment li.sitemap {
+		background-image: url("/syntegra/images/leftnav_healthandenvironment.gif");
+	}
+	div.environmentandefficiency li.sitemap {
+		background-image: url("/syntegra/images/leftnav_environmentandefficiency.gif");
+	}
+	div.sellingabusiness li.sitemap {
+		background-image: url("/syntegra/images/leftnav_sellingabusiness.gif");
+	}
+	div.inyoursector li.sitemap {
+		background-image: url("/syntegra/images/leftnav_inyoursector.gif");
+	}
+	
+	div.practitioners li.sitemap {
+		background-image:url("/syntegra/images/leftnav_global_dark.gif");
+	}
+	
+	
+	div.local1 li.sitemap {
+		background-image: url("/syntegra/images/leftnav_local1.gif");
+	}
+	div.local2 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_local2.gif");
+	}
+	div.local3 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_local3.gif");
+	}
+	div.local4 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_local4.gif");
+	}
+	div.regional1 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_regional1.gif");
+	}
+	div.regional2 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_regional2.gif");
+	}
+	div.regional3 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_regional3.gif");
+	}
+	div.regional4 li.sitemap {
+		background-image:url("/syntegra/images/leftnav_regional4.gif");
+	}
+/* END THEME COLOURED BLOCKS NEXT TO SITEMAP */
+
+	div#tool1 div.column1 p.hr {
+		margin-left: 30px;
+	}
+	div#tool1 div.column2 p.hr {
+		margin-left: 30px;
+	}
+
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: */
+/* VERSION 2: 05/03/04 - changed h3 and li margin-left values. */
+/* 04 June 07: New theme Environment and efficiency added */
+
+/* LAYOUT */
+	#content {
+		border:0px solid white;
+	}
+/* END LAYOUT */
+
+
+/* SHARED STYLES */		
+	h2 {
+		margin:0px 0 1.5em 0px;
+		padding:0 0 0 15px;
+	}
+	h3 {
+		font-size:1em;
+		margin-top:1px;
+		margin-left: 29px;
+	}
+	h2.h3alias {
+		font-size:1em;
+		margin-top:1px;
+		margin-left:29px;
+		margin-bottom:2px;
+	}
+	ul {
+		padding-left:0;
+	}
+	
+	ul.links {
+		margin-left:14px;
+	}
+	li {
+		margin-left: 1px;
+	}
+		
+	div#layer21 h3 {
+		margin-left: 15px;
+	}
+
+	div#layer21 h2.h3alias {
+		margin-left: 15px;
+	}
+
+	div#layer21 ul.links {
+		margin-left: 0px;
+	}
+
+	div#layer21 div.column2 h3 {
+		margin-left: 25px;
+	}
+
+	div#layer21 div.column2 h2.h3alias {
+		margin-left: 25px !important;
+	}
+
+	div#layer21 div.column2 ul.links {
+		margin-left: 10px;
+	}
+	
+	div#layer21 div.column2 p.hr {
+		margin-left: 25px;
+	}
+
+	div.stretchdiv {
+		display:block;
+	}
+/* END SHARED STYLES */
+
+	div.column2 {
+		width: 100%;
+		w\id\th:49%;
+		margin-left:49%;
+	}
+	
+	div.practitioners,
+	div.finance,
+	div.growthandinnovation,
+	div.itandecommerce,
+	div.grantsandadvice,
+	div.startingabusiness,
+	div.salesandmarketing,
+	div.buyingandselling,
+	div.internationaltrade,
+	div.taxandreporting,
+	div.employingpeople,
+	div.healthandenvironment,
+	div.environmentandefficiency,
+	div.sellingabusiness,
+	div.inyoursector,
+	div.local1,
+	div.local2,
+	div.local3,
+	div.local4,
+	div.regional1,
+	div.regional2,
+	div.regional3,
+	div.regional4,
+	div.global {
+		background-image:url("/syntegra/images/sitemap_title.gif");
+		padding-bottom:0.5em;
+		margin-bottom:5px;
+		clear:left;
+	}
+	* html>body div.practitioners,
+	* html>body div.finance,
+	* html>body div.growthandinnovation,
+	* html>body div.itandecommerce,
+	* html>body div.grantsandadvice,
+	* html>body div.startingabusiness,
+	* html>body div.salesandmarketing,
+	* html>body div.buyingandselling,
+	* html>body div.internationaltrade,
+	* html>body div.taxandreporting,
+	* html>body div.employingpeople,
+	* html>body div.healthandenvironment,
+	* html>body div.environmentandefficiency,
+	* html>body div.sellingabusiness,
+	* html>body div.inyoursector,
+	* html>body div.local1,
+	* html>body div.local2,
+	* html>body div.local3,
+	* html>body div.local4,
+	* html>body div.regional1,
+	* html>body div.regional2,
+	* html>body div.regional3,
+	* html>body div.regional4,
+	* html>body div.global {
+		/* mac/ie only */
+		clear: none;
+	}
+	

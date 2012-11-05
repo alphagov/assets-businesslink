@@ -1,0 +1,114 @@
+/* new year, new start specific CSS */
+
+#campaigns-body #cb-wrap{
+	width:943px;
+	font-size:1.1em;
+}
+
+#campaigns-body #cb-wrap *{
+	color:#5e5e5e;
+	font-family:arial,helvetica,clean,sans-serif;
+}
+
+#campaigns-body #cb-header{
+	margin-bottom:10px;
+}
+
+#campaigns-body #cb-content-main{
+	width:645px;
+	float:right;
+}
+
+#campaigns-body #cb-content-main h2{font-size:1.3em;margin-bottom:1em;}
+#campaigns-body #cb-content-main .panel h2{color:#039;font-size:1.3em;margin-bottom:0.3em;}
+
+/* to support panel h2 linked */#campaigns-body #cb-content-main .panel h2 a{color:#039;}
+
+#campaigns-body #cb-content-main .panel{
+	margin-top:20px;
+	padding:16px 10px 10px 18px;
+	background:#E0EAF5 url("../../Horizontal_Services_images/campaigns/nyns_blue_panel_bg.gif") repeat-x top left;
+}
+
+#campaigns-body #cb-content-main .panel p{
+	color:#333;
+}
+
+#campaigns-body #cb-content-main .right{display:inline;margin-left:10px;margin-top:8px;}
+#campaigns-body #cb-content-main .left{display:inline;margin-right:20px;margin-bottom:18px;}
+
+#campaigns-body #cb-content-main .panel ul li a{
+	color:#039;
+	display:block;
+	height:15px;
+	padding-left:20px;
+	float:left;
+	background:url("../../Horizontal_Services_images/campaigns/nyns_blue_arrow_right.gif") no-repeat top left;
+	
+}
+#campaigns-body #cb-content-main .panel ul li p{
+	clear:left;
+	padding-left:20px;
+}
+
+#campaigns-body #cb-content-side{
+	width:287px;
+	float:left;
+	background:#FFC600 url("../../Horizontal_Services_images/campaigns/nyns_orange_panel_bg.gif") repeat-x top left;
+}
+
+#campaigns-body #cb-content-side .inner{
+	background:#fff;
+	margin:0 9px 9px 9px;
+	padding:9px;
+}
+
+#campaigns-body #cb-content-side ul li a{
+	color:#039;
+	padding-left:20px;
+	float:left;
+	background:url("../../Horizontal_Services_images/campaigns/nyns_orange_arrow_right.gif") no-repeat top left;
+	
+}
+#campaigns-body #cb-content-side ul li p{
+	clear:left;
+	padding-left:20px;
+}
+
+#campaigns-body #cb-content-side ul,
+#campaigns-body #cb-content-main .panel ul{
+	margin-bottom:0;
+	margin-left:0;
+	padding-left:0;
+}
+
+#campaigns-body #cb-content-side ul li,
+#campaigns-body #cb-content-main .panel ul li{
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+}
+
+#campaigns-body #cb-content p{margin: 0 0 1em 0;}
+
+
+
+#campaigns-body .right {float:right;}
+#campaigns-body .left {float:left;}
+#cb-header h1,
+#cb-content-side h2,
+.screenreadertext{position : absolute;left : -1000em;}
+
+
+#campaigns-body #cb-content-side ul li:after,
+#campaigns-body #cb-content:after,
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+* html #campaigns-body #cb-content-side ul li,
+* html #campaigns-body #cb-content,
+* html .clearfix{height:1%;}

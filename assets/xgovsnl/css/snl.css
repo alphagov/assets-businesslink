@@ -1,0 +1,66 @@
+/*
+ * Project businesslink.gov.uk
+ *  
+ * File snl.css
+ * 
+ * Created 12 Nov 2008
+ * 
+ * Description Skin & Link CSS
+ * 
+ * 
+ * Revision $Rev: 338 $ $Date: 2009-01-12 15:11:26 +0000 (Mon, 12 Jan 2009) $
+ */
+
+html,body
+{
+	margin:0;
+	padding:0;
+}
+
+
+div#brandingWrapper
+{
+	margin-bottom:25px;
+}
+
+div#brandingHeader,div#brandingHeaderNS
+{
+	background:#fff url(../images/businesslink_masthead.jpg) no-repeat 100% 0%;
+	min-width:740px;
+	max-width:960px;
+	height:105px;
+	position:relative;
+	margin:0;
+	white-space: nowrap;
+}
+	
+
+div#brandingHeader #partner_logo, div#brandingHeaderNS #partnerNS_logo
+{
+	position:relative;
+	top:13px;
+	left:18px;
+	z-index:1;
+}
+
+div#brandingHeaderNS #partnerNS_logo
+{
+}
+
+div#brandingHeader #blink_logo
+{
+	position:absolute;
+	top:-38px;
+	right:120px;	
+}
+div#brandingHeaderNS #blinkNS_logo
+{
+	position:absolute;
+	right:120px;	
+}
+
+
+div#brandingHeader img,div#brandingHeaderNS img
+{
+	border:0;
+}

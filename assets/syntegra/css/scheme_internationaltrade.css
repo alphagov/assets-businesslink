@@ -1,0 +1,191 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 24-Sep-07 by PB: Added .toolspanel colour styles */ 
+/* 25-Oct-07 by BT: Added .UKTrade colour styles */ 
+/*
+main #66cccc 
+bg   #D8F2F2
+text #339999
+prefix internationaltrade
+*/
+
+/* THEME COLOUR */
+	h1 {
+		color:#339999;
+	}
+	#title,
+	#left #opencategory td.spine,
+	#contentflushtop img.footerline,
+	
+	div.treebox table.quiz td.title,
+	div.basicbox td.title,
+	div.dottedad td.header,
+	table.criteria th,
+	div#layer2 div.basicbox h3,
+	div#layer11 div.basicbox h3 {
+		background-color:#66cccc;
+	}
+	div.treebox table.quiz {
+		border:1px solid #66cccc;
+	}
+/* END THEME COLOUR */
+
+
+/* THEME BACKGROUND COLOUR */
+	#left #opencategory tr.highlight, 
+	#left #opencategory tr.highlightfirst, 
+	#left #opencategory tr.highlightlast,
+	
+	#contentflushtop #layer23 #maincontent,
+	#allcontent #additionalcontent div.mainpanel,
+	#allcontent #additionalcontent div.extrapanel,
+	#allcontent #additionalcontent div.toolspanel,
+	
+	#content input.go,
+	
+	div.treebox table.quiz,
+	div.basicbox td.highlighttext,
+	div.promospot1,
+	div.dottedbox td.title,
+	div.dottedad td.eventbar,
+	div#layer2 div.basicbox,
+	div#layer11 div.basicbox {
+		background-color:#D8F2F2;
+	}
+	
+	div.treebox table.quiz td.title span {
+		border-right-color:#D8F2F2;
+	}
+/* END THEME BACKGROUND COLOUR */
+
+
+/* THEME TEXT COLOUR */
+	h2,
+	
+	#support2 h2,
+	#support2 div.tabular h4,
+	#contentflushtop #maincontent p,
+	
+	div.dottedbox td.title h3 {
+		color:#333333;
+	}
+/* END TEXT COLOUR */
+
+
+/* THEME BACKGROUND IMAGES */
+	div.treebox p.info {
+		background-image:url("/syntegra/images/info_internationaltrade.gif");
+	}
+	div.dottedbox td.horiz {
+		background-image:url("/syntegra/images/dottedline_horiz_internationaltrade.gif");
+	}
+	div.dottedbox td.vert {
+		background-image:url("/syntegra/images/dottedline_vert_internationaltrade.gif");
+	}
+	p.sitemap {
+		background-image:url("/syntegra/images/leftnav_internationaltrade.gif");
+	}
+/* END THEME BACKGROUND IMAGES */
+
+
+/* RESET COLOURS FOR SOME TEMPLATES */
+	#content #allcontent h2 {
+		color:#333;
+	}
+	#content div.selecttools input.go {
+			background-color:white;
+	}
+	
+	div.basicbox td.title h3,
+	div.basicbox td.title h4 {
+		color:white;
+	}
+/* END RESET */
+
+/* RESET DOTTED HR */
+	#content p.hr {
+		margin-left:16px;
+	}
+/* END RESET DOTTED HR */
+
+/* dotted box UK Trade colour */
+	.UKtrade { background: #69cdcd; padding-left: 5px;}
+
+
+/* Start of Exisiting Advanced Styles */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 24-Sep-07 by PB: Added .dottedBoxSmall colour styles */
+/* 24-Sep-07 by PB: Added .tariffTable colour styles */ 
+
+/*
+main #66cccc 
+bg   #D8F2F2
+text #339999
+prefix internationaltrade
+*/
+
+/* THEME COLOUR */
+	#event1 #additionalcontent h3 {
+		background-color:#66cccc;
+	}
+/* END THEME COLOUR */
+
+
+/* THEME BACKGROUND COLOUR */
+	div.treebox table.quiz,
+	input.submit,
+	#poll1 h2, #poll2 h3,
+	#email1 h2, #email h3, #email2 h3, #email3 h2,
+	#left #opencategory tr.highlight *, #left #opencategory tr.highlightfirst *, #left #opencategory tr.highlightlast *,
+	#support2 h2 {
+		background-color:#D8F2F2;
+	}
+/* END THEME BACKGROUND COLOUR */
+
+
+/* RESET COLOURS FOR SOME TEMPLATES */
+	#left #opencategory tr.highlight, #left #opencategory tr.highlightfirst, #left #opencategory tr.highlightlast {
+		background-color:transparent;
+	}
+/* END RESET */
+
+/* THEME COLOURED ARROWS */
+	div.basicbox ul.links li, div.mainpanel ul.links li, div.extrapanel ul.links li, div.toolspanel ul.links li,
+	div.pagecontrols ul li.next a  {
+		background-image: url("/syntegra/images/arrow_internationaltrade.gif");
+	}
+	div.pagecontrols ul li.back a  {background-image: url("/syntegra/images/arrow_left_internationaltrade.gif");}
+/* END ARROWS */
+	
+	
+/* DOTTED BOX SMALL*/
+div.dottedboxsmall td.title {background-color: #cdcdff;}
+/* END DOTTED BOX SMALL */	
+
+
+/* Tariff TABLE */
+div.tarifftable caption {background: #68cdcd;}
+
+div.tarifftable caption.codesCap {background: url(/syntegra/images/dottedbox_captionbg.gif) #68cdcd right bottom no-repeat;}
+
+div.tarifftable tr.importView {background: #ffffa9;}
+
+div.tarifftable tr.codeHeader { background: #c6e9fb;}
+
+		
+div.tarifftable th, div.tarifftable td {border: 1px solid #66cccc;}
+	
+div.tarifftable thead th {background: #d8f2f2;}
+
+div.tarifftableLite td.title {
+		background: #66cccc;
+}
+
+/* END Tariff TABLE */
+
+

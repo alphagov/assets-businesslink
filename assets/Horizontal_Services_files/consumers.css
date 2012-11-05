@@ -1,0 +1,134 @@
+								 			
+#campaigns-body a {
+text-decoration:underline;
+}												
+
+#campaigns-body ul {
+margin-left:2em;
+}	
+						
+#campaigns-body li {
+margin-top:1em; list-style-type:square;
+}
+	
+#campaigns-body li li {
+margin-top:0.5em; list-style-type:none;
+}	
+
+#campaigns-body-banner {
+Width: 750px;
+}
+
+#campaigns-body-copytext {
+width:320px;
+float:left;
+}
+
+
+#campaigns-body-copytext ul {
+margin-left:2em;	
+}
+
+
+#campaigns-body-copytext li {
+margin-top:1em; 
+list-style-type:square;
+}
+
+#campaigns-body-consumerimage {
+width:400px;
+margin-top:10px;
+padding: 0 0 0 10px;
+float: right;
+}
+
+#campaigns-body-consumerimage ul {
+list-style-type: none;
+margin: 0 20px 0 20px;
+padding: 0 10px 0 0;
+}
+
+#campaigns-body-consumerimage li {
+margin: 0 0 0 50px;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url('../Horizontal_Services_images/links_arrow.gif') 0 3px no-repeat;
+}
+
+#campaigns-body-consumerimage p {
+margin: 25px 0 0 50px;
+padding: 0 0 10px 0;
+}
+
+#campaigns-body-consumerimage a {
+text-decoration: none;
+}
+
+
+#campaigns-body-consumerimage a:hover {
+text-decoration: underline;
+}
+
+#campaigns-body-consumerimage p.tint {
+padding: 5px;
+color: #000000;
+border: 1px solid #000000;
+background-color: #9999cc;
+}
+
+#campaigns-body-consumerimage p.tint a {
+text-decoration: none;
+color:#ffffff;
+}
+
+#campaigns-body-agencies {
+Width: 320px;
+}
+
+#campaigns-body-agencies a {
+text-decoration: none;
+}
+
+
+#campaigns-body-agencies a:hover {
+text-decoration: underline;
+}
+
+#campaigns-body-copytext a {
+text-decoration: none;
+}
+
+#campaigns-body-copytext a:hover {
+text-decoration: underline;
+}
+
+#campaigns-body-links {
+width:320px;
+float:left;
+}
+
+#campaigns-body-links ul {
+list-style-type: none;
+margin: 0 20px 0 20px;
+padding: 0 10px 0 0;
+}
+
+#campaigns-body-links li {
+float: left;
+margin: 0 0 0 0;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url('../Horizontal_Services_images/links_arrow.gif') 0 3px no-repeat;
+}
+
+#campaigns-body-links a {
+text-decoration: none;
+}
+
+
+#campaigns-body-links a:hover {
+text-decoration: underline;
+}
+
+
+

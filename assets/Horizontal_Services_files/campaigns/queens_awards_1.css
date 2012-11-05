@@ -1,0 +1,519 @@
+
+#campaigns-body {
+	padding:0px;
+	width:1000px;
+	}
+	
+	#campaigns-body #container {
+	background-color: #031b4b;
+	}
+
+#campaigns-body table{			
+	padding:0px !important;
+	margin:0px !important;
+	}
+
+#campaigns-body td{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body tr{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body .clear-both {
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+
+#campaigns-body .headbar {
+width:1000px;
+background-image: url("../../Horizontal_Services_images/campaigns/qu_head_main.gif");
+background-repeat: no-repeat;
+height: 280px;
+background-position: top left;
+}
+
+#campaigns-body .innerheadbar {
+width:1000px;
+border-bottom: 3px solid #ffffff;
+margin-left: 10px;
+}
+
+#campaigns-body h1 {
+color: #739dd2;
+text-transform:uppercase;
+font-size:1.2em;
+padding: 10px;
+font-weight: bold;
+}
+
+#campaigns-body .qalogo {
+width:115px;
+margin: 25px 0 0 10px;
+float:left;
+}
+
+
+#campaigns-body .maintext {
+width:720px;
+margin:30px 70px 0 0px;
+float:right;
+}
+
+#campaigns-body .maintext p.top {
+font-size:2.4em;
+color:#739dd2;
+margin-left:40px;
+*margin-left:100px;
+}
+
+#campaigns-body .maintext p.middle {
+font-size:4em;
+color:#ffffff;
+margin:-30px 0px 0 0;
+*margin:-30px 0px 0 60px;
+padding:0px
+}
+
+#campaigns-body .maintext p.middle span {
+color:#739dd2;
+}
+
+#campaigns-body .maintext p.bottom {
+font-size:4em;
+color:#ffffff;
+margin:-10px 0px 0 210px;
+*margin:-10px 0px 0 270px;
+padding:0px
+}
+
+#campaigns-body .qalinks {
+width:800px;
+float:right;
+margin: 0px 0 0 0;
+}
+
+#campaigns-body .qalinks .success {
+width:290px;
+font-weight:bold;
+display:inline;
+float:left;
+
+}
+
+#campaigns-body .qalinks .success p.top {
+color:#000000;
+font-size:1.4em;
+*font-size:1.2em;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .success p.middle {
+color:#739dd2;
+font-size:2.3em;
+*font-size:2.1em;
+letter-spacing:1px;
+margin: -20px 0 -10px 30px;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .success p.bottom {
+color:#000000;
+font-size:1.4em;
+*font-size:1.2em;
+margin:10px 0 -20px;
+font-family:arial;
+}
+
+
+#campaigns-body .qalinks .success .button {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_button.png");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 35px 0 0 0;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .success .button a {
+color:#ffffff;
+font-size:1.2em;
+padding:20px 0 0 7px;
+font-weight:bold;
+margin:0px 0 0 20px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+#campaigns-body .qalinks .difference {
+width:275px;
+margin:0;
+font-weight:bold;
+display:inline;
+float:left;
+}
+
+#campaigns-body .qalinks .difference p.top {
+color:#000000;
+font-size:1.4em;
+*font-size:1.2em;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .difference p.middle {
+color:#739dd2;
+font-size:2.3em;
+*font-size:2.1em;
+letter-spacing:1px;
+margin: -20px 0 -10px 30px;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .difference p.bottom {
+color:#000000;
+font-size:1.4em;
+*font-size:1.2em;
+margin:10px 0 -34px 0px;
+line-height:1.2em;
+font-family:arial;
+}
+
+#campaigns-body .qalinks .difference .button {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_button.png");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 35px 0 0 0px;
+}
+
+#campaigns-body .qalinks .difference .button a {
+color:#ffffff;
+font-size:1em;
+padding:20px 0px 0 0px;
+font-weight:bold;
+margin:0px 0px 0 17px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+#campaigns-body .qalinks .nominate {
+background-image: url("../../Horizontal_Services_images/campaigns/qa_background.png");
+background-repeat:no-repeat;
+background-position: top left;
+width:221px;
+margin:15px 0 0 0;
+font-weight:bold;
+display:inline;
+float:left;
+}
+
+#campaigns-body .qalinks .nominate p {
+color:#000;
+margin:16px 30px 5px 30px;
+font-size:1.4em;
+*font-size:1.2em;
+font-family:arial;
+line-height:1.2em;
+}
+
+
+#campaigns-body .qalinks .nominate .button {
+width:160px;
+margin:0 0 0 20px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_button.png");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+}
+
+#campaigns-body .qalinks .nominate .button a {
+color:#ffffff;
+font-size:1em;
+padding:20px 0px 0 25px;
+font-weight:bold;
+margin:0px 0px 0 17px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+/** FIND OUT MORE PAGE **/
+
+#campaigns-body .fomheadbar {
+width:1000px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_head_findout.gif");
+background-repeat: no-repeat;
+height: 250px;
+background-position: top left;
+
+}
+
+#campaigns-body .fommaintext {
+width:720px;
+margin:10px 70px 0 0px;
+float:right;
+}
+
+#campaigns-body .fommaintext p.top {
+font-size:2.6em;
+margin-bottom: 20px;
+color:#ffffff;
+margin-left:100px;
+*margin-left:120px;
+}
+
+#campaigns-body .fommaintext p.middle {
+font-size:3.5em;
+color:#ffffff;
+margin:-30px 0px 0 0;
+*margin:-30px 0px 0 20px;
+padding:0px
+}
+
+#campaigns-body .fommaintext p.top span {
+color:#739dd2;
+}
+
+#campaigns-body .fommaintext p.bottom {
+font-size:2.4em;
+color:#ffffff;
+margin:0px 0px 0 350px;
+*margin:0px 0px 0 370px;
+padding:0px
+}
+
+#campaigns-body .image {
+width:222px;
+display:inline;
+float:left;
+margin: 30px 10px 0 10px;
+}
+
+#campaigns-body .quotes {
+width:690px;
+display:inline;
+float:right;
+margin: 20px 60px 0 0;
+font-weight:bold;
+color: #739dd2;
+font-size:1.2em;
+font-family:arial;
+}
+
+#campaigns-body .quotes .left {
+width:335px;
+display:inline;
+float:left;
+margin: 0 10px 0 0;
+font-family:arial;
+}
+
+#campaigns-body .quotes .right {
+width:660px;
+display:inline;
+float:left;
+margin: 0 0 0 10px;
+font-family:arial;
+}
+
+#campaigns-body .quotes span {
+color:#000000;
+font-size:0.8em;
+}
+
+#campaigns-body .findout {
+Width:335px;
+float:right;
+display:inline;
+margin: 0 0 0 0px;
+}
+
+#campaigns-body .findout .find {
+width: 170px;
+margin: 20px 10px 0 0;
+*margin: 10px 10px 0 0;
+}
+
+#campaigns-body .findout .find  p {
+color:#000000;
+font-size:0.9em;
+margin-right:10px;
+}
+
+#campaigns-body .findout .button {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_findout_button.gif");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 15px 0 10px 0px;
+float: right;
+
+}
+
+#campaigns-body .findout .button a {
+color:#ffffff;
+font-size:0.8em;
+padding:10px 3px 0 3px;
+font-weight:bold;
+margin:0px 0 0 7px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+/** categories **/
+
+#campaigns-body .category {
+width: 750px;
+border-top: 2px solid #739dd2;
+float: right;
+}
+
+#campaigns-body .category h2 {
+color:#739dd2;
+font-size:2.2em;
+margin:10px;
+font-weight:normal;
+}
+
+#campaigns-body h3 {
+color:#000000;
+font-size:1.4em;
+margin:20px 0 20px 0;
+font-weight:bold;
+}
+
+#campaigns-body .category p {
+width: 490px;
+margin-bottom:10px;
+}
+
+#campaigns-body .category .button {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_enterbutton.png");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 40px 65px 10px 0;
+float: right;
+*display:inline;
+}
+
+#campaigns-body .category .button a {
+color:#ffffff;
+font-size:1.2em;
+padding:15px 0px 0 10px;
+font-weight:bold;
+margin:0px 0 0 7px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+#campaigns-body .category .button2 {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_enterbutton.png");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 100px 65px 10px 0;
+float: right;
+*display:inline;
+}
+
+#campaigns-body .category .button2 a {
+color:#ffffff;
+font-size:1.2em;
+padding:15px 0px 0 10px;
+font-weight:bold;
+margin:0px 0 0 7px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:45px;
+}
+
+#campaigns-body-footer {
+width:730px;
+margin: 60px 0 0 0;
+padding: 0 0 0 20px;
+}
+
+#campaigns-body-footer img {
+margin: 0px 0 0 0;
+float:left;
+}
+
+#campaigns-body-footer .dottedline {
+background:url(http://www.businesslink.gov.uk/presentation/images/dotted-line.gif) repeat-x left top; 
+margin-top:1em; 
+padding:0.1em 0 0.5em;
+}
+
+#campaigns-body-footer p {
+clear:left;
+width:360px;
+font-family: arial;
+font-size: 0.9em;
+color: #007DB1;
+padding: 60px 0 0 20px;
+}
+
+#campaigns-body .standard {
+width:650px;
+padding: 15px 0 0 0;
+}
+
+#campaigns-body .standard .button2 {
+width:160px;
+background-image: url("../../Horizontal_Services_images/campaigns/qa_findout_button.gif");
+background-repeat:no-repeat;
+background-position: top left;
+overflow:hidden;
+margin: 15px 0 10px 0px;
+float: left;
+
+}
+
+#campaigns-body .standard .button2 a {
+color:#ffffff;
+font-size:0.8em;
+padding:10px 3px 0 3px;
+font-weight:bold;
+margin:0px 0 0 7px;
+display: block;
+text-transform:uppercase;
+text-decoration:none;
+width: 150px;
+height:50px;
+}
+
+#campaigns-body .local {
+float:left;
+margin: 10px 0 0 20px;
+}
+
+#campaigns-body .local p ul {
+margin: 0 0 0 0;
+}

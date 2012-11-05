@@ -1,0 +1,260 @@
+/** General Styles **/
+
+#campaigns-body {
+	padding:0px;
+	width:980px !important;
+}
+
+#campaigns-body table{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body td{
+	padding:0px !important;
+	margin:0px !important;
+width:980px;
+}
+
+#campaigns-body tr{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body .clear-both {
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+
+#campaigns-body h1 {
+color:#476c9a;
+font-size: 1.5em;
+margin: 12px 0 0 0;
+font-family:verdana;
+margin-left:20px;
+}
+
+#campaigns-body p {
+font-family:verdana;
+}
+
+/** Intro styles **/
+
+#campaign-body .intro {
+width: 590px;
+float:right;
+margin: 0 0 40px 20px;
+}
+
+#campaigns-body .intro p {
+width: 590px;
+margin-left:20px;
+}
+
+/** User guide button **/
+
+#campaigns-body .userguide {
+width:272px;
+margin: 50px 40px 0 0;
+*margin: 50px 20px 0 0;
+*padding: 0 10px 0 0;
+float:right;
+}
+
+/** 3 boxes styles **/
+
+#campaigns-body .boxes {
+width:952px;
+margin:40px 20px 0 20px;
+
+}
+
+.box1 {
+width:300px;
+margin-right:16px;
+float:left;
+}
+
+.boxtopapps {
+width:300px;
+border-top: 2px solid #dddddd;
+border-bottom: 6px solid #3b5889;
+}
+
+.boxtopapps ul {
+width:300px;
+font-size: 1.2em;
+margin: 0px 0px 0 6px;
+padding: 10px 0 0 0;
+font-weight:bold;
+}
+
+.boxtopapps li {
+list-style-type: none;
+background-repeat:no-repeat;
+background:transparent url('../../Horizontal_Services_images/campaigns/syn_applications.jpg') 0px 3px no-repeat;
+padding:2px 13px 6px 25px;
+margin-left:5px;
+
+}
+
+.boxtoprss{
+width:300px;
+border-top: 2px solid #dddddd;
+border-bottom: 6px solid #3b5889;
+}
+
+.boxtoprss ul {
+width:300px;
+font-size: 1.2em;
+margin: 0px 0px 0 6px;
+padding: 10px 0 0 0;
+font-weight:bold;
+}
+
+.boxtoprss li {
+list-style-type: none;
+background-repeat:no-repeat;
+background:transparent url('../../Horizontal_Services_images/campaigns/syn_rss.jpg') 0px 3px no-repeat;
+padding:2px 13px 6px 25px;
+margin-left:5px;
+
+}
+
+.boxtoplinks{
+width:300px;
+border-top: 2px solid #dddddd;
+border-bottom: 6px solid #3b5889;
+}
+
+.boxtoplinks ul {
+width:300px;
+font-size: 1.2em;
+margin: 0px 0px 0 6px;
+padding: 10px 0 0 0;
+font-weight:bold;
+}
+
+.boxtoplinks li {
+list-style-type: none;
+background-repeat:no-repeat;
+background:transparent url('../../Horizontal_Services_images/campaigns/syn_links.jpg') 0px 3px no-repeat;
+padding:2px 13px 6px 25px;
+margin-left:5px;
+
+}
+
+.boxbottom {
+background-color:#ededed;
+}
+
+.boxbottom  img {
+margin: 10px 25px 10px 14px;
+}
+
+.boxbottom  p {
+margin: 10px 14px 30px 14px !important;
+padding-bottom: 0px;
+}
+
+.boxlink {
+width: 276px;
+border-top: 2px solid #cbcbcb;
+margin: 0 0 0 12px;
+height:70px;
+}
+
+.boxlink  a {
+font-weight:bold;
+}
+
+.boxlink ul {
+margin: 0px 0px 0 0px;
+padding: 9px 0 0 0;
+
+}
+
+.boxlink li {
+list-style-type: none;
+background-repeat:no-repeat;
+background:transparent url("../../Horizontal_Services_images/campaigns/syn_linkarrow.jpg") 0px 2px no-repeat;
+padding:0px 7px 9px 15px;
+margin: 0 0 0 5px;
+}
+
+.box2 {
+width:300px;
+margin-right:16px;
+float:left;
+}
+
+.box3 {
+width:300px;
+float:left;
+}
+
+.boxshadow {
+background: url(../../Horizontal_Services_images/campaigns/syn_boxshadow.jpg) bottom left no-repeat;
+	padding:5px 14px;
+}
+
+/** Contact us styles **/
+
+#campaigns-body .contactus {
+width:932px;
+margin:40px 20px 0 20px;
+background-color:#506789;
+}
+
+#campaigns-body .contactus .header {
+width: 907px;
+padding: 12px 0 2px 0px;
+border-bottom: 2px solid #b7b7b7;
+margin: 0 0px 0 12px;
+}
+
+#campaigns-body .contactus .header ul {
+color: #ffffff;
+font-size:1.2em;
+font-weight:bold;
+}
+
+.contactus .header li {
+list-style-type: none;
+background-repeat:no-repeat;
+background-image:url("../../Horizontal_Services_images/campaigns/syn_contactimage.jpg");
+padding:2px 13px 0px 25px;
+margin-left:5px;
+}
+
+#campaigns-body .contactus .content {
+width: 932px;
+padding: 12px 0 2px 12px;
+}
+
+#campaigns-body .contactus .content a {
+color:#ffffff;
+}
+
+#campaigns-body .contactus .content ul {
+color: #ffffff;
+font-size:1.2em;
+}
+
+#campaigns-body .contactus .content li {
+list-style-type: none;
+background-repeat:no-repeat;
+background:transparent url('../../Horizontal_Services_images/campaigns/syn_contactarrow.jpg') 3px 7px no-repeat;
+padding:5px 13px 6px 25px;
+margin-left:5px;
+}
+
+.text {
+margin: 20px;
+}
+
+.padding-bottom-20 {
+padding-bottom:17px;
+}

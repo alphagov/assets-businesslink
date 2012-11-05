@@ -1,0 +1,1945 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* This stylesheet was last edited by RLA Wed. 18. August 2005 at 6.00pm */
+
+	.rrDetailheader
+	{
+		padding-top:7px;
+		padding-bottom:2px;
+		padding-left:15px;
+	}
+
+	.rrAsterix {
+		color:#99c;
+		margin-right: 5px;
+	}
+
+	.rrPayOnlinePosition {
+		text-align:right;
+		float:right;
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position: bottom;
+		padding-bottom: 10px;
+	}
+	
+	div.trainingoptions td.rrtextwidth {
+		width:100%;
+		vertical-align:top;
+		padding-right: 15px;
+	}	
+	
+	div.trainingoptions td.rrtextwidth div.trainingitem p {
+		margin-top: 5px !important;
+		margin-bottom: 0px !important;
+		margin-right: 0px !important;
+	}
+	
+	#tsd-home #maincontent .trainingwelcome {
+		width:400px;
+	}
+	div.trainingoptions div.trainingwelcome p {
+		width:400px !important;
+		margin-top: 15px;
+	}
+	
+	
+	div.rrLeft {
+		text-align:left;
+		float:left;
+	}
+	
+	div.rrLeft p {
+		display:inline;
+	}
+	
+	div.rrRight {
+		text-align:right;
+		float:right;
+	}
+	
+	div.rrRight p {
+		display:inline;
+	}
+	
+	Input.rrEvent {
+		width:120px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrInput {
+		width:140px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrNext {
+		width:50px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrPayOnline {
+		width:75px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+		margin-top:10px;
+	
+	}
+	
+	.rrRightRadio {
+		padding-right: 5px;
+		padding-left: 14px;
+	}
+	
+	.movereq {
+		padding-left: 25px;
+	}
+	
+	#eventsummary .rrTopSpace input.rrRemove {
+		border: 0px;
+		background-color: #FF9999;
+		width:63px;
+		height:17px;
+	}
+	
+	
+	div.attendeedetails .rrExisting select.rrSelect {
+		margin-left: 48px;
+		margin-top: 9px;
+	}
+	
+	.rrMakeRoom {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.rrBottomSpace {
+		padding-bottom: 10px;
+	}
+	
+	.rrTopSpace {
+		padding-top: 12px;
+	}
+	
+	div.eventattendees td.rrTableWidth {
+		width: 431px;
+	}
+	
+	.rrBigBullet {
+		font-size: 1.3em;
+	}
+	
+	.checkboxspace {padding-right: 10px;}
+	html>head:first-child+body .checkboxspace {padding-right: 10px;padding-top: 3px;}
+
+	td.rrTableWidth p {
+		display:inline;
+		padding-left: 14px;
+	}
+	
+	h1.rrOrangeTitle {color: #FF9B33;}
+	
+	#rgf-about .rrstartback {background-color: #C1C2D6;}
+	
+	.rrBluesubtitle {
+		background-color: #CCCCFF;
+		color: #333333;
+		padding-left: 16px;
+		font-weight: bold;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		width: 347px;
+	}.rrVerticalDotBlue {
+		background-image:url("/syntegra/images/verticaldots_trans.gif");
+		background-repeat:repeat-y;
+		background-color: #666699;
+		padding: 0px;
+		margin: 0px;
+		width: 1px;
+		
+	}
+	.rrHorizontalDotBlue {
+		background-image:url("/syntegra/images/horizontaldots_trans.gif");
+		background-repeat:repeat-x;
+		background-color: #666699;
+		padding: 0px;
+		margin: 0px;
+		height: 1px;
+		margin-bottom: 20px;
+	}
+	html>head:first-child+body .rrHorizontalDotBlue {
+		background-image:url("/syntegra/images/horizontaldots_blue.gif");
+		background-repeat:repeat-x;
+		background-color: #FFFFFF;
+		padding: 0px;
+		margin: 0px;
+		height: 1px;
+		margin-bottom: 20px;
+	}
+	.rrDotboxContentshort {
+		width: 363px;
+		padding: 10px 10px 20px 16px;
+	}
+	.rrDotboxContentshort div.gobutton {
+		float: right;
+		width: 126px; 
+		margin-top: 1px;
+	}
+	html>head:first-child+body .rrDotboxContentshort div.gobutton {
+		float: right;
+		width: 128px; 
+		margin-top: 0px;
+	}
+	
+	
+	.rrOrangesubtitle {
+		background-color: #FF9B33;
+		color: #333333;
+		padding-left: 10px;
+		font-weight: bold;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		width: 440px;
+	}
+	.rrLOrangesubtitle {
+		background-color: #F0E7E0;
+		color: #333333;
+		padding-left: 10px;
+		font-weight: bold;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		width: 440px;
+	}
+	
+	.rrmediumwidtharea {
+		width: 450px;
+	}
+	.rrAddMoreText {
+		padding-left: 10px;
+		width: 360px;
+	}
+	html>head:first-child+body .rrAddMoreText {
+		margin-left: 80px;
+		width: 360px;
+	}
+	
+	
+	.imageGo {width: 20px; height: 17px;}
+	
+	
+	
+	
+	
+	
+	.rrVerticalDotOrange {
+		background-image:url("/syntegra/images/verticaldots_trans.gif");
+		background-repeat:repeat-y;
+		background-color: #FF9B33;
+		padding: 0px;
+		margin: 0px;
+		width: 1px;
+		
+	}
+	.rrHorizontalDotOrange {
+		background-image:url("/syntegra/images/horizontaldots_trans.gif");
+		background-repeat:repeat-x;
+		background-color: #FF9B33;
+		padding: 0px;
+		margin: 0px;
+		height: 1px;
+		margin-bottom: 20px;
+	}
+	html>head:first-child+body .rrHorizontalDotOrange {
+		background-image:url("/syntegra/images/horizontaldots_orange.gif");
+		background-repeat:repeat-x;
+		background-color: #FFFFFF;
+		padding: 0px;
+		margin: 0px;
+		height: 1px;
+		margin-bottom: 20px;
+	}
+	.rrDotboxContent {
+		width: 461px;
+		padding: 10px;
+	}
+	.rrDotboxContent h2 {
+		font-size: 100%;
+		font-weight: normal;
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 5px;
+	}
+	.rrDotboxContent p {
+		font-size: 100%;
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 9px;
+	}
+	.rrDotboxContent form {
+		padding: 0px;
+		margin: 0px;
+	}
+	.rrDotboxContent input.radiobutton {
+		width: 12px;
+		height: 12px;
+		border: solid 1px #333333 ;
+	}
+    
+	* html .rrDotboxContent input.radiobutton {
+		width: 15px;
+		border: none ;
+	}
+	
+	
+	.rrDotboxContent input.checkbox {
+		width: 15px;
+		border: none ;
+	}
+	html>head:first-child+body .rrDotboxContent input.checkbox {
+		width: 13px;
+		height: 13px;
+		border: solid 1px #333333 ;
+	}
+	.rrDotboxContent .text {
+		border: solid 1px #333333;
+		width: 234px;
+	}
+	.rrDotboxContent input.submit {
+		border: solid 1px #333333;
+		background-color: #C7C8FF;
+		color: #333333;
+		font-weight: bold;
+		text-aling: center;
+		padding-bottom: 2px;
+		width: 20px;
+		height: 17px;
+	}
+	
+	.rrDotboxContent div.gobutton {
+		float: right;
+		width: 186px; 
+		margin-top: 1px;
+	}
+	html>head:first-child+body .rrDotboxContent div.gobutton {
+		float: right;
+		width: 188px; 
+		margin-top: 0px;
+	}
+	
+	
+	
+	/* DOTTED BOX */
+	div.dottedboxshort {
+		width:450px;
+		margin-bottom:5px;
+	}
+	div.dottedboxshort td.horiz {
+		height:1px;	
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position:top left;
+		background-color:white;
+	}
+	div.dottedboxshort td.vert {
+		width:1px;
+		background-image:url("/syntegra/images/dottedline_vert.gif");
+		background-repeat: repeat-y;
+		background-position:bottom right;
+		background-color:white;
+	}
+	div.dottedboxshort td.text {
+		padding:10px;
+		width:448px;
+		
+	}
+	div.dottedboxshort td.title {
+		background-color:#ccc;
+	}
+	div.dottedboxshort td.title h3 {
+		padding-left:10px;
+		padding-right:10px;
+		/*redef*/
+	}
+	div.dottedboxshort td.title h2.h3alias {
+		padding-left:10px;
+		padding-right:10px;
+		/*redef*/
+	}
+	
+	div.dottedboxshort td.text div.searchform{
+		padding-left:10px;
+		padding-bottom:5px;
+		
+	}
+/* END DOTTED BOX */
+	
+	
+	
+	div.rrLeftFloat {
+		float: left;
+	}
+	div.rrRightFloat {
+		float: right;
+	}
+	.clearfloat {clear: both; width: 1px; height: 1px; padding: 0px; margin: 0px;}
+	
+	.leftRightSpace {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.rrListPadding ul.links li.detail {
+		margin-bottom: 4px;
+	}
+	
+	#eventbanner div.additionallink a.rrMyEvents {
+		font-weight:bold !important;
+		padding:0px 0px 10px 15px;
+		background-image:url("/syntegra/images/arrow_global.gif");
+		background-repeat:no-repeat;
+		background-position:0 0px;
+		color:#373299;
+		font-size:1.0em;
+		text-align: right;
+	}
+		
+	#eventbanner div.additionallink a.rrMyEvents:hover {
+		font-weight:bold !important;
+		padding:0px 0px 10px 15px;
+		background-image:url("/syntegra/images/arrow_global.gif");
+		background-repeat:no-repeat;
+		background-position:0 0px;
+		color:#993399;
+		font-size:1.0em;
+		text-align: right;
+	}
+	
+	#eventbanner {
+		width: 560px;
+	}
+	
+	#eventbanner div.additionallink {
+		background-image:url("/syntegra/images/spacer.gif");
+		padding-bottom: 26px;
+		
+	}
+	
+#eventbanner div.additionallink p.rrdottedbox {
+		padding: 6px;
+		padding-right: 7px;
+		margin:5px;
+		margin-right: 5px;
+		vertical-alignment: top;
+		text-align:right;
+		display:inline;
+		width: 20px;
+		height: 26px;
+		background-image:url("/syntegra/images/dottedbox.gif");
+		background-repeat:no-repeat;
+		background-color:white;
+	}
+	
+	div.attendeedetails #Table1 {
+		width: 431px;
+	}
+	
+	div.attendeedetails #rrTable1 {
+		width: 430px;
+	}
+	
+	div.rrListSpace {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp {
+		width: 431px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp div.shortdotteddivider {
+		width: 431px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	div.confirm-bottom {
+		width:450px;
+	}
+	div.confirm-bottom #Table4 div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	
+	#rrTable4 div.blackline {
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	
+	 #eventsummary .rrSizeitUp div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+	}
+	
+	div.rrprogressstuff {
+		width: 431px;
+	}
+	
+	#correspondence div.shortdotteddivider {
+		width:380px;
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position:top right;
+		background-color:white;
+		margin-top:5px;
+		margin-bottom:5px;
+		height:1px;
+	}
+	
+	#rgf-about div.shortdotteddivider
+	{
+		width:536px;
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position:top right;
+		background-color:white;
+		margin-top:5px;
+		margin-bottom:5px;
+		height:1px;
+	}
+	
+	#correspondence .rrSizeitUp {
+		width: 431px;
+	}
+	
+	div.paymentoption .rrSizeitUp {
+		width: 431px;
+	}
+	
+	#eventsummary .rrSizeitUp {
+		width: 431px;
+	}
+	
+	#eventsummary .rrSizeitUp div.shortdotteddivider {
+		width: 431px;
+	}
+	
+	.rrTextarea {
+		height: 80px;
+	}
+	
+	.rrMandatory {
+		color: #9999CC;
+		font-size: 1.5em;
+		margin-top: 14px;
+		padding-top: 14px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.randomname td.rrTableWidth div.attendeedetails {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	
+	.randomname td.rrTableWidth div.attendeedetails .rrSizeitUp {
+		width: 431px;
+	}
+	
+	.rrSizeitUp .requiredmarker {
+		padding-left: 50px;
+	}
+	
+	#maincontent p {width: 100%;}
+
+	
+	.rrwhatdoesitmean {
+		font-weight: normal !important;
+		color: #666666 !important;
+	}
+	
+/* Color management START */
+	
+	.rrgreytext {
+		color: #666666;
+	}
+	
+/* Color management START */
+	
+/* START READING ROOM STYLE REF. NO. 000001 */
+	div.rrprogressstuff td.rrprogressbar
+	{
+		width:25%;
+		background-color:#ccc;
+		border-right: solid 1px #ffffff;
+	}
+/* END READING ROOM STYLE REF. NO. 000001 */
+	
+/* START READING ROOM STYLE REF. NO. 000004 */
+	div.rrprogressstuff td.rrprogressbaron
+	{
+		width:25%;
+		background-color:#679966;
+		border-right: solid 1px #ffffff;
+	}
+/* END READING ROOM STYLE REF. NO. 000004 */
+
+	div.rrprogressstuff td.rrprogressbaron1st
+	{
+		width:25%;
+		background-color:#679966;
+	}
+	
+	div.rrprogressstuff .rrprogressbaron .rrprogressbaronlast
+	{
+		width:50%;
+		background-color:#CCCCCC;
+	}
+
+/* START READING ROOM STYLE REF. NO. 000002 */
+	div.rrprogressstuff td.rrprogresstext
+	{
+		width:25%;
+		text-align:center;
+		padding-left:4px;
+		padding-right:4px;
+		vertical-align: top;
+	}
+/* END READING ROOM STYLE REF. NO. 000002 */
+
+/* START READING ROOM STYLE REF. NO. 000003 */
+	div.rrprogressstuff td.rrprogresstexton
+	{
+		width:25%;
+		color:#679966;
+		padding-left:5px;
+		padding-right:5px;
+		font-weight:bold;
+		text-align:center;
+		vertical-align: top;
+	}
+/* END READING ROOM STYLE REF. NO. 000003 */
+
+/* START READING ROOM STYLE REF. NO. 000005 */
+	div.eventattendees td.details
+	{
+		padding-top: 10px;
+	}
+/* END READING ROOM STYLE REF. NO. 000005 */
+
+/* START READING ROOM STYLE REF. NO. 000006 */
+	.leftbutton
+	{
+		border: solid 1px #333333;
+		background-color: #CCCCFF;
+		font-weight: bold;
+		color: #CCCCFF;
+		height: 12px;
+		width: 150px;
+	}
+/* END READING ROOM STYLE REF. NO. 000006 */
+
+/* START READING ROOM STYLE REF. NO. 000007 */
+	.rightbutton
+	{
+		border: solid 1px #333333;
+		background-color: #CCCCFF;
+		font-weight: bold;
+		color: #CCCCFF;
+		height: 12px;
+		width: 60px;
+	}
+/* END READING ROOM STYLE REF. NO. 000007 */
+
+/* START READING ROOM STYLE REF. NO. 000017 */
+	td.rrStartPriorityHead {
+		background-color: #C28887;
+		width: 339px;
+		color: #FFFFFF;
+		padding-left: 14px;
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000017 */
+
+/* START READING ROOM STYLE REF. NO. 000018 */
+	td.rrStartHeadEnd {
+		width: 211px;
+		}
+		
+/* END READING ROOM STYLE REF. NO. 000018 */	
+
+/* START READING ROOM STYLE REF. NO. 000019 */
+	td.rrStartlightHead {
+		background-color: #EFE1E1;
+		width: 339px;
+		padding-left: 14px;
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000019 */
+
+/* START READING ROOM STYLE REF. NO. 000020 */
+	td.rrStartmediumHead {
+		background-color: #E1C3C3;
+		width: 339px;
+		padding-left: 14px;
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000020 */
+/* START READING ROOM STYLE REF. NO. 000021 */
+	.rrstartback {
+		background-color: #C28887 !important;
+	}
+/* END READING ROOM STYLE REF. NO. 000021 */
+/* START READING ROOM STYLE REF. NO. 000021 */
+	.rrstartbacklight {
+		background-color: #EFE1E1;
+	}
+/* END READING ROOM STYLE REF. NO. 000021 */
+/* START READING ROOM STYLE REF. NO. 000022 */
+	.rrstartbackmedium {
+		background-color: #E1C3C3;
+	}
+/* END READING ROOM STYLE REF. NO. 000022 */
+		
+	
+/* START READING ROOM STYLE REF. NO. 000023 */
+		td.rrleftvert {
+		width:1px;
+		background-image:url("/syntegra/images/dottedline_vert.gif");
+		background-repeat: repeat-y;
+		background-position:bottom left;
+		background-color:white;
+	}
+
+
+/* END READING ROOM STYLE REF. NO. 000023 */
+/* START READING ROOM STYLE REF. NO. 000024 */
+	
+	div.dottedad td.rrfooter {
+		width:550px;
+		height:11px;
+		background-image:url("/syntegra/images/dottedbox_bottom_shallow_wide.gif");
+		background-repeat: no-repeat;
+		background-position:top right;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000024 */
+/* START READING ROOM STYLE REF. NO. 000032 */
+	div.dottedad td.rrShortfooter {
+		width:448px;
+		height:11px;
+		background-image:url("/syntegra/images/dottedbox_bottom_shallow_medium.gif");
+		background-repeat: no-repeat;
+		background-position:top right;
+	}
+/* END READING ROOM STYLE REF. NO. 000032 */
+
+/* START READING ROOM STYLE REF. NO. 000025 */
+
+	div.rrdottedad td.rrShortFooter {
+		width:181px;
+		height:11px;
+		background-image:url("/syntegra/images/dottedbox_bottom_short.gif");
+		background-repeat: no-repeat;
+		background-position:top right;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000025 */
+/* START READING ROOM STYLE REF. NO. 000026 */
+	
+	div.rrdottedad {
+		width:181px;
+		margin-bottom:20px;
+		
+	}
+
+/* END READING ROOM STYLE REF. NO. 000026 */
+/* START READING ROOM STYLE REF. NO. 000027 */
+
+	div.rrdottedad h4 {
+		color:#339;
+		margin:0px;
+		padding:0px;
+		padding-top:6px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000027 */
+/* START READING ROOM STYLE REF. NO. 000028 */
+
+	div.rrdottedad p {
+		margin:0px;
+		padding:0px;
+		padding-left:10px;
+		padding-right:10px;
+		/*redef*/
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000028 */
+/* START READING ROOM STYLE REF. NO. 000029 */
+	
+	div.rrdottedad td.vert {
+		width:1px;
+		background-image:url("/syntegra/images/dottedline_vert.gif");
+		background-repeat: repeat-y;
+		background-position:bottom right;
+		background-color:white;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000029 */
+
+div.questionnaire div.simple-special {
+	margin-left:0px !important;
+}
+div.questionnaire div.simple-normal {
+	margin-left:0px !important;
+}
+
+#casestudy td.highlighttext ul.actions {
+	padding-right:10px !important;
+	margin-left:7px !important;
+}
+#casestudy td.highlighttext ul.actions li {
+	padding-left:15px !important;
+}
+
+#casestudy td.highlighttext ul.noindent {
+	margin-left:22px !important;
+	margin-right:15px !important;
+}
+
+#casestudy td.highlighttext h3 {
+	margin-left:22px !important;
+}
+
+/* START READING ROOM STYLE REF. NO. 000030 */
+	.rrdottedad .rrListPadding {
+		padding-left: 14px;
+		padding-top: 5px;
+	}
+	.dottedad .rrListPadding {
+		padding-left: 14px;
+		padding-top: 5px;
+		padding-right: 18px; /* has to be slightly too big for FFox for some reason */
+	}
+	.dottedad .rrNoRightPadding{ /* used on cr1129_sim_ow08_v2.html */
+		padding-right:0px;
+	}
+	
+	html>head:first-child+body .dottedad .rrListPadding {
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+	
+	.dottedad .rrListPadding ul {
+		padding-left: 0px !important;
+	}
+	html>head:first-child+body .dottedad .rrListPadding ul {
+		padding-left: 14px !important;
+	}
+	
+	.dottedad .rrListPadding p {
+		padding-left: 0px;
+	}
+	html>head:first-child+body .dottedad .rrListPadding p {
+		padding-left: 14px;
+	}
+	
+	.dottedad .rrListPadding ul.links {
+		width: 100%;
+		padding-bottom:0px;
+		padding-right:0px;		
+		padding-left:0px;
+		padding-top:3px;
+		margin:1em 0 0;
+	}
+	.dottedad .rrListPadding td ul.links{ /* Links in a seperate table cell do not need margin */
+		margin:0;
+	}
+	
+	.rrParagraphArea {width: 410px;}
+	
+
+	
+/* END READING ROOM STYLE REF. NO. 000030 */
+/* START READING ROOM STYLE REF. NO. 000031 */
+	
+	div.rrStartupControl {width: 100%;}
+	
+/* END READING ROOM STYLE REF. NO. 000031 */
+	
+	div.rrStartupControl h3 {
+		background-color: #DCBAB9 !important;
+	}
+	div.rrStartupControl p {
+		padding-left: 14px;
+	}
+	
+	.rrleftalign {
+	text-align: left !important;
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	width: 550px !important;
+	}
+
+
+/* lelas styles start here */
+
+/* START READING ROOM STYLE REF. NO. 000008 */
+	.rrnewslettermain {
+		width: 350px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000008 */
+
+/* START READING ROOM STYLE REF. NO. 000009 */
+	
+	.rrimageright {
+		float:right;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000009 */
+
+/* START READING ROOM STYLE REF. NO. 000010 */
+
+	h2.rrblackh2 {
+		color: #000000;font-size:1.3em;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000010 */
+
+/* START READING ROOM STYLE REF. NO. 000011 */
+
+	.rrcolumn1 {
+		position: relative;
+		width:166px;
+		float: left;
+		margin-right: 20px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000011 */
+
+/* START READING ROOM STYLE REF. NO. 000012 */
+	
+	.rrcolumn2 {
+		position: relative;
+		width:166px;
+	  	float: left;
+		margin-right: 20px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000012 */
+
+/* START READING ROOM STYLE REF. NO. 000013 */
+
+	.rrcolumn3 {
+		position: relative;
+		width:166px;
+	   	float: left;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000013 */
+
+/* START READING ROOM STYLE REF. NO. 000014 */
+
+	.rrclearboth {
+		clear:both;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000014 */
+
+/* START READING ROOM STYLE REF. NO. 000015 */
+
+	.rrwidth363 {
+		width:363px;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000015 */
+
+/* START READING ROOM STYLE REF. NO. 000016 */
+
+	.rrwidth410 {
+		width:410px;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000016 */
+
+/* lelas styles end here */
+
+
+div.treebox#even .quiz td.body {background-color: #F8EEF7 !important;}
+
+.yourresults img {background-color: #666699;}
+.rate1 img {background-color: #99CC99;}
+.rate2 img {background-color: #6699CC;}
+.rate3 img {background-color: #CCCC66;}
+.rate4 img {background-color: #FF9933;}
+.rate5 img {background-color: #CC6666;}
+
+.rate1 p {color: #99CC99;}
+.rate2 p {color: #6699CC;}
+.rate3 p {color: #CCCC66;}
+.rate4 p {color: #FF9933;}
+.rate5 p {color: #CC6666;}
+
+.rrSitesectionMainL {background-color: #DCDCF7;}
+.rrSitesectionMainD {background-color: #9999CC;}
+.rrSitesection1D {background-color: #CC9999;}
+.rrSitesection1L {background-color: #F5EBEA;}
+.rrSitesection2D {background-color: #6699CC;}
+.rrSitesection2L {background-color: #D4E9F4;}
+.rrSitesection3D {background-color: #99CC99;}
+.rrSitesection3L {background-color: #DFEFDF;}
+.rrSitesection4D {background-color: #99CCCC;}
+.rrSitesection4L {background-color: #E0F4F5;}
+.rrSitesection5D {background-color: #CC99CC;}
+.rrSitesection5L {background-color: #EFE0F0;}
+.rrSitesection6D {background-color: #CCCC66;}
+.rrSitesection6L {background-color: #F2F2D9;}
+.rrSitesection7D {background-color: #E57F7F;}
+.rrSitesection7L {background-color: #F5E0E0;}
+.rrSitesection8D {background-color: #9999FF;}
+.rrSitesection8L {background-color: #E0E0F5;}
+.rrSitesection9D {background-color: #66CCCC;}
+.rrSitesection9L {background-color: #D8F2F2;}
+.rrSitesection10D {background-color: #CCCC99;}
+.rrSitesection10L {background-color: #EDEDDB;}
+.rrSitesection11D {background-color: #CC9966;}
+.rrSitesection11L {background-color: #F0E0D1;}
+.rrSitesection12D {background-color: #FF9933;}
+.rrSitesection12L {background-color: #F0E7DF;}
+
+
+/* Start of Exisiting Advanced Styles */
+/* This stylesheet was last edited by RLA Thurs. 18. August 2005 at 18.00 */
+
+
+	.rrDetailheader
+	{
+		padding-top:7px;
+		padding-bottom:2px;
+		padding-left:15px;
+	}
+
+	.rrAsterix {
+		color:#99c;
+		margin-right: 5px;
+	}
+
+	.rrPayOnlinePosition {
+		text-align:right;
+		float:right;
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position: bottom;
+		padding-bottom: 10px;
+	}
+	
+	.hide { display : none; }
+	
+	div.questionnaire,
+	div.simple-special {
+		margin-left:0px !important;
+	}
+	
+	div.simple-normal {
+		margin-left:0px !important;
+	}
+	
+	div.rrLeft {
+		text-align:left;
+		float:left;
+	}
+	
+	div.rrLeft p {
+		display:inline;
+	}
+	
+	div.rrRight {
+		text-align:right;
+		float:right;
+	}
+	
+	div.rrRight p {
+		display:inline;
+	}
+	
+	Input.rrEvent {
+		width:120px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrInput {
+		width:140px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrNext {
+		width:50px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+	
+	}
+	
+	Input.rrPayOnline {
+		width:75px;
+		background-color: #CCCCFF;
+		border:1px;
+		height:19px;
+		font-weight: bold;
+		border: 1px solid #000000;
+		margin-top:10px;
+	
+	}
+	
+	.rrRightRadio {
+		padding-right: 5px;
+		padding-left: 14px;
+	}
+	
+	.movereq {
+		padding-left: 25px;
+	}
+	
+	#eventsummary .rrTopSpace input.rrRemove {
+		border: 0px;
+		background-color: #FF9999;
+		width:63px;
+		height:17px;
+	}
+	
+	
+	div.attendeedetails .rrExisting select.rrSelect {
+		margin-left: 48px;
+		margin-top: 9px;
+	}
+	
+	.rrMakeRoom {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.rrBottomSpace {
+		padding-bottom: 10px;
+	}
+	
+	.rrTopSpace {
+		padding-top: 12px;
+	}
+	
+	div.eventattendees td.rrTableWidth {
+		width: 431px;
+	}
+	
+	.rrBigBullet {
+		font-size: 1.3em;
+	}
+
+	td.rrTableWidth p {
+		display:inline;
+		padding-left: 14px;
+	}
+	
+	#eventbanner div.additionallink a.rrMyEvents {
+		font-weight:bold !important;
+		padding:0px 0px 10px 15px;
+		background-image:url("/syntegra/images/arrow_global.gif");
+		background-repeat:no-repeat;
+		background-position:0 0px;
+		color:#373299;
+		font-size:1.0em;
+		text-align: right;
+	}
+		
+	#eventbanner div.additionallink a.rrMyEvents:hover {
+		font-weight:bold !important;
+		padding:0px 0px 10px 15px;
+		background-image:url("/syntegra/images/arrow_global.gif");
+		background-repeat:no-repeat;
+		background-position:0 0px;
+		color:#993399;
+		font-size:1.0em;
+		text-align: right;
+	}
+	
+	#eventbanner {
+		width: 560px;
+	}
+	
+	#eventbanner div.additionallink {
+		background-image:url("/syntegra/images/spacer.gif");
+		padding-bottom: 26px;
+		
+	}
+	
+	#eventbanner div.additionallink p.rrdottedbox {
+		padding: 6px;
+		padding-right: 7px;
+		margin:5px;
+		margin-right: 5px;
+		vertical-alignment: top;
+		text-align:right;
+		display:inline;
+		width: 20px;
+		height: 26px;
+		background-image:url("/syntegra/images/dottedbox.gif");
+		background-repeat:no-repeat;
+		background-color:white;
+	}
+	
+	div.attendeedetails #Table1 {
+		width: 431px;
+	}
+	
+	div.attendeedetails #rrTable1 {
+		width: 430px;
+	}
+	
+	div.rrListSpace {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp {
+		width: 431px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp div.shortdotteddivider {
+		width: 431px;
+	}
+	
+	div.dottedbox div.eventattendees .rrSizeitUp div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	div.confirm-bottom #Table4 div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	
+	#rrTable4 div.blackline {
+		background-color: #CCCCFF;
+		margin-bottom: 6px;
+	}
+	
+	 #eventsummary .rrSizeitUp div.blackline {
+		width: 431px;
+		background-color: #CCCCFF;
+	}
+	
+	div.rrprogressstuff {
+		width: 431px;
+	}
+	
+	#correspondence div.shortdotteddivider {
+		width:380px;
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position:top right;
+		background-color:white;
+		margin-top:5px;
+		margin-bottom:5px;
+		height:1px;
+	}
+	
+	#correspondence .rrSizeitUp {
+		width: 431px;
+	}
+	
+	div.paymentoption .rrSizeitUp {
+		width: 431px;
+	}
+	
+	#eventsummary .rrSizeitUp {
+		width: 431px;
+	}
+	
+	#eventsummary .rrSizeitUp div.shortdotteddivider {
+		width: 431px;
+	}
+	
+	.rrTextarea {
+		height: 80px;
+	}
+	
+	.rrMandatory {
+		color: #9999CC;
+		font-size: 1.5em;
+		margin-top: 14px;
+		padding-top: 14px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.randomname td.rrTableWidth div.attendeedetails {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	
+	.randomname td.rrTableWidth div.attendeedetails .rrSizeitUp {
+		width: 431px;
+	}
+	
+	.rrSizeitUp .requiredmarker {
+		padding-left: 50px;
+	}
+	
+	#maincontent p {width: 100%;}
+	
+	.testerton {
+		padding:0px;
+		margin: 0px;
+		padding-left: 12px;
+	}
+	
+	.rrwhatdoesitmean {
+		font-weight: normal !important;
+		color: #666666 !important;
+	}
+	
+/* Color management START */
+	
+	.rrgreytext {
+		color: #666666;
+	}
+	
+/* Color management START */
+	
+/* START READING ROOM STYLE REF. NO. 000001 */
+	div.rrprogressstuff td.rrprogressbar
+	{
+		width:25%;
+		background-color:#ccc;
+		border-right: solid 1px #ffffff;
+	}
+/* END READING ROOM STYLE REF. NO. 000001 */
+	
+/* START READING ROOM STYLE REF. NO. 000004 */
+	div.rrprogressstuff td.rrprogressbaron
+	{
+		width:25%;
+		background-color:#679966;
+		border-right: solid 1px #ffffff;
+	}
+/* END READING ROOM STYLE REF. NO. 000004 */
+
+	div.rrprogressstuff td.rrprogressbaron1st
+	{
+		width:25%;
+		background-color:#679966;
+	}
+	
+	div.rrprogressstuff .rrprogressbaron .rrprogressbaronlast
+	{
+		width:50%;
+		background-color:#CCCCCC;
+	}
+
+/* START READING ROOM STYLE REF. NO. 000002 */
+	div.rrprogressstuff td.rrprogresstext
+	{
+		width:25%;
+		text-align:center;
+		padding-left:4px;
+		padding-right:4px;
+		vertical-align: top;
+	}
+/* END READING ROOM STYLE REF. NO. 000002 */
+
+/* START READING ROOM STYLE REF. NO. 000003 */
+	div.rrprogressstuff td.rrprogresstexton
+	{
+		width:25%;
+		color:#679966;
+		padding-left:5px;
+		padding-right:5px;
+		font-weight:bold;
+		text-align:center;
+		vertical-align: top;
+	}
+/* END READING ROOM STYLE REF. NO. 000003 */
+
+/* START READING ROOM STYLE REF. NO. 000005 */
+	div.eventattendees td.details
+	{
+		padding-top: 10px;
+	}
+/* END READING ROOM STYLE REF. NO. 000005 */
+
+/* START READING ROOM STYLE REF. NO. 000006 */
+	.leftbutton
+	{
+		border: solid 1px #333333;
+		background-color: #CCCCFF;
+		font-weight: bold;
+		color: #CCCCFF;
+		height: 12px;
+		width: 150px;
+	}
+/* END READING ROOM STYLE REF. NO. 000006 */
+
+/* START READING ROOM STYLE REF. NO. 000007 */
+	.rightbutton
+	{
+		border: solid 1px #333333;
+		background-color: #CCCCFF;
+		font-weight: bold;
+		color: #CCCCFF;
+		height: 12px;
+		width: 60px;
+	}
+/* END READING ROOM STYLE REF. NO. 000007 */
+
+
+/* lelas styles start here */
+
+/* START READING ROOM STYLE REF. NO. 000008 */
+	.rrnewslettermain {
+		width: 350px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000008 */
+
+/* START READING ROOM STYLE REF. NO. 000009 */
+	
+	.rrimageright {
+		float:right;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000009 */
+
+/* START READING ROOM STYLE REF. NO. 000010 */
+
+	h2.rrblackh2 {
+		color: #000000;font-size:1.3em;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000010 */
+
+/* START READING ROOM STYLE REF. NO. 000011 */
+
+	.rrcolumn1 {
+		position: relative;
+		width:166px;
+		float: left;
+		margin-right: 20px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000011 */
+
+/* START READING ROOM STYLE REF. NO. 000012 */
+	
+	.rrcolumn2 {
+		position: relative;
+		width:166px;
+	  	float: left;
+		margin-right: 20px;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000012 */
+
+/* START READING ROOM STYLE REF. NO. 000013 */
+
+	.rrcolumn3 {
+		position: relative;
+		width:166px;
+	   	float: left;
+	}
+
+/* END READING ROOM STYLE REF. NO. 000013 */
+
+/* START READING ROOM STYLE REF. NO. 000014 */
+
+	.rrclearboth {
+		clear:both;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000014 */
+
+/* START READING ROOM STYLE REF. NO. 000015 */
+
+	.rrwidth363 {
+		width:363px;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000015 */
+
+/* START READING ROOM STYLE REF. NO. 000016 */
+
+	.rrwidth410 {
+		width:410px;
+	}
+	
+/* END READING ROOM STYLE REF. NO. 000016 */
+
+/* lelas styles end here */
+
+
+
+	.rrleftalign {
+	text-align: left !important;
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	width: 550px !important;
+	}
+
+	
+	
+	
+	.rrquestionnaire{
+		margin-bottom:17px;
+		border:0px solid white;
+		border-top:1px solid white; /* IE/PC needs this! */
+		margin-bottom:5px;
+		float:left;
+	
+	
+	}
+	
+	
+	div.rrquestionnaire div.pair div.question span.widget {
+		float:left;
+		width:15px;
+	}
+	div.rrquestionnaire div.pair div.question span.label {
+		float:right;
+		width:238px;
+		padding-left:0;
+	}
+	div.rrquestionnaire div.pair div.question div.info {
+		clear:left;
+		margin-top:0px; 
+		margin-left:20px;
+	}
+	
+	div.trainingoptions td.rrtextwidth {
+		width:100%;
+		vertical-align:top;
+		padding-right: 15px;
+	}	
+	
+	div.trainingoptions td.rrtextwidth div.trainingitem p {
+		margin-top: 5px !important;
+		margin-bottom: 0px !important;
+		margin-right: 0px !important;
+	}
+	
+	#tsd-home #maincontent .trainingwelcome {
+		width:400px;
+	}
+	div.trainingoptions div.trainingwelcome p {
+		width:400px !important;
+		margin-top: 15px;
+	}
+	
+	div.healthsafetypremises .rrprogressstuff .rrprogressbaron {
+		background-color: #C188BD;
+	}
+	div.healthsafetypremises .rrprogressstuff #oneofeleven {
+		width: 50%;
+		border-left: 19px solid #C188BD;
+	}
+	
+	div.healthsafetypremises .rrprogressstuff .rrprogresstexton {
+		color: #C188BD;
+	}
+	div.healthsafetypremises .rrprogressstuff {
+		margin-bottom: 17px;
+		padding-top: 8px;
+	}
+	
+	/* Multiuse styles start */
+	
+	.nobold {
+		font-weight: normal !important;
+	}
+	.nospace {
+		padding-top: 0px !important;
+		margin-top: 0px !important;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	
+	.rrwidth430 {
+		width:430px !important;
+	}
+	.rrwidth470 {
+		width:470px !important;
+	}
+	.rr5pxBottomM {
+		margin-bottom: 5px !important;
+	}
+	.rr10pxBottomM {
+		margin-bottom: 10px !important;
+	}
+	.rr20pxBottomM {
+		margin-bottom: 20px !important;
+	}
+	
+	
+	/* Multiuse styles stop */
+	
+	
+	
+	div.healthsafetypremises .treebox {
+		width:470px !important;
+		padding-top: 5px;
+		margin-bottom: 20px;
+	}
+	div.healthsafetypremises .treebox .title {
+		font-weight: bold;
+		padding: 0px 15px 2px 15px;
+	}
+	div.healthsafetypremises .treebox .body {
+		font-weight: bold;
+		padding: 12px 15px 2px 15px;
+	}
+	div.healthsafetypremises a.info {
+		font-weight: normal !important;
+		padding-right: 25px;
+		padding-bottom: 13px !important;
+		margin-bottom: 13px !important;
+		background-image: url("/syntegra/images/info_healthandenvironment.gif");
+		background-repeat: no-repeat;
+		background-position: right top;
+		color: #333399;
+	}
+	div.healthsafetypremises .treebox .body p {
+		padding-bottom: 2px !important;
+	}
+	div.healthsafetypremises .treebox .body .questionnaire .pair .question {
+		float: left;
+		width: 50%;
+	}
+	div.healthsafetypremises .treebox .body .questionnaire .pair .question span.widget {
+		float: left;
+		width: 15px;
+		margin-right: 4px;
+		margin-bottom: 2px !important;
+		
+	}
+	html>head:first-child+body div.healthsafetypremises .treebox .body .questionnaire .pair .question span.widget {
+		margin-top: 4px !important;
+		
+	}
+	div.healthsafetypremises .treebox .body .questionnaire .pair .question span.widget input {
+		background-color: transparent !important;
+		
+	}
+	div.healthsafetypremises .treebox .body .questionnaire .pair .question span.label {
+		font-weight: normal;
+		width: 190px;
+		margin-top: -1px !important;
+		margin-bottom: 2px !important;
+	}
+	
+	div.secQuestion2 div.yes {
+		margin-right: 8px;
+	}
+	
+	div.secQuestion1 {
+		width: 330px;
+	}	
+	div.secQuestion2 {
+		font-weight: normal;
+		text-align: top;
+	}
+	div.secQuestion2 input {
+		background-color: transparent !important;
+		margin-bottom: -1px;
+	}
+	.rrsmalltext {font-size: 0.9em !important;}
+	.rrsmalltext input {margin-bottom: 2px;}
+	
+	div.treebox#even {
+		padding-top: 0px;
+		padding-bottom: 5px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	div.treebox#odd {
+		padding-bottom: 10px;
+		margin-bottom: 0px;
+	}
+	div.treebox .quiz .body input.text {
+		background-color: #fff;
+		width: 30px;
+	}
+	
+	.reportlist .title {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		background-color: #D59CD1;
+		font-weight: bold;
+		width: 520px;
+	}
+	
+	.reportlist .even {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		background-color: #F8EEF7;
+		width: 520px;
+	}
+	
+	.reportlist .odd {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		background-color: #FFFFFF;
+		width: 520px;
+	}
+	
+	.reportlist ul.links {
+		padding: 0px 0px -2px 0px;
+		margin:  0px 0px -2px 0px;
+	}
+	.reportlist ul.links li {
+		padding: 0px 0px -2px 15px;
+		margin: 0px;
+	}
+	
+	.rrWideSpace {
+		width: 550px !important;
+	}
+	.rrNarrowSpace {
+		width: 340px !important;
+	}
+	
+	.reportlist p {
+		padding-left: 15px;
+		margin: 15px 0px 0px 0px;
+	}
+	.reportlist .rrListPadding {
+		padding-left: 15px;
+	}
+	
+	input.rrimage {
+		width: auto !important;
+		height: auto !important;
+	}
+	
+	.dottedline img {
+		background-image:url("/syntegra/images/dottedline_horiz.gif");
+		background-repeat: repeat-x;
+		background-position: bottom;
+		padding-bottom: 10px;
+	}
+	.smallInfoTable p {
+		padding: 0px;
+		margin: 0px;
+	}
+	.breakdownTable {
+		margin-top: 4px;
+	}
+	.breakdownTable td .title {
+		width: auto !important;
+	}
+	.breakdownTable td {
+		border-bottom: 1px solid #CCCCFF;
+	}
+	.breakdownTable td p {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.breakdownTable td.midtline {
+		border-bottom: 1px solid #CCCCFF;
+		border-left: 1px solid #CCCCFF;
+	}
+	
+	.rrRatinglist div {
+		margin-left: 48px;
+		margin-bottom: 4px;
+	}
+	.yourresults {
+		background-image: url("/syntegra/images/yourratings.gif");
+		background-repeat: repeat-x;
+		background-position: left;
+	}
+	
+	html>head:first-child+body .flexibleDotBox {
+		background-image: url("/syntegra/images/dot_flexible_trans.gif");
+		background-position: left top;
+		margin-bottom: 20px;
+		padding-bottom: 1px;
+		width: 100%;
+	}
+	.flexibleDotBox {
+		background-image: url("/syntegra/images/dot_flexible_trans.gif");
+		background-position: left top;
+		margin-bottom: 20px;
+		padding-bottom: 0px;
+		width: 100%;
+	}
+	
+	.flexibleDotBox .title {
+		padding-top: 1px;
+		padding-bottom: 3px;
+		font-weight: bold;
+		margin: 0px !important;
+		
+	}	
+	.flexibleDotBox .title p {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+		margin-left: 15px;
+		margin-right: -15px;
+		
+	}	
+	.flexibleDotBox .body {
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-bottom: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		margin-top: 0px;
+		background-color: #fff;
+		width: auto !important;
+	}
+	.flexibleDotBox .body ul {
+		background-color: #fff;
+		width: auto !important;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.flexibleDotBox .body ul li {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin-top: 4px;
+	}	
+	.flexibleDotBox .body p {
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-bottom: 10px;
+		margin-top: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		width: auto !important;
+	}	
+	.flexibleDotBox .bodyslice {
+		margin-left: 1px;
+		margin-right: 1px;
+		margin-bottom: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+		padding-bottom: 1px;
+		margin-top: 0px;
+		background-color: #fff;
+		width: auto !important;
+	}
+	.flexibleDotBox .bodysliceend {
+		background-image: url("/syntegra/images/dot_flexible_slice_trans.gif");
+		padding-top: 0px !important;
+		margin-top: 0px !important;
+		margin-left: 1px;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		width: auto !important;
+		height: 11px !important;
+	}
+	html>head:first-child+body .flexibleDotBox .bodysliceend {
+		padding-bottom: -1px !important;
+		margin-bottom: -1px !important;
+	}
+	
+	.rrActionsTab {
+		border-top: 20px solid #fff;
+	}
+	.rrActionsTab {
+		padding-left: 0px !important;
+		margin-left: -15px !important;
+	}
+	.rrActionsTab ul.links li {
+		padding-left: 20px !important;
+		margin-left: 0px !important;
+	}
+	.rrActionsTab h3 {
+		padding-left: 14px !important;
+	}
+
+	#rrflexibleDotBoxInner
+	{
+		padding:13px 10px 0px 11px ;
+		margin:1px;
+		border:0px;
+	}
+
+	#rrflexibleDotBoxInner .radiobutton, #rrflexibleDotBoxInner .checkbox
+	{
+		width:20px;
+		padding:0px;
+		border:0px;
+	}
+
+	#rrflexibleDotBoxInner2
+	{
+		padding:13px 10px 0px 0px ;
+		margin:1px;
+		border:0px;
+	}
+
+	#rrflexibleDotBoxInner2 .radiobutton, #rrflexibleDotBoxInner2 .checkbox
+	{
+		width:20px;
+		padding:0px;
+		border:0px;
+	}		
+	
+	fieldset.search input, fieldset.distance input {margin-right: 5px;}

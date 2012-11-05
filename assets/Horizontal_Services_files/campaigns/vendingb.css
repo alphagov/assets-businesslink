@@ -1,0 +1,156 @@
+/* General styles */
+
+#campaigns-body {
+	padding:20px 0 0 10px;
+	width:1000px;
+	}
+
+#headercontainer {
+	width:1000px;
+	padding:0;
+	margin:0;
+	background:#007AC2;
+}
+
+#blueheader {
+	width:446px;
+	padding:20px;	
+	float:left;
+}
+
+#blueheader h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight:normal;
+	color:#fff;
+}
+
+#blueheader h1 span {
+	font-size: 30px;
+
+}
+
+#blueheader p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:normal;
+	color:#fff;
+}
+
+#header_img {
+	width:514px;
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+.clearboth {
+	clear:both;
+}
+
+#contentcontainer {
+	width:1000px;
+	padding:0;
+	margin:0;
+}
+
+#faq {
+	width: 712px;
+	float: left;
+	padding:20px 20px 20px 0px;
+}
+
+#logocontainer {
+	width:248px;
+	float: right;
+}
+
+
+#logocontainer a{
+display: block; margin-left: 43px;
+}
+
+
+.AccordionContent, .AccordionContainer
+{
+  width:712px;
+}
+
+.AccordionTitle
+{
+  height:30px;
+  overflow:hidden;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:14px;
+  font-weight:bold;
+  color:#007ac2;
+  padding-left:15px;
+  width:697px;
+}
+
+.AccordionContent
+{
+  overflow:hidden;
+  display:none;
+  padding-bottom:20px;
+  font-family:Arial;
+  font-size:12px;
+  color:#333333;
+  padding-left:15px;
+}
+
+.AccordionContainer
+{
+  width: 700px;
+}
+#headerarrow{
+	background: url(../../Horizontal_Services_images/arrow.jpg) no-repeat;
+}
+
+
+
+.basic  {
+	width: 685px;
+	font-family: verdana;
+	border: 0px solid black;
+}
+.basic div {
+	background-color: #fff;
+}
+
+.basic p {
+	margin-bottom : 10px;
+	border: none;
+	text-decoration: none;
+	font-size: 1.0em;
+	margin:0 0 0 0;
+	padding:0 0 0 15px;
+	min-height:20px;
+}
+.basic a {
+	cursor:pointer;
+	display:block;
+	padding:5px 0 5px 15px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.25em;
+	font-family:Arial;
+	color: #007ac2;
+	background-color: #fff;
+	border-top: 0px solid #FFFFFF;
+	border-bottom: 0px solid #999;
+	background: url(../../Horizontal_Services_images/arrowright.jpg) no-repeat 0 8px;
+}
+.basic a:hover {
+	background-color: #fff;
+	background: url(../../Horizontal_Services_images/arrowdown.jpg) no-repeat 0 8px;
+	text-decoration:underline;
+	color: #007ac2;
+}
+.basic a.selected {
+	color: #007ac2;
+	background-color: #fff;
+	background: url(../../Horizontal_Services_images/arrowdown.jpg) no-repeat 0 8px;
+}

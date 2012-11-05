@@ -1,0 +1,370 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+/* Start of Exisiting Basic Styles */
+/* 04 June 07: New theme Environment and efficiency added */
+
+	#left {
+		z-index:4;
+		position:absolute;
+		top:120px;
+		left:8px;
+		width:170px;
+		color:#669;
+		border:0.1px solid white;
+	}
+	#left a:link:hover { 
+		color:#339; /*#66c*/
+		text-decoration: underline; 
+	}
+	#left a:visited { 
+		color:#333; 
+		text-decoration: none; 
+	} 
+	#left a:visited:hover { 
+		color:#339; 
+		text-decoration: underline; 
+	}
+	#left a:link { 
+		color:#333; 
+		text-decoration: none; 
+	}
+	#left strong {
+		font-weight:bold;
+	}
+	
+	
+	#left p {
+		font-size:12px;
+		padding:0px;
+		padding-left:13px;
+		margin:0px;
+		background-repeat:no-repeat;
+		background-color:white;
+		line-height:normal;
+		/*redef*/
+	}
+	#left table {
+		font-size:12px;
+		line-height:normal;
+		/*redef*/
+	}
+	#left table td.marker img {
+		display:block;
+		margin:0px;
+		padding:0px;
+		margin-right:-10px; /*phantom border in IE*/
+	}
+	#left table td.marker {
+		width:10px;
+	}
+	
+	#left p.home {
+		padding-left:0px;
+		/*background-image:url("");*/
+	}
+	#left p.menufinance {
+		background-image:url("/syntegra/images/leftnav_finance.gif");
+	}
+	#left p.menugrowthandinnovation {
+		background-image:url("/syntegra/images/leftnav_growthandinnovation.gif");
+	}
+	#left p.menustartingabusiness {
+		background-image:url("/syntegra/images/leftnav_startingabusiness.gif");
+	}
+	#left p.menugrantsandadvice {
+		background-image:url("/syntegra/images/leftnav_grantsandadvice.gif");
+	}
+	#left p.menubuyingandselling {
+		background-image:url("/syntegra/images/leftnav_buyingandselling.gif");
+	}
+	#left p.menupractitioners {
+		background-image:url("/syntegra/images/leftnav_global_dark.gif");
+	}
+	#left p.menutaxandreporting {
+		background-image:url("/syntegra/images/leftnav_taxandreporting.gif");
+	}
+	#left p.menuemployingpeople {
+		background-image:url("/syntegra/images/leftnav_employingpeople.gif");
+	}
+	#left p.menuhealthandenvironment {
+		background-image:url("/syntegra/images/leftnav_healthandenvironment.gif");
+	}
+	#left p.menuenvironmentandefficiency {
+		background-image:url("/syntegra/images/leftnav_environmentandefficiency.gif");
+	} 
+	#left p.menuinternationaltrade {
+		background-image:url("/syntegra/images/leftnav_internationaltrade.gif");
+	}
+	#left p.menuitandecommerce {
+		background-image:url("/syntegra/images/leftnav_itandecommerce.gif");
+	}
+	#left p.menusalesandmarketing {
+		background-image:url("/syntegra/images/leftnav_salesandmarketing.gif");
+	}
+	#left p.menusellingabusiness {
+		background-image:url("/syntegra/images/leftnav_sellingabusiness.gif");
+	}
+	#left p.menuinyoursector {
+		background-image:url("/syntegra/images/leftnav_inyoursector.gif");
+	}
+	#left p.menuundefined {
+		background-image:url("/syntegra/images/leftnav_undefined.gif");
+	}
+	#left p.menulocal1 {
+		background-image:url("/syntegra/images/leftnav_local1.gif");
+	}
+	#left p.menulocal2 {
+		background-image:url("/syntegra/images/leftnav_local2.gif");
+	}
+	#left p.menulocal3 {
+		background-image:url("/syntegra/images/leftnav_local3.gif");
+	}
+	#left p.menulocal4 {
+		background-image:url("/syntegra/images/leftnav_local4.gif");
+	}
+	#left p.menuregional1 {
+		background-image:url("/syntegra/images/leftnav_regional1.gif");
+	}
+	#left p.menuregional2 {
+		background-image:url("/syntegra/images/leftnav_regional2.gif");
+	}
+	#left p.menuregional3 {
+		background-image:url("/syntegra/images/leftnav_regional3.gif");
+	}
+	#left p.menuregional4 {
+		background-image:url("/syntegra/images/leftnav_regional4.gif");
+	}
+	
+	#left p.hr {
+		padding:0px;
+		margin:0px;
+		font-size:1px;
+	}
+	#left p.hr img {
+		padding:0px;
+		margin:0px;
+	}
+	
+	#left #opencategory td.spine {
+		background-color:#9c9;
+		vertical-align:top;
+		width:5px;
+	}
+	#left #opencategory td.spine img {
+		padding:0px;
+		margin:0px;
+	}
+	#left #opencategory p.title, #left #opencategory p.subtitle {
+		padding-top:3px;
+		padding-right:0px;
+		padding-bottom:3px;
+		padding-left:1px;
+	}
+	
+	
+	#left #opencategory tr.highlight, #left #opencategory tr.highlightfirst, #left #opencategory tr.highlightlast {
+		background-color:#E0F0E0;
+	}
+	#left #opencategory td.level0 p.title, #left #opencategory td.level0 p.subtitle {
+		padding-left:4px;
+		font-weight:bold;
+	}
+	#left #opencategory td.level1 p.title, #left #opencategory td.level1 p.subtitle {
+		padding-left:12px;
+	}
+	#left #opencategory td.level2 p.title, #left #opencategory td.level2 p.subtitle {
+		padding-left:8px;
+		padding-right: 8px;
+	}
+	#left #opencategory td.level2 p.hr {
+		padding-left:8px;
+	}
+	#left #opencategory td.level3 p.title, #left #opencategory td.level3 p.subtitle {
+		padding-left:13px;
+	}
+	
+	
+	#left #opencategory tr.marked td.level1 p.title, #left #opencategory tr.marked td.level1 p.subtitle {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#left #opencategory td.marker {
+		margin:0px;
+		padding:0px;
+		width:10px;
+	}
+	#left #opencategory td.level1 {
+		margin:0px;
+		padding:0px;
+		width:155px;
+	}
+	
+	
+
+
+	#content #left {
+		position: static;
+		float:left;
+		width:200px;
+	}
+	#content #left p.hr {
+		padding:0px;
+		margin:0px;
+		font-size:1px;
+	}
+	#content #left p{
+		padding-left:15px;
+	}	
+	
+	
+	#menublock {
+		margin:5px 0px 5px 0px;
+	}
+	
+	#menublock p {
+		line-height:12px;
+		margin:0px !important;
+		padding:0px 10px 10px 10px;
+	}
+	
+	#menublock p.menuarea {
+		font-weight:bold;
+		background-color:#AAA;
+		padding:4px 10px 5px 10px;
+		border-bottom:1px solid white;
+	}
+	
+	#menublock p.menutopic {
+		font-weight:bold;
+		padding:4px 10px 10px 10px;
+	}
+	
+	#menublock p.menutopicopen {
+		font-weight:bold;
+		padding:4px 10px 5px 10px !important;
+		border-bottom:1px solid white;
+	}
+		
+	#menublock p.menulevel1 {
+		background-color:#CCC;
+	}
+	
+	#menublock p.menulevel2topic {
+		font-weight:bold;
+		padding:4px 10px 5px 10px;
+		background-color:#EEE;
+	}
+	
+	#menublock p.menulevel2open {
+		font-weight:bold;
+		padding:0px 10px 10px 22px;
+		background-color:#EEE;
+	}
+	#menublock p.menulevel2 {
+		padding:0px 10px 10px 22px;
+		background-color:#EEE;
+	}
+	#menublock p.hr {
+		padding:0px 0px 6px 10px;
+		background-color:#EEE;
+	}
+	
+	
+ /* Start of Exisiting Advanced Styles */
+	#left {
+		border:0px solid white;
+	}
+	#left p {
+		font-size:1em;
+		margin-top:3px;/*2*/
+		margin-bottom:3px; /*3*/
+		padding-top:0px;
+		padding-bottom:0px;
+		line-height:130%;
+		width: auto;
+	}
+	html>body #left p {
+		margin-top:2px;
+		margin-bottom:3px;
+	}
+	#left p.hr {
+		line-height:0;
+	}
+	#left p.lastEntry {
+		line-height:1px;
+	}
+	#left table {
+		font-size:1em;
+		line-height:130%;
+	}
+	
+	#left #opencategory td.level1 p.hr {
+		margin-top: 1px;
+	}
+	
+	#left #opencategory td.spine {
+		line-height:0;
+	}
+	#left #opencategory p.title, #left #opencategory p.subtitle {
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-right:0px;
+	}
+	#left #opencategory tr.highlight, #left #opencategory tr.highlightfirst, #left #opencategory tr.highlightlast {
+		background-color:transparent;
+	}
+	#left #opencategory tr.highlight *, #left #opencategory tr.highlightfirst *, #left #opencategory tr.highlightlast * {
+		background-color:#E0F0E0;
+	}
+	#left #opencategory tr.highlightfirst td {
+		padding-top:8px;
+	}
+	#left #opencategory tr.highlightlast td {
+		padding-bottom:8px;
+	}
+	
+	
+	
+	#content #left p {
+		font-size:1em;
+		margin-top:3px;/*2*/
+		margin-bottom:6px; /*3*/
+		padding-top:0px;
+		padding-bottom:0px;
+		line-height:130%;
+	}
+	html>body #content #left p {
+		margin-top:2px;
+		margin-bottom:5px;
+	}
+	
+	 
+	#menublock p {
+		line-height:100%;
+		margin:0px !important;
+		padding:0px 10px 10px 10px;
+		background-color:inherit;
+	}
+	
+	#menublock p.menutopic {
+		padding:4px 10px 10px 10px;
+	}
+	
+	#menublock p.menutopicopen {
+		padding:4px 10px 5px 10px;
+	}
+	
+	#menublock p.menuarea {
+		padding:4px 10px 5px 10px;
+	}
+	
+	#menublock p.menulevel2topic {
+		padding:4px 10px 5px 10px;
+	}
+	
+	#menublock p.menulevel2open {
+		padding:0px 10px 10px 22px;
+	}
+
+	#menublock p.menulevel2 {
+		padding:0px 10px 10px 22px;
+	}

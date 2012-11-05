@@ -1,0 +1,59 @@
+/* VERSION 1: 19/03/04 - Modified to fit new design/layout */
+/* VERSION 2: 23/03/04 - Redifined (and made important) link in the left nav */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:544px;
+		background-color:white;
+		/*layer-background-color:white;*/
+		border:0.1px solid white;
+	}
+	html>body #maincontent {
+		min-height: 300px;
+	}
+	#maincontent {
+		float:left;
+		width:450px;
+		border:0.1px solid white;
+	}
+	#footer {
+		padding-top/**/: 13px;
+		/* Above line fixes a IE 5.5/6 Win padding-top bug */
+	}
+/* END LAYOUT */
+	#left p {
+		margin-left: 2px !important;
+	}
+	#left a {
+		color: #333399 !important; /* !important used to override menu_basic link colour */
+	}
+	#left a:visited {
+		color: #993399 !important;
+	}
+/* FEED */
+	div.feed {
+		border:1px solid black;
+		margin-bottom:15px;
+		width:100%;
+	}
+	div.feed h3 {
+		margin-top:0.5em;
+		margin-bottom:0em;
+		margin-left: 15px;
+	}
+	div.feed h2.h3alias {
+		margin-top:0.5em;
+		margin-bottom:0em;
+		margin-left: 15px;
+	}
+	div.feed p {
+		margin-top:0px;
+		margin-right: 8px;
+		margin-bottom:0px;
+		margin-left: 15px;
+	}
+/* END FEED */

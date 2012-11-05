@@ -1,0 +1,212 @@
+﻿/*-------------------------------------------------------------------------------
+Add ons created to target ie7 issues only
+This files contains styles from differenet css files
+Each section should be fully commented, with information regarding which section of the tools the styles are going to affect
+-------------------------------------*/
+
+/* layout for radio buttons and boxes as per pdp_ques_page_2.html and sujm_summary.html  */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 03-Mar-08 by PB: div.shiftContentWide div.searchPanel, div.shiftContentWide div.toolspanel - margin fix applied */
+/* 04-Mar-08 by PB: margins adjusted on form elements for sujmRadiobox inputs */
+/* 19-Mar-08 by PB: Disabled IE7 margin compensation */
+/* 22-May-08 by NP: hasLayout set for skiplinks tabbing problem on internal links */
+.rrMiddleBox {vertical-align: middle;}
+
+.rrInnerBox {position: relative; top: 20%;}
+
+
+html>body .pdpRadiobox input {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 9px;
+	}
+
+html>body .pdpRadiobox input.first {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 5px;
+		margin-right: 0px;
+	}
+
+.actionList div.formWrapper {display: inline-block }
+.actionListFoot { display: inline-block;}
+	
+/* layout for radio buttons and boxes as per sujm_summary.html */
+
+.rrInnerBox2 {position: relative; top: 10%;} 
+
+html>body .sujmRadiobox input {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 4px;
+	}
+html>body .sujmRadiobox input.first {
+		width: auto;
+		border: 0px;
+		background: none;
+		margin-left: 5px;
+	}	
+	
+html>body .sujmRadiobox2 {
+		clear:both;
+		width:535px;
+}
+
+
+.radio, .radiobutton, .check {
+	border:none!important;
+}
+
+/*layout for blt_review.html */
+
+.rrDeadZero {
+		padding: 0px !important;
+		margin: 0px !important;
+		display: block !important;
+	}
+	
+/*layout for blt_questions.html */
+
+.nospace {
+	position:relative!important;
+}	
+
+/* IT risk assessment fix */
+.barContent p,
+.barContent div p {display: inline-block}
+
+
+/* Fix Radio button poisitoning */
+input.radio {
+	margin-top: 3px !important;
+	margin-right: 3px !important;
+	width: 14px !important;
+}
+
+/* Disabled - wide pages
+div.shiftContentWide div.searchPanel, div.shiftContentWide div.toolspanel {
+	margin-left: -30px;
+}
+*/
+
+/*skiplinks.css fix internal link tabbing issue in IE */
+#footer{
+	zoom:1;
+	}
+	
+/* erc */
+div.question div.info {
+	margin-left:23px;
+	}
+	
+	
+#colourpicker,
+#colourpicker #cpheader,
+#colourpicker #cpbody,
+#colourpicker ul.cprange li
+{zoom:1;display:block;}
+
+.clearfix{zoom:1;}
+
+/* RAYMOND BROOKS 20110403 START EDIT */
+
+div.rrboxad2left {
+	/*margin:0 10px 0 0;*/
+	position:relative;
+	float: left;
+	width: 258px;
+	margin:0 30px 0 0;
+}
+
+div.rrboxad2right {
+	position:relative;
+	float: left;
+	width: 250px;
+}
+
+
+div.rrboxad2left p {
+	zoom:1;
+}
+
+div.rrboxad2left input#login {
+	height:auto !important;
+	padding:3px 6px;
+}
+
+
+div.rrboxad2left input#userlogin {
+	position:relative;
+	float:right;
+	width:60px;
+	min-width:0;
+	min-height:0;
+	padding:5px 8px;
+	margin:8px 0 0 0;
+	top:0;
+	left:0;
+	background: #ccccff url(../images/global-header-login.png) no-repeat top left;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+div.rrboxad2left div.rememberPwd {
+	width:180px;
+}
+
+div.rrboxad2left div.rememberPwd label {
+	padding: 0;
+	width:auto;
+	float:none;
+	
+	
+}
+
+div.rrboxad2left div.rememberPwd input#rememberPwd {
+	background:transparent;
+	position: relative;		
+	
+}
+
+/* RAYMOND BROOKS 20110403 END EDIT */
+
+
+
+div.rrboxad2left input#userlogin {
+	position:relative;
+	float:right;
+	width:60px;
+	min-width:0;
+	min-height:0;
+	padding:5px 8px;
+	margin:8px 0 0 0;
+	top:0;
+	left:0;
+	background: #ccccff url(../images/global-header-login.png) no-repeat top left;
+	border:1px solid #ffffff;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
+p.login img#loginGGLogo {
+     float: left;
+	 padding: 0 6px 0 0;
+    
+}
+
+div.rrboxad2right .btn a span{
+	margin: 0px;
+}
+
+/* IE 7 specific style to implement highlight (Skip Links) of Startup Hub promotion button */
+#newBusinessContent a:active.add span {
+/* Background left image */ 
+background: none repeat scroll 0 0 #ffffd2 !important; 
+color: #000;
+} 

@@ -1,0 +1,95 @@
+body
+{
+	font-size:76%;
+}
+
+
+div#logo
+{
+	background-color:white;
+	position:relative;
+	padding:0px;
+	margin: 2em 4em 1em 4em;
+	height:auto;
+	
+}
+div#content {
+	margin: 4px;
+	padding: 0em;
+}
+#close {
+	position:absolute;
+	top:4px;
+	right:4em;
+	left: auto;
+	display:none;
+}
+#close a {
+	color:#339;
+	font-weight:bold;
+}
+div.maincontent
+{
+	margin: 1em 4em 1em 4em;
+	padding: 0em;
+	width:450px;
+}
+
+hr {
+	margin-bottom:15px;
+}
+
+a:link,a:hover,a:visited,a:active
+{
+	font-weight:normal !important;
+	color:black;
+}
+
+h1, h2, h3, h4, p, ul, ol, li, div
+{
+	color:black;
+	line-height:160% !important;
+}
+
+div.datatable div.caption
+{
+	xborder-bottom:1px solid black;
+}
+
+div.datatable div.caption p
+{
+	background-color:white;
+	font-weight:bold;
+	padding-left:0px !important;
+}
+
+div.datatable td, div.datatable th
+{
+	border-color:black;
+	color:black;
+}
+
+hr {
+	background-color:white;
+	height:0px;
+	width:100%;
+	border:0px;
+	border-bottom:1px dashed black;
+}
+
+
+td.leftcontent
+{
+	width:95%;
+	vertical-align:top;
+}
+
+td.rightcontent
+{
+	width:5%
+}
+
+td.leftcontent ul
+{
+	padding-right:10px;
+}

@@ -1,0 +1,5 @@
+
+var blImageConfig={bl_swish:"https://lrc.businesslink.gov.uk/xgovsnl/images/%xgovs9k%/%xgovr3h%/%xgovk3w%/swish.jpg",bl_logo:"https://lrc.businesslink.gov.uk/xgovsnl/images/%xgovs9k%/%xgovr3h%/%xgovk3w%/logo.gif",bl_alt:"Businesslink home",bl_swish_default:"https://lrc.businesslink.gov.uk/xgovsnl/images/default/swish.jpg",bl_logo_default:"https://lrc.businesslink.gov.uk/xgovsnl/images/default/logo.gif"}
+var blStyleConfig={bl_css:"https://lrc.businesslink.gov.uk/xgovsnl/css/snl.css"}
+var ogdConfig={partner_logo:"https://lrc.businesslink.gov.uk/lrcVosaTestSite/xgovsnl/images/partnerlogo.gif",partner_alt:"Partner home"}
+var headerConfig={html_fragment:"<div id=\"brandingHeader\" style=\"background-image:url(%blImageConfig.bl_swish%)\">"+"<img alt=\"%ogdConfig.partner_alt%\" src=\"%ogdConfig.partner_logo%\" id=\"partner_logo\"/>"+"<img alt=\"%blImageConfig.bl_alt%\" src=\"%blImageConfig.bl_logo%\" id=\"blink_logo\"/>"+"</div>"}

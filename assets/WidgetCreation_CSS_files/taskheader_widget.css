@@ -1,0 +1,84 @@
+.tskhdr_task_title{
+	position:absolute;
+	margin-left: -7px;
+	margin-top: -10px;
+	padding-top:5px;
+	padding-left:10px;
+	height: 20px;
+	width: 240px;
+	background-color: #85A3C2;
+	color:white;
+}
+
+a .tskhdr_link .tskhdr_linkSection {
+	font-weight: normal;
+	color: #333399;
+	text-decoration: none;
+}
+
+.tskhdr_button_holder {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-top: 8px solid #1E3C70;
+  width: 760px;
+  position:relative;
+}
+
+.tskhdr_widget_body {
+  border-bottom: 1px solid #333333;
+  background-color: white;
+  margin: 10px 0 0;
+}
+
+a.btn_blue_med {
+	color: white!important;
+}
+
+#startUpHub .tskhdr_link a:visited {
+  color: white;
+}
+
+.tskhdr_title {
+  padding-left: 10px;
+}
+
+#dialog {
+	font-size: 0.9em;
+	display: none;
+}
+
+.addBtnHolder {
+	position:absolute;
+	top:0;
+	right:-10px;
+}
+
+
+#add_task_form {
+	width: 760px;
+	margin: 0;
+}
+
+#addBtn {
+	padding-right: 20px;
+}
+
+.tskhdr_widget_body .btn_add {
+	/*position: relative;*/
+	margin-left:10px;
+	margin-top:15px;
+}
+
+.tskhdr_widget_body .tskhdr_title {
+	width: 580px;
+}
+
+.tskhdr_form_holder {
+	padding-top: 35px;
+}
+
+.ui-dialog {
+    left: 1px !important;
+    position: absolute;
+    top: -79px !important;
+}

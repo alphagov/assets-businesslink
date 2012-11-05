@@ -1,0 +1,313 @@
+/* 
+	Campaign Specific Stylesheet 
+	Any custom CSS rules in this stylesheet should begin 
+	'#campaigns-body ' to ensure they only apply to the custom source code area of the page template.
+	
+	If used, Campaign CMS Banner header styles must begin '#campaigns-header '
+	If used, Campaing CMS 'Developed with' footer styles must begin '#campaigns-footer '
+	
+	The creation of any styles without leading '#campaigns-[header/body/footer]' must have prior approval from BusinessLink
+*/
+
+/* 	Campaigns Body Styles - All must start '#campaigns-body '  */
+
+#campaigns-body {}												/* Global Default: 'width:66em' limits to BusinessLink 730px width standard */
+#campaigns-body h1 {} 											/* Global Default: 'font-size:1.5em;' */
+#campaigns-body h2 {} 											/* Global Default: 'font-weight:bold;' */
+#campaigns-body p {}								 			/* Global Default: 'margin:1em 0; line-height:1.5em;' */
+#campaigns-body a {text-decoration:underline;}					/* Global Default: 'color:#333399;' Note: Visited colour is browser default purple */
+#campaigns-body td {}											/* Global Default: 'vertical-align:top;' */
+
+
+	
+#campaigns-body h1	{
+	font-size:18px;
+	font-weight:normal;
+	color:#009a3d;
+	margin-bottom:20px;
+	}
+
+#campaigns-body h2	{
+	font-size:14px;
+	font-weight:normal;
+	color:#009a3d;
+	margin-bottom:20px;
+	}
+	
+#campaigns-body p	{
+	font-size:11px;
+	line-height:1.2em;
+	margin-bottom:20px;
+	}
+
+#campaigns-body img {
+	border:0;
+	}
+
+#campaigns-body #container	{
+	width:859px;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;
+	}
+
+#campaigns-body #hmrcLogo	{
+	padding:0;
+	margin:10px 0 10px 0;
+	}
+		
+#campaigns-body #hmrcHeader	{
+	margin:0;
+	padding:0;
+	clear:both;
+	width:644px;
+	height:151px;
+	float:left;
+	background-color:#009a3d;
+	}
+	
+#campaigns-body #hmrcHeader img {
+	margin:90px 0 0 0;
+	}
+
+#campaigns-body #headerRight	{
+	width:84px;
+	height:151px;
+	padding:0 0 0 22px;
+	border-left:#ffffff 1px dashed;
+	float:left;
+	background-color:#66c28b;
+	}
+
+#campaigns-body #headerRight a	{
+	color:#000000;
+	font-size:14px;
+	text-decoration:none;
+	}
+
+#campaigns-body #footer	{
+	float:left;
+	clear:both;
+	width:650px;
+	padding-bottom:40px;
+	}
+
+#campaigns-body #footer ul	{
+	float:right;
+	list-style-type:none;
+	}
+
+#campaigns-body #footer li	{
+	font-size:13px;	
+	margin:0 15px 0 15px;
+	float:eft;
+	}
+	
+#campaigns-body #footer a	{
+	color:#009a3d;
+	}
+
+/*----------------------------Navigation -----------------------------*/
+
+#campaigns-body #nav {
+	height:30px;
+	}
+	
+#campaigns-body #nav ul	{
+	margin-left:0;
+	list-style-type:none;
+	}
+
+#campaigns-body #nav li	{
+	width:215px;
+	height:30px;
+	text-align:center;
+	background:transparent url('../Horizontal_Services_images/nav_bg_light_sac.gif') 0 0 no-repeat;
+	float:left;
+	list-style-type:none;
+	}
+
+#campaigns-body #nav a {
+	font-size:13px;
+	color:#000000;
+	text-decoration:none;
+	line-height:30px;
+	}
+
+#campaigns-body #nav #current	{
+	background:transparent url('../Horizontal_Services_images/nav_bg_sac.gif') 0 0 no-repeat;
+	}
+
+#campaigns-body #nav #current a	{	
+	color:#ffffff;
+}
+
+/* ------------------------------------- Home ---------------------------*/
+
+#campaigns-body #quote1 {
+	width:415px;
+	margin-top:20px;
+	padding-top:130px;
+	float:left;
+	background:#009a3d url('../Horizontal_Services_images/quote_home_top_sac.jpg') 0 0 no-repeat;
+	}
+
+#campaigns-body #quote1 p {
+	width:350px;
+	margin:20px 0 0 25px;
+	font-size:16px;
+	color:#fff;
+	}
+
+#campaigns-body #quote-bottom {
+	padding:0 0 0 0;
+	height:19px;
+	background:#66c28b url('../Horizontal_Services_images/quote_bottom_sac.gif') 0 0 no-repeat;
+	}
+
+
+/* ------------------------------------- link Lists ---------------------------*/
+
+#campaigns-body #list	{
+	width:183px;
+	float:left;
+	margin:120px 0 20px 30px;
+	}
+
+#campaigns-body #list2	{
+	width:350px;
+	float:left;
+	margin:0 0 0 20px;
+	}
+
+	
+#campaigns-body #list ul, #campaigns-body #list2 ul	{
+	list-style:none;
+	padding:0;
+	margin:0;
+	}
+
+#campaigns-body #list li, #campaigns-body #list2 li	{
+	margin:5px 0 0 0;
+	padding:0 0 5px 15px;
+	float:left;
+	background:transparent url('../Horizontal_Services_images/list_img_sac.gif') 0 3px no-repeat;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#5bbf24;
+	list-style-type:none;
+	}
+	
+#campaigns-body #list a, #campaigns-body #list2 a	{
+	width:183px;
+	font-size:13px; 
+	color:#000000;
+	text-decoration:none;
+	float:left;
+	}
+
+#campaigns-body #list2 a	{
+	width:260px;
+	font-size:13px; 
+	color:#000000;
+	text-decoration:none;
+	float:left;
+	}
+
+
+/*--------------------------------------- Doing It Online & Moira Video --------------------------------*/
+
+#campaigns-body #quote2 {
+	width:214px;
+	margin:20px 0 0 0;
+	float:left;
+	background:#009a3d url('../Horizontal_Services_images/quote_top_sac.gif') 0 0 no-repeat;
+	}
+
+#campaigns-body #quote2 p {
+	width:150px;
+	margin:60px 0 0 25px;
+	font-size:15px;
+	color:#fff;
+	background-color:#009a3d;
+	}
+
+#campaigns-body #quoteLink {
+	margin-top:20px;
+	padding:20px 20px 0 100px;
+	border-top:#fff 1px dashed;
+	font-size:16px;
+	background:#66c28b url('../Horizontal_Services_images/file_online_left_sac.gif') 0 0 no-repeat;
+}
+
+#campaigns-body #quoteLink a {
+	color:#000000;
+	text-decoration:none;
+	}
+
+#campaigns-body #quote2-bottom {
+	padding:0 0 0 0;
+	margin:0;
+	height:18px;
+	background:transparent url('../Horizontal_Services_images/quote_bottom_light_sac.gif') 0 0 no-repeat;
+}
+
+#campaigns-body #copy	{
+	width:410px;
+	float:left;
+	font-size:11px;
+	margin:55px 0 0 20px;
+	}
+
+#campaigns-body #video	{
+	width:410px;
+	float:left;
+	font-size:11px;
+	margin:58px 0 0 20px;
+	}
+
+#campaigns-body #transcript	{
+	width:645px;
+	float:left;
+	font-size:11px;
+	margin:58px 0 0 20px;
+	}
+
+#campaigns-body ol	{
+	padding-left:10px;
+	margin-left:20px;
+	margin-bottom:20px;
+	
+	}
+	
+#campaigns-body #copy a	{
+	padding-bottom:10px;
+	font-weight:bold;
+	color:#000000;
+	clear:both;
+	float:left;
+	}
+
+#campaigns-body #copy ul	{
+	width:300px;
+	float:left;
+	margin:0px 0 10px 0px;
+	}
+
+#campaigns-body #copy li	{
+	list-style-type:none;
+	margin:5px 0 0 0;
+	padding:0 5px 5px 15px;;
+	float:left;
+	background:transparent url('../Horizontal_Services_images/list_img_sac.gif') 0 3px no-repeat;
+	}
+
+#campaigns-body .reminders	{
+	margin:0 0 15px 10px;
+	padding:5px;
+	border:#009a3d solid 1px;
+	background:#66c28b;
+	width:400px;
+	}	
+

@@ -1,0 +1,80 @@
+/* job center plus specific CSS */
+
+#campaigns-body #cb-wrap {width:730px;}
+#campaigns-body #cb-header{margin-bottom:35px;}	
+
+#campaigns-body #cb-content{
+	width:602px;
+	padding-left:20px;
+	}	
+#campaigns-body #cb-content-top{
+	width:520px;
+	margin-bottom:8px;
+	}		
+#campaigns-body #cb-content-top h2{font-size:1.25em;}
+#campaigns-body #cb-content-main{margin-bottom:40px;}
+	
+#campaigns-body #cb-content-main .panel{
+	width:602px;
+	padding-top:6px;
+	background:#f8f8f8 url("../../Horizontal_Services_images/campaigns/jcb_panel_bg_top.gif") no-repeat top left;
+	}
+#campaigns-body #cb-content-main .panel .inner{
+	padding:7px 25px 33px 25px;
+	background: url("../../Horizontal_Services_images/campaigns/jcb_panel_bg_btm.gif") no-repeat bottom left;
+}
+
+#campaigns-body #cb-content-main .panel h3{font-size:1.1em;}
+#campaigns-body #cb-content-main .panel p{font-size:1em;}
+
+#campaigns-body #cb-content-main .panel .cta{
+	width:209px;
+	margin:22px 0 0 0;
+	background: url("../../Horizontal_Services_images/campaigns/jcp_cta_left.gif") no-repeat bottom left;
+}
+
+#campaigns-body #cb-content-main .panel .cta a{
+	display:block;
+	height:21px;
+	padding:8px 18px 5px 45px;
+	background: url("../../Horizontal_Services_images/campaigns/jcp_cta_right.gif") no-repeat bottom right;
+	font-size:1.1em;
+	font-weight:bold;
+	color:#fff;}
+
+#campaigns-body #cb-content-bottom h3{
+	font-size:1.1em;
+	margin-bottom:10px;
+	}
+
+#campaigns-body #cb-content-bottom ul{
+	margin-left:0;
+	padding-left:0;
+}
+#campaigns-body #cb-content-bottom ul li{
+	list-style-type:none;
+	margin:0 0 15px 0;
+	padding-left:15px;
+	background: url("../../Horizontal_Services_images/campaigns/green_arrow.gif") no-repeat 0 4px;	
+}
+
+#campaigns-footer{width:705px;padding-left:25px;}
+.developedwithlogo{display:block;margin-right:35px;margin-bottom:40px;}
+#footer{background:none;margin:0 0 0 25px;}
+* html #footer{background:none;margin:40px 0 0 25px;}
+
+.postit{margin: 0 !important;width: 1px;height: 1px;overflow: hidden;position: absolute;left: -10000px;}
+
+
+#cb-content-main:after,
+#cb-content-top:after,
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+* html #cb-content-main,
+* html #cb-content-top,
+* html .clearfix{height:1%;}

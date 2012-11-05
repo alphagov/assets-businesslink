@@ -1,0 +1,117 @@
+/*
+main #666699
+bg   #E5E5FF
+text #333333
+prefix global
+
+additional header bg colour #ccccff
+*/
+
+h1 {
+	color: #666699;
+}
+
+h2 {
+	color:#333333;
+}
+
+#title {
+	background-color:#666699;
+	/*layer-background-color:#666699;*/
+}
+#content #content1 #additionalcontent {
+	background-color:#E5E5FF;
+}
+#left #opencategory td.spine {
+	background-color:#666699;
+}
+#left #opencategory tr.highlight, 
+#left #opencategory tr.highlightfirst, 
+#left #opencategory tr.highlightlast {
+	background-color:#E7EBFF;
+}
+
+#content #additionalcontent form.quicklinks h3 {
+	color:#333333;
+}
+#content #additionalcontent form.quicklinks p label {
+	color:#333333;
+}
+#content #additionalcontent form.quicklinks span {
+	color:#333333;
+}
+
+div.boxtop td.heading {
+	background-color:#66669a;
+	background-image:url("/syntegra/images/boxtop_top2.gif");
+}
+div.boxtop td.footer {
+	background-color:#666699;
+	background-image:url("/syntegra/images/boxtop_footer2.gif");
+}
+div.boxtop td.corner {
+	background-image:url("/syntegra/images/boxtop_corner.gif");
+}
+div.boxtop td.text {
+	background-color:#E7EBFF;
+}
+
+
+#contentflushtop #layer23 #maincontent {
+	background-color:#E7EBFF;
+	/*layer-background-color:#E7EBFF;*/
+}
+#contentflushtop img.footerline {
+	background-color:#666699;
+}
+
+div.dottedbox td.title {
+	background-color:#ccccff;
+}
+input.go {
+	background-color:#ccccff;
+}
+
+
+#search1 #additionalcontent {
+	background-color:#E5E5FF;
+}
+
+div.a-z table td {
+	background-color:#ccccff;
+}
+
+div.feed {
+	border:1px solid #ccccff;
+}
+
+
+/* BASICBOX */
+div.basicbox td.title {
+	background-color:#666699;
+}
+div.basicbox td.title h3,
+div.basicbox td.title h4 {
+	color:white;
+}
+div.basicbox td.highlighttext {
+	background-color:#E5E5FF;
+}
+/* END BASICBOX */
+
+
+
+
+
+#additionalcontent div.mainpanel,
+#additionalcontent div.extrapanel {
+	background-color:#E5E5FF;
+}
+
+p.setvalue {
+	background-color:#E9EBF4;
+}
+
+div.trainingoptions td {
+	background-color:#CBCBFF;
+}

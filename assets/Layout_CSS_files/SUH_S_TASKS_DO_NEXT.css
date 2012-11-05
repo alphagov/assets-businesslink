@@ -1,0 +1,78 @@
+.slot50 {
+  width: 365px;
+}
+
+.marginRight50 {
+	margin-right: 30px;
+}
+
+#slotHolder .slotH {
+	float: left;
+}
+
+#loc-8, #loc-10 {
+	clear: both;
+}
+
+.marginRight33 {
+	margin-right: 8px;
+}
+
+.slot33 {
+  width: 248px;
+  padding-top: 40px;
+}
+
+#loc-8 h2.widget_title {
+    border-bottom: 1px solid #949494;
+	padding: 30px 10px 10px 0px;
+	margin-bottom: 0;
+}
+
+#loc-8 .cw_bodySection {
+	border-bottom: 1px solid #949494;
+}
+
+#loc-9 h2.widget_title {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #949494;
+    margin-bottom: 0;
+    padding: 20px 10px 10px 0;
+}
+
+#loc-9 .widget_body_link {
+    background: url("/presentation-suh/portal-startuphub/images/grey_arrowhead.gif") no-repeat scroll 0 0.5em transparent;
+    color: #1E3C70;
+    display: block;
+    font-weight: normal !important;
+    padding: 5px 0 3px 15px;
+}
+
+#loc-9 .cw_bodySection {
+	border-bottom: 1px solid #949494;
+		background-color:#ededed;
+		    padding-top: 5px;
+}
+
+
+
+#loc-9 .cw_grey_bg_no_body {
+    border-bottom: 0px solid #949494;
+    border-top: 0px solid #949494;
+}
+
+#loc-8, #loc-9 {
+	padding-bottom: 20px;
+}
+
+#loc-10 {
+	border-top: 4px solid #1E3C70;
+}
+
+#loc-10 .cw_widget {
+	border-bottom: none;
+}
+
+#loc-4{
+    float:left;
+}

@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	background-color: white;
+}
+#content {
+	margin: 20px 60px 20px 40px;
+	padding: 0em;
+}	
+#close {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:20px 40px 0px 0px;
+	text-align:right;
+}
+#close a {
+	color:#339;
+	font-weight:bold;
+}
+
+a {
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+}
+a:link {
+}
+a:visited {
+}
+a:active {
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+h2 {
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold;
+}
+h3 {
+	font-size: 13px;
+	margin: 0;
+	font-weight: bold;
+}
+h4 {
+	font-size: 12px;
+	margin: 0;
+	font-weight: bold;
+}
+h5 {
+	font-size: 12px;
+	margin: 0;
+	font-weight: bold;
+}
+h6 {
+	font-size: 12px;
+	margin: 0;
+	font-weight: bold;
+}
+
+img {
+	padding: 12px 0px 12px 0px;
+}
+ol, ul, li {
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 2px;
+	margin-bottom: 1px; 
+}
+p,td,th {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+strong, b {
+	font-weight: bold;
+}
+hr {
+	height:0px;
+	width:80%;
+	border-bottom:1px dotted black;
+	margin-top:12px;
+}
+
+
+
+
+
+
+div.datatable table {
+	width:100%;
+	margin-top:-6px;
+	margin-bottom:12px;
+}
+div.datatable th {
+	text-align:left;
+	font-weight:normal;
+}
+div.datatable td {
+	text-align:left;
+	font-weight:normal;
+}
+div.datatable th.cornerhead {
+	font-weight:bold;
+	padding:0px 5px 0px 0px;
+}
+div.datatable th.colhead {
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+}
+div.datatable td.data {
+	padding:0px 5px 0px 5px;
+}
+div.datatable div.caption {
+	text-align:left;
+}
+div.datatable div.caption p {
+	margin:0px;
+	font-weight:bold;
+}
+	

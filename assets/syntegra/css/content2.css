@@ -1,0 +1,291 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1.0: 20/02/04  */
+/* VERSION 2.0: 05/03/04 - cleaned up font-sizes */
+/* VERSION 2.1: 05/05/04 - added right margin to links */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* EDIT 24-09-07 by PB: .toolspanel appended to existing extrapanel style ----- */
+/* Bug 3079: Removed height attribute from associatedlogos ----*/
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:143px;
+		left:192px;
+		width:555px;
+		background-color:white;
+		/*layer-background-color:white;*/
+		border:0px solid black;
+	}
+	#maincontent {
+		float:left;
+		width:337px;
+		border:0px solid black;
+		padding-top:19px;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	#additionalcontent {
+		float:right;
+		width:181px;
+	}
+/* END LAYOUT */
+
+        #casestudy td.highlighttext h3
+        {
+                margin-left:10px !important;
+        }
+        
+        #casestudy td.highlighttext h3 a
+        {
+                background-image:url("/syntegra/images/list_arrow.gif");
+                background-repeat:no-repeat;
+                padding-left:20px;
+        }
+/* SHARED STYLES */
+	#additionalcontent div.mainpanel,
+	#additionalcontent div.extrapanel,
+	#additionalcontent div.toolspanel {
+		width:181px;
+		background-color:#eee;
+		background-image:url("../../syntegra/images/px_trans.gif"); 
+		background-position:top left;
+		background-repeat:no-repeat; /* these 3 lines seem to be necessary for the bg to display in nn4.x */
+	}
+	#additionalcontent div.mainpanel {
+		padding-top:52px;
+		background-image:url("../../syntegra/images/content_boxtop_corner.gif"); 
+	}
+	
+	#additionalcontent div.extrapanel {
+		margin-top:20px;
+		padding-top:25px;
+	}
+	
+	#additionalcontent div.toolspanel {
+		margin-top:20px;
+		margin-bottom:20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-top: 5px solid #66cccc;
+	}	
+	
+	#additionalcontent h3 {
+		margin:0em 15px 0 25px;
+	}
+	#additionalcontent p {
+		margin:0px 15px 0 25px;
+	}
+	#additionalcontent li {
+		margin-right: 15px;
+	}
+	#additionalcontent p.hr {
+		line-height:normal;
+		padding-top:12px;
+	}
+	
+	#additionalcontent img.bar {
+		margin-top:25px;
+		display:block;
+	}
+	
+	span.stretch {
+		clear:left;
+	}
+	
+	#content .hr img {
+		margin-left:0;
+	}
+/* END SHARED STYLES */
+
+
+/* CASE STUDIES */
+
+	#casestudy table
+	{
+		width:181px;
+	}
+
+	#casestudy td.highlighttext h4
+	{
+		margin:10px 14px 4px 14px !important;
+		padding:0px !important;
+	}
+
+	#casestudy td.highlighttext p
+	{
+		margin:0px 14px 8px 14px !important;
+		padding:0px;
+	}
+
+	#casestudy td.highlighttext ul
+	{
+		margin:0px 10px 8px 14px !important;
+		padding:0px;
+	}
+
+	#casestudy td.highlighttext li
+	{
+		margin:0px 0px 4px 16px !important;
+		padding:0px;
+	}
+
+	#casestudy td.title h4
+	{
+		margin:1px 10px 2px 14px !important;
+		padding:0px;
+	}
+
+	#casestudy td.text ul.links
+	{
+		margin:3px 0px 0px 0px !important;
+		padding:0px !important;
+	}
+	
+	#casestudy td.text ul.links li
+	{
+		margin:0px 0px 0px 0px !important;
+		padding:0px 0px 3px 14px !important;
+	}
+
+/* END CASE STUDIES */
+
+
+/* ASSOCIATEDLOGOS */
+	#associatedlogos {
+		border:0px solid black;
+		clear: both;
+	}
+	#associatedlogos a:link:hover { 
+		color:#666;
+	}
+	#associatedlogos a:visited { 
+		color:#666;
+	} 
+	#associatedlogos a:visited:hover { 
+		color:#666;
+	}
+	#associatedlogos a:link { 
+		color:#666;
+	}
+	#associatedlogos span {
+		font-size:11px;
+		font-weight:normal;
+		margin:0px;
+		padding:0px;
+	}
+	#associatedlogos #developedwith div.developedlogo {
+		width:145px;
+		float:left;
+		border:0px solid white;
+	}
+/* END ASSOCIATEDLOGOS */
+
+/* ADDED THIS FOR PUBLICATION IMAGES */
+	#pubimage {
+		float:right;
+		width:181px;
+		padding-top:57px;
+	}
+/* END PUBLICATION IMAGES */
+
+/* Start of Exisiting Advanced Styles */
+
+
+/* VERSION 1.0: 20/02/04  */
+/* VERSION 2.0: 05/03/04 - cleaned up font-sizes. */
+
+/* ----- Synchronised with BTs live servers on 13/08/07 ----- */
+/* 30-Feb-08 by AS: - added new developedWithBox to hold new logo on guide page */
+
+
+/* LAYOUT */
+	#content {
+		width:550px;
+	}
+	#additionalcontent {
+		margin-bottom:20px;
+	}
+	
+	#pubimage {
+		margin-bottom:20px;
+	}
+/* LAYOUT */
+
+
+/* SHARED STYLES */
+	* html>body ul li.hr img {
+		display:block;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	
+	#additionalcontent span.hr {
+		margin-top:0em;
+	}
+	#additionalcontent span.hr img {
+		margin-top:0em;
+	}
+/* END SHARED STYLES */
+
+
+/* MAINPANEL */
+	#additionalcontent div.mainpanel {
+		padding-top:57px;
+	}
+	html>body #additionalcontent div.mainpanel {
+		padding-top:51px;
+	}
+/* END MAINPANEL */
+	
+
+/* ASSOCIATEDLOGOS */
+	#associatedlogos br {
+		font-size: 1px;
+	}
+	#associatedlogos #developedwith div.developedlogo {
+		width:134px;
+	}
+	#associatedlogos #developedwith div.developedlogo img {
+		border-top:4px solid white;
+		border-bottom:5px solid white;
+	}
+/* END ASSOCIATEDLOGOS */
+
+
+
+div#developedWithBox {width: 161px; padding: 0 10px 10px 10px; }
+div#developedWithBox dl dt {background: url(/syntegra/images/bg-dotted_bdr.gif) repeat-x left bottom; padding-bottom: 12px; margin-bottom: 5px;}
+div#developedWithBox dl dd {margin: 0; padding: 0;}
+div#developedWithBox dl dd, div#developedWithBox dl dd a {font-weight: normal; color: #333333;}
+div#developedWithBox dl dd a {display: block; width: 100%;}
+div#developedWithBox dl dd a img {display: block; margin-bottom: 14px; border: none;}
+div#developedWithBox dl dd a span {display: block;}
+
+
+/* PIP */
+div.pip div#associatedlogos {
+	height:auto;
+}
+div.pip div#maincontent div#startTrans a {
+	float:left;
+	background:transparent url(/syntegra/images/chevron_right_purple.gif) no-repeat scroll 95% 50%;
+	border:1px solid #a9a9de;
+	display:block;
+	padding:0.7em 4em 0.7em 2em;
+}
+
+div.pip #associatedlogos #developedwith div.developedlogo{
+	width:auto;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+
+
+
+	

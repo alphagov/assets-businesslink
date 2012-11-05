@@ -1,0 +1,303 @@
+/********************** GENERAL STYLES ***********************/
+
+#campaigns-body {
+	padding:0px;
+	width:960px;
+}
+
+#campaigns-body #content{
+	width:960px;
+}
+
+#campaigns-body .right{
+	float:right !important;
+}
+
+#campaigns-body table{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body td{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body tr{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body .hide{
+	display:none !important;
+}
+
+#campaigns-body .clear-both{
+	clear:both;
+	height:0px;
+	line-height:0px;
+	font-size:0px;
+}
+
+#campaigns-body .margin-left-10{
+	margin-left:10px !important;
+	display:inline;
+}
+
+#campaigns-body .margin-top-30{
+	margin-top:30px !important;
+}
+
+#campaigns-body .margin-right-20{
+	margin-right:20px !important;
+}
+
+#campaigns-body .margin-top-10{
+	margin-top:10px !important;
+}
+
+#campaigns-body .margin-top-5{
+	margin-top:5px !important;
+}
+
+/********************** GENERAL STYLES ***********************/
+
+
+
+/************************** HEADER ***************************/
+
+#campaigns-body #bis-header{
+	padding:15px 0px 30px 0px;
+}
+
+#campaigns-body #bis-logo{
+	padding:0px 0px 0px 30px;
+	float:left;
+}
+
+#campaigns-body #bis-main-nav{
+	padding:0px 25px 0px 0px;
+	margin:25px 0px 0px 0px;
+	float:right;
+	font-size:120%;
+}
+
+#campaigns-body #bis-main-nav ul,
+#campaigns-body #bis-main-nav li{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+#campaigns-body #bis-main-nav li{
+	float:left;
+	margin:0px 0px 0px 7px;
+	padding:0px 0px 0px 15px;
+}
+
+#campaigns-body #bis-main-nav li a:link,
+#campaigns-body #bis-main-nav li a:visited{
+	color:#000000;
+	font-weight:bold;
+	padding:8px 15px 8px 0px;
+	float:left;
+}
+
+#campaigns-body #bis-main-nav li.engagement{
+	background:url(../../Horizontal_Services_images/campaigns/bis_nav_bg.gif) top left no-repeat;
+}
+
+#campaigns-body #bis-main-nav li.engagement a{
+	background:url(../../Horizontal_Services_images/campaigns/bis_nav_bg.gif) top right no-repeat;
+}
+
+#campaigns-body #bis-main-nav li.case{
+	background:url(../../Horizontal_Services_images/campaigns/bis_nav_bg.gif) left -33px no-repeat;
+}
+
+#campaigns-body #bis-main-nav li.case a{
+	background:url(../../Horizontal_Services_images/campaigns/bis_nav_bg.gif) right -33px no-repeat;
+}
+
+#campaigns-body #bis-title{
+	background:url(../../Horizontal_Services_images/campaigns/bis_home_h1.gif) 45px 30px no-repeat #e7e767;
+	padding:25px 50px;
+	font-size:190%;
+	font-weight:bold;
+	color:003366;
+	width:860px;
+	float:left;
+}
+
+#campaigns-body .case #bis-title{
+	background:url(../../Horizontal_Services_images/campaigns/bis_case_h1.gif) 45px 30px no-repeat #a8c6e3 !important;
+}
+
+#campaigns-body #bis-title h1{
+	overflow:hidden;
+	text-indent:-2000px;
+}
+
+/************************** HEADER ***************************/
+
+
+
+/************************* CONTENT ***************************/
+
+#campaigns-body .col-592{
+	width:592px;
+	float:left;
+}
+
+#campaigns-body .col-460{
+	width:460px;
+	float:left;
+}
+
+#campaigns-body .col-470{
+	width:470px;
+	float:left;
+}
+
+#campaigns-body .text{
+	color:#333333;
+	padding:0px 0px 0px 35px;
+	font-size:130%;
+}
+
+#campaigns-body .text h2{
+	font-size:120%;
+	line-height:1.4em;
+	margin:0px 0px 30px 0px;
+}
+
+#campaigns-body .text p{
+	margin:0px 0px 20px 0px;
+}
+
+#campaigns-body .col-340{
+	width:340px;
+	float:left;
+}
+
+#campaigns-body .yellow-middle{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_middle.gif) top left repeat-y;
+	width:340px;
+}
+
+#campaigns-body .yellow-top{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_top.gif) top left no-repeat;
+	width:340px;
+}
+
+#campaigns-body .yellow-bottom{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_bottom.gif) bottom left no-repeat;
+	width:312px;
+	padding:10px 14px;
+}
+
+#campaigns-body .filled{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_filled_middle.gif) top left repeat-y !important;
+}
+
+#campaigns-body .filled .yellow-top{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_filled_top.gif) top left no-repeat !important;
+}
+
+#campaigns-body .filled .yellow-bottom{
+	background:url(../../Horizontal_Services_images/campaigns/bis_yellow_filled_bottom.gif) bottom left no-repeat !important;
+}
+
+#campaigns-body .yellow-bottom a:link,
+#campaigns-body .yellow-bottom a:visited{
+	text-decoration:none;
+}
+
+#campaigns-body .yellow-bottom a,
+#campaigns-body .yellow-bottom p{
+	color:#000000;
+	font-size:90%;
+	line-height:1.4em;
+	padding:0px;
+	margin:0px;
+}
+
+#campaigns-body .yellow-bottom a{
+	padding:0px 20px 5px 0px;
+	background:url(../../Horizontal_Services_images/campaigns/bis_arrow.gif) right no-repeat;
+	display:block;
+}
+
+#campaigns-body .filled a{
+	background:url(../../Horizontal_Services_images/campaigns/bis_arrow_filled.gif) right no-repeat !important;
+}
+
+#campaigns-body .yellow-bottom a{
+	color:#000000;
+	font-size:90%;
+	line-height:1.4em;
+}
+
+#campaigns-body .yellow-bottom a span{
+	color:#3366cc;
+	font-weight:bold;
+	font-size:120%;
+}
+
+#campaigns-body .video{
+	background-color:#fdfdfd;
+	border:1px solid #cccc00;
+}
+
+#campaigns-body .video-inner{
+	padding:0px 0px 0px 10px;
+}
+
+#campaigns-body .video-title{
+	color:#003366;
+	padding:10px 10px;
+	background-color:#fafad6;
+	font-size:110%;
+}
+
+#campaigns-body .video-inner-left{
+	width:100px;
+	float:left;
+	margin:7px 0px 0px 0px;
+}
+
+#campaigns-body .video-inner-left p{
+	line-height:1.3em !important;
+	margin:0px 0px 7px 0px;
+	font-size:90%;
+}
+
+#campaigns-body .video-inner-right{
+	width:340px;
+	float:right;
+}
+
+#campaigns-body .bis-links a:link,
+#campaigns-body .bis-links a:visited{
+	color:#3366cc;
+}
+
+#campaigns-body .bis-links ul{
+	padding:4px 0px;
+	margin:0px;
+	float:left;
+}
+
+#campaigns-body .bis-links li{
+	padding:0px;
+	margin:0px 10px 0px 0px;
+	list-style-type: none;
+	float:left;
+}
+
+#campaigns-body .bis-links a{
+	padding:0px 0px 0px 10px;
+	float:left;
+	background:url(../../Horizontal_Services_images/campaigns/bis_link_arrow.gif) left no-repeat;
+}
+/************************* CONTENT ***************************/

@@ -1,0 +1,403 @@
+/*** General Styles ***/
+
+#campaigns-body {
+	padding:0px;
+	width:952px;
+	margin-left:10px;
+	padding-top:22px;
+}
+
+#campaigns-body table{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body td{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body tr{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#campaigns-body .clear-both {
+	clear:both;
+	font-size:0px;
+	height:0px;
+	line-height:0px;
+}
+
+#content-right{
+	width:220px;
+	float:left;
+	margin-left: 18px;
+}
+
+#content-left{
+	float:left;
+	width:704px;
+}
+
+#campaigns-body .margin-top-30 {
+padding-top: 40px;
+}
+
+/*** Feature box ***/
+
+#feature img{
+	display:block;
+}
+
+#feature #feature-content{
+	background-color:#ddeddd;
+	border-left:2px solid #A2C7E0;
+	border-right:2px solid #A2C7E0;
+	border-bottom: 2px solid #FFFFFF;
+	border-top: 2px solid #A2C7E0;
+	padding:8px 16px;
+	height:20px;
+	margin-top: -11px;
+	*margin-top: -19px;
+	overflow:hidden;
+}
+
+#feature #feature-content div.feature-content-item{
+	height:56px;
+}
+
+#feature #feature-content span{
+	font-size:110%;
+	color:#095AA6;
+	font-weight:bold;
+	display:block;
+}
+
+#feature #feature-content ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	padding-top:6px;
+}
+
+#feature #feature-content ul li{
+	display:block;
+	float:left;
+
+}
+
+#feature #feature-navigation ul li a{
+	color:#FFFFFF;
+	padding-right:20px;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_feature_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	font-size:100%;
+	line-height:17px;
+	height:17px;
+	display:block;
+	float:left;
+}
+
+#feature #feature-navigation{
+	background-color:#095AA6;
+	border-left:2px solid #A2C7E0;
+	border-right:2px solid #A2C7E0;
+	padding:10px 0px 10px 0px;
+}
+
+#feature #feature-navigation ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+#feature #feature-navigation ul li{
+	padding-right:0px;
+	margin-right:0px;
+	border-right:1px solid #FFFFFF;
+	display:block;
+	float:left;
+	width:231px;
+	line-height:26px;
+}
+
+#feature #feature-navigation ul li.last{
+	border-right:none !important;	
+	margin-right:0px !important;
+	padding-right:0px !important;
+}
+
+#feature #feature-navigation ul li a{
+	color:#FFFFFF;
+	font-size:120%;
+	*font-size:115%;
+	font-weight:bold;
+	margin-left:50px;
+	*margin-left:20px;
+}
+
+#feature #feature-navigation ul li a.second{
+	padding-left:25px;
+	*padding-left:30px;
+}
+
+#feature #feature-navigation ul li a.third{
+	padding-left:30px;
+	*padding-left:40px;
+}
+
+#feature #feature-bottom{
+	height:7px;
+	line-height:7px;
+	font-size:7px;
+	overflow:hidden;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_feature_bottom.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+#feature #feature-top{
+	height:214px;
+	line-height:7px;
+	font-size:1em;
+	z-index:10;
+	overflow:hidden;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_feature_coggs.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+#feature #feature-top img{
+float:right;
+*margin: 0px 4px 0 0;
+margin: 3px 1px 0 0;
+}
+
+
+#feature #feature-top .content {
+padding: 0px !important;
+margin: 0px !important;
+}
+
+#feature #feature-top .content h1 {
+width:480px;
+font-size: 1.9em;
+font-weight: bold;
+color: #095AA6;
+padding: 20px 0px 20px 20px;
+margin: 0 10px 0 0;
+}
+
+#feature #feature-top .content p {
+width:460px;
+font-size: 1em;
+padding: 0px 0px 25px 20px;
+margin: 10px 10px 0 0;
+
+}
+
+#feature #feature-middle {
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_feature_middle.gif);
+	background-position:top left;
+	background-repeat:repeat-y;
+	margin-top:5px;
+	padding: 0
+}
+
+/*** 4 Boxes and case studies content ***/
+
+div.boxes-left,
+div.boxes-right{
+	width:338px;
+	float:left;
+}
+
+div.boxes-right{
+	margin-left:24px;
+}
+
+div.green-box-338 div.white-content{
+	position:relative;
+	height:128px;
+}
+
+div.green-box-338 div.white-content img{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+div.green-box-338 div.white-content div.white-content-right{
+	width:190px;
+	margin-left:110px;
+}
+
+div.green-box-220,
+{
+margin-top:0px;
+}
+
+div.green-box-338 {
+margin-top:15px;
+}
+
+div.green-box-220{
+	
+}
+
+div.green-box-220 span,
+div.green-box-338 span{
+	font-size:100%;
+	font-weight:bold;
+	color:#095AA6;
+	display:block;
+	padding-bottom:6px;
+}
+
+div.green-box-220 div.green-box-content,
+div.green-box-338 div.green-box-content{
+	padding:10px 10px 4px 10px;
+	background-color:#DDEDDD;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_green_top_220.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+
+div.green-box-338 div.green-box-content{
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_green_top_338.gif);
+}
+
+div.green-box-220 div.bottom,
+div.green-box-338 div.bottom{
+	height:6px;
+	line-height:6px;
+	font-size:6px;
+	overflow:hidden;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_green_bottom_220.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+div.green-box-338 div.bottom{
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_green_bottom_338.gif);
+}
+
+div.white-content{
+	background-color:#FFFFFF;
+	border-top:1px solid #BBDBBB;
+	padding:8px;
+	*padding:6px;
+}
+
+
+div.green-box-338 img {
+padding-bottom:15px;
+}
+
+div.white-content ul,
+div.white-content ul li{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+div.white-content ul li{
+	padding-left:15px;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_blue_arrow_on_white.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	margin-bottom:6px;
+	*margin-bottom:8px;
+}
+
+div.white-content ul li a{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+div.white-content ul li a:hover{
+	text-decoration:underline;
+	
+}
+
+#campaigns-body .white-content .link {
+width:120px;
+*width:82px;
+margin-top:10px;
+line-height:17px;
+}
+
+#campaigns-body .white-content .linkarrow {
+background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_blue_arrow_on_white.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+
+
+#campaigns-body .white-content .cs img {
+width:70px;
+padding: 1px 0px 0 5px;
+*padding: 0px 0px 0 0px;
+margin-bottom: 10px;
+float:right;
+}
+
+#campaigns-body #content-right ul {
+width:95px;
+list-style-type: none;
+margin: 0px 20px 10px 0px;
+*margin: 0px 20px 5px 0px;
+padding: 0px 10px 0 0;
+}
+
+#campaigns-body #content-right li {
+margin: 0 0 15px 0px;
+*margin: 0 0 5px 0px;
+padding: 0 0 5px 15px;
+list-style-type: none;
+background: transparent url(../../Horizontal_Services_images/campaigns/portal/bba_blue_arrow_on_white.jpg) 0px 3px no-repeat;
+}
+
+#campaigns-body .white-content .cs  a {
+
+}
+
+#campaigns-body .margin-bottom-15 {
+margin-bottom: 15px;
+}
+
+/*** Small link box content ***/
+
+div.green-box-solid-220{
+	margin-top:10px;
+}
+
+
+div.green-box-solid-220 a {
+	display:block;
+	margin: 0px 0 10px 0;
+	line-height:19px;
+	background-image:url(../../Horizontal_Services_images/campaigns/portal/bba_white_content_a.jpg);
+	background-repeat:no-repeat;
+	background-position:120px 95px;
+}
+
+div.green-box-solid-220 div.green-middle{
+	background: url(../../Horizontal_Services_images/campaigns/portal/bba_solid_green_220_middle.gif) top left repeat-y;
+}
+
+div.green-box-solid-220 div.green-top{
+	background: url(../../Horizontal_Services_images/campaigns/portal/bba_solid_green_220_top.gif) top left no-repeat;
+}
+
+div.green-box-solid-220 div.green-bottom{
+	background: url(../../Horizontal_Services_images/campaigns/portal/bba_solid_green_220_bottom.gif) bottom left no-repeat;
+	padding:30px 30px;
+	*padding: 30px 30px;
+}
+
+
+

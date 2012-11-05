@@ -1,0 +1,13 @@
+#HAmapsTop {
+width: 800px;
+}
+#HAmapsLHC {
+width: 600px;
+float: left;
+}
+#HAmapsRHC {
+width: 150px;
+float: right;
+margin-left: 30px;
+margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+/* 
+	Print CSS 
+	
+	Current Version v1.10
+	--------------------------------------------
+	25/03/08 v1.00 - Initial version produced - APH
+	02/05/08 v1.01 - Added Campaign specific IDs to width:auto to ensure better print support - APH
+	16/05/08 v1.10 - Added wrapping @media print {} round whole stylesheet to workaround IE5-5.5 bug in understanding media=print on calls to imported stylesheets - APH
+*/
+
+@media print {
+
+#header {display:none;}
+#navigation {display:none;}
+#footer {display:none;}
+
+#maincontent {left:auto; top:auto; width:auto;}
+
+.limit-width, #content, #campaigns-header, #campaigns-body, #campaigns-footer {width:auto !important;}
+
+}

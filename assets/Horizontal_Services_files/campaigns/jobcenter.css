@@ -1,0 +1,60 @@
+/* General styles */
+
+#campaigns-body {padding:20px 0 0 10px; width:90em; font-family:Arial, Helvetica, sans-serif;}
+
+
+#headercontainer {width:90em;padding:0;margin:0px;background:#75c044; float:left;}
+#headercontainer img{float:right; margin:35px 55px 0 0;}
+#headercontainer h1{margin:0; padding:20px 0 22px 30px; color:#fff;line-height:4.2em; float:left;}
+#headercontainer h1 strong{ font-size:3.7em;  font-weight:600;}
+#headercontainer h1 span{ font-size:2em; color:#fff;}
+.clearboth { clear:both;}
+
+#contentcontainer {	width:86em; padding:0; margin:0px 0 0 30px; clear:both;}
+#contentcontainer p{ font-size:1.5em; font-weight:bold; padding:0; margin:0 0 10px 0; width:40em; letter-spacing:.002em; line-height:1.2em; float:left;}
+
+
+
+	#campButCont { float:left; margin:40px 0; width:100%;}
+	#campButCont a.add {
+    background: transparent url('../../Horizontal_Services_images/campaigns/buttonCamRight.gif') no-repeat scroll right top; 
+    bottom: 3px;
+    display: block;
+    float: left;
+    height: 58px;
+    padding-right: 19px;
+    position: relative;
+    text-decoration: none;
+}
+
+#campButCont a.add span {
+/* Background left image */ 
+	background: transparent url('../../Horizontal_Services_images/campaigns/buttonCamLeft.gif') no-repeat; 
+	display: block;
+	line-height: 53px; /* CHANGE THIS VALUE ACCORDING TO BUTTON HEIGHT */
+	padding: 0 0 5px 12px;
+	color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+
+
+
+} 
+
+#campButCont a:focus.add {
+/* Background right image */ 
+background: none repeat scroll 0 0 #ffffd2 !important; 
+color: #000;
+height:25px;
+} 
+
+#campButCont a:focus.add span {
+/* Background left image */ 
+background: none repeat scroll 0 0 #ffffd2 !important; 
+color: #000;
+} 
+
+
+#campButCont a.add:hover span{
+text-decoration:underline;
+}

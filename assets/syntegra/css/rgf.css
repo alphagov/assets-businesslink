@@ -1,0 +1,911 @@
+/* VERSION 1.0: 24.04.08 - Merge basic and advanced styles */
+
+
+/* Start of Exisiting Basic Styles */
+/* VERSION 1: 09/03/04 */
+/* 04 June 07: New theme Environment and efficiency added */
+
+/* LAYOUT */
+	#content {
+		z-index:5;
+		position:absolute;
+		top:122px;
+		left:200px;
+		width:544px;
+		background-color:white;
+		border:0px solid black;
+	}
+	#maincontent {
+		padding-top:0px;
+		border:0px solid black;
+	}
+	html>body #maincontent {
+		min-height:300px;
+	}
+	
+/* END LAYOUT */
+
+
+	h2 {
+		font-size:14px;
+	}
+	
+	p {
+		width:400px;
+	}
+	
+	div.warning p,
+	div.warning ul {
+		color:#c00;
+	}
+	 
+	
+/* STEPS */
+	div.steps {
+		margin-top:20px;
+	}
+	/* div.steps p {
+		color: #666699;
+		margin-top:12px;
+		margin-left:8px;
+		margin-bottom:0;
+	} */
+	div.steps em {
+		color: #396;
+		font-style: normal;
+		font-weight:bold;
+	}
+	div.steps td {
+		text-align:center;
+	}
+	div.steps tr.text td {
+		text-align:center;
+		vertical-align:top;
+	}
+	div.steps tr.text td span {
+		color: #666699;
+	}
+	div.steps td.one,
+	div.steps td.two,
+	div.steps td.three,
+	div.steps td.four,
+	div.steps td.five,
+	div.steps td.six {
+		width: 90px;
+	}
+/* END STEPS */
+
+
+/* QUESTIONNAIRE */
+	
+	div.questionnaire p,
+	div.simple-normal p,
+	div.simple-special p {
+		color:#666;
+	}
+	div.simple-special div.pair,
+	div.questionnaire div.pair {
+		border:0.1px solid white;
+		width:100%;
+	}
+	html>body div.questionnaire div.pair {
+		border:0;
+	}
+	
+	div.questionnaire div.question {
+		width:49%;
+		float:left;
+	}
+	div.simple-special div.question {
+		width:33%;
+		float:left;
+	}
+	div.question div.info {
+		color:#666;
+		margin-left:18px;
+		clear:left;
+	}
+	* html div.question div.info {
+		margin-left:23px;
+	}
+	
+/* END QUESTIONNAIRE */
+
+
+/* BOTTOM NAV */
+	div.confirm-bottom {
+		width:100%;
+		margin-bottom:20px;
+		border:0.1px solid black;
+	}
+	div.confirm-bottom div.hr {
+		padding-bottom:6px;
+	}
+	div.confirm-bottom td.prev {
+		width: 50%;
+		text-align: left;
+	}
+	div.confirm-bottom td.next {
+		width: 50%;
+		text-align:right;
+	}
+	
+	/* NEW CLASS ADDED FOR THE 400px CONFIRMATION BAR */
+	div.confirm-bottom-narrow {
+		width:100%;
+		margin-bottom:20px;
+		border:0.1px solid black;
+	}
+	div.confirm-bottom-narrow div.hr {
+		padding-bottom:6px;
+	}
+	div.confirm-bottom-narrow td.prev {
+		width: 50%;
+		text-align: left;
+	}
+	div.confirm-bottom-narrow td.next {
+		width: 50%;
+		text-align:right;
+	}
+	
+/* END NAV */
+
+
+	h3.question
+	{
+		margin-bottom:10px;
+	}
+
+
+	div.column1 {
+		width:75%;
+		float:left;
+	}	
+	
+	div#rgfresults
+	{
+		padding-bottom:10px;
+	}
+	/* places white cutout in coloured blocks */
+	#rgfresults div.finance,
+	#rgfresults div.growthandinnovation,
+	#rgfresults div.itandecommerce,
+	#rgfresults div.grantsandadvice,
+	#rgfresults div.startingabusiness,
+	#rgfresults div.salesandmarketing,
+	#rgfresults div.buyingandselling,
+	#rgfresults div.internationaltrade,
+	#rgfresults div.taxandreporting,
+	#rgfresults div.employingpeople,
+	#rgfresults div.healthandenvironment,
+	#rgfresults div.environmentandefficiency,
+	#rgfresults div.sellingabusiness,
+	#rgfresults div.inyoursector,
+	#rgfresults div.global {
+		width:540px;
+		background-image:url("/syntegra/images/sitemap_title2.gif");
+		background-repeat:no-repeat;
+		background-position:top left;
+		padding-bottom:10px;
+	}
+
+	#rgfresults div.finance,
+	#rgfresults div.growthandinnovation,
+	#rgfresults div.itandecommerce,
+	#rgfresults div.grantsandadvice,
+	#rgfresults div.startingabusiness,
+	#rgfresults div.salesandmarketing,
+	#rgfresults div.buyingandselling,
+	#rgfresults div.internationaltrade,
+	#rgfresults div.taxandreporting,
+	#rgfresults div.employingpeople,
+	#rgfresults div.healthandenvironment,
+	#rgfresults div.environmentandefficiency,
+	#rgfresults div.sellingabusiness,
+	#rgfresults div.inyoursector,
+	#rgfresults div.global {
+		border:0.1px solid white;
+	}
+
+	#rgfresults h2 {
+		font-size:12pt;
+		font-weight:bold;
+	}
+	#rgfresults h3 {
+		width:220px;
+		padding:0 0 0 12px;
+		margin:0 0 0 8px;
+		background-repeat:no-repeat;
+		line-height:normal;
+		background-color:white;
+		margin-left: 15px !important;
+	}
+	#rgfresults h3 a:link:hover { 
+		color:#339; /*#66c*/
+		text-decoration: underline; 
+	}
+	#rgfresults h3 a:visited { 
+		color:#333; 
+		text-decoration: none; 
+	} 
+	#rgfresults h3 a:visited:hover { 
+		color:#339; 
+		text-decoration: underline; 
+	}
+	#rgfresults h3 a:link { 
+		color:#333; 
+		text-decoration: none; 
+	}
+	#rgfresults h4 {
+		background-image:url("/syntegra/images/px_trans.gif"); /* ns4.7 inheriting bg image */
+	}
+		
+	#rgfresults div.finance div,
+	#rgfresults div.growthandinnovation div,
+	#rgfresults div.itandecommerce div,
+	#rgfresults div.grantsandadvice div,
+	#rgfresults div.startingabusiness div,
+	#rgfresults div.salesandmarketing div,
+	#rgfresults div.buyingandselling div,
+	#rgfresults div.internationaltrade div,
+	#rgfresults div.taxandreporting div,
+	#rgfresults div.employingpeople div,
+	#rgfresults div.healthandenvironment div,
+	#rgfresults div.environmentandefficiency div,
+	#rgfresults div.sellingabusiness div,
+	#rgfresults div.inyoursector,
+	#rgfresults div.global div {
+		background-image:url("/syntegra/images/px_trans.gif"); /* ns4.7 inheriting bg image */
+	}
+	
+	
+/* THEME COLOUR FOR SECTION MAPS */
+	#rgfresults div.finance {
+		background-color:#D4E9F4;
+		background-image:url("/syntegra/images/px_finance.gif");
+	}
+	#rgfresults div.growthandinnovation {
+		background-color:#F2F2D9;
+		background-image:url("/syntegra/images/px_growthandinnovation.gif");
+	}
+	#rgfresults div.itandecommerce {
+		background-color:#F5E0E0;
+		background-image:url("/syntegra/images/px_itandecommerce.gif");
+	}
+	#rgfresults div.grantsandadvice {
+		background-color:#E0F1D1;
+		background-image:url("/syntegra/images/px_grantsandadvice.gif");
+	}
+	#rgfresults div.startingabusiness {
+		background-color:#F5EBEA;
+		background-image:url("/syntegra/images/px_startingabusiness.gif");
+	}
+	#rgfresults div.salesandmarketing {
+		background-color:#E0E0F5;
+		background-image:url("/syntegra/images/px_salesandmarketing.gif");
+	}
+	#rgfresults div.buyingandselling {
+		background-color:#EDEDDB;
+		background-image:url("/syntegra/images/px_buyingandselling.gif");
+	}
+	#rgfresults div.internationaltrade {
+		background-color:#D8F2F2;
+		background-image:url("/syntegra/images/px_internationaltrade.gif");
+	}
+	#rgfresults div.taxandreporting {
+		background-color:#DFEFDF;
+		background-image:url("/syntegra/images/px_taxandreporting.gif");
+	}
+	#rgfresults div.employingpeople {
+		background-color:#DFEFEF;
+		background-image:url("/syntegra/images/px_employingpeople.gif");
+	}
+	#rgfresults div.healthandenvironment {
+		background-color:#EFE0F0;
+		background-image:url("/syntegra/images/px_healthandenvironment.gif");
+	}
+	#rgfresults div.environmentandefficiency {
+		background-color:#E8ffc5;
+		background-image:url("/syntegra/images/px_environmentandefficiency.gif");
+	}
+	#rgfresults div.sellingabusiness {
+		background-color:#F0E0D1;
+		background-image:url("/syntegra/images/px_sellingabusiness.gif");
+	}
+	#rgfresults div.inyoursector {
+		background-color:#F0E7DF;
+		background-image:url("/syntegra/images/px_inyoursector.gif");
+	}
+	#rgfresults div.global {
+		background-color:#E7EBFF;
+		background-image:url("/syntegra/images/px_global.gif");
+	}
+/* END THEME COLOUR FOR SECTION MAPS */
+	
+	
+/* THEME COLOURED BLOCKS NEXT TO TITLE */
+	#rgfresults div.finance h3 {
+		background-image:url("/syntegra/images/leftnav_finance.gif");
+	}
+	#rgfresults div.growthandinnovation h3 {
+		background-image:url("/syntegra/images/leftnav_growthandinnovation.gif");
+	}
+	#rgfresults div.itandecommerce h3 {
+		background-image:url("/syntegra/images/leftnav_itandecommerce.gif");
+	}
+	#rgfresults div.grantsandadvice h3 {
+		background-image:url("/syntegra/images/leftnav_grantsandadvice.gif");
+	}
+	#rgfresults div.startingabusiness h3 {
+		background-image:url("/syntegra/images/leftnav_startingabusiness.gif");
+	}
+	#rgfresults div.salesandmarketing h3 {
+		background-image:url("/syntegra/images/leftnav_salesandmarketing.gif");
+	}
+	#rgfresults div.buyingandselling h3 {
+		background-image:url("/syntegra/images/leftnav_buyingandselling.gif");
+	}
+	#rgfresults div.internationaltrade h3 {
+		background-image:url("/syntegra/images/leftnav_internationaltrade.gif");
+	}
+	#rgfresults div.taxandreporting h3 {
+		background-image:url("/syntegra/images/leftnav_taxandreporting.gif");
+	}
+	#rgfresults div.employingpeople h3 {
+		background-image:url("/syntegra/images/leftnav_employingpeople.gif");
+	}
+	#rgfresults div.healthandenvironment h3 {
+		background-image:url("/syntegra/images/leftnav_healthandenvironment.gif");
+	}
+	#rgfresults div.environmentandefficiency h3 {
+		background-image:url("/syntegra/images/leftnav_environmentandefficiency.gif");
+	}
+	#rgfresults div.sellingabusiness h3 {
+		background-image:url("/syntegra/images/leftnav_sellingabusiness.gif");
+	}
+	#rgfresults div.inyoursector h3 {
+		background-image:url("/syntegra/images/leftnav_inyoursector.gif");
+	}
+	#rgfresults div.global h3 {
+		background-image:url("/syntegra/images/leftnav_global.gif");
+	}
+/* END THEME COLOURED BLOCKS NEXT TO TITLE */
+
+
+
+/* Start of Exisiting Advanced Styles */
+/* VERSION 1: 09/03/04 */
+/* 04 June 07: New theme Environment and efficiency added */
+/* 13 Aug 08: bugzilla 1828 fix */
+/* 13 Aug 08: bugzilla 1686 fix */
+
+/* LAYOUT */
+	#content {
+		left:200px;
+		width:540px;
+	}
+/* END LAYOUT */
+
+
+	h2 {
+		font-size:1.2em;
+	}
+	#rgf-about h3,
+	#rgf h3 {
+		padding:2px 10px 3px 13px;
+		margin-bottom:7px;
+		background-color:#ccc;
+		clear:both;
+	}
+	
+	div.warning {
+		padding-bottom:11px; /*15*/
+	}
+	div.warning p,
+	div.warning ul {
+		margin-bottom:4px;
+	}
+	#rgf-about div.warning {
+		padding-bottom:15px;
+	}
+	
+	
+	
+/* BOTTOM NAV */
+	div.confirm-bottom {
+		border:0px solid black;
+	}
+	div.confirm-bottom {
+		margin-top:20px;
+	}
+	
+	/* NEW CLASS ADDED FOR THE 400px CONFIRMATION BAR */
+	div.confirm-bottom-narrow 
+	{
+		border:0px solid black;
+		width:400px;
+		margin-top:20px;
+	}
+/* END NAV */
+
+
+/* STEPS */	
+	div.steps {
+		margin-left:0;
+		padding-bottom:3px;
+	}
+	/* div.steps p {
+		margin-top:10px;
+	} */
+	div.steps tr.text td {
+		padding-top:2px;
+	}
+	div.steps span {
+		line-height:1.1em;
+	}
+/* END STEPS */
+
+
+/* QUESTIONNAIRE */
+
+	div.questionnaire,
+	div.simple-special {
+		margin-left:13px;
+		margin-bottom:17px;
+	}
+	
+	div.simple-normal {
+		margin-left:13px;
+		margin-bottom:9px;
+	}
+
+	input.radio,
+	input.check {
+		margin-left: 0;
+		margin-right:0px;
+		vertical-align:middle;
+	}
+	
+	div.questionnaire p,
+	div.simple-normal p,
+	div.simple-special p {
+		margin-bottom:5px;
+		color:#666;
+	}
+	
+	div.questionnaire div.pair {
+		border:0px solid white;
+		border-top:1px solid white; /* IE/PC needs this! */
+		margin-bottom:5px;
+	}
+	* html>body div.questionnaire div.pair {
+		margin-bottom:10px;
+	}
+	
+	div.questionnaire div.question span.widget {
+		float:left;
+		width:15px;
+	}
+	div.questionnaire div.question span.label {
+		float:right;
+		width:238px;
+		padding-left:0;
+	}
+	div.questionnaire div.question div.info {
+		clear:left;
+		margin-top:0px; 
+		margin-left:26px;
+	}
+	
+	div.simple-normal div.question {
+		margin-bottom:8px;
+	}
+	div.simple-normal div.question span.widget,
+	div.simple-normal div.question span.label {
+		float:left;
+		width:auto;
+	}
+	div.simple-normal div.question span.label label{
+		float:left;
+		margin-left:8px;
+	}
+
+/* END QUESTIONNAIRE */
+
+
+p.setvalue {
+	padding: 4px 3px 6px 15px;
+}
+
+
+	#rgfresults h2 {
+		margin:0px 0 1.5em 0px;
+		padding:0 0 0 0px;
+		font-size:1em;
+		font-weight:bold;
+	}
+	#rgfresults h3 {
+		margin:0px 0 1.5em 0px;
+		padding:0 0 0 15px;
+	}
+	#rgfresults h4 {
+		font-size:1em;
+		margin-top:1px;
+		margin-left: 29px;
+	}
+	#rgfresults ul {
+		padding-left:0;
+	}
+	
+	#rgfresults ul.links {
+		margin-left:14px;
+	}
+	#rgfresults li {
+		margin-left: 1px;
+	}
+		
+	#rgfresults div.stretchdiv {
+		display:block;
+	}
+/* END SHARED STYLES */
+	
+	#rgfresults div.finance,
+	#rgfresults div.growthandinnovation,
+	#rgfresults div.itandecommerce,
+	#rgfresults div.grantsandadvice,
+	#rgfresults div.startingabusiness,
+	#rgfresults div.salesandmarketing,
+	#rgfresults div.buyingandselling,
+	#rgfresults div.internationaltrade,
+	#rgfresults div.taxandreporting,
+	#rgfresults div.employingpeople,
+	#rgfresults div.healthandenvironment,
+	#rgfresults div.environmentandefficiency,
+	#rgfresults div.sellingabusiness,
+	#rgfresults div.inyoursector,
+	#rgfresults div.global {
+		background-image:url("/syntegra/images/sitemap_title.gif");
+		padding-bottom:0.5em;
+		margin-bottom:10px;
+		clear:left;
+	}
+	* html>body div.finance,
+	* html>body div.growthandinnovation,
+	* html>body div.itandecommerce,
+	* html>body div.grantsandadvice,
+	* html>body div.startingabusiness,
+	* html>body div.salesandmarketing,
+	* html>body div.buyingandselling,
+	* html>body div.internationaltrade,
+	* html>body div.taxandreporting,
+	* html>body div.employingpeople,
+	* html>body div.healthandenvironment,
+	* html>body div.environmentandefficiency,
+	* html>body div.sellingabusiness,
+	* html>body div.inyoursector,
+	* html>body div.global {
+		/* mac/ie only */
+		clear: none;
+	}
+
+
+
+	
+/* Enhanced regulation checklist styles */
+
+h2.h3aliasMargin {margin-bottom: 20px;}
+
+h2.h3aliasMarginSmall {margin-bottom: 10px;}
+
+a.arrowLink {
+	background: url(/syntegra/images/list_arrow.gif) no-repeat;
+	padding-left: 15px;
+}
+
+ul.ercLinks {
+	list-style-type: none;
+	margin: 0 5px 15px;
+}
+
+ul.ercLinks li {
+	background: url(/syntegra/images/list_arrow.gif) no-repeat 0 .15em;
+	margin-bottom: 3px;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+dl.dottedDivider {background: url(/syntegra/images/erc_dotted_divider.gif) repeat-x bottom;}
+
+#maincontent_ERC {
+	float: left;
+	width: 542px; 
+}
+
+#maincontent_ERC dl dt {
+	background: url(/syntegra/images/list_arrow.gif) no-repeat 0 .15em;
+	padding-left: 15px;
+	width: 400px;
+}
+
+#maincontent_ERC dl dd {
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-left: 0;
+	width: 400px;
+}
+
+#erc_IntroContainer {
+	float: left;
+	clear: both;
+	margin-bottom: 15px;
+	width: 542px;
+}
+
+#erc_IntroBox {
+	margin-right: 20px;
+}
+
+#erc_IntroBox p {width: auto;}
+
+#erc_IntroBox h2 {
+	font-size:1em;
+	margin:0pt 0pt 10px;
+	padding:0pt;
+	color:#333333;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+}
+
+#erc_IntroBox ul {
+	list-style-type:none;
+	margin:0pt 5px 15px;
+}
+
+#erc_IntroBox ul li {
+	background:transparent url(/syntegra/images/list_arrow.gif) no-repeat scroll 0pt 0.15em;
+	margin-bottom:3px;
+	margin-left:0pt;
+	padding-left:15px;
+}
+
+.erc_ImgCol {
+	float: right;
+	width: 186px;
+}
+
+.erc_ImgCol img {margin-bottom: 10px;}
+
+.actions_Panel {
+	float: right;
+	background: url(/syntegra/images/action_panel_sides.gif) repeat-y;
+	width: 186px;
+}
+
+.actions_PanelInner {
+	background: url(/syntegra/images/action_panel_bot.gif) no-repeat right bottom;
+	padding-bottom: 15px;
+	width: 186px;
+}
+
+.actions_PanelInner h2 {
+	font-size: 1em;
+	background: #ccccff; 
+	margin-bottom: 3px;
+	padding: 3px 14px;
+}
+
+.actions_PanelInner ul {margin-bottom: 0;}
+
+/* ----- erc floa diagram ----- */
+.erc_FlowDiag {
+	float: left; 
+	clear: both;
+	background: url(/syntegra/images/erc_flowDiag_bdr.gif) repeat-x;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	width: 542px;
+}
+
+#erc_FlowDiagList {
+	list-style-type: none;
+	margin: 0;
+	width: 530px;
+}
+
+#erc_FlowDiagList li {
+	background: url(/syntegra/images/erc_FlowDiagList_arrow.gif) no-repeat center bottom;
+	padding-bottom: 39px;
+	margin: 0;
+	width: 530px;
+}
+
+#erc_FlowDiagList li.last {
+	background: none;
+	padding-bottom: 0;
+}
+
+#erc_FlowDiagList li h3 {
+	background: #e1e1f9 url(/syntegra/images/erc_FlowDiagBox_top.gif) no-repeat;
+	padding: 14px 15px 0;
+	margin-bottom: 0;
+	width: 500px;
+}
+
+#erc_FlowDiagList li div {
+	background: #e1e1f9 url(/syntegra/images/erc_FlowDiagBox_bot.gif) no-repeat bottom;
+	padding: 5px 15px 4px;
+	width: 500px;
+}
+
+#erc_FlowDiagList li div p, #erc_FlowDiagList li div ul, #erc_FlowDiagList li div ol {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+#erc_FlowDiagList li div p {width: auto;}
+
+#erc_FlowDiagList li div ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+#erc_FlowDiagList li div ul li, #erc_FlowDiagList li div ol li {
+	background: none;
+	padding-bottom: 0;
+	width: 100%;
+}
+
+
+/* ----- erc table of contents box ----- */
+.TOC_Container {
+	clear: both;
+	float: left;
+	background: url(/syntegra/images/toc_container_bot.gif) repeat-x bottom;
+	padding: 0 0 1px;
+	margin-bottom: 30px;
+	width: 542px;
+}
+
+.TOC_Container h2.boxtitle {
+	font-size: 1em;
+	background: #ccccff; 
+	margin-bottom: 2px;
+	padding: 3px 14px;
+}
+
+.TOC_ContainerInner {
+	float: left;
+	background: url(/syntegra/images/toc_container_sides.gif) repeat-y;
+	padding: 15px 21px 1px;
+	width: 500px;
+}
+
+.TOC_ContainerInner .leftCol {
+	float: left;
+	padding: 0 10px;
+	width: 230px;
+}
+
+div.TOC_ContainerInner .rightCol {
+	float: right;
+	padding: 0 10px;
+	width: 230px;
+}
+
+
+.TOC_ContainerInner .leftCol ul.links li{
+	background:none !important;
+	padding-left:15px;
+}
+.TOC_ContainerInner .leftCol ul.links li a{
+	zoom:1;
+	background-image:url(/syntegra/images/list_arrow.gif);
+	background-repeat:no-repeat;
+	padding-left:15px;
+	margin-left:-15px;
+	
+}
+
+
+/* ----- erc coloured panel boxes ----- */
+.ercPanel_Container {
+	margin-bottom: 20px;
+	clear: both;
+	float: left;
+	width: 542px;
+}
+
+.ercPanel {
+	float: left;
+	clear: both;
+	margin-bottom: 5px;
+	padding: 0 15px 15px 15px;
+	width: 512px;
+}
+
+
+.ercPanel h2 {
+	background: transparent url(/syntegra/images/sitemap_title_265x51.gif) no-repeat top left;
+	margin-left:-15px;
+	padding-left:15px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	font-size: 1em;
+	line-height: normal;
+	width: 265px;
+}
+.ercPanel h2 a{
+	background: #ffffff url(/syntegra/images/leftnav_global.gif) no-repeat;
+	padding-left:15px;
+	display:block;
+	font-size:1em;
+	width:200px;
+}
+
+.ercPanel h3 {margin-left: 15px;}
+
+.ercPanel p {
+	margin-left: 15px;
+}
+
+.ercPanel_divider {
+	background: url(/syntegra/images/ercPanel_divider.gif) repeat-x left bottom;
+	margin-bottom: 15px;
+}
+
+.ercPanel_divider.last {
+	background: none;
+	margin-bottom: 0;
+}
+
+.ercPanel_divider p {
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+.ercPanel div.topLink {text-align: right;}
+
+.ercPanel div.topLink a {
+	background: url(/syntegra/images/arrow_up_black.gif) no-repeat 0 .3em; 
+	padding-left: 15px;
+}
+
+/* ----- ercPanel background colours ----- */
+.recommended_reading {background-color: #F5E0E0;} /* (same as IT & e-commerce colour) */
+.recommended_reading h2 a {background-image: url(/syntegra/images/leftnav_itandecommerce.gif);}
+
+.guide_tab_1 {background-color:#ececf8;}
+.guide_tab_1 h2 a{
+	background-image: url(/syntegra/images/your_workforce_bullet.gif);
+	background-position: 0 .3em;
+}
+.guide_tab_2 {background-color:#e1e1f8;}
+.guide_tab_2 h2 a{
+	background-image: url(/syntegra/images/your_premises_bullet.gif);
+	background-position: 0 .3em;
+}
+.licences_and_permits {background-color: #e6fde6;} 
+.licences_and_permits h2 a {
+	background-image: url(/syntegra/images/licences_and_permits_bullet.gif);
+	background-position: 0 .3em;
+}
+.your_type_of_business {background-color: #F0E7DF;} 
+.your_type_of_business h2 a {
+	background-image: url(/syntegra/images/leftnav_inyoursector.gif);
+	}
+
+
+/* ----- non coloured panel box ----- */
+div.erc_nonPanelBox {
+	clear: both;
+	width: 542px;
+}
+
+div.erc_buttonRow {
+	border-top: 1px solid  #ccccff;
+	padding-top: 7px;
+}
+
+div.rrprogressstuff table {
+   margin-top: 1.5em;
+}	
