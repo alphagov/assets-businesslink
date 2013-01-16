@@ -1,0 +1,15 @@
+#mainContentWrap #mainLeftCol{
+	float:left;
+	margin:0 0 1em;
+	width:503px;
+}
+
+#mainContentWrap #sideCol{
+	float:right;
+	margin:0 0 1em;
+	width:234px;
+}
+
+#mainContentWrap #hpFourCol{
+	
+}

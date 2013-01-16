@@ -1,0 +1,6 @@
+/*
+	IE Specific Link file only. 
+	Loads IE framework_ie.css + IE custom_ie.css styles 
+*/
+
+@import url(../../css/framework_ie.css);

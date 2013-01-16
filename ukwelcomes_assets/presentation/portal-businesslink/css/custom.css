@@ -1,0 +1,91 @@
+/*
+	Business Link - National Branding
+	Portal Specific CSS
+	
+	Current Version: 1.10
+	----------------------------------------
+	v1.00 - Initial version for ETM
+	v1.10 - Added styles for .sml #header version if called
+*/
+
+#header a:hover {color:#CCFF00;}
+#footer a:hover {color:#669900;}
+
+/* Override Styles for Small version of header by adding 'class="sml"' to 
+
+Header DIV */
+
+#header {
+    background: url("/presentation/images/global-header-grad.png") repeat-x 
+
+scroll left top #686698;
+    color: #FFFFFF;
+    height: 8.9em;
+    min-width: 59em;
+}
+
+
+#header.sml {
+	background:#669 
+
+url(/presentation/portal-businesslink/images/global-header-campaign-grad.gif) 
+
+repeat-x top left;
+	min-height:4.8em;
+	min-width:990px;
+	height:auto;
+	float:left;
+	width:100%;
+	}
+		
+* html #header.sml {width: expression( document.body.clientWidth < 991 ? 
+
+"990px" : "auto" ); /* set min-width for IE */}
+	
+#header #logo img {margin: 0 87px 0 32px;}
+#header.sml #skip{height:1px;overflow:hidden;}
+#header.sml #logo {float:left;position:static;margin:6px 10px 0 13px;}
+#header.sml #logo img {margin:0;}
+#header.sml #help {width:auto;float:left;position:static;color:#fff;margin: 
+
+5px 10px 0 0;}
+#header.sml #login {  position:static;float:left;width:340px;}
+#header.sml ul.arrowlist li{background: 
+
+url("/presentation/images/login-arrow-right.gif") no-repeat scroll 0.1em 0.3em 
+
+transparent;}
+#header.sml #sitesearch {position:static;float:left;width:auto;margin:3px 20px 
+
+0 0;}
+#header.sml #sitesearch input#expression {width:6em;}
+
+
+#header #sitesearch {left:52.25em; top:0.4em;width:275px;}
+#sitesearch{float:right;}
+#sitesearch fieldset{border:1px solid #565567;float:right;margin-bottom:0;}
+#sitesearch input {
+	   	margin:0;
+		height:auto;
+		border:1px solid #fff;
+		padding:5px 0 5px 2px;
+		width:191px;
+		
+	}	
+#sitesearch #headersearchsubmit{
+		width:auto;
+		height:auto;
+		font-weight:bold;
+		color:#fff;
+		padding:4px 10px;
+		
+
+background:url(/presentation/portal-businesslink/images/global-header-search-g
+
+rad.gif) repeat-x top left;
+		cursor:pointer;
+	}
+
+
+
+

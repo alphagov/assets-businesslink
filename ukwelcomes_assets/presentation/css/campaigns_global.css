@@ -1,0 +1,29 @@
+/* 
+	Global Campaign Stylesheet 
+	Styles here are designed to fit generic CMS driven campaigns
+*/
+
+/* 
+Campaigns Header Styles - All must start '#campaigns-header ' 
+*/
+
+#campaigns-header {clear:left;}
+
+/* 
+Campaigns Body Styles - All must start '#campaigns-body ' 
+*/
+
+#campaigns-body {padding:1em 1em 0; font-size:85%; width:66em; clear:left;}							
+#campaigns-body h1 {font-size:1.5em;} 							
+#campaigns-body h2, #campaigns-body h3, #campaigns-body h4 {font-weight:bold;} 	
+#campaigns-body p {margin:1em 0; line-height:1.5em;} 			
+#campaigns-body a:link {}										/* Inherited Default: 'color:#333399;' Note: Visited colour is browser default purple */
+#campaigns-body td {vertical-align:top;}
+
+/* 
+Campaigns Footer Styles - All must start '#campaigns-footer ' 
+*/
+
+#campaigns-footer {padding:0 0 0 1em; font-size:85%; width:66em;}
+#campaigns-footer .dottedline {background:url(../images/dotted-line.gif) repeat-x left top; margin-top:1em; padding:0.1em 0 0.9em;}
+#campaigns-footer .dottedline hr {position:absolute; left:-3000em;}

@@ -1,0 +1,8 @@
+/*
+	Link file only. 
+	Calls Header&Footer 'framework.css' + Global 'campaigns_global.css' + Portal specific 'custom.css'
+*/
+
+@import url(../../css/framework.css);
+@import url(../../css/campaigns_global.css);
+@import url(custom.css);

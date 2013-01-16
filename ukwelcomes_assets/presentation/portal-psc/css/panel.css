@@ -1,0 +1,3057 @@
+/* --------------------------------------- PANEL: SINGLE COLUMN WIDE */
+.panel {margin-bottom: 1em; position: relative;}
+.panel a {text-decoration: none; color: #053399;}
+.panel a:hover {text-decoration: underline;}
+.panel h2 a,.panel h3 a {color:#333333;}
+.panel h2 a:hover, .panel h3 a:hover {color:#053399;}
+.panel p, .item p {margin: 0 0 0.5em;}
+.panel p.cta a, .item p.cta a, p.cta a {position:relative;display:block;clear:both;background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/cta.gif') 0 51% no-repeat; padding:0 0 0 20px;  line-height: 150%;}
+.panel p.cta a:hover, .item p.cta a:hover, p.cta a:hover,
+.panel p.cta a:focus, .item p.cta a:focus, p.cta a:focus,
+.panel p.cta a:active, .item p.cta a:active, p.cta a:active {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/cta.gif') !important;
+	background-position:0 51% !important;
+	background-repeat: no-repeat !important;}
+.panel p.arrow a, .item p.arrow a {background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') 3px 0.45em no-repeat; padding:0 0 0 13px;}
+.panel p.arrow a:hover, .item p.arrow a:hover,
+.panel p.arrow a:active, .item p.arrow a:active,
+.panel p.arrow a:focus, .item p.arrow a:focus {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') !important;
+	background-position:3px 0.45em !important;
+	background-repeat: no-repeat !important;}
+.panel .content, .item .content {font-size:85%;}
+.panel h3 {font-size:85%;}
+.panel .content li {padding:2px 0;}
+.panel dt {font-weight:bold;padding:0 0 4px;}
+.panel dl {font-weight:normal;padding:0 0 8px;}
+cite {border-bottom:1px dotted #000000;cursor:help;pointer:help;}
+/* ======================================= #mainLeftCol */
+#mainLeftCol .panel {width: 245px;}
+
+#mainLeftCol .content li{
+	padding-bottom:3px;
+	display:block;
+}
+
+.content li a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') 3px 0.45em no-repeat;
+	padding:0 0 0 13px;}
+	
+.content li a:hover,
+.content li a:active,
+.content li a:focus {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif) !important;
+	background-position: 3px 0.45em !important;
+	background-repeat: no-repeat !important;
+	background-attachment: scroll !important}
+	
+
+/*JL*/
+#mainLeftCol .panel img {
+	width: 102px;
+}
+
+/*JL*/
+#mainLeftCol .panel p {
+	float: right;
+	padding: 0 9px;
+	width: 125px;
+}
+
+/* -------------- GREY HEADER */
+.pnlGrey h3, .panel h2, .pnlGrey h1{background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/header_gradient.jpg') 0 100% repeat-x;margin: 0 0 10px;padding: 9px 5px 5px;}
+/* -------------- BLUE HEADER */
+.pnlBlue{background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/sideCol_gradient.jpg') 0 0 repeat-x;}
+.pnlBlue.small{background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/sideCol_gradient_small.jpg') 0 0 repeat-x;}
+.pnlBlue.extended{background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/sideCol_gradient_extended.jpg') 0 0 repeat-x;}
+.pnlBlue h3 {background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') 0 0 repeat-x;padding: 7px 10px 0;}
+.pnlBlue .content{margin: 6px 10px 0; padding-top: 5px; border-top: 1px solid #CCCCCC;}
+#sideCol .pnlBlue .list li a{	background:none;padding-left:0;}
+#sideCol .pnlBlue .list li a:active,
+#sideCol .pnlBlue .list li a:hover,
+#sideCol .pnlBlue .list li a:focus {
+	background-image:none !important;padding-left:0 !important;}
+#sideCol .pnlHelpCentre .list li a:active,
+#sideCol .pnlHelpCentre .list li a:hover,
+#sideCol .pnlHelpCentre .list li a:focus{
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') !important;
+	background-position: 0.45em;
+	background-repeat:no-repeat;
+	padding-left:13px !important;}		
+/* -------------- DARK BLUE HEADER */ /*This header needs sliding doors/blinds technique*/
+.pnlDarkBlue .content{background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/sideCol_gradient.jpg') 0 -50px repeat-x; border-top:2px solid #FFFFFF;padding:9px 9px;}
+.pnlDarkBlue h2,.pnlDarkBlue h3{background:#053399 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/headerHome_gradient.gif') 0 0 no-repeat;color:#FFFFFF;padding:5px 9px 5px;}
+#mainLeftCol .pnlDarkBlue p{width:auto;}
+.pnlDarkBlue h4{font-weight:bold;padding:0 0 3px;}
+
+/* ======================================= #sideCol */
+#sideCol .panel {width: 234px;}
+
+/*JL*/
+#sideCol .panel img {
+	padding: 1px 0;}
+
+#sideCol .panel img#top-tips-picture {
+	padding:1px 8px 7px 0;}
+
+#sideCol .panel form {
+	margin: 1em 0 1.5em 0;}
+	
+#sideCol .content.list {padding-top:7px;}
+
+/* ======================================= #sideCol .pnlMyBusiness */
+#sideCol .pnlMyBusiness {
+	margin-bottom: 1em;
+	font-size: 85%;
+}
+
+#sideCol .pnlMyBusiness .pnl {
+	padding: 6px 8px 2px;
+	overflow:hidden;
+}
+
+#sideCol .pnlMyBusiness .pnl p{
+	margin-bottom: 0.3em;
+}
+
+#sideCol .pnlMyBusiness .pnl a span{
+	padding-left:0;
+}
+
+#sideCol .pnlMyBusiness p.cta {
+	padding:0 9px;
+}
+
+#sideCol .pnlMyBusiness h3 {
+	background: #d8e4f3 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnlMyBusiness_cap.gif') 0 0px repeat-x;
+	/*border-bottom: 1px solid #FFFFFF; JL*/
+	font-size: 108%;
+	padding: 6px 10px 4px;
+}
+
+#sideCol .pnlMyBusiness .content{
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#sideCol .pnlMyBusiness h4 {
+	background: #d8e4f3 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/header_gradient.jpg') 0 0px repeat-x;
+	padding: 5px 8px 4px 9px;
+	font-weight:normal;
+	font-size:100%;
+}
+
+#sideCol .pnlMyBusiness h4 a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/btn_round_arrows.gif') 100% -71px no-repeat;
+	color:#333333;
+	display:block;
+	padding:0;
+	width:215px;}
+	
+#sideCol .pnlMyBusiness h4 a:focus,
+#sideCol .pnlMyBusiness h4 a:hover,
+#sideCol .pnlMyBusiness h4 a:active {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/btn_round_arrows.gif') !important;
+	background-repeat:no-repeat !important;
+	background-attachment: scroll;
+	background-position:100% -39px !important;}
+
+#sideCol .pnlMyBusiness h4.ui-state-hover a {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/btn_round_arrows.gif') !important;
+	background-repeat:no-repeat !important;
+	background-attachment: scroll;
+	background-position:100% -39px !important;}
+
+#sideCol .pnlMyBusiness h4.ui-state-active a,
+#sideCol .pnlMyBusiness .active h4 a{
+	background-position:100% -5px;
+}
+
+#sideCol .pnlMyBusiness .loggedOut{
+	padding:5px 9px;
+}
+
+#sideCol .pnlMyBusiness .loggedOut h4{
+	background:none;
+	font-weight:bold;
+	padding:4px 0;
+}
+
+#sideCol .pnlMyBusiness .loggedOut p,
+#sideCol .pnlMyBusiness .loggedOut ul{
+	padding:4px 0;
+}
+
+#sideCol .pnlMyBusiness .loggedOut ul{
+	list-style:disc inside;
+}
+
+#sideCol .pnlMyBusiness ul {
+	padding-top: 1px;
+}
+
+#sideCol .pnlMyBusiness li {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#sideCol .pnlMyBusiness li .pnl{
+	/*padding-bottom: 0.4em;*/
+}
+
+/*NOTE! THIS RULE EMPLOYED ONLY WHEN JS NOT PRESENT!*/
+
+#sideCol .pnlMyBusiness li .pnl{
+	display:block;
+}
+
+#sideCol .pnlMyBusiness .jse li .pnl,
+#sideCol .pnlMyBusiness li.active .pnl{
+	display:block;
+}
+
+#sideCol .pnlMyBusiness li.last {
+	border-bottom: none;
+}
+
+#sideCol .pnlMyBusiness .ft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -2198px 100% no-repeat;
+	height:5px;
+	width:234px;
+	overflow: hidden; /*JL*/}
+
+/* --------------------------------------- PANEL: Help Normal */
+.pnlHelpNormal{background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_gradients.gif') 0 -250px repeat-x;}
+
+/* --------------------------------------- PANEL: Help Centre */
+.pnlHelpCentre{background: #deeaf7 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnlHelp_grad.gif') 0 100% repeat-x;}
+
+.pnlHelpCentre h3{
+	font-size:100%;
+	padding-top:10px;
+}
+#sideCol .pnlHelpCentre .content{
+	border:medium none;
+	margin-top:-14px;
+	padding-top:22px;
+}
+
+#sideCol .pnlHelpCentre .list li a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') 3px 0.45em no-repeat;
+	padding:0 0 0 13px;
+}
+
+.pnlHelpCentre  .ft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnlHelp_ft.gif') 0 0 no-repeat;
+	height: 5px;
+	width: 234px;
+	overflow: hidden;}
+
+
+/* --------------------------------------- PANEL: Need to talk? */
+.pnlNeedToTalk{background: #ECF1F5 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_gradients.gif') 0 0 repeat-x;}
+
+.pnlNeedToTalk h3{
+	color:#053399;
+	font-size:100%;
+	padding-top:10px;
+}
+
+.pnlNeedToTalk .content{
+	border:none;
+	font-size:100%;
+	margin-top:-14px;
+	padding-top:22px;
+}
+
+.pnlNeedToTalk .ft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnlQuote_ft.gif') 0 0 no-repeat;
+	height: 17px;
+	width: 234px;
+	overflow: hidden;
+}
+
+.pnlNeedToTalk dl{
+	padding: 0;
+}
+
+.pnlNeedToTalk .content dt{
+	font-size:85%;
+	padding: 0;
+}
+
+.pnlNeedToTalk .content dd{
+	color:#053399;
+	font-family:arial;
+	font-size:138.5%;
+	font-weight:bold;
+	margin-bottom:6px;
+}
+
+/* --------------------------------------- PANEL: TWO COLUMN WIDE */
+#mainLeftCol .panelIntro {
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	min-height:120px;
+	height:auto !important;
+	height:120px;
+	margin-bottom: 1.5em;
+	position: relative;
+	width: auto;
+	z-index:2;
+}
+
+#mainLeftCol .pnlHome .hd{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -479px 0px no-repeat;
+	top:0px;
+	height:5px;
+	left:-1px;
+	position:absolute;
+	width:503px;}
+
+#mainLeftCol .panelIntro h1,
+#mainLeftCol .panelIntro h2 {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -479px 0px no-repeat;
+	left: -1px;
+	margin-bottom: 0.5em;
+	padding: 15px 0 0 12px;
+	position:absolute;
+	top: 0px;
+	width:491px;
+	z-index:100;}
+
+#mainLeftCol .panelIntro.pnlHome h1,
+#mainLeftCol .panelIntro.pnlHome h2 {
+	background:none;
+	position:static;
+	padding:0;
+	margin-bottom:0.5em;
+	width:220px;
+	}
+	
+#mainLeftCol .panelIntro.twoLines h1 {
+	padding-right:280px;
+	width:211px;}
+
+#mainLeftCol .panelIntro .content {
+	float: left;
+	font-size: 85%;
+	/*padding: 3.8em 0 0 12px; JL */
+	padding: 3.8em 0 0 12px;
+	width: 262px;}
+	
+
+#mainLeftCol .panelIntro.twoLines .content {
+	padding-top:5.9em;}
+	
+#fullPage .midBox .content .twoLines p {
+	margin-bottom:10px;}
+	
+#fullPage .midBox .content .twoLines p.quoter {
+	font-weight:normal;
+	margin-bottom:1px;
+	margin-top:0;
+	padding-top:0;
+	background:none;}
+
+.panelIntro .home{
+	width:225px;
+}
+
+#mainLeftCol .panelIntro .content p{
+	margin-bottom: 0.5em;
+	line-height: 140%;
+}
+
+.panelIntro .home p{
+	font-size:93%; /*note: 2 different font sizes in use for main copy 11px(theme template) and 12px(home template)*/
+}
+
+#mainLeftCol .panelIntro img{
+	float:right;
+}
+
+#mainLeftCol .panelIntro .ft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -982px 100% no-repeat;
+	bottom:0px;
+	height:5px;
+	left:-1px;
+	position:absolute;
+	width:503px;
+}
+
+/*--------------- HOME PAGE: TWO COLUMN WIDE */
+
+#mainLeftCol .pnlHome{
+	margin-bottom:1em;
+}
+
+#mainLeftCol .pnlHome .content{
+	font-size:100%;
+	padding-top:1em;
+	width:220px;
+}
+
+#mainLeftCol .pnlHome .content p{
+	font-size:85%;
+	line-height:1.22em;
+}
+
+#mainLeftCol .pnlHome .content li,
+#mainLeftCol .pnlHome .content h3{
+	font-size:85%;
+}
+
+#mainLeftCol .pnlHome .content li{
+	padding:3px 0;
+	/*width:40%;*/
+}
+
+#mainLeftCol .pnlHome .content ul li a {display:block;}
+
+#mainLeftCol .pnlHome .content .langhelp{
+	margin-top:10px;
+	padding-top:4px;
+	border-top:1px solid #ccc;
+}
+* html #mainLeftCol .pnlHome .content .langhelp p{
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/language_help.gif) no-repeat center left;}
+
+#mainLeftCol .pnlHome .content .langhelp p a{
+	padding-left:83px;
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/language_help.gif) no-repeat center left;}
+	
+
+/*--------------- HOME PAGE:THREE COLUMN */
+
+#hpThreeCol .toLeft{float:left;margin-right:13px;width: 245px;}
+#hpThreeCol .toRight{float:right;width: 234px;}
+#hpThreeCol .toRight h3{background-position:-245px 0;}
+
+#hpThreeCol .pnlDarkBlue h3 a{color:#fff;}
+#hpThreeCol .pnlDarkBlue .cntimg img{clear:both;display:block;margin:7px auto 10px;}
+#hpThreeCol .pnlDarkBlue .content ul li a{float:left;}
+#hpThreeCol .pnlDarkBlue .content ul li:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+#hpThreeCol .pnlDarkBlue .content ul li {display: inline-block;}
+html[xmlns] #hpThreeCol .pnlDarkBlue .content ul li {display: block;}
+* html #hpThreeCol .pnlDarkBlue .content ul li {height: 1%;}
+/*--------------- HOME PAGE:FOUR COLUMN */
+
+#hpFourCol .panel{
+	border-top:2px solid #ADD037;
+	float:left;
+	margin-right:13px;
+	width:178px;
+}
+
+#hpFourCol .last{
+	margin-right:0;
+}
+
+#hpFourCol .panel h3,
+#hpFourCol .panel .content{
+	background:none;
+	padding:5px 0;
+}
+
+#hpFourCol .panel .content h4{
+	font-weight:bold;
+}
+
+#hpFourCol .panel .content ul li a{float:left;}
+#hpFourCol .panel .content ul li:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+#hpFourCol .panel .content ul li {display: inline-block;}
+html[xmlns] #hpFourCol .panel .content ul li {display: block;}
+* html #hpFourCol .panel .content ul li {height: 1%;}
+
+#hpFourCol .panel .content ul.holder li a{float:none;}
+
+/* --------------------------------------- PANEL: Side col: Case Studies  */
+
+.pnlCaseStudy .carousel{
+	position:relative;
+	width:214px;
+	width:100%;
+}
+
+.pnlCaseStudy .carousel .container{
+	height:92px;
+	overflow:auto;
+	position:relative;
+}
+
+.pnlCaseStudy .carousel .container .holder {
+	left:0;
+	position:absolute;
+	width:1070px;
+}
+
+.pnlCaseStudy .carousel .container,
+.pnlCaseStudy .carousel .container .holder li
+{
+	width:214px;
+}
+
+.pnlCaseStudy .carousel .container .holder li p{
+	padding:0 2px 0 0;
+}
+
+.pnlCaseStudy .carousel .container .holder li img{
+	margin-right:7px;
+}
+
+.pnlCaseStudy .carousel .container .holder li a{
+	background:none;
+	padding:0;
+}
+
+.pnlCaseStudy .carousel .container .holder li a:hover,
+.pnlCaseStudy .carousel .container .holder li a:focus,
+.pnlCaseStudy .carousel .container .holder li a:active{background-image:none !important;}
+
+
+.pnlCaseStudy .carousel li{
+	float:left;
+	width:214px;
+}
+
+.pnlCaseStudy .carousel li p{
+	font-size:93%;
+}
+
+.pnlCaseStudy .controls{
+	display:none;
+}
+
+.jse .carousel .container{
+	height:72px;
+	overflow:hidden;
+}
+
+.jse .carousel .container .holder {
+	width:1400px;
+}
+
+.jse .carousel .controls{
+	display:block;
+	padding:4px 0;
+	position:relative;
+}
+
+.jse .carousel .controls p {
+	display:block;
+	margin:0 10px;
+}
+
+.jse .carousel .controls .previous span,
+.jse .carousel .controls .next span{
+	display:none;
+}
+
+.jse .carousel .controls .previous{
+	float:left;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_left.gif') no-repeat scroll left 4px;
+	padding-left:10px;
+}
+
+.jse .carousel .controls .next{
+	float:left;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') no-repeat scroll right 4px;
+	padding-right:10px;
+}
+
+.jse .carousel .controls ul li{
+	background:none;
+	cursor:pointer;
+	float:left;
+	margin:0px 2px;
+	width:10px;
+}
+
+.jse .carousel .controls ul li a{
+	background:#CCCCCC url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/c_dots.gif') 0em -0.2em no-repeat;
+	display:block;
+	height:10px;
+	width:0px;
+}
+
+.jse .carousel .controls ul li a:focus,
+.jse .carousel .controls ul li a:hover,
+.jse .carousel .controls ul li a:active,
+.jse .carousel .controls ul li.active a{
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/c_dots.gif') !important;
+	background-position:0em 93% !important;
+	background-attachment:scroll !important;}
+	
+#sideCol .jse .carousel .controls ul li a{
+	background:#CCCCCC url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/c_dots_white.gif') 0em -0.2em no-repeat;
+}
+
+#sideCol .jse .carousel .controls ul li a:focus,
+#sideCol .jse .carousel .controls ul li a:hover,
+#sideCol .jse .carousel .controls ul li a:active,
+#sideCol .jse .carousel .controls ul li.active a {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/c_dots_white.gif') !important;
+	background-position:0em 93% !important;
+	background-attachment:scroll !important;}
+
+.jse .carousel .controls ul li a span{
+	display:block;
+	left:-2000em;
+	position:absolute;
+}
+
+.pnlCaseStudy .carousel .container .holder .tabFix a{
+	display:block;
+	width:99%;
+	height:100%;
+	position:absolute;
+	z-index:100;
+}
+
+.pnlCaseStudy .carousel .container .holder .tabFix a:focus,
+.pnlCaseStudy .carousel .container .holder .tabFix a:hover,
+.pnlCaseStudy .carousel .container .holder .tabFix a:active {
+	background:transparent !important;
+	/*border:1px solid #053399;*/}
+	
+.pnlCaseStudy .carousel .container .holder p a:focus,
+.pnlCaseStudy .carousel .container .holder p a:hover,
+.pnlCaseStudy .carousel .container .holder p a:active {
+	background-image:none !important;
+	text-decoration:underline !important;
+}
+
+.pnlCaseStudy .carousel .container .holder .tabFix a span{
+	display:none;
+}
+
+.jse .carousel .controls #carouselCounter {
+	font-weight:bold;
+	left:75px;
+	position:absolute;
+}
+#sideCol .jse .carousel .controls #carouselCounter{left:95px;}
+/* --------------------------------------- PANEL: home 4 col: Case Studies  */
+
+#hpFourCol .pnlCaseStudy .carousel{
+	position:relative;
+	width:100%;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container{
+	height:120px;
+}
+
+#hpFourCol .jse .carousel .container{
+	height:90px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container,
+#hpFourCol .pnlCaseStudy .carousel .holder li{
+	width:178px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .holder li{
+	margin-right:10px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container .holder {
+	width:1250px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container .holder p{
+	padding-top:4px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .controls{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/control_bg.gif') 0 0 no-repeat;
+}
+
+/* --------------------------------------- PANEL: TWO ADJACENT FAUX COLUMS */
+
+
+/* #fullPage .pnlTwoFauxCol {
+	width:100%;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_two_col_middle.gif') 0 0 repeat-y;
+}
+
+#fullPage .pnlTwoFauxCol .pnlTwoColMid {
+	width:100%;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_two_col_top.gif') 0 0 no-repeat;
+}
+
+
+#fullPage .pnlTwoFauxCol .ft {
+    background: url("https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_two_col_footer.gif") no-repeat scroll 0 0 transparent;
+    height: 5px;
+    overflow: hidden;
+    width: 100%;
+} */
+
+
+
+/* #fullPage .pnlTwoFauxCol div.left {
+	width:232px;
+	margin-right:18px;
+	padding:5px;
+} */
+#fullPage .pnlTwoFauxCol div.left {
+            width:232px;
+            margin-right:18px;
+            padding:2px 5px;
+}
+
+
+#fullPage .pnlTwoFauxCol  div.left h3 {
+	padding-bottom:0;
+}
+
+#fullPage .pnlTwoFauxCol  div.left h2 {
+	padding-left:10px;
+}
+
+#fullPage .pnlTwoFauxCol div.left ul {
+	margin-left:10px;
+}
+
+#fullPage .pnlTwoFauxCol div.nomargin {
+	margin:0;
+}
+
+
+/* --------------------------------------- PANEL: Help panel */
+
+#panelHelp {
+	margin-top: 1em;
+	width: auto;
+}
+
+#panelHelp .content{
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 0 7px;
+}
+
+#panelHelp h2{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnlHelp_header.gif') 0 0 no-repeat;
+	color: #666666;
+	font-weight: bold;
+	padding: 7px 9px 0.6em;
+}
+
+#panelHelp ul{
+	border-top: 1px solid #CCCCCC;
+	padding: 3px;
+}
+
+#panelHelp li{
+	border: none;
+	_line-height: 15%; /*for ie6 JL*/
+}
+
+#panelHelp a{
+	color:#053399;
+	padding: 0;
+	margin: 0 0 0.2em;
+}
+
+#panelHelp li a:focus,
+#panelHelp li a:hover,
+#panelHelp li a:active {
+	background:none;
+}
+
+#panelHelp div.ft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnlHelp_footer.gif') 0 0 no-repeat;
+	width: 145px;
+	height: 5px;
+	overflow: hidden; /*JL*/
+}
+
+/* --------------------------------------- PANEL: Find contact panel */
+
+.pnlFindContact label{
+	font-weight:bold;
+	padding:4px 0;
+}
+
+.pnlFindContact input#contactSearchInput{
+	margin-bottom:6px;
+	padding:2px;
+	width:172px;}
+	
+#fullPage p.contact-intro{padding:0 10px 10px;}
+
+/* --------------------------------------- PANEL: Find a location panel */
+.pnlFindLocation .mapUK {margin-left:15px;}
+.pnlFindLocation .mapUK ul{padding:0 0 0 10px;}
+.pnlFindLocation .button {margin-top:10px;}
+
+.pnlFindLocation .btn a {
+	display:block;
+}
+
+.pnlFindLocation .content ul{float:right;}
+* html .pnlFindLocation .content ul{width:110px;}
+.pnlFindLocation .content:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.pnlFindLocation .content {display: inline-block;}
+html[xmlns] .pnlFindLocation .content {display: block;}
+* html .pnlFindLocation .content {height: 1%;}
+
+#mainContentWrap .mapContent {
+	float:left;
+	width:499px;
+}
+
+#mainContentWrap .mapContent img {
+	float:none;
+}
+
+#mainContentWrap .mapKey {
+	background: #E7EEF7 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_solidBlueEdge.gif) no-repeat scroll 0 0;
+	margin-bottom:20px;
+	float:none;
+	clear:both;
+}
+
+#mainContentWrap .mapKey .content {
+	padding:10px;
+}
+
+#mainContentWrap .mapKey h3 {
+	font-size:100%;
+	padding:0 !important;
+}
+
+#mainContentWrap .mapKey ol {
+	list-style-type:decimal;
+	width:33%;
+}
+
+#mainContentWrap .mapKey ol li {
+	font-size:85%;
+	margin-left:25px;
+}
+
+#mainContentWrap .mapKey p {
+	padding:0 0 10px 0 !important;
+	margin: 0 !important;
+}
+
+#mainContentWrap .mapKey .content {
+	border:medium none;
+	width:483px;
+	padding:10px;
+}
+
+#mainContentWrap .mapContent .mapKey .content {
+	width:459px;
+	font-size:100%;
+}
+
+#mainContentWrap .mapKey .content ul.inline {
+	left:0;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#mainContentWrap .mapKey .content ul.inline li {
+	display:inline;
+	float:left;
+	font-size:85%;
+}
+
+#mainContentWrap .mapKey .content ul.inline li span {
+	margin-right:5px;
+}
+
+#mainContentWrap .mapKey .content ul.inline li img {
+	margin-right:10px;
+}
+
+/* --------------------------------------- PANEL: Events panel */
+
+/*.pnlEvents .vevent{border-bottom:1px solid #CCCCCC;margin:0 0 6px;padding-bottom:6px;}
+.pnlEvents .vevent p{margin:0 0 0.2em;} 
+.pnlEvents .vevent .dtstart{font-weight:bold;margin:0 0 2px;}
+.pnlEvents .vevent .summary{color:#053399;font-weight:bold;}
+.pnlEvents .last{border:none;} redundant JL - change to calendar panel */
+
+/* --------------------------------------- FULL PAGE */
+
+#fullPage{position: relative;}
+#fullPage a{word-wrap:break-word;}
+
+#fullPage h1{
+	color: #333333;
+	font-size: 93%;
+	font-weight: bold;
+	letter-spacing:-0.1px;
+	margin-bottom: 0.7em;
+}
+#fullPage h2{
+	background:none;
+	margin:0px 0 5px;
+	padding:3px 0 0 10px;
+	min-height:19px;
+	height:auto;}
+#fullPage h3{background:none;margin:0px 0 5px;padding:0;}
+#fullPage h4{background:none;margin:0px 0 5px;padding:0;}
+#fullPage p{background:none;margin:5px 0 20px;padding:0 20px 0 0;} 
+#fullPage li,#fullPage p, #fullPage dd {font-size:85%;}
+#fullPage.
+ dd ul li, #fullPage.accountLanding dt {line-height:1.45em;}
+
+#fullPage div.intro p {font-size:93%;padding-right:0px;margin:0 0 10px 0;}
+#fullPage div.intro ul {list-style-type: disc;left: 14px;margin: 0 14px 1em 0;position: relative;}
+#fullPage div.intro dl dd ul li {font-size: 110%;}
+#fullPage div.intro ul li {font-size: 93%;}
+#fullPage .rightPad p{padding-right: 6em;}
+#fullPage ul.circlebullet {list-style-image:none;list-style:disc;list-style-position:outside;margin:5px 0 20px 0;width:90%;}
+#fullPage ul.circlebullet li {margin-left:16px; padding-left:0;}
+#fullPage ol.numberbullet {
+	margin:5px 0 20px 0;
+	padding-left:30px;
+	position:relative;
+	left:-15px;
+	}
+#fullPage ol.numberbullet li {
+	list-style-image:none;
+	list-style:decimal;
+	list-style-image:none;
+	margin-bottom:4px;
+	margin-left:10px;
+	padding-left:0;
+	}
+
+#fullPage li a{background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') 3px 0.45em  no-repeat;padding:0 0 0 13px;}
+#fullPage li.active{font-weight:bold;background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_black_arrow_right.gif') 3px 0.45em  no-repeat;padding:0 0 0 13px;}
+#fullPage li a:focus,
+#fullPage li a:hover,
+#fullPage li a:active {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') !important;
+	background-position:3px 0.45em !important;
+	background-repeat:no-repeat !important;
+}
+#fullPage ul.circlebullet li a{background:none;padding:0;}
+#fullPage ul.circlebullet li a:focus,
+#fullPage ul.circlebullet li a:hover,
+#fullPage ul.circlebullet li a:active {
+	background:none !important;
+}
+#fullPage ul.guideSubjects{margin-bottom:20px;}
+#fullPage ul.guideSubjects li:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+#fullPage ul.guideSubjects li {display: inline-block;}
+html[xmlns] #fullPage ul.guideSubjects li {margin-bottom:2px;display: block;}
+* html #fullPage ul.guideSubjects li {height: 1%;}
+#fullPage ul.guideSubjects li a{float:left;}
+
+#fullPage img.left{padding:0 10px 10px 0;}
+#fullPage.accountLanding img.left{padding-bottom:20px;}
+#fullPage .cta{margin-top:-10px;}
+#fullPage .cta:after {content: "";display: block;height: 0;clear: both;visibility: hidden;}
+#fullPage .emphasize{font-weight:bold; font-size: 93%;}
+#fullPage .pnlContent p.emphasize a {font-weight: normal;}
+
+#fullPage.accountLanding .pnlContent .content ul {
+	margin-bottom: 0px;
+	padding-bottom: 5px;}
+
+.smlBox{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/fullPage_blue_sml_box.gif') 0 0 no-repeat;
+	margin-left:20px;
+	padding-top:5px;
+	width:116px;
+}
+
+.smlBox .content{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/fullPage_blue_sml_box.gif') 0 100% no-repeat;
+	padding:0 5px 5px;
+}
+
+#fullPage .smlBox .content p{
+	font-size:77%;
+	margin:4px 0 2px;
+	padding:0;
+	width:100%;}
+
+.midBox{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/fullPage_blue_mid_box.gif') 0 0 no-repeat;
+	margin-left:20px;
+	padding-top:5px;
+	width:179px;
+}
+
+.midBox .content{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/fullPage_blue_mid_box.gif') 0 100% no-repeat;
+	padding:0 5px 5px;
+}
+
+#fullPage .midBox .quote{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/ldquo.gif') 2px 0 no-repeat;
+}
+
+#fullPage .midBox .content p{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/rdquo.gif') 100% 100% no-repeat;
+	font-size:85%;
+	font-weight:bold;
+	padding:6px 20px 2px 20px;
+	width:auto;
+}
+
+#fullPage .paginate{
+	margin:20px 0 0;
+	position: relative;
+	/*text-align: center; JL*/
+	width:auto;
+}
+
+#fullPage .paginate ul{
+	text-align: center;
+	width:auto;
+}
+
+#fullPage .paginate li{
+	display:inline;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/divider/navDivider.gif') 100% 50% no-repeat;
+	padding:0 6px 0 0;
+	}
+	
+#fullPage .paginate li strong{
+	font-weight:bold;}
+	
+#fullPage .paginate li strong a{
+	color:#000;}
+
+#fullPage .paginate li.first{
+	padding-right:0;
+	background:none;
+	}
+#fullPage .paginate li.last{
+	background:none;
+	}
+
+#fullPage .paginate li a{
+	background:none;
+	padding:0;
+	}	
+	
+#fullPage .paginateAZ {
+	margin:20px 0 0;
+	position: relative;
+	/*text-align: center; JL*/
+	width:auto;
+}
+
+#fullPage .paginateAZ ul{
+	text-align: center;
+	width:auto;
+}
+
+#fullPage .paginateAZ li{
+	display:inline;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/divider/navDivider.gif') 100% 50% no-repeat;
+	padding:0 4px 0 0;
+	}
+	
+#fullPage .paginateAZ li strong{
+	font-weight:bold;}
+	
+#fullPage .paginateAZ li strong a{
+	color:#000;}
+
+#fullPage .paginateAZ li.first{
+	padding-right:0;
+	background:none;
+	}
+#fullPage .paginateAZ li.last{
+	background:none;
+	}
+
+#fullPage .paginateAZ li a{
+	background:none;
+	padding:0;
+	}
+	
+#fullPage .paginate li a:hover,
+#fullPage .paginate li a:active,
+#fullPage .paginate li a:focus {
+	background-image:none !important;}
+
+#fullPage .paginate p{
+	margin:5px 0 0;
+	text-align: center; /*JL text-align on p in leiu of .paginate*/
+}
+
+#fullPage .paginate p.cta{
+	position: absolute;
+	margin: 0;
+}
+
+#fullPage .paginate p.cta a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif') 0 -600px no-repeat; /*JL - images that use icon should all be redirected to this asset*/
+	padding-bottom: 0.2em;
+}
+
+#fullPage .pnlContent {
+	/*background: #E7EEF7 url('../images/background/pnl_caps.gif') -2434px 0 no-repeat;*/
+	background: #E7EEF7 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_midbox_top.gif') no-repeat;
+	position: relative;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+#fullPage .pnlContent h2{
+	margin:0;
+	padding:5px;
+}
+
+#fullPage .pnlContent h3 {
+	padding: 0;
+	margin: 0;
+}
+
+
+#fullPage .pnlContent h4 {
+	font-size: 85%;
+	font-weight: bold;
+	margin: 0 0 0.4em;
+}
+
+#fullPage .content {
+	margin: 0;
+	position: relative;
+}
+
+#fullPage .noHeading {
+	padding-top:9px;
+}
+
+#fullPage .pnlContent div.ft {
+	background: #E7EEF7 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -2937px 0 no-repeat;
+	width: 503px;
+	height: 5px;
+	overflow: hidden;
+}
+
+#fullPage .pnlContent p {
+	margin: 0;
+	padding: 3px 9px 0;
+}
+
+#fullPage .content p{
+	margin: 0 0 1em;
+	padding: 0 100px 0 0;
+}
+
+#fullPage .pnlContent ul, #fullPage .pnlContent dl {
+	margin: 0 0 0.2em;
+	padding-bottom: 0;
+	clear: both;
+}
+
+#fullPage .pnlContent ul li.viewAll {
+	margin-top: 0.8em;
+}
+
+#fullPage .pnlContent ul.inline li {
+	display: inline;
+}
+
+#fullPage .pnlContent ul.inline li a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/divider/navDivider.gif') 100% 50% no-repeat;
+	padding:0 6px 0 0;}
+	
+#fullPage .pnlContent ul.inline li a:focus,
+#fullPage .pnlContent ul.inline li a:hover,
+#fullPage .pnlContent ul.inline li a:active {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/divider/navDivider.gif') !important;
+	background-position:100% 50% !important;
+	background-repeat: no-repeat !important;
+}
+
+#fullPage .pnlContent ul li.last a{
+	background:none;
+}
+
+#fullPage .pnlContent ul li.active a{
+	font-weight: bold;
+}
+
+#fullPage .pnlContent dl {
+	margin: 0 0 0.6em;
+}
+
+#fullPage .pnlContent dl dt{
+	font-size: 93%;
+	font-weight: 600;
+	margin-top: 14px;
+	display: block;
+}
+
+#fullPage .pnlContent dl dd a{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') 3px 0.45em  no-repeat;
+	padding:0 0 0 13px;
+	margin: 0;
+	display: block;}
+	
+#fullPage .pnlContent dl dd a:focus,
+#fullPage .pnlContent dl dd a:hover,
+#fullPage .pnlContent dl dd a:active {
+	background-image:url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') !important;
+	background-position:3px 0.45em !important;
+	background-repeat:no-repeat !important;
+}
+
+#fullPage .pnlContent dl#ukRegions {
+	float: left;
+	margin-right: 13px;
+	position: relative;
+	width: 225px;
+}
+
+#fullPage .pnlContent dl#ukRegions dt {
+	font-size: 87%;
+	margin: 0.1em 0 0 0;
+}
+
+#fullPage .pnlContent dl#ukRegions dd {
+	margin: 0 0 0.2em 6px;
+}
+
+#fullPage .pnlContent dl#ukRegions dd.first {
+	margin-top: 0.3em;
+}
+
+#fullPage .pnlContent dl#ukRegions dd.last {
+	margin-bottom: 0.6em;
+}
+
+#fullPage .pnlContent #mapHolder {
+	float: left;
+	margin-bottom: 0.6em;
+	overflow: hidden;
+	position: relative;
+	top: -0.4em;
+	width: 176px;
+}
+
+#fullPage .pnlContent .noHeading #mapHolder {
+	top:0;
+}
+
+/*form*/
+#fullPage .pnlContent form {
+	margin: 0;
+	padding: 0 9px;
+}
+
+#fullPage .pnlContent form .row {
+	display: block;
+	clear: both;
+	margin: 0;
+	overflow: hidden;
+}
+
+#fullPage .pnlContent form div.inline{
+	margin-top: 0.8em;
+	overflow: hidden;
+}
+
+#fullPage .pnlContent form div.inline input, #fullPage .pnlContent form div.inline select {
+	width: 38%;
+	float: right;
+	clear: none;
+}
+
+#fullPage .pnlContent form .midContain {
+	width: 188px;
+	padding: 0 12px 0 10px;
+	display: block;
+	float:left;}
+
+#fullPage .pnlContent form .wideContain {
+	width: 270px;
+	padding: 0 12px 0 0;
+	display: block;
+	float:left;	}
+
+html #fullPage .pnlContent form .row label {
+	width: 105px;
+	text-align: left;
+	float: left;
+	padding: 4px;}
+
+#fullPage .pnlContent form input {
+	width: 99%;}
+
+#fullPage .pnlContent form p {
+	width: 188px;
+	margin: 0 0 0.8em 0;
+	padding: 0 12px 0 0;
+	display: block;
+	float:left;
+}
+
+#fullPage .pnlContent form p.wide {
+	width: 209px;
+}
+
+#fullPage .pnlContent form label {
+	display: block;
+	font-size: 100%;
+}
+#fullPage .pnlContact {
+	font-size:85%;
+	width:150px;
+	margin:0 0 20px 20px;
+	border-left:1px solid #e3e3e3;
+}
+
+#fullPage .pnlContact h3 {
+	padding-bottom:5px;
+}
+
+#fullPage .pnlContact img {
+	width:145px;
+	height:85px;
+	margin:0 0 10px 5px;
+}
+
+#fullPage .content .pnlContact p {
+	padding:0 0 5px 5px;
+}
+
+#fullPage .vcard .content,
+#fullPage .vevent .content {
+	font-size:85%;
+	padding:0 0 10px 10px;
+}
+
+#fullPage .pnlMidBoxBot .vevent .row {
+	width:483px;
+}
+
+#fullPage .vevent .veventKey {
+	position:relative;
+	display:block;
+	float:left;
+	clear:left;
+	width:120px;
+	font-weight:bold;
+	padding:0 0 4px 0; 
+}
+
+#fullPage .vevent .veventValue {
+	position:relative;
+	display:block;
+	float:left;
+	clear:right;
+	width:363px;
+	padding:0 0 4px 0;
+}
+
+#fullPage .pnlContent form input {
+	width: 99%;
+}
+
+#fullPage .pnlContent form input[type=hidden]{ 
+	display:none; 
+}
+
+/* override padding-left conflict with typo.css*/
+#fullPage .pnlContent form input, #fullPage .pnlContent form .btn {
+	padding-left: 0px !important;
+}
+
+#fullPage .pnlContent form input, #fullPage .pnlContent form select {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+
+#fullPage .pnlContent .pnlContent {
+	position:relative;
+	margin:10px auto;
+	padding:10px 0 0;
+	width:482px;
+}
+
+#fullPage .pnlContent .pnlContent .row {
+	position:relative;
+	width:462px;
+	margin:0 10px;
+}
+
+#fullPage .pnlContent .pnlContent .ft {
+	width:482px;
+	height:5px;
+}
+
+/* --------------------------------------- PANEL BACKGROUNDS */
+/* -------------- Fullpage Panel - SOLID PALE BLUE BG WITH HIGHLIGHTED EDGE */
+#fullPage .solidPaleBlueEdge {background: #EAF0F5 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_solidPaleBlueEdge.gif') 0 0 no-repeat;}
+#fullPage .solidPaleBlueEdge div.ft {background: #FFFFFF url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_solidPaleBlueEdge_ft.gif') 0 0 no-repeat;}
+/* -------------- Fullpage Panel SOLID BLUE BG *DEFAULT pnlContent is set to solid blue so does not need to be dfeined seperately for time-being JL*/
+/*#fullPage .solidBlue {background: #E7EEF7 url('../images/background/pnl_caps.gif') -2434px 0 no-repeat;}*/
+/* -------------- Fullpage Panel SOLID BLUE BG WITH HIGHLIGHTED EDGE */
+#fullPage .solidBlueEdge {background: #E7EEF7 url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_solidBlueEdge.gif') 0 0 no-repeat;}
+
+#fullPage .solidWhiteEdge {background: #fff url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/08_pnl_solidWhiteEdge.gif') 0 0 no-repeat;}
+#fullPage .solidWhiteEdge div.ft {background: #fff url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_caps.gif') -3440px 0 no-repeat;}
+
+/* --------------------------------------- PANEL ICONS */
+#fullPage .iconQuestion {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif') right -390px no-repeat;
+}
+
+/* --------------------------------------- TABLE */
+
+.table{background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/table_bg.gif') 0 0 no-repeat;margin:30px 0;}
+table{margin:10px 10px;border-spacing:0px;}
+table thead{margin-top:10px;}
+#fullPage .table h3{font-size:85%;font-weight:bold;border-bottom:2px solid #FFFFFF;padding:5px 10px;margin:5px 0;}
+table thead th{font-size:85%;font-weight:bold;padding:5px 10px;border:none;border-right:1px solid #CCCCCC;}
+table td, table tbody th{font-size:85%;padding:10px 10px;border:1px solid #CCCCCC;border-left:none;vertical-align:top;}
+table th.last,table td.last{border-right:none;}
+table .first{padding-left:0;}
+
+/* --------------------------------------- PAGE FOOTER */
+
+.footer{
+	border-top:1px solid #CCCCCC;
+	margin:20px 0;
+	padding:10px 0;
+}
+
+.footer p{
+	font-size:77%;
+}
+
+.footer a{
+	font-size:77%;
+}
+
+.footer .share{
+	margin:20px 0;
+}
+
+/* --------------------------------------- LISTING: listing of articles */
+
+#listing {
+	position: relative;
+}
+
+#listing h1 {
+	color: #333333;
+	font-size: 87%;
+	font-weight: bold;
+	letter-spacing:-0.1px;
+	margin-bottom: 0.7em;
+}
+
+#listing h2 {
+	background: none;
+	font-size:100%;
+	margin:0 0 0.5em;
+	padding: 9px 0 0 0;
+}
+
+#listing h2 a {
+	color: #333333;
+}
+
+#listing h2 a:hover {
+	color:#053399;
+}
+
+#listing .item{
+	float: left;
+	margin-bottom: 1.5em;
+	width: 503px;
+}
+
+#listing .item .content{
+	border-top: 1px solid #ADD037;
+	float: left;
+	padding-right: 30px;
+	width: 342px;
+}
+
+#listing .first .content{
+	border-top: none;
+}
+
+#listing .item .wide{
+	border-top: 1px solid #ADD037;
+	float: left;
+	padding-right: 30px;
+	width: auto;
+}
+
+#listing .item .wide h3{
+	width: 100%;
+}
+
+#listing .item img{
+	float: left;
+	margin-right: 9px;
+	width: 122px;
+}
+
+/* -------------- ICONS */
+
+.bookAmphersandLeft {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_amphersand.gif') 0 0 no-repeat;
+	padding-left:50px;
+	min-height:50px;
+	height:auto !important;
+	height:50px;
+}
+
+.bookAmphersandRight {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_amphersand.gif') 100% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookListLeft {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_list.gif') 0 0 no-repeat;
+	padding-left:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookListRight {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_list.gif') 100% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookTickLeft {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_tick.gif') 0 0 no-repeat;
+	padding:0 0 0 50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookTickRight {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/book_tick.gif') 95% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.speechBubbleLeft {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/speech_bubble.gif') 0 0 no-repeat;
+	padding:0 0 0 50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.speechBubbleRight {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/speech_bubble.gif') 95% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;}
+
+.helpBoxLeft{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/help_box.gif	') 95% 0 no-repeat;
+	padding:0 0 0 50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;}
+
+.helpBoxRight{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/help_box.gif	') 95% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;}
+
+.optionRight{
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif') 100% -400px no-repeat;
+	padding-right:25px;
+}
+
+.calendarLeft {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/calendar.gif') 0 2px no-repeat;
+	padding:0 0 0 50px;
+	min-height:50px;
+	height:auto !important;
+	height:50px;
+}
+
+#fullPage .pnlMidBoxTop{
+	width: 503px;
+	background:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_midbox_top.gif) no-repeat top left;
+	padding-top:5px;
+	margin-bottom:1em;}
+
+#fullPage .pnlMidBoxBot{
+	width: 503px;
+	background: #E7EEF7 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_midbox_bot.gif) no-repeat bottom left;
+	padding-bottom: 1px;}
+
+#fullPage .pnlMidBoxBot p {
+	margin: 0px;}
+
+#fullPage .content p {
+	margin: 0px;}
+
+#fullPage .pnlMidBoxBot .qMark {
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/qmark.gif) no-repeat scroll 10px 5px;
+	margin:0;
+	padding:2px 30px 8px 40px;}
+	
+#fullPage .pnlMidBoxBot .heading {
+	margin:0;
+	padding:0px 5px 5px 10px;
+	font-size: 93%;
+	font-weight: bold;}	
+	
+#fullPage .pnlMidBoxBot .heading a {
+	font-weight: normal;}
+	
+
+
+/* Forms - Page */
+
+#fullPage .content .headerQMark, #fullPage .pnlContent .headerQMark {
+	overflow: hidden;
+	padding: 0 0 5px 0;}
+	
+#fullPage .pnlMidBoxBot .headerQMark {
+	overflow: hidden;
+	padding: 0 0 5px 0;
+	min-height:25px;
+	height:auto !important;
+	height:25px;}
+	
+#fullPage .pnlMidBoxBot .headerQMark h2,
+#fullPage .pnlMidBoxBot .headerQMark h3 {
+	float: left;
+	padding: 5px 5px 0px 10px;
+	background: none;
+	display: inline;
+	font-size:93%;}		
+
+#fullPage .content .headerQMark h3 a {font-weight:normal;}
+	
+#fullPage .pnlMidBoxBot .headerQMark h4 {
+	float: left;
+	width:auto;
+	padding: 5px 5px 0px 10px;
+	background: none;
+	display: inline;
+	clear:both;}	
+	
+#fullPage .pnlMidBoxBot .headerQMark .help {
+	float: right;
+	margin: 5px 10px 0 0;
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat 0 -400px;
+	height:14px;
+	width: 14px;
+	text-decoration: none;}
+	
+#fullPage .pnlMidBoxBot hr,#fullPage .hr {
+	width: 485px;
+	height:1px;
+	overflow:hidden;
+	background:#ccc;
+	margin: 0px auto 5px auto;
+	_margin-top:5px}
+
+#fullPage .padtop {
+	margin: 10px auto 5px auto;}
+	
+html #fullPage div.intro .padtop{
+	margin: 10px 0;}		
+	
+#fullPage .pnlMidBoxBot .headerQMark .left {
+	float: left;
+	margin:5px 0 0 0;}
+	
+#fullPage .pnlMidBoxBot .headerQMark .help span {
+	visibility:hidden;}	
+	
+#fullPage .pnlMidBoxBot .formIntro {
+	overflow: hidden;
+	margin: 0 10px;}
+	
+#fullPage .pnlMidBoxBot .bottomBorder,#fullPage .content .bottomBorder {
+	border-bottom: 1px solid #CCC;
+	padding: 0 0 10px 0;
+	margin: 0 10px 10px 10px;}
+	
+#fullPage .pnlMidBoxBot h3,#fullPage .content h3 {
+	padding: 0 10px 10px 10px;}
+	
+/* Forms - Forms */
+	
+#fullPage .pnlMidBoxBot p,#fullPage .content p,#fullPage .content h4, #fullPage .content dl, #fullPage .pnlContent .content ul {
+	padding: 0px 10px 10px 10px;}
+	
+#fullPage .pnlMidBoxBot .error,#fullPage .content .error, #fullPage.LT010W div.error {
+	color: #cc0000;}
+	
+#fullPage .pnlMidBoxBot .error ul,
+#fullPage .content .error ul{margin:0 0 10px 10px;}
+	
+#fullPage .pnlMidBoxBot .errorOver,#fullPage .content .errorOver {
+	color: #cc0000;
+	padding:0 0 5px 140px;}
+	
+#fullPage .pnlMidBoxBot .req,#fullPage .content .req {
+	color: #053399;}
+	
+#fullPage .pnlMidBoxBot .row,#fullPage .content .row {
+	overflow: hidden;
+	padding-bottom: 5px;
+	width: 500px;}
+
+.marginLeft {
+	margin-left:10px;
+}
+	
+#fullPage .pnlMidBoxBot .row .marginLeft,#fullPage .content .row .marginLeft {
+	margin-left:10px;
+	margin-top: 1px;}
+	
+#fullPage .pnlMidBoxBot .row label,#fullPage .content .row label {
+	float: left;
+	text-align: right;
+	font-size: 85%;
+	padding: 2px 15px 0 0;}
+	
+.registration label {font-size:1em;padding:0 0 0 4px;}
+	
+#fullPage .pnlMidBoxBot .row label.float {
+	width:auto;
+	text-align:left;
+	margin-left:10px;
+	padding-right:0;
+}
+	
+#fullPage .content .row select, #fullPage .content .row input, #fullPage .content .row textarea {
+	font-size: 85%;}
+	
+#fullPage .pnlMidBoxBot .row .textAlignLeft {
+	text-align: left;}
+	
+html  #fullPage .pnlMidBoxBot .stdInputUnder .textareaContainer textarea,html  #fullPage .content .stdInputUnder .textareaContainer textarea {
+	margin: 0 0 0 10px;
+	float: left;}
+	
+html  #fullPage .pnlMidBoxBot .stdInputUnder .textareaContainer .help,html  #fullPage .content .stdInputUnder .textareaContainer .help {
+	margin: 0 0 0 5px;
+	float: left;}	
+	
+#fullPage .pnlMidBoxBot .row .stdLabel,#fullPage .content .row .stdLabel {width: 175px;}
+#fullPage .pnlMidBoxBot .row .stdLabelUnder {
+	width: auto;
+	margin: 0 0 0 10px;
+	clear:both;}
+	
+#fullPage .pnlMidBoxBot .row .stdLabelUnder{width:460px;text-align:left;}	
+	
+#fullPage .pnlMidBoxBot .row .stdInput,#fullPage .content .row .stdInput {
+	font-size:85%;
+	float: left;
+	border: 1px solid #7f9db9;
+	width: 177px;
+	min-height:17px;
+	height:auto !important;
+	height:17px;
+	background: #fff;
+	padding: 0;
+	}
+	
+#fullPage .pnlMidBoxBot .row textarea.stdInput,#fullPage .content .row textarea.stdInput {
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+	}
+	
+#fullPage .pnlMidBoxBot .row .stdInputMarginLeft, #fullPage .pnlContent .row .stdInputMarginLeft {
+	margin: 0 0 10px 10px;}
+
+#fullPage .pnlMidBoxBot .stdInputUnder .stdInput {
+	margin: 0 0 10px 10px;
+	float: none;}
+	
+#fullPage .pnlMidBoxBot .stdInputUnder p {
+	padding: 0 0 5px 10px;
+	margin: 0;}
+	
+html  #fullPage .pnlMidBoxBot .stdInputUnder label {
+	margin:0 0 5px 10px;
+	float: none;
+	width: auto;
+	display: block;
+	text-align: left;}
+	
+#fullPage .pnlMidBoxBot .row .dobSlash,#fullPage .content .row .dobSlash {float: left;padding: 0 5px;}
+#fullPage .pnlMidBoxBot .row .smlInfo,#fullPage .content .row .smlInfo {	font-size: 77%;width:auto;padding:0;}
+#fullPage .content .row .smlInfoContainer {float:left;clear:left;margin-left:52px;}
+
+#fullPage .content .row .smlInfoContainer {_margin-left:23px;}
+	
+#fullPage .pnlMidBoxBot .row .stdRadio, #fullPage .content .row .stdRadio {float: left;border:0;width:16px;height:16px;}
+#fullPage .pnlMidBoxBot .row .rowBlock, #fullPage .content .row .rowBlock {float: left;width: 230px;}
+#fullPage .pnlMidBoxBot .row .stdCheck, #fullPage .content .row .stdCheck {float: left;border:0;width:16px;height:16px;}
+
+#fullPage .pnlMidBoxBot .row .item,#fullPage .content .row .item {
+	width: 230px;
+	padding: 0 0 3px 10px;}
+
+#fullPage .content .row .itemAuto {
+	float: left;
+	width: Auto;
+	padding-left: 10px;}
+	
+#fullPage .pnlMidBoxBot .row .itemWide {
+	float: left;
+	width: 470px;
+	padding: 0 0 3px 10px;}
+	
+#fullPage .content .row .itemForm {
+	float: left;
+	padding-left:10px;
+	width: 200px;}	
+	
+#fullPage .content .row .itemForm2 {
+	float: left;
+	width: 222px;}			
+	
+#fullPage .content .row .help {
+	margin:0 0 0 5px}
+	
+#fullPage .pnlMidBoxBot .row .item .help {
+	margin:0;}
+	
+#fullPage .pnlMidBoxBot .row label {
+	float: left;
+	width: 200px;}
+	
+#fullPage .pnlMidBoxBot .row .itemWide label {
+	float: left;
+	width: 400px !important;}
+
+#fullPage .pnlMidBoxBot .row ul.floatedSpans {
+	margin-left:10px;
+	width:370px;
+}
+	
+#fullPage .pnlMidBoxBot .row ul.floatedSpans li span {
+	float:left;
+	width:300px;
+}
+
+#fullPage .pnlMidBoxBot .row ul.floatedSpans li span.link {
+	float:right;
+	width:auto;
+}
+
+#fullPage .pnlMidBoxBot .row ul.floatedSpans li a {
+	background-image:none;
+}
+	
+#fullPage .pnlMidBoxBot .row .lblRadio {float: none;text-align:left; font-size:93%;padding:0;margin:0;}
+
+#fullPage .content .row .radioContainer {
+	float:left;
+	padding-left:5px;
+	width:440px;}
+	
+#fullPage .pnlMidBoxBot .row .radioContainer p,#fullPage .content .row .radioContainer p {
+	padding: 0;}	
+
+#mainContentWrap #fullPage .pnlMidBoxBot .row .dob {width: 40px;}
+#mainContentWrap #fullPage .pnlMidBoxBot .row .smlInput {width: 125px;}
+#mainContentWrap #fullPage .pnlMidBoxBot .row .lrgInput {width: 250px;}
+
+#mainContentWrap #fullPage .pnlMidBoxBot .row .lblRadioCheck {text-align:left;padding: 0 0 5px 3px;}
+	
+#mainContentWrap #fullPage .pnlMidBoxBot .row .smlRadioCheck {width: 30px;}
+#mainContentWrap #fullPage .pnlMidBoxBot .row .medRadioCheck {width: 80px;}
+#mainContentWrap #fullPage .pnlMidBoxBot .row .lrgRadioCheck {width: 190px;}
+#mainContentWrap #fullPage .content .row .smlLabel {width: 90px;}
+
+#mainContentWrap #fullPage .content .row .smlRadioCheck {width: 30px;}
+#mainContentWrap #fullPage .content .row .medRadioCheck {width: 80px;}
+#mainContentWrap #fullPage .content .row .lrgRadioCheck {width: 190px;}
+
+#mainContentWrap #fullPage .content .margin10 {padding-left: 10px;_margin-top:5px;display:block;width:400px;}
+
+#fullPage .content .row .lblRadio {float: none;text-align:left; padding:0;margin:0;}
+#mainContentWrap #fullPage .content .row .lblRadioCheck {text-align:left;padding: 0 0 5px 3px;}
+
+#mainContentWrap #fullPage .content .row .itemAuto .lblRadioCheck {text-align:left;padding: 0 5px 5px 3px; width: Auto;}
+
+#mainContentWrap #fullPage .content .lblDateCheck {width:32px; text-align:center; padding:4px 11px 4px 10px;}
+	
+/* Forms - Submit Button */
+
+#fullPage .content .rowSubmit {margin-left: 10px; width: 482px;padding-top:10px;}
+#fullPage .content .rowSubmit .btnLight {float: left; padding: 6px 5px 0 0;}
+#fullPage .content .rowSubmit .btnBig {float: right; padding-left: 5px;}
+
+#fullPage .pnlMidBoxBot .rowSubmit,#fullPage .content .rowSubmit {margin-left: 10px; width: 482px;}
+#fullPage .pnlMidBoxBot .rowSubmit .btnLight,#fullPage .content .rowSubmit .btnLight {float: left; padding: 6px 5px 0 0;}
+#fullPage .pnlMidBoxBot .rowSubmit .btnBig,#fullPage .content .rowSubmit .btnBig {float: right; padding-left: 5px;}
+#fullPage .pnlMidBoxBot .rowSubmit .btnLeft {float: left; padding: 6px 5px 0 0;}
+#fullPage .pnlMidBoxBot .rowSubmit .description {float:left; font-size:85%; padding-top:8px;}
+#fullPage .pnlMidBoxBot .rowSubmit .action {font-weight:bold;}
+
+/* Forms - Review Answers*/
+
+#fullPage .formFooter {
+	margin-top: 10px;
+	overflow: hidden;
+	border-top: 1px solid #ccc;}
+
+#fullPage .formFooter .reviewAnswers{
+	float: right;
+	font-size: 77%;
+	background-image: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-repeat: no-repeat !important;
+	background-position: 0 -193px !important;
+	padding:10px 0 5px 17px;}
+		
+#fullPage .progressBar{margin:17px 0 20px;}
+#fullPage .progressBar ul{text-align:center;margin-bottom:1px;}
+#fullPage .progressBar ul li{display:inline;}
+#fullPage .progressBar p{text-align:center;margin:0;}
+
+
+/* Large Gradient Panel Box*/	
+#fullPage .pnlBoxGrad {
+	width: 503px;
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_bg_grad.gif) no-repeat top left;
+	margin: 20px 0;
+	overflow: hidden;}
+	
+#fullPage .pnlBoxGrad h4, #fullPage h3.h3-smaller ,#fullPage h2.h2-smaller {
+	margin: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 85%;}	
+	
+#fullPage .pnlBoxGrad ul {
+	list-style-type:none;
+	margin:10px 20px 20px 11px;}
+	
+html #fullPage .pnlBoxGrad .noBotPad {
+	margin:10px 20px 0px 11px;}	
+	
+#fullPage .pnlBoxGrad ul li {
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/li.gif) no-repeat 0 5px;
+	padding-left: 8px;}	
+	
+html #fullPage .pnlBoxGrad .downArrow li {
+	background-image: none;
+	padding: 0 0 5px 2px;}	
+
+html #fullPage .pnlBoxGrad .downArrow li a {
+	background-image: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_down.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:3px 0.45em !important;
+	float:left;
+	}
+
+#fullPage .pnlBoxGrad .downArrow li:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+#fullPage .pnlBoxGrad .downArrow li {display: inline-block;}
+html[xmlns] #fullPage .pnlBoxGrad .downArrow li {display: block;}
+* html #fullPage .pnlBoxGrad .downArrow li {height: 1%;}
+	
+#fullPage .pnlBoxGrad .btnBig {
+	float: right;
+}
+
+/* Help Bar */
+#fullPage .helpBar {
+	border-bottom: 1px solid #cccccc;
+	overflow: hidden;
+	margin-top: 15px;
+	padding: 0 10px 5px 10px;
+	min-height:15px;
+	height:auto !important;
+	height:15px;	
+	}
+	
+#fullPage .helpBar h2 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	font-size:93%;}
+	
+#fullPage .help {
+	float: right;
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat 0 -400px;
+	height:14px;
+	width: 14px;
+	text-decoration: none;}
+
+#fullPage a.help:focus,
+#fullPage a.help:hover,
+#fullPage a.help:active {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:0 -400px !important;
+}
+	
+#fullPage .help.left {
+	float:left;
+}
+	
+#fullPage .help span {
+	visibility: hidden;
+	font-size: 0%;}
+
+
+/* Form Panel Toggle */
+#fullPage .pnlMidBoxBot .headerQMark .toggle,#fullPage .content .headerQMark .toggle {
+display:none;
+padding:0;
+width:auto;
+padding-right: 22px;
+background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat right -550px;
+height: 14px;
+font-size: 85%;
+margin: 10px 5px 0 0;
+float: right;}
+
+#fullPage .content .headerQMark a:focus.toggle,
+#fullPage .content .headerQMark a:hover.toggle,
+#fullPage .content .headerQMark a:active.toggle {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:right -550px !important;}
+
+/* Form Panel Toggle */
+html #fullPage .content .headerQMark a:focus.open,
+html #fullPage .content .headerQMark a:hover.open,
+html #fullPage .content .headerQMark a:active.open {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:right -550px !important;}
+
+/* Form Panel Toggle */
+html #fullPage .content .headerQMark a:focus.closed,
+html #fullPage .content .headerQMark a:hover.closed,
+html #fullPage .content .headerQMark a:active.closed {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-repeat:no-repeat !important;
+	background-position:right -500px !important;}
+
+/* Pop UP */
+
+#popUp {
+	background: #fff;
+	width: 430px;
+	padding: 10px;
+	margin: 0 auto;}
+	
+#popUpClose {
+	overflow: hidden;}
+	
+#popUpClose a {
+	float: right;
+	font-size: 77%;
+	visibility:hidden;}
+
+#popUpGrad {
+	background:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_pop_bg_grad.gif) no-repeat top left;
+	width: 410px;
+	margin-top:10px;
+	padding: 10px;}
+	
+#popUpGrad h1 {
+	color: #000;
+	font-size: 93%;
+	font-weight: bold;
+	margin-bottom: 10px;}
+	
+#popUpGrad h2 {
+	color: #000;
+	font-size: 85%;
+	font-weight: bold;
+	margin-bottom: 5px;}
+		
+#popUpGrad p {
+	font-size: 85%;}
+
+#popUp #popUpGrad ul {
+	list-style-type:none;
+	margin:10px 20px 10px 0px;
+	font-size: 85%;}
+	
+#popUp #popUpGrad ul li {
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/li.gif) no-repeat 0 5px;
+	padding-left: 8px;}
+	
+#fullPage .content .nopadding {padding:0;}
+
+div .intro dl.left {
+	position:relative;
+	width:300px;
+}
+
+#fullPage div.intro dl.left ul {left:0;}
+
+#fullPage div.intro dl.left ul li {margin-left:15px;}
+
+#fullPage .pnlContent .headerQMark h2,
+#fullPage .pnlContent .headerQMark h3{
+	font-size:93%;
+	padding:9px 9px 0 9px;
+	float: left;
+}
+
+#fullPage .pnlContent .headerQMark a.help {margin: 10px 10px 0 0;}
+
+#fullPage .content .padHalfBottom {padding-bottom:5px;}
+#fullPage .content .hrMarginTopBottom {margin:0px 5px 10px 5px;}
+	
+/* Blue Headed Panels */
+
+#fullPage .hrFull {
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+	background:#ccc;
+	margin: 0px auto;
+	_margin-top:5px}
+
+#fullPage .hrFullPadBot {
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+	background:#ccc;
+	margin: 0px auto 10px auto;
+	_margin-top:5px}	
+	
+#fullPage .resultsHeader {	
+	overflow:hidden;
+	padding-top: 20px;
+	clear: both;}
+	
+#fullPage .resultsHeader h3 {	
+	font-size:93%;
+	float: left;
+	padding-left: 10px;}
+	
+#fullPage .resultsHeader .pageControl {	
+	float: right;
+	font-size: 85%;}
+	
+#fullPage .resultsHeader .resultsheadercontent	{
+	clear:both;
+	padding-left:10px;
+}
+
+#fullPage .pnlResultsMainHeader h3,
+#fullPage .pnlResultsHeader h3, 
+#fullPage .pnlResultsMiddle h3,
+#fullPage .pnlResultsFooter h3 {
+	padding: 3px 0 0 10px;
+	margin:0;
+	font-weight: normal;
+	min-height: 19px; /*22px - 3padding = 19px*/
+	height: auto;
+	width: 493px; /*503px - 10padding = 500px*/}
+	
+
+#fullPage .pnlResultsHeader .itemResults li h3,
+#fullPage .pnlResultsMiddle .itemResults li h3,
+#fullPage .pnlResultsFooter .itemResults li h3{
+	display:block;
+	float:left;
+	height:auto;
+	margin:0 0 5px 0;
+	padding:0;
+	}
+#fullPage .content .resultsHeaderP	{width:450px;display:block;margin:5px 10px 10px 10px;padding:0;}
+	
+#fullPage .triggerAllPanels {display:none;/*None Javascript*/}	
+
+#fullPage .pnlResultsMainHeader .open {color: #fff;background: #0E5EB9 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_header_open.gif) no-repeat top left;}
+#fullPage .pnlResultsMainHeader .closed {color:#333;background:#D8E4E3 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_header_closed.gif) no-repeat top left;}
+
+#fullPage .pnlResultsHeader .open {color: #fff;background: #0E5EB9 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_header_open.gif) no-repeat top left;}
+#fullPage .pnlResultsHeader .closed {color:#333;background: #D8E4E3 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_header_closed.gif) no-repeat top left;}
+#fullPage .pnlResultsMiddle .open {color: #fff;background: #0E5EB9 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_middle_open.gif) no-repeat top left;}
+#fullPage .pnlResultsMiddle .closed {color:#333;background: #D8E4E3 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_middle_closed.gif) no-repeat top left;}
+#fullPage .pnlResultsFooter .open {color: #fff;background: #0E5EB9 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_footer_open.gif) no-repeat top left;}
+#fullPage .pnlResultsFooter .closed {color:#333;background: #D8E4E3 url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/pnl_results_footer_closed.gif) no-repeat top left;}
+
+#fullPage .pnlResultsMainHeader .open a,
+#fullPage .pnlResultsHeader .open a,
+#fullPage .pnlResultsMiddle .open a,
+#fullPage .pnlResultsFooter .open a{color:#fff;}
+
+
+#fullPage .pnlResultsLast {margin-bottom: 10px;}
+#fullPage .pnlResultsLastBorder {border-bottom: 1px solid #ccc;}
+
+#fullPage .pnlResultsHeader, #fullPage .pnlResultsMainHeader {margin-top: 5px;width: 503px;}
+#fullPage .pnlResultsHeader, #fullPage .pnlResultsMiddle, #fullPage .pnlResultsFooter {width: 503px;}
+	
+
+#fullPage .pnlResultsMiddle .panelToggleChild, #fullPage .pnlResultsHeader .panelToggleChild {
+	position:relative;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;}
+
+#fullPage .pnlResultsMainHeader .panelToggleChild  {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/06_results_mainheader.gif) repeat-x bottom left;}
+	
+#fullPage .pnlResultsFooter .panelToggleChild  {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;}	
+
+
+#fullPage .pnlResultsMainHeader .panelToggleChild .itemResults li{
+	margin-bottom: 10px;
+	font-size: 100%;}	
+	
+#fullPage .pnlResultsMainHeader .panelToggleChild {
+	padding: 10px;}
+	
+#fullPage .pnlResultsMainHeader .panelToggleChild h4 {
+	font-size:85%;
+	font-weight:bold;}	
+	
+#fullPage .pnlResultsMainHeader .panelToggleChild p {
+	margin: 0;
+	padding-right: 50px;}
+	
+#fullPage .pnlResultsMainHeader .panelToggleChild a {
+	font-size: 85%;}
+	
+#fullPage .pnlResults .panelToggleChild .itemResults li{
+	margin-bottom: 10px;
+	font-size: 100%;}
+	
+#fullPage .pnlResults .panelToggleChild {
+	padding: 10px;}
+	
+#fullPage .pnlResults .panelToggleChild h4 {
+	font-weight:bold;}
+
+#fullPage .pnlResults .panelToggleChild h4 a{
+	font-weight:bold;
+	padding-left:0;
+	background:none;
+	color:#333;
+	font-size:100% !important;}	
+#fullPage .pnlResults .panelToggleChild h4 a:hover{background:none !important;}
+	
+#fullPage .pnlResults .panelToggleChild p {
+	margin: 0 0 5px 0;
+	padding-right: 50px;
+	padding-left: 13px;}
+	
+#fullPage .pnlResults .panelToggleChild ul.countries a,
+#fullPage .pnlResults .panelToggleChild ul.itemResults a {
+	font-size: 85%;}
+#fullPage .pnlResults .panelToggleChild ul.itemResults a{font-weight:bold;}
+		
+
+#fullPage .pageControls ul{float:right;}
+*+html #fullPage .pageControls{margin-bottom:5px;}
+#fullPage .pageControls li {
+	float:left;
+	border-right:1px solid #ccc;
+	font-size:77%;
+	margin-bottom:5px;
+	margin-right:10px;
+	padding-right:10px;
+	}
+#fullPage .pageControls li.last{
+	border-right:none;
+	margin-right:0;
+	padding-right:0;
+}
+
+#fullPage .content .headerQMark.message h3 a {font-weight:bold;}
+
+#fullPage .pageControls .edit a {padding-top:3px;padding-left:17px;background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat scroll 0 -200px;text-decoration:none;}
+#fullPage .pageControls .edit a:focus, #fullPage .pageControls .edit a:hover, #fullPage .pageControls .edit a:active {background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important; background-position: 0 -200px !important; background-repeat:no-repeat !important;}  
+	
+#fullPage .pageControls .save a {padding-left:17px;background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat scroll 0 -250px;text-decoration:none;}
+#fullPage .pageControls .save a:focus, #fullPage .pageControls .save a:hover, #fullPage .pageControls .save a:active {background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important; background-position: 0 -250px !important; background-repeat:no-repeat !important;}  
+#fullPage .pageControls .print a {padding-left:17px;background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat scroll 0 -300px;text-decoration:none;}
+#fullPage .pageControls .print a:focus, #fullPage .pageControls .print a:hover, #fullPage .pageControls .print a:active {background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important; background-position: 0 -300px !important; background-repeat:no-repeat !important;}
+#fullPage .pageControls .signIn a{padding-left:22px;background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat scroll 0 -350px;text-decoration:none;}
+#fullPage .pageControls .signIn a:focus, #fullPage .pageControls .signIn a:hover, #fullPage .pageControls .signIn a:active {background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important; background-position: 0 -350px !important; background-repeat:no-repeat !important;}
+#fullPage .pageControls .help {float:left;padding:0;margin:0;}
+#fullPage .pageControls .help a{background:none;text-decoration:none;}
+#fullPage .pageControls .help a:focus, #fullPage .pageControls .help a:hover, #fullPage .pageControls .help a:active {background:none !important;}
+
+
+
+#fullPage .pageControls a:hover {text-decoration: underline;}
+
+#fullPage .pageControls.bottom{margin-top:20px;}
+#fullPage .pageControls.bottom ul.clearfix{padding-top:5px;}
+
+#fullPage .resultsH2 {padding:9px 5px 5px;font-size:93%;background:none;margin-top:10px;margin-bottom:5px;margin-left:4px;}
+#fullPage .resultsH2 span {font-weight: normal;}
+
+#fullPage .saveMyAnswers {overflow: hidden;padding-bottom: 20px;}
+#fullPage .saveMyAnswers .save {
+	font-size:85%;
+	padding-left:17px;
+	background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) no-repeat scroll 0 -250px;
+	text-decoration:none;
+	float: right;
+	margin-top: 8px;}
+/*	Right Column */
+
+#fullPage .saveMyAnswers a:focus.save,
+#fullPage .saveMyAnswers a:hover.save,
+#fullPage .saveMyAnswers a:active.save {
+	background-image:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/icons.gif) !important;
+	background-position:0 -250px !important;
+	background-repeat:no-repeat !important;
+}
+
+ul.top-tips {
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-left:15px;
+	margin-top:-6px;
+}
+
+.panel p.nomargin {margin:0;}
+
+.panel p.bio-right {line-height:1.25em;margin:0;}
+
+/* Case study */
+
+#fullPage.caseStudy h4 {font-weight:bold; font-size:85%;padding-bottom:5px;}
+
+#fullPage.caseStudy p {margin-top:1px;}
+
+#fullPage.caseStudy .pictureBox p{margin-bottom:1em;}
+
+#fullPage .content dl.regulations {padding-top:0px;}
+
+#fullPage .content dl.regulations dt {
+	border-top:1px solid #ccc;
+	padding-top:7px;
+}
+
+#fullPage .content dl.regulations dt.first {
+	border-top:none;
+	padding-top:10px;
+	margin-top:5px;
+}
+
+#fullPage .content dl.regulations dd {
+	padding-top:3px;
+}
+
+#fullPage p.regulations-intro{padding:0 10px 15px;}
+
+/* Help Country flags */
+
+#fullPage ul.countries li {padding-left:24px;padding-bottom:2px;font-size:100%;}
+
+ul.countries {
+	width:32%;
+	float:left;
+	padding-bottom:12px;
+	margin-right:5px;
+}
+
+ul.countries li.at {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/at.png) no-repeat 0 3px;}
+ul.countries li.be {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/be.png) no-repeat 0 3px;}
+ul.countries li.dk {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/dk.png) no-repeat 0 3px;}
+ul.countries li.fi {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/fi.png) no-repeat 0 3px;}
+ul.countries li.es {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/es.png) no-repeat 0 3px;}
+ul.countries li.fr {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/fr.png) no-repeat 0 3px;}
+ul.countries li.de {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/de.png) no-repeat 0 3px;}
+ul.countries li.ie {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/ie.png) no-repeat 0 3px;}
+ul.countries li.it {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/it.png) no-repeat 0 3px;}
+ul.countries li.lu {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/lu.png) no-repeat 0 3px;}
+ul.countries li.nl {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/nl.png) no-repeat 0 3px;}
+ul.countries li.no {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/no.png) no-repeat 0 3px;}
+ul.countries li.hu {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/hu.png) no-repeat 0 3px;}
+ul.countries li.ee {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/ee.png) no-repeat 0 3px;}
+ul.countries li.lv {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/lv.png) no-repeat 0 3px;}
+ul.countries li.pt {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/pt.png) no-repeat 0 3px;}
+ul.countries li.ro {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/ro.png) no-repeat 0 3px;}
+ul.countries li.cz {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/cz.png) no-repeat 0 3px;}
+ul.countries li.si {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/si.png) no-repeat 0 3px;}
+ul.countries li.pl {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/pl.png) no-repeat 0 3px;}
+ul.countries li.lt {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/lt.png) no-repeat 0 3px;}
+ul.countries li.gr {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/gr.png) no-repeat 0 3px;}
+ul.countries li.se {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/se.png) no-repeat 0 3px;}
+ul.countries li.sk {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/sk.png) no-repeat 0 3px;}
+ul.countries li.mt {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/mt.png) no-repeat 0 3px;}
+ul.countries li.bg {background:transparent url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/flags/bg.png) no-repeat 0 3px;}
+
+#fullPage ul.countries li a {
+	padding:0;
+	background:none;
+}
+
+/* Help page */
+ol.faq, ul.advice {
+	list-style-type:decimal;
+	list-style-position:inside;
+	padding-bottom:12px;
+}
+
+#fullPage ol.faq li a, #fullPage ol.faq li a:hover, ol.faq li a:active, ol.faq li a:focus,
+#fullPage ul.advice li a, #fullPage ul.advice li a:hover, ul.advice li a:active, ul.advice li a:focus,
+#fullPage ul.countries li a, #fullPage ul.countries li a:hover, ul.countries li a:active, ul.countries li a:focus
+{background-image:none !important;}
+
+#fullPage .pnlResults .panelToggleChild ul.view-all li a {font-size:100%;}
+
+ul.advice {
+	list-style-type:disc;
+	list-style-position:outside;
+	padding-left:15px;
+}
+
+#fullPage .pnlResults .panelToggleChild ul.advice li a {
+	background:transparent;
+	font-size:100%;
+	padding:0;
+}
+
+#fullPage.help .resultsHeader {
+	padding-top:0;
+}
+
+#fullPage.help .pnlResults .panelToggleChild p {
+	padding-left:0;
+	padding-bottom:8px;
+}
+
+#fullPage.help .pnlResults .panelToggleChild ol li a {
+	font-size:100%;
+	background:transparent;
+	padding:0;
+}
+
+#fullPage.help .pnlResults .panelToggleChild h4 {
+	font-weight:bold;
+}
+
+#fullPage.help .pnlResults .panelToggleChild h4 span.emphasize {
+	font-weight:normal;
+	font-size:100%;
+}
+
+.font-size-100, #fullPage .pnlResults .panelToggleChild a.font-size-100 {font-size:100% !important;}
+
+#fullPage.help .pnlResults .panelToggleChild p.top-10 {
+	padding-bottom:2px;
+}
+
+#fullPage.help select{font-size:85%;}
+
+#fullPage.help #select4 {
+	float:left;
+	margin-bottom:10px;
+	margin-right:5px;
+	width:140px;
+}
+
+#fullPage.help .row label {
+	float:left;
+	padding-right:15px;
+	width:165px;
+	font-size:85%;
+	text-align:right;
+}
+
+#fullPage.help .row .stdInput {
+	margin-bottom:10px;
+	width:178px;
+}
+
+#fullPage.help .row #txtArea {
+	width:246px;
+	font-size:85%;
+}
+
+#fullPage.help .row .button {
+	position:relative;
+	margin-left:180px;
+}
+
+#fullPage.help form .btn,
+#fullPage.help form input{float:none;padding:0;font-size:85%;}
+
+#fullPage.help form .itemForm2 label{padding:0;float:none;}
+
+#fullPage.help .pnlResultsMiddle .panelToggleChild.bottomBorder {border-bottom: 1px solid #cccccc;}
+
+#sideCol .pdf {
+	color:#616666;
+	padding-left:17px;
+	padding-top:1px;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/pdf.gif') 0 2px no-repeat;
+}
+
+/* Q and A page - RB*/
+
+#fullPage .qanda {
+	margin:0 0 20px 0;
+}
+
+#fullPage .qanda p {
+	margin:0 0 10px 0;
+}
+
+/* Search Results */
+
+#fullPage .pnlContent.searchBar .row {
+	position:relative;
+	padding:10px;
+	padding-bottom:5px !important; 
+	padding-bottom:0;
+	overflow:hidden;
+}
+
+#fullPage .pnlContent.searchBar .row input, #fullPage .pnlContent.searchBar .row label {
+	float:left;
+}
+
+#fullPage .pnlContent.searchBar .row label {
+	margin-top:3px;
+}
+
+#fullPage .pnlContent.searchBar .row .stdCheck {
+	margin-right:3px;
+	margin-top:2px;
+}
+
+#fullPage .pnlContent.searchBar .btn a {
+	margin-left:5px;
+}
+
+#fullPage .pnlContent.searchBar label {
+	font-size:85%;
+}
+
+.searchBar .help {
+	padding: 0;
+	float:none;
+}
+
+#fullPage .searchBar form input.txtSearchTerms {
+	border:1px solid #7f9db9;
+	padding:1px 1px 1px 3px;
+	margin-right:5px;
+	width:197px;
+	font-size:85%;
+	display:inline;
+}
+
+#fullPage .searchBar form input#search-within-top,
+#fullPage .searchBar form input#search-within-bottom{width:auto;display:inline;}
+#fullPage .searchBar form{padding:0;}
+#fullPage .searchBar form label{padding:0;font-size:85%;display:inline;}
+#fullPage .searchBar form input,#fullPage .searchBar form select{clear:none;}
+
+
+#results-tab {}
+
+#results-tab li {
+	background: transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/tab.gif') 0 0 no-repeat;
+	display:inline;
+	float:left;
+	position:relative;
+	margin-right:8px;
+	overflow:hidden;
+}
+
+#results-tab li a,
+#results-tab li a:focus,
+#results-tab li a:hover,
+#results-tab li a:active {
+	background:none !important;
+	color:#000000;
+}
+
+#results-tab li.active {
+	background: transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/active_tab.gif') 0 0 no-repeat;
+	color:#ffffff;
+	padding:0;
+	font-weight:normal;
+
+} 
+
+#results-tab li p {
+	float:left;
+	display:inline;
+	font-size:100%;
+	margin:0px 0px 0px 10px;
+	padding-right:0;
+	padding-bottom:10px;
+}
+
+#results-tab li p a {
+	margin:0;
+	padding:0;
+}
+
+
+#results-tab li span{
+	background: transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/tab_right.gif') right 0 no-repeat;
+	float:left;
+	padding-top:7px;
+	padding-right:10px;
+}
+
+#results-tab li.active span{
+	background: transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/active_tab_right.gif') right 0 no-repeat;
+}
+
+#fullPage .pnlContent .darkBlueTop {
+	background: transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/11_pnl_gradient_blue.gif') right 0 no-repeat;
+	overflow:hidden;
+	height:3px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+#fullPage .pnlContent.searchResultsTab {
+	background: #fff url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/sideCol_gradient_small.jpg') left -10px repeat-x;
+}
+
+#fullPage .pnlContent.searchResultsTab #div-logo {
+	float:right;
+	width:170px;
+	padding:2px 5px 5px 5px;
+}
+
+#fullPage .pnlContent.searchResultsTab #div-logo p {padding:6px 0 0 0;margin:0;}
+
+#fullPage .pnlContent.searchResultsTab ul li a {
+	background:none;
+	padding-left:10px;
+}
+
+#fullPage .pnlContent.searchResultsTab ul li a:focus,
+#fullPage .pnlContent.searchResultsTab ul li a:hover,
+#fullPage .pnlContent.searchResultsTab ul li a:active {
+	background-image: none !important;
+}
+
+.searchBar .row span.btn {
+	float:none;
+	text-align:center;
+}
+
+#tips li {padding-top:8px;}
+
+#fullPage .pnlContent .content #tips li p, #tips a {
+	padding-bottom:0;
+	margin-bottom:0;
+	font-size:100%;
+	background:none;
+}
+
+#fullPage .tips .content .hr {margin-top:10px;margin-bottom:0;}
+
+#fullPage .tips p.emphasize {
+	padding-left:20px;
+	padding-top:10px;
+	background: url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/bulb.gif') 8px 12px no-repeat;
+}
+
+ul#tips li {
+	padding-left:15px;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/sprite/marker_blue_arrow_right.gif') left 12px no-repeat;
+	display:inline-block;
+}
+
+#fullPage .pnlContent .content ul#tips li p {
+	padding-left:0;
+}
+
+ul#tips li a {
+	background:none;
+	padding-left:0;
+}
+
+ul#tips li a:hover,
+ul#tips li a:active,
+ul#tips li a:focus {
+	background-image:none !important;
+}
+
+ul#tips li p span.pdf {
+	padding-right:17px;
+	padding-top:1px;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/pdf.gif') right 2px no-repeat;
+}
+
+ul#tips li p span.case-study {
+	padding-right:15px;
+	padding-top:1px;
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/icon/case_study.gif') right 5px no-repeat;
+}
+
+ul#tips {
+	list-style-type:none;
+	list-style-position:outside;
+}
+
+#fullPage .paginate.bottom {
+margin:20px 0 20px;
+position:relative;
+width:auto;
+}
+#fullPage.help .pnlResultsMiddle .panelToggleChild.bottomBorder {border-bottom: 1px solid #cccccc;}
+
+
+
+
+/* Find Events Pages */
+#fullPage .eventsContainer {
+	overflow:hidden;
+	padding-bottom: 10px;
+	_padding-bottom: 20px;}
+#fullPage .eventsContainer h3 {
+	display: block;
+	width: 350px;
+	float: left;
+	padding-bottom: 0px;}	
+#fullPage .eventsContainer .eventsDL {
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: left;
+	clear: left;}
+#fullPage .eventsContainer .eventsDL dt {
+	width: 130px;
+	float: left;
+	clear: left;
+	font-weight:bold;
+	font-size: 85%;}
+#fullPage .eventsContainer .eventsDL dd {
+	width: 215px;
+	float:left;
+	font-size: 85%;}
+#fullPage .eventsContainer .eventsNewWin {
+	float:right;
+	width:90px;}
+#fullPage .eventsContainer .eventsNewWin .note {
+	font-size: 77%;}	
+.btn a.newWindow {
+	background:transparent url('https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/button/btn_caps_newwin.gif') no-repeat scroll 100% 0;
+	padding-right: 16px;}
+	
+#fullPage .eventsDetails .h4EventsFirst {
+	padding:2px 10px 0 10px;
+	padding-top:10px;
+	margin-bottom: 0.3em;}
+	
+#fullPage .eventsDetails .h4Events {
+	padding:2px 10px 0 10px;
+	margin-bottom: 0.3em;	}
+	
+#fullPage .eventsDetails p {
+	padding-right:50px;}	
+	
+#fullPage .eventsUL {
+	list-style-type:none;
+	margin:10px 20px 20px 11px;}
+	
+#fullPage .eventsUL li {
+	background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/liblack.gif) no-repeat 0 5px;
+	padding-left: 8px;}
+
+#fullPage .eventsUL li a {
+	background: none;
+	padding: 0;}	
+
+#fullPage.help .panels .panelToggleChild .itemForm2 .btn {float:left;}
+
+#fullPage.help .pnlResultsHeader .panelToggleChild {
+	border-bottom:1px solid #CCCCCC;
+	margin-bottom:1px;
+}
+
+
+/* licence landing */
+
+#fullPage .pnlContent .licenceSearch form{
+	padding:0 10px;
+}
+
+#fullPage .licenceSearch .row {
+	width:auto;
+	}
+
+#fullPage .pnlContent .licenceSearch form .row label{
+	width:auto;
+	padding:0;
+	margin-right:10px;
+}
+	
+#fullPage .pnlContent .licenceSearch form .row input{
+	width:177px;
+	margin-right:10px;
+	float:left;
+	clear:none;
+}
+
+#fullPage .pnlContent ul.noArrow li a {
+	background-image:none;
+	padding:0;
+}
+
+#fullPage .pnlContent ul.noArrow li a:hover,
+#fullPage .pnlContent ul.noArrow li a:active,
+#fullPage .pnlContent ul.noArrow li a:focus {
+	background-image:none !important;
+}
+
+
+/* combined licence landing LT010W */
+
+#fullPage.LT010W .panelIntro h1{color:#053399;font-weight:normal;font-size:127%;letter-spacing:-1px;}
+#fullPage.LT010W .panelIntro .content p{font-size:100%;padding-left:0;}
+#fullPage.LT010W .helpBar {border-bottom: 1px solid #cccccc;overflow: hidden;margin-top: 15px;padding: 0 0 5px 0;min-height:15px;height:auto !important;height:15px;}
+#fullPage.LT010W p{padding-right:0;margin-bottom:10px;}
+#fullPage.LT010W #startnow{margin-bottom:30px;}
+#fullPage.LT010W #startnow p {margin:0;font-size: 93%;font-weight: bold;float:left;}
+#fullPage.LT010W #startnow div.error p {margin-bottom:10px;}
+#fullPage.LT010W .pnlBoxGrad {width:485px;}	
+#fullPage.LT010W #licencesearch,#fullPage.LT010W #licencebrowse{padding:7px 9px;}
+#fullPage.LT010W #licencesearch h3,#fullPage.LT010W #licencebrowse h3{display: block;font-weight: bold;font-size: 93%;border-bottom:1px solid #CCC;padding-bottom:6px;}
+#fullPage.LT010W #steps {width: 503px;background:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/LT010W_steps_btm.gif) no-repeat bottom left;min-height:71px;height:auto !important;height:71px;margin: 8px 0 15px 0;}	
+#fullPage.LT010W #steps ul {width: 503px;background:url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/LT010W_steps_top.gif) no-repeat top left;min-height:68px;height:auto !important;height:68px;}	
+#fullPage.LT010W #steps ul li {float:left;padding:21px 10px 10px 54px;width:97px;margin-right:10px;}
+#fullPage.LT010W #steps ul li.last {margin-right:0}
+#fullPage.LT010W #licencesearch, #fullPage.LT010W #licencebrowse{background: url(https://online.ukwelcomes.businesslink.gov.uk/presentation/portal-psc/images/background/05_pnl_bg_grad_245.gif) no-repeat top left;width:225px;min-height:100px;height:auto !important;height:100px;margin-top:10px;}
+#fullPage.LT010W #licencesearch label{display:block;float:none;font-size:85%;padding:0;margin-bottom:6px;}
+#fullPage.LT010W #licencesearch #licencesearchtextinput{width:142px;margin-right:1px;font-size:85%;padding:2px;}
+#fullPage.LT010W .pnlBoxGrad ul {margin-left:0;}
+#fullPage.LT010W .pnlBoxGrad ul li{background:none;margin-left:0;padding-left:0;}
+#fullPage.LT010W #licencesearch{float:left;}
+#fullPage.LT010W #licencebrowse{float:right;}
+
+
+* html #fullPage.LT010W #licencesearch #licencesearchtextinput{width:140px;}
+*+html #fullPage.LT010W #licencesearch #licencesearchtextinput{width:140px;}
+* html #fullPage.LT010W #licencesearch .btnReplaced a span{width:59px;cursor:hand;}
+*+html #fullPage.LT010W #licencesearch .btnReplaced a span{width:59px;cursor:hand;}
+
+
+/* bugzilla 6119 */
+* html #fullPage.help p.cta.nopadding.right{position:relative;}
+
+/* RAYMOND BROOKS START EDIT 20110403 */
+
+#fullPage div.rrlogin p {
+	font-size:85%;
+}
+
+#fullPage div.rrlogin ul {
+	font-size: 93%;
+}
+
+
+div.rrboxad2left {
+            position:relative;
+            width:100%;
+            float: left;
+            width: 250px;
+            margin:0 20px 0 0;
+}
+
+
+
+div.rrboxad2right {
+            position:relative;
+            float: left;
+            width: 250px;
+}
+
+
+div.rrboxad2 {
+            background:transparent url('/presentation/portal-psc/images/middle.gif') 0 0 repeat-y;
+            width:232px;
+}
+
+
+
+div.rrboxad2 h2 {
+	display: block;
+	position:relative;
+	width:auto;
+	padding:5px 0;
+	overflow:hidden;
+	background-color:#d5d6ea;
+	color: #0B54A9;
+}
+
+div.rrboxad2 form {
+	padding:0 10px 10px 10px;	
+}
+
+#fullPage div.rrboxad2left form p {
+	padding:0;
+	margin:0 0 12px 0;
+
+}
+
+#fullPage div.rrboxad2left form p a {
+	padding:0;
+}
+
+div.rrboxad2 p {
+	float:none;
+	clear:both;
+}
+
+div.rrboxad2left form input#uid,
+div.rrboxad2left form input#pw {
+	width:129px;
+	margin:0 0 5px 0;
+	float:right;	
+}
+
+/* div.rrboxad2left div.rememberPwd {
+	position:relative;
+	float:left;
+	clear:both;
+	margin:8px 0 12px 0;
+} */
+
+div.rrboxad2left div.rememberPwd {
+            position:relative;
+            float:left;
+            clear:both;
+            width:170px;
+            margin:10px 0 0 0;
+}
+
+
+div.rrboxad2left label {
+	float:left;
+	clear:none;
+	text-align:left;
+	line-height:1.27em;
+	font-weight: bold;
+}
+
+div.rrboxad2left div.rememberPwd label {
+	padding:0 0 0 4px;	
+}
+
+#fullPage div.rrboxad2left form .rememberPwd p {
+	padding:0;
+}
+
+#fullPage div.rrboxad2left form .rememberPwd p a {
+	padding:0 0 0 20px;
+}
+
+div.rrboxad2left div.rememberPwd input#rememberPwd {
+	position:relative;
+	float:left;
+	margin:0 ;
+	width:16px;
+	height:16px;
+	line-height:1.27em;
+}
+
+div.rrboxad2left div.rememberPwd p {
+	padding:3px 0 0 0;
+	line-height:1.27em;
+}
+
+
+#fullPage div.rrboxad2 .btnReplaced {
+	float:right;
+	display:block;
+	clear:both;
+	margin:0;
+}
+
+#fullPage div.rrboxad2 .btnReplaced a span {
+	font-size:117%;
+}
+
+div.rrboxad2right p {
+	padding:0 10px 10px 10px;	
+}
+
+#fullPage div.rrboxad2left form p.userIdDescSml {
+	font-size: 80%;
+}
+
+#fullPage div.rrboxad2left form p.shortparaSml {
+	font-size: 80%;
+}
+
+div.rrboxad2right p.register span { 
+	display:block;
+	clear:both;
+}
+
+#fullPage div.rrboxad2right p.login {
+	margin:10px 0 0 0;	
+}
+
+div.rrboxad2right p.login a {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+#fullPage div.rrboxad2 p { 
+	display:block;
+	height: auto;
+	position: relative;
+	
+}
+
+
+/* RAYMOND BROOKS END EDIT */
+
+.rrboxad2 div.error p, .rrboxad2 div.error ul, .rrboxad2 div.error ol, .rrboxad2 div.error dl {
+    width: 100%;
+}
+
+
+#fullPage .pnlTwoFauxCol .hdr {
+            width:100%;
+            background:transparent url('/presentation/portal-psc/images/hdr.gif') 0 2px no-repeat;
+            height:5px;
+            overflow: hidden;    /* For IE6 */
+}
+
+#fullPage .pnlTwoFauxCol .ft {
+            width:100%;
+            background:transparent url('/presentation/portal-psc/images/ftr.gif') 0 0 no-repeat;
+            height:5px;
+            overflow: hidden;   /* For IE6 */         
+}

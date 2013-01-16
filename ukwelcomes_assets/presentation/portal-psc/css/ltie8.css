@@ -1,0 +1,80 @@
+/* 
+ * Guide page pagination
+ */
+#fullPage .paginate li{
+	padding-right:3px;
+	padding-left:3px;
+	}
+	
+/*help page countries lists */
+#fullPage ul.countries li {zoom:1 !important;}
+
+/*bugzilla 4704 - h1 overlapping replacement graphic on largest font-size browser setting*/
+#header h1 {font-size:150%;}
+
+/* bugzilla 4983 - mapkey columns number overlapping */
+#mainContentWrap .mapKey ol li {margin-left:35px;}
+
+/* bugzilla 3730 - PSC IA GD010W - Left hand nav - word length*/
+#mainNav{word-wrap:break-word;}
+
+/* RAYMOND BROOKS 20110403 START EDIT */
+
+div.rrboxad2left {
+	margin:0 10px 0 0;
+}
+
+div.rrboxad2left input#login {
+	height: 40px;
+}
+
+/* div.rrboxad2left div.rememberPwd {
+	width:180px;	
+} */
+
+div.rrboxad2left div.rememberPwd {
+            position:relative;
+            float:left;
+            clear:both;
+            width:170px;
+            margin:10px 0 0 0;
+}
+
+div.rrboxad2left div.rememberPwd label {
+	white-space:nowrap;
+}
+
+div.rrboxad2left div.rememberPwd p {
+	white-space:nowrap;
+}
+
+#fullPage div.rrboxad2 .btnReplaced a {
+	width:50px;
+}
+
+#fullPage div.rrboxad2right .btnReplaced a {
+	width:100px;	
+}
+
+/* RAYMOND BROOKS 20110403 END EDIT */
+
+div.rrboxad2left .btn a span{
+	background:#053399 url('../images/button/btn_bg.gif') 0 0 no-repeat;display:block;padding:4px 2px 15px 6px;line-height:5px;margin:0;
+}
+
+div.rrboxad2right .btn a span{
+	.btn a span{background:#053399 url('../images/button/btn_bg.gif') 0 0 no-repeat;display:block;padding: 7px 1px 8px 8px;line-height:5px;margin:0;}
+}
+#fullPage div.rrboxad2left form p.userIdDescSml {
+	font-size: 70%;
+}
+
+#fullPage div.rrboxad2left form p.shortparaSml {
+	font-size: 70%;
+}
+#fullPage div.rrboxad2 p { 
+	display:block;
+	height: auto;
+	position: relative;
+	
+}

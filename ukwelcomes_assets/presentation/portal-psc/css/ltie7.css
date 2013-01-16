@@ -1,0 +1,50 @@
+#fullPage li.active{height:1%;}
+
+/* RAYMOND BROOKS 20110403 START EDIT */
+
+div.rrboxad2left {
+	margin:0 10px 0 0;
+}
+
+/* div.rrboxad2left input#login {
+	height:auto !important;
+	padding-bottom: 10px;
+} */
+
+div.rrboxad2left div.rememberPwd label {
+	white-space:nowrap;
+}
+
+div.rrboxad2left div.rememberPwd input#rememberPwd {
+	width:16px;
+	height:16px;
+	border:0;
+	background:transparent;
+}
+
+div.rrboxad2left input#login {
+	height: 25px;
+}
+/* RAYMOND BROOKS 20110403 END EDIT */
+
+div.rrboxad2left .btn a span{
+	background:#053399 url('../images/button/btn_bg.gif') 0 0 no-repeat;display:block;padding:4px 2px 15px 6px;line-height:5px;margin:0;
+}
+
+div.rrboxad2right .btn a span{
+	.btn a span{background:#053399 url('../images/button/btn_bg.gif') 0 0 no-repeat;display:block;padding: 7px 1px 8px 8px;line-height:5px;margin:0;}
+}
+
+#fullPage div.rrboxad2left form p.userIdDescSml {
+	font-size: 70%;
+}
+
+#fullPage div.rrboxad2left form p.shortparaSml {
+	font-size: 70%;
+}
+#fullPage div.rrboxad2 p { 
+	display:block;
+	height: auto;
+	position: relative;
+	
+}

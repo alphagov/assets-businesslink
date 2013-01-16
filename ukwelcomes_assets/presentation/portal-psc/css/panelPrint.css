@@ -1,0 +1,533 @@
+/* --------------------------------------- PANEL: SINGLE COLUMN WIDE */
+.panel {margin-bottom: 1em; position: relative;}
+.panel a {text-decoration: none; color: #053399;}
+.panel a:hover {text-decoration: underline;}
+.panel h3 a {color:#333333;}
+.panel h3 a:hover {color:#053399;}
+.panel p, .item p {margin: 0 0 0.5em;}
+.panel p.cta a, .item p.cta a {background:transparent url('../images/button/cta.gif') 0 51% no-repeat; padding:0 0 0 20px; display: block; line-height: 150%;}
+.panel p.arrow a, .item p.arrow a {background:transparent url('../images/sprite/marker_blue_arrow_right.gif') 3px 0.45em no-repeat; padding:0 0 0 13px;}
+.panel .content, .item .content {font-size:85%;}
+.panel h3 {font-size:85%;}
+.panel .content li {padding:2px 0;}
+.panel dt {font-weight:bold;padding:0 0 4px;}
+.panel dl {font-weight:normal;padding:0 0 8px;}
+/* ======================================= #mainLeftCol */
+#mainLeftCol .panel {width: 245px;}
+
+#mainLeftCol .content li{
+	padding-bottom:3px;
+}
+
+.content li a{
+	background:transparent url('../images/sprite/marker_blue_arrow_right.gif') 3px 0.45em no-repeat;
+	padding:0 0 0 13px;
+}
+
+/*JL*/
+#mainLeftCol .panel img {
+	width: 102px;
+}
+
+/*JL*/
+#mainLeftCol .panel p {
+	float: right;
+	padding: 0 9px;
+	width: 125px;
+}
+
+/* ======================================= #sideCol */
+#sideCol .panel {width: 234px;}
+
+/*JL*/
+#sideCol .panel img {
+	padding: 1px 0;
+}
+
+#sideCol .panel form {
+	margin: 1em 0 1.5em 0;
+}
+
+/* ======================================= #sideCol .pnlMyBusiness */
+#sideCol .pnlMyBusiness {
+	margin-bottom: 1em;
+	font-size: 85%;
+	width:245px;
+}
+
+#sideCol .pnlMyBusiness .pnl {
+	padding: 6px 8px 2px;
+	overflow:hidden;
+}
+
+#sideCol .pnlMyBusiness .pnl p{
+	margin-bottom: 0.3em;
+}
+
+#sideCol .pnlMyBusiness .pnl a span{
+	padding-left:0;
+}
+
+#sideCol .pnlMyBusiness p.cta {
+	padding:0 9px;
+}
+
+#sideCol .pnlMyBusiness h3 {
+	background: #d8e4f3 url('../images/background/pnlMyBusiness_cap.gif') 0 0px repeat-x;B
+	font-size: 108%;
+	padding: 6px 10px 4px;
+}
+
+#sideCol .pnlMyBusiness .content{
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#sideCol .pnlMyBusiness h4 {
+	background: #d8e4f3 url('../images/background/header_gradient.jpg') 0 0px repeat-x;
+	padding: 5px 9px 4px;
+}
+
+#sideCol .pnlMyBusiness h4 a{
+	background:transparent url('../images/button/btn_round_arrows.gif') 100% -71px no-repeat;
+	color:#333333;
+	display:block;
+	padding:0;
+	width:215px;
+}
+
+#sideCol .pnlMyBusiness h4.ui-state-default a{
+	background-position:100% -39px;
+}
+
+#sideCol .pnlMyBusiness h4.ui-state-active a,
+#sideCol .pnlMyBusiness .active h4 a{
+	background-position:100% -5px;
+}
+
+#sideCol .pnlMyBusiness .loggedOut{
+	padding:5px 9px;
+}
+
+#sideCol .pnlMyBusiness .loggedOut h4{
+	background:none;
+	font-weight:bold;
+	padding:4px 0;
+}
+
+#sideCol .pnlMyBusiness .loggedOut p,
+#sideCol .pnlMyBusiness .loggedOut ul{
+	padding:4px 0;
+}
+
+#sideCol .pnlMyBusiness .loggedOut ul{
+	list-style:disc inside;
+}
+
+#sideCol .pnlMyBusiness ul {
+	padding-top: 1px;
+}
+
+#sideCol .pnlMyBusiness li {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#sideCol .pnlMyBusiness li .pnl{
+	/*padding-bottom: 0.4em;*/
+}
+
+#sideCol .pnlMyBusiness li .pnl{
+	display:block;
+}
+
+#sideCol .pnlMyBusiness li.last {
+	border-bottom: none;
+}
+
+#sideCol .pnlMyBusiness .ft{
+	background:transparent url('../images/background/pnl_caps.gif') -2198px 100% no-repeat;
+	height:5px;
+	width:234px;
+}
+
+/* --------------------------------------- PANEL: TWO COLUMN WIDE */
+#mainLeftCol .panelIntro {
+	margin-bottom: 1.5em;
+	position: relative;
+	width: 491px;
+	z-index:2;
+}
+
+#mainLeftCol .panelIntro h2 {
+	left: -1px;
+	margin-bottom: 0.5em;
+	padding: 15px 0 0 12px;
+	position:absolute;
+	top: 0px;
+	width:491px;
+	z-index:100;
+}
+
+#mainLeftCol .panelIntro .content {
+	float: left;
+	font-size: 85%;
+	padding: 3.8em 0 0 12px;
+	width: 262px;
+	
+}
+
+.panelIntro .home{
+	width:225px;
+}
+
+#mainLeftCol .panelIntro .content p{
+	margin-bottom: 0.5em;
+	line-height: 140%;
+}
+
+.panelIntro .home p{
+	font-size:93%; /*note: 2 different font sizes in use for main copy 11px(theme template) and 12px(home template)*/
+}
+
+#mainLeftCol .panelIntro img{
+	float:right;
+}
+
+#mainLeftCol .panelIntro .ft{
+	background:transparent url('../images/background/pnl_caps.gif') -982px 100% no-repeat;
+	bottom:0px;
+	height:5px;
+	left:-1px;
+	position:absolute;
+	width:503px;
+}
+
+/*--------------- HOME PAGE: TWO COLUMN WIDE */
+
+#mainLeftCol .pnlHome{
+	margin-bottom:1em;
+}
+
+#mainLeftCol .pnlHome .content{
+	font-size:100%;
+	padding-top:3.2em;
+	width:220px;
+}
+
+#mainLeftCol .pnlHome .content p{
+	font-size:93%;
+}
+
+#mainLeftCol .pnlHome .content li,
+#mainLeftCol .pnlHome .content h3{
+	font-size:85%;
+}
+
+#mainLeftCol .pnlHome .content li{
+	padding:3px 0;
+	width:40%;
+}
+/*--------------- HOME PAGE:THREE COLUMN */
+
+#hpThreeCol .toLeft{float:left;margin-right:13px;width: 245px;}
+#hpThreeCol .toRight{float:right;width: 234px;}
+#hpThreeCol .toRight h3{background-position:-245px 0;}
+
+/*--------------- HOME PAGE:FOUR COLUMN */
+
+#hpFourCol .panel{
+	border-top:2px solid #ADD037;
+	float:left;
+	margin-right:13px;
+	width:178px;
+}
+
+#hpFourCol .last{
+	margin-right:0;
+}
+
+#hpFourCol .panel h3,
+#hpFourCol .panel .content{
+	background:none;
+	padding:5px 0;
+}
+
+#hpFourCol .panel .content h4{
+	font-weight:bold;
+}
+
+/* --------------------------------------- PANEL: Side col: Case Studies  */
+
+.pnlCaseStudy .carousel{
+	position:relative;
+	width:214px;
+	width:100%;
+}
+
+.pnlCaseStudy .carousel .container{
+	position:relative;
+}
+
+.pnlCaseStudy .carousel .container .holder {
+	left:0;
+	position:absolute;
+	width:214px;
+}
+
+.pnlCaseStudy .carousel .container,
+.pnlCaseStudy .carousel .container .holder li
+{
+	width:214px;
+}
+
+.pnlCaseStudy .carousel .container .holder li p{
+	padding:0 2px 0 0;
+}
+
+.pnlCaseStudy .carousel .container .holder li img{
+	margin-right:7px;
+}
+
+.pnlCaseStudy .carousel .container .holder li a{
+	background:none;
+	padding:0;
+}
+
+.pnlCaseStudy .carousel li{
+	float:none;
+	width:214px;
+}
+
+.pnlCaseStudy .carousel li p{
+	font-size:93%;
+}
+
+.pnlCaseStudy .controls{
+	display:none;
+}
+
+/* --------------------------------------- PANEL: home 4 col: Case Studies  */
+
+#hpFourCol .pnlCaseStudy .carousel{
+	position:relative;
+	width:178px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container,
+#hpFourCol .pnlCaseStudy .carousel .holder li{
+	width:178px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .holder li{
+	margin-right:10px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container .holder {
+	width:178px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .container .holder p{
+	padding-top:4px;
+}
+
+#hpFourCol .pnlCaseStudy .carousel .controls{
+	background:transparent url('../images/background/control_bg.gif') 0 0 no-repeat;
+}
+
+/* --------------------------------------- PANEL: Help panel */
+#panelHelp {
+	margin-top: 1em;
+	width: auto;
+}
+
+#panelHelp .content{
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 0 7px;
+}
+
+#panelHelp h2{
+	background:transparent url('../images/background/pnlHelp_header.gif') 0 0 no-repeat;
+	color: #666666;
+	font-weight: bold;
+	padding: 7px 9px 0.6em;
+}
+
+#panelHelp ul{
+	border-top: 1px solid #CCCCCC;
+	padding: 3px;
+}
+
+#panelHelp li{
+	border: none;
+	_line-height: 15%; /*for ie6 JL*/
+}
+
+#panelHelp a{
+	color:#053399;
+	padding: 0;
+	margin: 0 0 0.2em;
+}
+
+#panelHelp li a:hover{
+	background:none;
+}
+
+#panelHelp div.ft{
+	background:transparent url('../images/background/pnlHelp_footer.gif') 0 0 no-repeat;
+	width: 145px;
+	height: 5px;
+}
+
+/* --------------------------------------- PANEL: Find contact panel */
+
+.pnlFindContact label{
+	font-weight:bold;
+	padding:4px 0;
+}
+
+.pnlFindContact input#contactSearchInput{
+	margin-bottom:6px;
+	padding:2px;
+	width:172px;
+}
+
+/* --------------------------------------- PANEL: Find a location panel */
+
+.pnlFindLocation .mapUK ul{padding:0 0 0 10px;}
+
+/* --------------------------------------- PANEL: Events panel */
+/*.pnlEvents .dtstart{font-weight:bold;margin:0 0 2px;}
+.pnlEvents h4{color:#053399;}
+.pnlEvents .event{border-bottom:1px solid #CCCCCC;margin:0 0 6px;}
+.pnlEvents .last{border:none;} redundant JL - change to calendar panel */
+
+/* --------------------------------------- LISTING: listing of articles */
+#listing {
+	position: relative;
+}
+
+#listing h2 {
+	color: #333333;
+	font-size: 87%;
+	font-weight: bold;
+	letter-spacing:-0.1px;
+	margin-bottom: 0.7em;
+}
+
+#listing h3 {
+	background: none;
+	font-size:100%;
+	margin:0 0 0.5em;
+	padding: 9px 0 0 0;
+}
+
+#listing h3 a {
+	color: #333333;
+}
+
+#listing .item{
+	float: left;
+	margin-bottom: 1.5em;
+	width: 503px;
+}
+
+#listing .item .content{
+	border-top: 1px solid #ADD037;
+	float: left;
+	padding-right: 30px;
+	width: 342px;
+}
+
+#listing .first .content{
+	border-top: none;
+}
+
+#listing .item .wide{
+	border-top: 1px solid #ADD037;
+	float: left;
+	padding-right: 30px;
+	width: auto;
+}
+
+#listing .item .wide h3{
+	width: 100%;
+}
+
+#listing .item img{
+	float: left;
+	margin-right: 9px;
+	width: 122px;
+}
+
+/* -------------- GREY HEADER */
+.pnlGrey h3, .pnlGrey h2{background:transparent url('../images/background/header_gradient.jpg') 0 100% repeat-x;margin: 0 0 10px;padding: 9px 5px 5px;}
+/* -------------- BLUE HEADER */
+.pnlBlue{background: #FFFFFF url('../images/background/sideCol_gradient.jpg') 0 0 repeat-x;}
+.pnlBlue h3 {background:transparent url('../images/background/pnl_caps.gif') 0 0 repeat-x;padding: 7px 10px 0;}
+.pnlBlue .content{margin: 6px 10px 0; padding-top: 5px; border-top: 1px solid #CCCCCC;}
+/* -------------- DARK BLUE HEADER */ /*This header needs sliding doors/blinds technique*/
+.pnlDarkBlue .content{background: #FFFFFF url('../images/background/sideCol_gradient.jpg') 0 -50px repeat-x; border-top:2px solid #FFFFFF;padding:9px 9px;}
+.pnlDarkBlue h3{background:#053399 url('../images/background/headerHome_gradient.gif') 0 0 no-repeat;color:#FFFFFF;padding:5px 9px 5px;}
+#mainLeftCol .pnlDarkBlue p{width:auto;}
+.pnlDarkBlue h4{font-weight:bold;padding:0 0 3px;}
+
+
+
+/* -------------- ICONS */
+.bookAmphersandLeft {
+	background:transparent url('../images/icon/book_amphersand.gif') 0 0 no-repeat;
+	padding-left:50px;
+	min-height:50px;
+	height:auto !important;
+	height:50px;
+}
+
+.bookAmphersandRight {
+	background:transparent url('../images/icon/book_amphersand.gif') 100% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookListLeft {
+	background:transparent url('../images/icon/book_list.gif') 0 0 no-repeat;
+	padding-left:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookListRight {
+	background:transparent url('../images/icon/book_list.gif') 100% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookTickLeft {
+	background:transparent url('../images/icon/book_tick.gif') 0 0 no-repeat;
+	padding:0 0 0 50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.bookTickRight {
+	background:transparent url('../images/icon/book_tick.gif') 95% 0 no-repeat;
+	padding-right:50px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+}
+
+.calendarLeft {
+	background:transparent url('../images/icon/calendar.gif') 0 2px no-repeat;
+	padding:0 0 0 50px;
+	min-height:50px;
+	height:auto !important;
+	height:50px;
+}
