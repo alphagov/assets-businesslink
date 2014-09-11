@@ -1,14 +1,17 @@
-businesslink assets
-===================
+Business Link Assets
+====================
 
-This repository contains archived assets from businesslink.gov.uk. 
+This repository contains assets from businesslink.gov.uk which continue to be
+served via [Bouncer's nginx configuration](https://github.gds/gds/puppet/blob/master/modules/govuk/manifests/apps/bouncer.pp).
 
-These are not deployed directly from git, but instead taken from the copy 
-stored on S3. If changes are made, they can be synchronised with S3 like so:
+Changes to this repository are released by deploying [Bouncer](https://github.com/alphagov/bouncer). It is independent of the Bouncer version, so simply redeploying the current version of Bouncer is
+enough.
 
-    s3cmd -c ~/.ssh/s3cmd.conf sync --delete-removed businesslink/ s3://transition-assets/businesslink/
-    s3cmd -c ~/.ssh/s3cmd.conf sync --delete-removed businesslink_improve/ s3://transition-assets/businesslink_improve/
-    s3cmd -c ~/.ssh/s3cmd.conf sync --delete-removed businesslink_ukwelcomes/ s3://transition-assets/businesslink_ukwelcomes/
+To replace one of these assets with a redirect or a 410 page, you must:
+* add the appropriate mapping to the Transition app
+* remove the asset from this repository
+* redeploy Bouncer
 
-The s3 credentials are not stored in Github. Speak to a member of
-ops or the Transition team to obtain them.
+Previously, S3 was involved in deploying changes.
+
+See also [assets-directgov](https://github.com/alphagov/assets-directgov)
